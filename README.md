@@ -1,6 +1,6 @@
 ### 👋 Well, hello!
 
-I'm Arthur, and I make lovely handcrafted experiences on the web for nice people around the world.
+I'm Arthur, I make lovely handcrafted experiences on the web for nice people around the world.
 
 I have extensive knowledge in web technologies and its ecosystem. I make sites with semantic, valid, and modern HTML snd CSS, considering accessibility from the start. I also create and mantain projects with [Jekyll](https://jekyllrb.com) and [WordPress](https://wordpress.org/), and develop web applications with [Svelte](https://svelte.dev/) and [React](https://reactjs.org).
 
