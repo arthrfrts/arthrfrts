@@ -6,4 +6,4 @@ I have extensive knowledge in web technologies and the web ecosystem. I make sit
 
 I also enjoy [gardening](https://arthr.me) and making [small web games](https://irrelefante.com.br/).
 
-You can find me at <email@arthr.me> or on [Twitter](https://twitter.com/arthrfrts), [LinkedIn](https://www.linkedin.com/in/arthrfrts) and [Letterboxd](https://letterboxd.com/arthrfrts).
+You can find me at <email@arthr.dev> or on [Twitter](https://twitter.com/arthrfrts), [LinkedIn](https://www.linkedin.com/in/arthrfrts) and [Letterboxd](https://letterboxd.com/arthrfrts).
