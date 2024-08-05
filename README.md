@@ -1,9 +1,16 @@
-### 👋 Well, hello!
+# Hello! I'm Arthur 👋
 
-I'm Arthur, I make lovely handcrafted experiences on the web for nice people around the world.
+I'm a web developer, and for over ten years I've been making better websites for cool people.
 
-I have extensive knowledge in web technologies and the web ecosystem. I make sites with semantic, valid, and modern HTML, CSS and JavaScript — considering accessibility from the start. I also create and maintain projects with [Jekyll](https://jekyllrb.com) and [WordPress](https://wordpress.org/), help clients with systems from [Eleventy](https://11ty.dev) to [Drupal](https://drupal.org/) and [Shopify](https://shopify.com), and develop web applications with [Svelte](https://svelte.dev/) and [React + Next.js](https://nextjs.org).
+During this time, I've worked with a bunch of web technologies. PHP, SQL, React, Svelte, Vue, TypeScript, Ruby... Systems like WordPress, WooCommerce, Drupal, Shopify, and NextJS too.
 
-I also enjoy gardening and making [small web games](https://irrelefante.com.br/).
+My true mother tongue is **HTML, CSS, and JavaScript**. With these, it seems like I can do anything. From mere documents to real web experiences that anyone with access to a browser can enjoy. That's my favorite magic.
 
-You can find me at <email@arthr.me> or on [my blog](https://irrelefante.com.br), [Tumblr](https://www.tumblr.com/arthrfrts), [LinkedIn](https://www.linkedin.com/in/arthrfrts) and [Letterboxd](https://letterboxd.com/arthrfrts).
+I also make [small web games][1] and [write on my blog][2].
+
+You can reach me at <email@arthr.me>.
+
+Thank you!
+
+[1]: https://arthr.dev/
+[2]: https://irrelefante.com.br/
