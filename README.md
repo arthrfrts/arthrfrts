@@ -1,6 +1,6 @@
 # Hello! I'm Arthur 👋
 
-I'm a web developer, and for over ten years I've been making better websites for cool people.
+I'm a web developer, and for over ten years I've been making better websites for nice people around the world.
 
 During this time, I've worked with a bunch of web technologies. PHP, SQL, React, Svelte, Vue, TypeScript, Ruby... Systems like WordPress, WooCommerce, Drupal, Shopify, and NextJS too.
 
