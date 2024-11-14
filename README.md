@@ -13,4 +13,4 @@ You can reach me at <email@arthr.me>.
 Thank you!
 
 [1]: https://arthr.dev/
-[2]: https://irrelefante.com.br/
+[2]: https://arthr.me/
