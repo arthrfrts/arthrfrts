@@ -1,0 +1,32 @@
+<header class="site-header">
+  {% capture site_branding %}
+    <a href="{{ '/' | absolute_url }}">
+      <img class="site-logo" src="{{ site.logo }}" width="64" height="64" alt="" role="presentation" />
+      <span class="a11y-helper">
+        {{- site.title -}}
+      </span>
+    </a>
+  {% endcapture %}
+  
+  {%- if page.title and page.title != "" -%}
+    <cite class="site-title">
+      {{ site_branding }}
+    </cite>
+  {% else %}
+    <h1 class="site-title">
+      {{ site_branding }}
+    </h1>
+  {% endif %}
+  
+  {% if site.main_menu %}
+    <nav class="main-menu" aria-label="Menu de navegação">
+      {% for path in site.main_menu %}
+        {% assign item = site.pages | where: "path", path | first %}
+        
+        <a class="menu-item" href="{{ item.url | relative_url }}">
+          {{ item.title | default: "Início" }}
+        </a>
+      {% endfor %}
+    </nav>
+  {% endif %}
+</header>

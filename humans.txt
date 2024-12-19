@@ -1,0 +1,33 @@
+---
+---
+
+/* ARTHR.ME */
+
+Por Arthur Freitas.
+
+Feito em Porto Alegre, Brasil,
+e em outros lugares.
+
+/* SITE */
+
+Atualizado em {{ site.time | date: "%d/%m/%Y às %H:%M:%S" }}
+
+Feito com Jekyll, hospedado no Cloudflare Pages
+
+Código-fonte disponível em
+<https://github.com/arthrfrts/www>
+
+
+/* AGRADECIMENTOS */
+
+Implementação do Cursor Party
+por Matt Webb
+<https://github.com/genmon/interconnected-cursor-party>
+
+Guestbooks
+por Meador
+<https://guestbooks.meadow.cafe>
+
+Implementação do Webmentions
+por Aaron Gustafson
+<https://github.com/aarongustafson/jekyll-webmention_io>
