@@ -33,7 +33,7 @@ layout: default
         </time>
       </li>
       {% if page.last_modified_at %}
-        <li class="post-update-time">
+        <li class="post-update-time a11y-helper">
           Atualizado em 
           <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
             {{ page.last_modified_at | date: "%d/%m/%Y às %H:%M" }}
