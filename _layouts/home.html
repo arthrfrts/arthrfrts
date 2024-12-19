@@ -22,7 +22,7 @@ layout: default
       
       <footer class="post-footer">
         <a class="post-meta post-permalink" href="{{ now.url | relative_url }}" rel="bookmark">
-          <time datetime="{{ now.last_modified_at | date_to_xmlschema }}">{{- now.last_modified_at | date: "%d/%m/%Y às %H:%M" -}}</time>
+          <time datetime="{{ now.date | date_to_xmlschema }}">{{- now.date | date: "%d/%m/%Y às %H:%M" -}}</time>
         </a>
       </footer>
     </section>
