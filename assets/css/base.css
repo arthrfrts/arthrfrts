@@ -10,9 +10,9 @@
   --yellow: 252, 185, 0;
   --blue: 6, 147, 227;
   
-  --base-font-family: ui-sans-serif, system-ui, sans-serif;
+  --base-font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
   --headings-font-family: var(--base-font-family);
-  --code-font-family: ui-monospace, monospace;
+  --code-font-family: "IBM Plex Mono", ui-monospace, monospace;
   
   --base-font-size: 1rem;
   --base-line-height: 1.5;
@@ -167,6 +167,12 @@ ol ol { list-style: lower-alpha; }
 
 
 ul, ol { margin-left: var(--spacing-unit); }
+
+ul > li,
+ol > li {
+  margin-top: calc(var(--spacing-unit) / 2);
+  margin-bottom: calc(var(--spacing-unit) / 2);
+}
 
 li::marker { color: rgb(var(--red)); }
 
