@@ -20,8 +20,8 @@ layout: default
         {{ now.content }}
       </div>
       
-      <footer class="post-footer">
-        <a class="post-meta post-permalink" href="{{ now.url | relative_url }}" rel="bookmark">
+      <footer class="post-footer post-meta">
+        <a class="post-permalink" href="{{ now.url | relative_url }}" rel="bookmark">
           <time datetime="{{ now.date | date_to_xmlschema }}">{{- now.date | date: "%d/%m/%Y às %H:%M" -}}</time>
         </a>
       </footer>

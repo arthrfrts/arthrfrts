@@ -9,6 +9,22 @@ layout: default
         {{ page.title }}
       </h1>
     {% endif %}
+    <p class="post-meta">
+      Publicado em
+      
+      <a class="post-date" href="{{ page.url | absolute_url }}">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%d/%m/%Y" }}
+        </time>
+      </a>
+      
+      <span class="post-author a11y-helper">
+        por
+        <a href="{{ post.author.url | default: site.author.url }}" rel="author">
+          {{ post.author.name | default: site.author.name }}
+        </a>
+      </span>
+    </p>
   </header>
   
   <div class="post-content">
@@ -17,21 +33,6 @@ layout: default
   
   <footer class="post-footer">
     <ul class="post-meta">
-      <li>
-        <button class="tinylytics_kudos" data-path="{{- page.url | relative_url -}}" aria-label="Gostou desse post? Clique aqui e envie um joinha ao autor!">😄</button>
-      </li>
-      <li class="post-author a11y-helper">
-        Por
-        <a href="{{ post.author.url | default: site.author.url }}" rel="author">
-          {{ post.author.name | default: site.author.name }}
-        </a>
-      </li>
-      <li>
-        Publicado em
-        <time datetime="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date: "%d/%m/%Y" }}
-        </time>
-      </li>
       {% if page.last_modified_at %}
         <li class="post-update-time a11y-helper">
           Atualizado em 
@@ -56,6 +57,10 @@ layout: default
           {%- endfor -%}
         </li>
       {% endif %}
+      
+      <li>
+        <button class="tinylytics_kudos" data-path="{{- page.url | relative_url -}}" aria-label="Gostou desse post? Clique aqui e envie um joinha ao autor!">😄 Kudos!</button>
+      </li>
     </ul>
   </footer>
   

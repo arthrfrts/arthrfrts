@@ -73,7 +73,8 @@
   flex-flow: column nowrap;
   gap: calc(var(--spacing-unit) / 2);
   align-items: flex-end;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 0.875rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -203,7 +204,19 @@
 
 .post-title { margin-bottom: 0; }
 
-.post-meta { font-size: 0.75rem; }
+.post-meta {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.post-meta a {
+  text-decoration-color: transparent;
+}
+
+.post-meta > li {
+  margin-top: calc(var(--spacing-unit) / 4);
+  margin-bottom: calc(var(--spacing-unit) / 4);
+}
 
 .post-content > :last-child { margin-bottom: 0; }
 
@@ -232,4 +245,5 @@
 
 .pagination a {
   flex: 0 0 auto;
+  color: var(--color-background);
 }
