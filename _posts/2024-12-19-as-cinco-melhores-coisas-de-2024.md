@@ -27,7 +27,7 @@ Então aí vão as cinco melhores coisas de 2024, e cinco outros filmes, jogos, 
 
 - _Dahomey_ (Mati Diop, 2024). Uma fábula-documentário sobre artefatos que viajam da terra de seus colonizadores de volta para sua terra natal no oeste da África. Diop filma “a história” dessas peças saqueadas e retornadas — o que elas “viram”, do que elas “lembram”. O mais único, e mais especial, filme que eu vi esse ano.
 - _La Chimera_ (Alice Rohrwacher, 2023). Rohrwacher faz filmes mágicos, e _La Chimera_ talvez seja o melhor deles até aqui. Eu saí da sessão querendo viver nesse filme, uma colisão de passado e presente, de mito e de realidade, tradicional e inventivo.
-- _O Mal Não Existe_ (Ryūsuke Hamaguchi, 2023). O melhor título pra um filme que eu lembre. Hamaguchi coloca o mal na nossa cabeça e, em sua fábula de uma comunidade enfrentando a especulação imobiliária, pede para encontrarmos ali o mal. De uma frieza assombrosa, e silenciosamente magistral.
+- _Tudo Que Imaginamos Como Luz_ (Payal Kapadia, 2024). Um filme cheio de alma, e cheio de momentos de vidas. No plural. Retratando a imensa Mumbai, é um filme que nos isola em nossa solidão, em nosso íntimo. Dentre as milhões de histórias que participamos e assistimos, algumas são pérolas milagrosas como as desse filme.
 - _Todos Nós Desconhecidos_ (Andrew Haigh, 2023). Um dos meus filmes favoritos. Eu escrevi sobre ele no [Pão][3]: é uma daquelas obras-primas extremamente íntimas. É algo surreal quando um diretor consegue ilustrar uma sensação tão interna, de desejo e de solidão, em um filme. Haigh conseguiu, de novo.
 
 ***
