@@ -1,0 +1,35 @@
+media: uploads
+
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: _posts
+    view:
+      fields:
+        - cover
+        - title
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+        default: post
+      - name: now
+        label: Status post
+        type: boolean
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: tags
+        label: Tags
+        list: true
+        type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
+      - name: body
+        label: Body
+        type: rich-text 
