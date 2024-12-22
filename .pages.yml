@@ -30,6 +30,7 @@ content:
         type: date
         options:
           time: true
+          format: yyyy-MM-dd' 'HH:mm:ss' 'xxxx
       - name: body
         label: Body
         type: rich-text 
