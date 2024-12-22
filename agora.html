@@ -14,8 +14,8 @@ permalink: /agora/
     
     <span class="post-footer post-meta">
       <a class="post-permalink" href="{{ post.url | absolute_url }}" rel="bookmark">
-        <time datetime="{{ post.last_modified_at | date_to_xmlschema }}">
-          {{ post.last_modified_at | date: "%d/%m/%Y às %H:%M" }}
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%d/%m/%Y às %H:%M" }}
         </time>
       </a>
     </span>
