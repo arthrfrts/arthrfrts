@@ -11,7 +11,7 @@ Eu moro em Porto Alegre, eu cuido do Tobias e eu escrevo. Eu faço [pequenos jog
 
 Aqui tá uma foto minha comendo uma torradinha da Bauducco durante uma visita da Thaiane aqui em casa:
 
-![Uma foto em ambiente interno mostrando um homem de óculos e barba, usando uma camiseta cinza, comendo algo durante uma refeição. Na mesa há frios, queijos e biscoitos. Em primeiro plano, há um recipiente marrom com tampa decorada com um pequeno ornamento. Ao fundo, vê-se uma estante de madeira com livros e um quadro na parede.]({% link assets/img/profile.jpg %})
+![Uma foto em ambiente interno mostrando um homem de óculos e barba, usando uma camiseta cinza, comendo algo durante uma refeição. Na mesa há frios, queijos e biscoitos. Em primeiro plano, há um recipiente marrom com tampa decorada com um pequeno ornamento. Ao fundo, vê-se uma estante de madeira com livros e um quadro na parede.]({% link uploads/2024/profile.jpg %})
 
 Eu me interesso principalmente pela intercessão entre arte e tecnologia, e como as duas afetam os símbolos e significados da humanidade. Na prática, é sobre como nossa impressão da cultura muda e se relaciona com os avanços da era digital.
 
