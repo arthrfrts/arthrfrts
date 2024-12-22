@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A sequência de trocas de “Link's Awakening”
+date: 2024-12-17 14:38:00 -0300
 description: >-
  “O graveto virou um favo de mel! Você não sabe como aconteceu, mas pegou mesmo assim!”
 tags:

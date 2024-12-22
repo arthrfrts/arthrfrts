@@ -1,11 +1,12 @@
 ---
 layout: post
 title: As cinco melhores coisas de 2024
+date: 2024-12-19 16:40 -0300
 description: Os melhores filmes, séries, músicas, jogos e links que eu encontrei nesse
   último ano.
 tags:
 - dieta cultural
-date: 2024-12-19 16:40 -0300
+
 ---
 Queridos,
 
