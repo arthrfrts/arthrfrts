@@ -7,8 +7,14 @@ content:
     path: _posts
     view:
       fields:
-        - cover
+        - date
         - title
+      sort:
+        - date
+      search:
+        - title
+        - body
+        - tags
     fields:
       - name: layout
         type: string
@@ -17,7 +23,6 @@ content:
       - name: title
         label: Title
         type: string
-        required: true
       - name: body
         label: Body
         type: rich-text 
