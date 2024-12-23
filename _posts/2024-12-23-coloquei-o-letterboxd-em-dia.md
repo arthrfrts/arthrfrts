@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Coloquei o Letterboxd em dia
+now: true
 tags:
 - dieta cultural
 - filmes
