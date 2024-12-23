@@ -58,8 +58,8 @@ Eu tava subindo os Andes ouvindo o _First Sounds_, o novo disco dos instrumentis
 
 - _Conan O'Brien Must Go_ (1ª temporada, HBO). Eu queria muito esse trabalho, encontrar uma desculpa pra viajar o mundo e fazer uma série sobre isso.
 - _Ripley_ (minissérie, Netflix). A série mais linda do ano, as vezes até demais — distraindo da construção de personagem ou de trama porque estamos vislumbrando a beleza estonteante da série, até ela puxar seu tapete.
-- _Sunny_ (primeira temporada, Apple TV+). Que ótima surpresa! _Sunny_ parece um pouco como _The Leftovers_, um pouco como _Westworld_, se é que isso faz sentido. É divertido até ser triste, como _The Leftovers_; e tem o orçamento necessário pra fazer sua ficção científica funcionar, como _Westworld_ — mas também tem aquela textura e vivência de filmes como _Ela_. Esperando muito a nova temporada.
-- _Xógum: A Gloriosa Saga do Japão_ (primeira temporada, Disney+). A maior série do ano e, eu acho, a próxima série essencial da TV. Assim como outras grandes séries, como _Sopranos_ e _Breaking Bad_, a primeira temporada é excelente — mas é melhor ainda no que ela sugere: que será ainda maior, ainda mais profunda, nos anos seguintes. Eu mal posso esperar.
+- _Sunny_ (1ª temporada, Apple TV+). Que ótima surpresa! _Sunny_ parece um pouco como _The Leftovers_, um pouco como _Westworld_, se é que isso faz sentido. É divertido até ser triste, como _The Leftovers_; e tem o orçamento necessário pra fazer sua ficção científica funcionar, como _Westworld_ — mas também tem aquela textura e vivência de filmes como _Ela_. Esperando muito a nova temporada.
+- _Xógum: A Gloriosa Saga do Japão_ (1ª temporada, Disney+). A maior série do ano e, eu acho, a próxima série essencial da TV. Assim como outras grandes séries, como _Sopranos_ e _Breaking Bad_, a primeira temporada é excelente — mas é melhor ainda no que ela sugere: que será ainda maior, ainda mais profunda, nos anos seguintes. Eu mal posso esperar.
 
 ***
 
