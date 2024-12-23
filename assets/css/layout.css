@@ -205,6 +205,7 @@
 .post-title { margin-bottom: 0; }
 
 .post-meta {
+  font-family: var(--ui-font-family);
   font-size: 0.75rem;
   font-weight: 300;
 }
@@ -216,6 +217,11 @@
 .post-meta > li {
   margin-top: calc(var(--spacing-unit) / 4);
   margin-bottom: calc(var(--spacing-unit) / 4);
+}
+
+.page-content,
+.post-content {
+  font-family: var(--base-font-family);
 }
 
 .post-content > :last-child { margin-bottom: 0; }
@@ -245,5 +251,4 @@
 
 .pagination a {
   flex: 0 0 auto;
-  color: var(--color-background);
 }

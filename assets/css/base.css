@@ -10,8 +10,8 @@
   --yellow: 252, 185, 0;
   --blue: 6, 147, 227;
   
-  --base-font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
-  --headings-font-family: var(--base-font-family);
+  --base-font-family: "IBM Plex Serif", ui-serif, serif;
+  --ui-font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
   --code-font-family: "IBM Plex Mono", ui-monospace, monospace;
   
   --base-font-size: 1rem;
@@ -39,7 +39,7 @@
 }
 
 body {
-  font-family: var(--base-font-family);
+  font-family: var(--ui-font-family);
   font-size: var(--base-font-size);
   color: var(--color-foreground);
   line-height: var(--base-line-height);
@@ -136,6 +136,7 @@ a[href*="localhost"]::after {
 */
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ui-font-family);
   font-weight: 500;
   line-height: 1.25;
   margin-bottom: var(--spacing-unit);
@@ -368,7 +369,7 @@ input,
 button,
 textarea,
 .as-button {
-  font-family: var(--base-font-family);
+  font-family: var(--ui-font-family);
   font-size: var(--base-font-size);
   color: var(--color-foreground);
   line-height: var(--base-line-height);
@@ -435,4 +436,17 @@ input[type="reset"]:active,
   color: rgb(var(--light));
   background-color: rgb(var(--purple));
   outline: 0 solid transparent;
+}
+
+button:visited:hover,
+button:visited:focus,
+input[type="button"]:visited:hover,
+input[type="button"]:visited:focus,
+input[type="submit"]:visited:hover,
+input[type="submit"]:visited:focus,
+input[type="reset"]:visited:hover,
+input[type="reset"]:visited:focus,
+.as-button:visited:hover,
+.as-button:visited:focus {
+  color: rgb(var(--light));
 }
