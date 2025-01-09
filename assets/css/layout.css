@@ -175,6 +175,10 @@
   padding-top: calc(var(--spacing-unit) / 2);
 }
 
+.blog-section .post + .post {
+  margin-top: var(--spacing-unit);
+}
+
 .blog-section .section-title {
   color: var(--color-theme);
   margin-bottom: var(--spacing-unit);
