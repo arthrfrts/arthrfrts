@@ -18,7 +18,7 @@ Existem duas sessões de posts no `arthr.me`:
 
 *   [Agora](../agora.html): onde eu posto o que eu estou fazendo, tipo a [tag agora](https://arthrfrts.tumblr.com/tagged/agora), onde eu postava sobre pequenos relatos do dia-a-dia.
     
-*   [Blog](../blog.html): onde você está agora… é aqui que os “textos” de antes vão. Geralmente, devem ser atualizados com menos frequência.
+*   [Blog](../arquivo.html): onde você está agora… é aqui que os “textos” de antes vão. Geralmente, devem ser atualizados com menos frequência.
     
 
 Eu quero manter algumas tags que eu gostava lá no [Pão](https://paomortadela.com.br), como **esquinas**, **achados** e as **impressões**. Com o tempo, vou formando um arquivo com elas.

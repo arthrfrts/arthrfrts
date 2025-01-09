@@ -23,7 +23,7 @@ author:
 main_menu:
   - index.md
   - agora.html
-  - blog.html
+  - arquivo.html
   - sobre.md
 
 # Build settings
