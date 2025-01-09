@@ -8,13 +8,7 @@
       </h3>
     {% endif %}
     
-    <span class="post-meta">
-      <a class="post-permalink" href="{{ post.url | absolute_url }}" rel="bookmark">
-        <time datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date: "%d/%m/%Y" }}
-        </time>
-      </a>
-      
+    <span class="post-meta">      
       <a class="post-author a11y-helper" href="{{ post.author.url | default: site.author.url }}" rel="author">
         {{ post.author.name | default: site.author.name}}
       </a>
@@ -22,6 +16,18 @@
   </header>
   
   <div class="post-content">
-    {{ post.description  | default: post.excerpt | markdownify }}
+    {% if include.show_contents %}
+      {{ post.content }}
+    {% else %}
+      {{ post.description  | default: post.excerpt | markdownify }}
+    {% endif %}
   </div>
+  
+  <footer class="post-footer post-meta">
+    <a class="post-permalink" href="{{ post.url | absolute_url }}" rel="bookmark">
+      <time datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%d/%m/%Y às %H:%M" }}
+      </time>
+    </a>
+  </footer>
 </article>

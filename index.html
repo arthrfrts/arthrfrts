@@ -1,0 +1,8 @@
+---
+layout: default
+permalink: /
+---
+
+{% for post in site.posts %}
+  {% include post.html show_contents=true %}
+{% endfor %}

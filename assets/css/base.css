@@ -10,8 +10,8 @@
   --yellow: 252, 185, 0;
   --blue: 6, 147, 227;
   
-  --base-font-family: "IBM Plex Serif", ui-serif, serif;
   --ui-font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --base-font-family: var(--ui-font-family);
   --code-font-family: "IBM Plex Mono", ui-monospace, monospace;
   
   --base-font-size: 1rem;

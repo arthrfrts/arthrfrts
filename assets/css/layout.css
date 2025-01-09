@@ -198,7 +198,7 @@
   The posts
 */
 
-.post + .post { margin-top: calc(var(--spacing-unit) * 1.5); }
+.post + .post { margin-top: calc(var(--spacing-unit) * 3.5); }
 
 .post-header { margin-bottom: calc(var(--spacing-unit) / 2); }
 
