@@ -1,4 +1,4 @@
-name: Email to Jekyll Post
+name: Issue to Jekyll Post
 
 on:
   issues:
@@ -6,7 +6,6 @@ on:
 
 jobs:
   create-post:
-    if: contains(github.event.issue.body, 'From:') # Verifica se é um email
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -24,7 +23,7 @@ jobs:
             const title = issue.title;
             const body = issue.body;
             
-            // Extrai tags do final do email
+            // Extrai tags do final do conteúdo
             let tags = [];
             const tagsMatch = body.match(/Tags:(.+)$/im);
             if (tagsMatch) {
