@@ -39,7 +39,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-last-modified-at
   - jekyll-relative-links
 
 jekyll-archives:
