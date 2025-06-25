@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nbundle"
+      "script" : "#!\/bin\/sh\nbundle install"
     },
     "clean" : {
       "enabled" : true,
@@ -10,7 +10,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nbundle exec jekyll serve --drafts"
+      "script" : "#!\/bin\/sh\nbundle exec jekyll serve"
     }
   },
   "openLogOnRun" : "fail"

@@ -1,32 +1,35 @@
+{%- capture site_title -%}
+  <img class="site-logo" src="{{ site.logo }}" width="64" height="64" alt="" role="presentation" />
+
+  <span class="site-name">
+    {{ site.title }}
+  </span>
+{%- endcapture -%}
+
 <header class="site-header">
-  {% capture site_branding %}
-    <a href="{{ '/' | absolute_url }}">
-      <img class="site-logo" src="{{ site.logo }}" width="64" height="64" alt="" role="presentation" />
-      <span class="a11y-helper">
-        {{- site.title -}}
-      </span>
-    </a>
-  {% endcapture %}
-  
-  {%- if page.title and page.title != "" -%}
-    <cite class="site-title">
-      {{ site_branding }}
-    </cite>
+  {% if page.title and page.title != "" %}
+    <p class="site-title">
+      <a href="{{ site.url }}">
+        {{ site_title }}
+      </a>
+    </p>
   {% else %}
     <h1 class="site-title">
-      {{ site_branding }}
+      <a href="{{ site.url }}">
+        {{ site_title }}
+      </a>
     </h1>
   {% endif %}
   
-  {% if site.main_menu %}
-    <nav class="main-menu" aria-label="Menu de navegação">
-      {% for path in site.main_menu %}
-        {% assign item = site.pages | where: "path", path | first %}
-        
-        <a class="menu-item" href="{{ item.url | relative_url }}">
-          {{ item.title | default: "Início" }}
-        </a>
-      {% endfor %}
-    </nav>
-  {% endif %}
+  <div class="site-description">
+    {{ site.description | markdownify }}
+  </div>
+  
+  <nav class="main-menu">
+    {% for item in site.main_menu -%}
+      <a class="menu-item {{ item.index | prepend: '_' }}" href="{{ item.url }}">
+        {{- item.label -}}
+      </a>
+    {%- endfor %}
+  </nav>
 </header>

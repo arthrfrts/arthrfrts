@@ -1,49 +1,21 @@
 <!doctype html>
-<html lang="{{- page.lang | default: site.lang -}}">
+<html lang="{{ page.lang | default: site.lang }}">
   <head>
-    <meta charset="{{- site.encoding | default: 'utf-8' -}}" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    {%- capture title -%}
-      {% case page.type %}
-        {% when "tag" %}
-          Posts sobre {{ page.title }} —
-        {% when "year" %}
-          Posts de {{ page.date | date: "%Y" }} —
-        {% when "month" %}
-          Posts de {{ page.date | date: "%m/%Y" }} —
-        {% else %}
-          {% if page.title and page.title != "" %}
-            {{ page.title }} —
-          {% endif %}
-      {% endcase %}
-      
-      {{ site.title }}
-    {%- endcapture -%}
     
-    <title>{{- title | strip_newlines | normalize_whitespace -}}</title>
+    <title>{% if page.title and page.title != "" %}{{ page.title }} —{% endif %} {{ site.title }}</title>
     {% seo title=false %}
+    
+    <link rel="stylesheet" href="{% link assets/css/base.css %}" />
+    <link rel="stylesheet" href="{% link assets/css/layout.css %}" />
+    
     {% feed_meta %}
     {% json_feed_meta %}
-    <link rel="icon" type="image/png" href="{%- link assets/img/favicon.png -%}" />
-    <link rel="stylesheet" href="{%- link assets/css/reset.css -%}" />
-    <link rel="stylesheet" href="{%- link assets/css/base.css -%}" />
-    <link rel="stylesheet" href="{%- link assets/css/layout.css -%}" />
-    <link rel="stylesheet" href="{%- link assets/css/syntax.css -%}" />
-    <link rel="stylesheet" href="{%- link assets/css/fonts.css -%}" />
   </head>
-  <body>
-    <div class="site">
-      {% include header.html %}
-      
-      <main id="content" class="site-content">
-        {{ content }}
-      </main>
-      
-      {% include footer.html %}
-    </div>
+  <body id="site">
+    {% include header.html %}
     
-    <script src="https://cursor-party.arthrfrts.partykit.dev/cursors.js"></script>
-    <script src="https://tinylytics.app/embed/h_wCUuwD5xFfnztP8wn7.js?webring&kudos=✌️" defer></script>
+    {{ content }}
   </body>
 </html>

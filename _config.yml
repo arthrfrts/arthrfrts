@@ -1,16 +1,15 @@
 # Site settings
-title: arthr.me
+title: Arthur Freitas
 description: >-
-  Nada faz muito sentido.
+  Eu faço experiências adoráveis e artesanais na web para pessoas bacanas ao redor do mundo.
 
 baseurl: ""
 url: "https://arthr.me"
+logo: /assets/img/avatar.png
 
 lang: pt-BR
 timezone: America/Sao_Paulo
 encoding: utf-8
-
-logo: https://gravatar.com/avatar/63d8285c2a55e1d4fefe7747e2c17ead9d3654dc39c4791adf088484105e5000?size=128
 
 author:
   name: Arthur Freitas
@@ -19,18 +18,13 @@ author:
   picture: https://gravatar.com/avatar/63d8285c2a55e1d4fefe7747e2c17ead9d3654dc39c4791adf088484105e5000?size=128
 
 
-# Menu
 main_menu:
-  - index.md
-  - agora.html
-  - arquivo.html
-  - sobre.md
+  - label: Sobre mim
+    url: /sobre
+  - label: Dê um oi
+    url: email@arthr.me
 
 # Build settings
-include:
-  - _pages
-  - _redirects
-
 permalink: /blog/:year/:month/:title:output_ext
 
 plugins:
@@ -39,7 +33,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-relative-links
 
 jekyll-archives:
   enabled:
@@ -60,7 +53,3 @@ seo:
     - https://linkedin.com/in/arthrfrts
     - https://letterboxd.com/arthrfrts
     - https://www.tumblr.com/arthrfrts
-
-relative_links:
-  enabled: true
-  collections: true
