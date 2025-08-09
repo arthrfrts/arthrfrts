@@ -1,7 +1,6 @@
 ---
 layout: post
 title: ""
-now: true
 tags:
 - dieta cultural
 - filmes

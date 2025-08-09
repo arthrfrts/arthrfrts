@@ -1,7 +1,6 @@
 ---
 layout: post
 title: ''
-now: true
 tags:
 - agora
 date: 2024-12-20 11:48 -0300

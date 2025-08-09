@@ -15,8 +15,7 @@ Atualizado em {{ site.time | date: "%d/%m/%Y às %H:%M:%S" }}
 Feito com Jekyll, hospedado no Cloudflare Pages
 
 Código-fonte disponível em
-<https://github.com/arthrfrts/www>
-
+<https://github.com/arthrfrts/arthrfrts>
 
 /* AGRADECIMENTOS */
 

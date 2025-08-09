@@ -2,7 +2,6 @@
 layout: post
 date: 2024-12-20 11:25 -0300
 title: ''
-now: true
 tags:
   - meta
   - agora
