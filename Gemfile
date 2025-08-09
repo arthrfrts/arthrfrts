@@ -8,6 +8,7 @@ install_if -> { Gem.win_platform? } do
   gem "tzinfo-data"
 end
 
-gem "jekyll-remote-theme", "~> 0.4.1", group: :jekyll_plugins
 
 gem "jekyll-relative-links", "~> 0.7.0", group: :jekyll_plugins
+
+gem "minduim", "~> 1.0"
