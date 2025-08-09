@@ -18,49 +18,36 @@ author:
   email: email@arthr.me
   picture: https://gravatar.com/avatar/63d8285c2a55e1d4fefe7747e2c17ead9d3654dc39c4791adf088484105e5000?size=128
 
-
 # Menu
 main_menu:
-  - index.md
-  - agora.html
-  - arquivo.html
-  - sobre.md
+  title: Navegar
+  items:
+    - url: /
+      label: Agora
+    - url: /sobre.html
+      label: Sobre
 
 # Build settings
 include:
-  - _pages
   - _redirects
 
 permalink: /blog/:year/:month/:title:output_ext
 
-plugins:
-  - jekyll-feed
-  - jekyll-json-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-last-modified-at
-  - jekyll-relative-links
+remote_theme: arthrfrts/minduim@latest
 
-jekyll-archives:
-  enabled:
-    - year
-    - month
-    - tags
-  layout: archive
-  permalinks:
-    year: "/blog/:year/"
-    month: "/blog/:year/:month/"
-    tag: "/blog/tags/:name/"
-  slug_mode: latin
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
 
 seo:
   name: Arthur Freitas
   links:
     - https://github.com/arthrfrts
     - https://linkedin.com/in/arthrfrts
-    - https://letterboxd.com/arthrfrts
+    - https://bsky.app/profile/arthr.me
     - https://www.tumblr.com/arthrfrts
+    - https://www.last.fm/user/arthrfrts
+    - https://letterboxd.com/arthrfrts
 
 relative_links:
   enabled: true
