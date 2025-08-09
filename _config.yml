@@ -41,7 +41,7 @@ footer_menu:
 include:
   - _redirects
 
-permalink: /blog/:year/:month/:title:output_ext
+permalink: /:year/:month/:title:output_ext
 
 theme: minduim
 
