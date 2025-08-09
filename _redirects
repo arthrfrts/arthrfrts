@@ -1,1 +1,2 @@
 /post/* https://arthrfrts.tumblr.com/post/:splat  301
+/blog/* /:splat 301
