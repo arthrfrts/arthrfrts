@@ -2,7 +2,7 @@
 title: 'Últimas memórias'
 date: 2025-05-06 11:54:02
 layout: post
-tags: 
+tags:
 - cachorros
 - Vivi
 - memórias

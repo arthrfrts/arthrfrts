@@ -2,7 +2,6 @@
 layout: post
 title: ""
 date: 2024-12-22 22:33 -0300
-now: true
 tags:
 - agora
 - amigos

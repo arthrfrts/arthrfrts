@@ -1,6 +1,5 @@
 ---
 layout: post
-now: true
 title: ""
 tags:
   - dieta cultural
