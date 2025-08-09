@@ -1,7 +1,7 @@
 # Site settings
-title: arthr.me
+title: Arthur Freitas
 description: >-
-  Nada faz muito sentido.
+  Eu faço sites adoráveis e artesanais para pessoas bacanas ao redor do mundo.
 
 baseurl: ""
 url: "https://arthr.me"
@@ -24,8 +24,18 @@ main_menu:
   items:
     - url: /
       label: Agora
-    - url: /sobre.html
+    - url: /sobre/
       label: Sobre
+
+footer_menu:
+  title: Acompanhe esse blog
+  items:
+    - url: /feed.xml
+      label: Feed
+    - url: /feed.json
+      label: JSON Feed
+    - url: https://bsky.app/profile/arthr.me
+      label: Bluesky
 
 # Build settings
 include:
@@ -33,10 +43,9 @@ include:
 
 permalink: /blog/:year/:month/:title:output_ext
 
-remote_theme: arthrfrts/minduim@latest
+theme: minduim
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-relative-links
 
 seo:
@@ -52,3 +61,20 @@ seo:
 relative_links:
   enabled: true
   collections: true
+
+# Theme
+minduim:
+  date_formats:
+    day: "%d/%m/%Y"
+    month: "%m/%Y"
+    year: "%Y"
+  translations:
+    jump_to_navigation: "Pular para a navegação"
+    jump_to_content: "Pular para o conteúdo"
+    archive_date_title: "Posts em %s"
+    archive_tag_title: "Posts sobre “%s”"
+    archive_category_title: "Arquivo de %s"
+    post_tagged_with: "Tags:"
+    blog_pagination_title: "Paginação do blog"
+    blog_pagination_next_page: "Posts anteriores &rarr;"
+    blog_pagination_prev_page: "&larr; Posts mais recentes"
