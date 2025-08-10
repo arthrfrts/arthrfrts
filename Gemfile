@@ -12,3 +12,5 @@ end
 gem "jekyll-relative-links", "~> 0.7.0", group: :jekyll_plugins
 
 gem "minduim", "~> 1.0"
+
+gem "jekyll-compose", "~> 0.12.0", group: :jekyll_plugins

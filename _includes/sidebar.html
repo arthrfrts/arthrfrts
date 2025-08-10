@@ -1,0 +1,15 @@
+{% assign widget_title = "Blogroll" %}
+
+{% capture widget_content %}
+  <ul>
+    {% for link in site.data.blogroll %}
+      <li>
+        <a href="{{ link.url }}" target="_blank">
+          {{ link.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endcapture %}
+
+{% include widget.html title=widget_title content=widget_content %}
