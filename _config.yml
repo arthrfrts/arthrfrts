@@ -10,7 +10,7 @@ lang: pt-BR
 timezone: America/Sao_Paulo
 encoding: utf-8
 
-logo: https://gravatar.com/avatar/63d8285c2a55e1d4fefe7747e2c17ead9d3654dc39c4791adf088484105e5000?size=128
+logo: /uploads/avatar.png
 
 author:
   name: Arthur Freitas
