@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Esse é o Nintendo Switch 2
+title: ""
 tags:
   - Nintendo
   - jogos

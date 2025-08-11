@@ -1,7 +1,11 @@
 ---
-title: 'Jogando KRZ de novo'
+title: ''
 date: 2025-05-06 09:38:03
 layout: post
+tags:
+  - dieta cultural
+  - jogos
+  - Kentucky Route Zero
 ---
 Eu decidi começar a jogar _Kentucky Route Zero_ de novo.
 
