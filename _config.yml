@@ -63,6 +63,8 @@ relative_links:
   collections: true
 
 # Theme
+favicon: /favicon.png
+
 minduim:
   date_formats:
     day: "%d/%m/%Y"
