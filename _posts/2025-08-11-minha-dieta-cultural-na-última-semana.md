@@ -2,10 +2,11 @@
 layout: post
 title: Minha dieta cultural na última semana
 tags:
-- dieta cultural
-- filmes
-- jogos
-- séries
+  - dieta cultural
+  - filmes
+  - jogos
+  - séries
+  - livros
 date: 2025-08-11 15:50 -0300
 ---
 Eu vou tentar escrever toda semana sobre o que eu tô vendo, lendo, jogando e ouvindo. Eu parei de usar o Letterboxd há uns meses e sinto que eu tô esquecendo dos filmes que eu vejo. Não quero voltar para o Letterboxd por enquanto, então acho que uma boa solução é manter minhas impressões por aqui mesmo. A partir da semana que vem, esses resumos devem ser publicados no sábado pela manhã.
