@@ -42,7 +42,7 @@ include:
   - _redirects
 
 permalink: /:year/:month/:title:output_ext
-paginate_path: /p/:num:output_ext
+paginate_path: /p/:num
 
 theme: minduim
 
