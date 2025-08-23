@@ -2,13 +2,17 @@
 layout: post
 title: 'Minha dieta cultural na última semana #3'
 tags:
-  - dieta cultural
-  - filmes
-  - séries
-  - jogos
-  - músicas
-  - livros
+- dieta cultural
+- filmes
+- séries
+- jogos
+- músicas
+- livros
+date: 2025-08-23 08:58 -0300
 ---
+Tá chovendo bastante por aqui hoje. Dá pra ouvir o vento subir correndo a escadaria aqui do lado de casa. Não vou mentir, eu tava torcendo por essa chuva. Minha semana foi tão movimentada que eu tava torcendo por uma chuvinha pra me forçar a ficar quietinho em casa, tomando café e vendo _Gilmore Girls_.
+
+Não quero prometer nada, mas quero escrever mais essa semana. Eu fiquei feliz de ter organizado meu tempo bem o suficiente pra conseguir caminhar todos os dias, e pra estudar francês todos os dias. Quem sabe eu vou conseguir escrever todos os dias mais pra frente? Não custa tentar.
 
 ***
 
@@ -35,6 +39,8 @@ Comecei a rever _Community_ (S01E01 — S01E03). Sempre me impressiono ao lembra
 ![Captura de tela de Herdling, com o protagonista correndo com os caricórnios no meio de um vale]({% link uploads/2025/08/herdling.jpg %})
 
 Tava empolgado fazia um tempo pra jogar _Herdling_ (Okomotive), é um jogo em montanhas e me lembra muito os Andes. Eu acho que a versão pro Switch é bem ruim: tem problemas sérios de performance e as texturas parecem ser de jogo do Nintendo 64. Eu imagino que isso é fruto do fato de que o estúdio não recebeu dev kits do Switch 2 antes do lançamento do jogo, e eu espero que eles lancem algumas atualizações para melhorar a performance do jogo no console. Ele parece muito bonito, mas esse port é um pouco desleixado.
+
+Além de _Herdling_, eu joguei os jogos da rotina também: _Breath of the Wild_ (tô indo pro Domínio de Zora) e _Animal Crossing: New Horizons_ (fiz nada na ilha essa semana, mas tentei pegar o Blue Marlin).
 
 ***
 
