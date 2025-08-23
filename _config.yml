@@ -42,6 +42,7 @@ include:
   - _redirects
 
 permalink: /:year/:month/:title:output_ext
+paginate_path: /p/:num
 
 theme: minduim
 
@@ -64,6 +65,9 @@ relative_links:
 
 # Theme
 favicon: /favicon.png
+
+jekyll-archives:
+  slug_mode: latin
 
 minduim:
   date_formats:
