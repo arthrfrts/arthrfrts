@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ''
-images: "/uploads/2025/09/oceano.jpg"
+image: "/uploads/2025/09/oceano.jpg"
 tags:
 - filmes
 - Studio Ghibli
