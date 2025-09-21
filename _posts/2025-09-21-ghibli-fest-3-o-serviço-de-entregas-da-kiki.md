@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ghibli Fest 3: “O Serviço de Entregas da Kiki”'
+title: ''
 image: "/uploads/2025/09/kiki.png"
 tags:
 - filmes
