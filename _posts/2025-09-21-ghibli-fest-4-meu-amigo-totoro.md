@@ -1,13 +1,14 @@
 ---
 layout: post
 title: ''
+image: "/uploads/2025/09/totoro.png"
 tags:
-- política
-- filmes
-- Studio Ghibli
-- Ghibli Fest
-date: 2025-09-21 21:04 -0300
+  - política
+  - filmes
+  - Studio Ghibli
+  - Ghibli Fest
 ---
+
 Eu e o Tobias estávamos nas manifestações aqui da minha cidade contra a PEC da blindagem e do PL da anistia. Foi muito bonito, muito alegre. Pra uma cidade cada vez mais cinza, até o sol abriu. Deu um bocado de esperança ver toda aquela galera junta.
 
 Algumas horas depois deixei o Tobias em casa pra ir na sessão do Ghibli Fest de hoje. Deu tempo de pegar um pastel no bar aqui do lado de casa e seguir caminho. É muito bom ser brasileiro.
