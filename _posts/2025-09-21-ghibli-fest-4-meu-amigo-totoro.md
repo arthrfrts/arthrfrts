@@ -7,6 +7,7 @@ tags:
   - filmes
   - Studio Ghibli
   - Ghibli Fest
+date: 2025-09-21 21:11 -0300
 ---
 
 Eu e o Tobias estávamos nas manifestações aqui da minha cidade contra a PEC da blindagem e do PL da anistia. Foi muito bonito, muito alegre. Pra uma cidade cada vez mais cinza, até o sol abriu. Deu um bocado de esperança ver toda aquela galera junta.
