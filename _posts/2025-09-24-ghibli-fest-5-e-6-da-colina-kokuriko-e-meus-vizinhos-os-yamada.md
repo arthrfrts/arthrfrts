@@ -3,11 +3,11 @@ layout: post
 title: ''
 image: "/uploads/2025/09/yamada.jpg"
 tags:
-  - filmes
-  - Studio Ghibli
-  - Ghibli Fest
+- filmes
+- Studio Ghibli
+- Ghibli Fest
+date: 2025-09-24 19:44 -0300
 ---
-
 Ontem foi aniversário do meu pai, então não consegui passar no meu computador e escrever sobre o filme de ontem do festival, _Da Colina Kokuriko_, de Gorō Miyazaki. Também não vou dizer que fiz muita questão, já que o filme não é lá essas coisas. Ele é bonito, mas a melancolia que ele evoca é muito básica, nem parece ser do mesmo estúdio em que o eco do vento pode ser sentido no farfalhar da floresta do [_Meu Amigo Totoro_]({% post_url 2025-09-21-ghibli-fest-4-meu-amigo-totoro %}). Sua narração torna a melancolia em texto, ao invés do subtexto com a qual os melhores filmes do estúdio parecem trabalhar. Te dizer que eu tentei ver esse filme duas vezes, e nas duas vezes eu cochilei. Nem no cinema eu me aguentei.
 
 ![A família Yamada assistindo TV, com o pai do lado de fora de casa com cara de brabo]({% link uploads/2025/09/yamada.jpg %})
