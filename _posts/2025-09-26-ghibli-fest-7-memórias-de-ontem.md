@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ghibli Fest 7: Memórias de Ontem'
+title: ''
 image: "/uploads/2025/09/ontem.jpg"
 tags:
 - filmes
