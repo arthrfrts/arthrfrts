@@ -8,13 +8,15 @@ tags:
 - Ghibli Fest
 date: 2025-09-28 11:46 -0300
 ---
-_O Castelo Animado_ e _A Viagem de Chihiro_ não fazem sentido. Suas lógicas internas são incertas. As regras de seus mundos são inconstantes. O que uma pessoa vê na outra é um mistério. Nada faz muito sentido.
+_O Castelo Animado_ e _A Viagem de Chihiro_ não fazem sentido. Suas lógicas internas são incertas. As regras de seus mundos são inconstantes. O que uma pessoa vê na outra é um mistério. Nada faz muito sentido. Ainda bem.
+
+![O Castelo animado entre as montanhas]({% link uploads/2025/09/castelo.jpg %})
 
 Em _O Castelo Animado_, uma chapeleira solitária é amaldiçoada e assume a forma de uma senhora de noventa anos. Ela foge para as Terras Devastadas, uma região longe da sua cidade, em um país que está em guerra com outro. Lá ela conhece Howl, e seu Castelo Animado. Ela forma uma família dentro daquele castelo, descobre a verdadeira natureza de seus sentimentos. Se apaixona, cruza dimensões, revela a verdadeira forma de um demônio e de um espantalho. Ela acaba se apaixonando por Howl, e ele acaba se apaixonando por ela também.
 
 Não é o que acontece em _O Castelo Animado_ que importa — mas como acontece. Sophie descobre que seus sentimentos importam, e que deve confiar neles. É uma lição simples, mas que reverbera a ponto de influenciar uma guerra inteira, a guiar um grupo de pessoas a formarem uma família. É um filme gigante — ele se extende em horizontes distantes, múltiplas cidades e linhas do tempo que se chocam. No centro de tudo isso, porém, está Sophie, que aprende a lidar com cada um dos sentimentos que ela aprendeu a reprimir — sua curiosidade, sua determinação, sua paixão. Todo esse mundo vasto e incerto vai ficando mais lindo conforme ela mesma vai se reconectando com seus sentimentos. Faz sentido porque o que Sophie sente faz sentido.
 
-![Chihiro olha pela janela do bonde durante a noite]({% link /uploads/2025/09/chihiro.jpg %})
+![Chihiro olha um bonde passando no meio do mar durante a noite]({% link /uploads/2025/09/chihiro2.jpg %})
 
 Já _A Viagem de Chihiro_ é uma obra-prima. E não faz sentido nenhum também: Chihiro e seus pais estão se mudando para uma nova cidade. Eles acabam cruzando o limiar e entrando no mundo dos _kami_. Os pais de Chihiro se comportam mal, e viram porcos. Para salvá-los, Chihiro precisa trabalhar para a bruxa Yubaba em sua casa de banhos.
 
