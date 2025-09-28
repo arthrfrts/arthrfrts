@@ -8,7 +8,7 @@ tags:
 - Ghibli Fest
 date: 2025-09-27 09:56 -0300
 ---
-![Guaxinins observam casas durante a noite]({% links uploads/2025/09/pompoko.jpg %})
+![Guaxinins observam casas durante a noite]({% link uploads/2025/09/pompoko.jpg %})
 
 _PomPoko: A Grande Batalha dos Guaxinins_ é um absurdo. Quando eu vi esse filme pela [primeira vez](https://boxd.it/1d7Gn1) eu fiquei impressionado sobre quanto esse filme vai fundo na ideia, sem vergonha de parecer ridículo. É um épico de guerra que consegue, ao mesmo tempo, modular entre a devastação de um conflito e achar graça no comportamento preguiçoso dos seus personagens e seus sacos gigantes.
 
