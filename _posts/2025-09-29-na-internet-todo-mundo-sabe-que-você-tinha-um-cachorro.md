@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ''
-images: "/uploads/2025/09/dog.png"
+image: "/uploads/2025/09/dog.png"
 tag:
 - web
 - links
