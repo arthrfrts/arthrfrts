@@ -9,7 +9,7 @@ date: 2025-10-01 09:11 -0300
 ---
 Três dias depois e eu ainda tô vidrado, pensando em _Uma Batalha Após A Outra_. Eu nem sei por onde começar a falar desse filme.
 
-Paul Thomas Anderson cita Robert Altmann há muito tempo --- desde _Boogie Nights_, talvez? --- e usa os ensinamentos de seu professor na máxima potência pra dirigir a ação de _Uma Batalha Após A Outra_. Ele mapeia cada personagem participando de uma sequência que, por mais caótica que ela seja, você sabe para onde cada um está rumando, qual o objetivo de cada um. Isso torna a ação mais grandiosa, e nos faz ver não só cada engrenagem funcionando, como a máquina inteira andando também.
+Paul Thomas Anderson cita Robert Altman há muito tempo --- desde _Boogie Nights_, talvez? --- e usa os ensinamentos de seu professor na máxima potência pra dirigir a ação de _Uma Batalha Após A Outra_. Ele mapeia cada personagem participando de uma sequência que, por mais caótica que ela seja, você sabe para onde cada um está rumando, qual o objetivo de cada um. Isso torna a ação mais grandiosa, e nos faz ver não só cada engrenagem funcionando, como a máquina inteira andando também.
 
 É realmente incrível. Impressionante como até personagens como Junglepussy, que tem uns cinco minutos em tela, são tão inspiradores e marcantes que sua ausência é sentida. _Uma Batalha Após A Outra_ não esconde a tristeza do sacrifício em uma revolução, das baixas que o French 75 teve. A revolução é feita de pessoas, cada uma delas: todo o prólogo do filme, que passa voando, é justamente uma demarcação de quem foram essas pessoas, pelo que elas tavam lutando, e como o mundo respondia a elas. Todo o restante do filme é uma movimentação furiosa desses pontos.
 
