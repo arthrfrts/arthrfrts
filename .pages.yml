@@ -17,7 +17,8 @@ content:
     format: yaml-frontmatter
     fields:
       - name: layout
-        type: hidden
+        type: string
+        hidden: true
         default: "post"
       - name: title
         label: Title
