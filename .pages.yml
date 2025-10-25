@@ -48,11 +48,7 @@ content:
         label: Post Status
         type: select
         options:
-          values:
-            - label: Published
-              value: true
-            - label: Draft
-              value: false
+          values: [ {value: true, label: 'Published'}, {value: false, label: 'Draft'}]
     view:
       fields:
         - title
