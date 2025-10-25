@@ -45,10 +45,9 @@ content:
         type: string
         list: true
       - name: published
-        label: Post Status
-        type: select
-        options:
-          values: [ {value: true, label: 'Published'}, {value: false, label: 'Draft'}]
+        label: Published
+        type: boolean
+        default: false
     view:
       fields:
         - title
