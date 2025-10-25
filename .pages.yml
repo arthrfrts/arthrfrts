@@ -53,12 +53,12 @@ content:
             - label: Draft
               value: false
     view:
-    fields:
-      - title
-      - date
-      - published
-    sort:
-      - date
-      - title
-    layout: list
-    primary: title
+      fields:
+        - title
+        - date
+        - published
+      sort:
+        - date
+        - title
+      layout: list
+      primary: title
