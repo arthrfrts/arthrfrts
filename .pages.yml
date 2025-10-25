@@ -21,7 +21,7 @@ content:
         default: "post"
       - name: title
         label: Title
-        type: text
+        type: string
       - name: date
         label: Date
         type: date
@@ -41,7 +41,7 @@ content:
         type: rich-text
       - name: tags
         label: Tags
-        type: text
+        type: string
         list: true
       - name: published
         label: Post Status
