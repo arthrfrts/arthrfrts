@@ -1,10 +1,10 @@
-# Site settings
 title: Arthur Freitas
+tagline: Faço sites e vejo filmes.
 description: >-
   Eu faço sites adoráveis e artesanais para pessoas bacanas ao redor do mundo.
 
+url: https://arthr.me
 baseurl: ""
-url: "https://arthr.me"
 
 lang: pt-BR
 timezone: America/Sao_Paulo
@@ -14,73 +14,80 @@ logo: /uploads/avatar.png
 
 author:
   name: Arthur Freitas
-  url: https://arthr.me
-  email: email@arthr.me
-  picture: https://gravatar.com/avatar/63d8285c2a55e1d4fefe7747e2c17ead9d3654dc39c4791adf088484105e5000?size=128
+  uri: https://arthr.me
 
-# Menu
+# Theme Settings
+
+category_colors:
+  - name: Notas
+    color: "#F5C842"
+  - name: Links
+    color: "#6BAED6"
+  - name: Impressões
+    color: "#F06A55"
+  - name: Fotos
+    color: "#88C0D0"
+
 main_menu:
   title: Navegar
   items:
-    - url: /
-      label: Agora
-    - url: /sobre/
-      label: Sobre
+  - url: /
+    label: O Riacho
+  - url: /sobre/
+    label: A Casa
+  - url: /arquivo/
+    label: A Biblioteca
 
 footer_menu:
-  title: Acompanhe esse blog
+  title: Onde me encontrar
   items:
-    - url: /feed.xml
-      label: Feed
-    - url: /feed.json
-      label: JSON Feed
-    - url: https://bsky.app/profile/arthr.me
+    - url: https://bsky.social/profile/arthr.me
       label: Bluesky
+      rel: me atproto
+      external: true
+    - url: /feed.xml
+      rel: alternate
+      label: RSS
+    - url: /feed.json
+      rel: alternate
+      label: JSON Feed
+
+translations:
+  byline: "Por"
+  archive_date_title: "Arquivos de %date"
+  archive_tag_title: "Posts marcados com “%tag’"
+  archive_category_title: "Arquivo de %category"
+  blog_pagination_title: "Paginação do blog"
+  blog_pagination_prev_page: "Página anterior"
+  blog_pagination_next_page: "Próxima página"
+
+date_formats:
+  day: "%d/%m/%y"
+  month: "%m/%y"
+  year: "%Y"
 
 # Build settings
-include:
-  - _redirects
-
-permalink: /:year/:month/:title:output_ext
-paginate_path: /p/:num
-
-theme: minduim
+theme: linus
 
 plugins:
-  - jekyll-relative-links
+  - jekyll-webmention_io
+
+include:
+  - _redirects
 
 seo:
   name: Arthur Freitas
   links:
-    - https://github.com/arthrfrts
-    - https://linkedin.com/in/arthrfrts
     - https://bsky.app/profile/arthr.me
-    - https://www.tumblr.com/arthrfrts
+    - https://github.com/arthrfrts
     - https://www.last.fm/user/arthrfrts
+    - https://www.flickr.com/photos/arthrfrts
     - https://letterboxd.com/arthrfrts
-
-relative_links:
-  enabled: true
-  collections: true
-
-# Theme
-favicon: /favicon.png
-
+    - https://tangled.org/arthr.me
+    - https://arthrfrts.tumblr.com
+    - https://www.linkedin.com/in/arthrfrts
+    
 jekyll-archives:
-  slug_mode: latin
-
-minduim:
-  date_formats:
-    day: "%d/%m/%Y"
-    month: "%m/%Y"
-    year: "%Y"
-  translations:
-    jump_to_navigation: "Pular para a navegação"
-    jump_to_content: "Pular para o conteúdo"
-    archive_date_title: "Posts em %s"
-    archive_tag_title: "Posts sobre “%s”"
-    archive_category_title: "Arquivo de %s"
-    post_tagged_with: "Tags:"
-    blog_pagination_title: "Paginação do blog"
-    blog_pagination_next_page: "Posts anteriores &rarr;"
-    blog_pagination_prev_page: "&larr; Posts mais recentes"
+  permalinks:
+    tags: /tag/:name
+    category: /categoria/:name/

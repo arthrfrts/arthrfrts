@@ -1,0 +1,21 @@
+---
+layout: post
+title: ''
+date: '2025-09-30T15:40:00-03:00'
+tags:
+- filmes
+- Studio Ghibli
+- Ghibli Fest
+tumblr_url: https://arthrfrts.tumblr.com/post/798422364237053952/desculpem-a-aus%C3%AAncia-ontem-pra-falar-de-vidas-ao
+category: Notas
+---
+Desculpem a ausência ontem pra falar de&nbsp;_Vidas ao Vento_&nbsp;e&nbsp;_Nausicaä do Vale do Vento_. Eu acabei aproveitando pra assistir&nbsp;_Uma Batalha Após A Outra_, o novo filme do Paul Thomas Anderson (logo mais escrevo um pouquinho sobre o que é, provavelmente, o melhor filme que eu assisti esse ano).
+
+Também tem um motivo de curadoria. Eu acho que&nbsp;_A Viagem de Chihiro_&nbsp;devia ser o último filme da primeira parte do Ghibli Fest. É um filme tão perfeito, tão definitivo, que não dá pra evitar uma certa decepção com o que vem a seguir, mesmo que os filmes que se seguiram na mostra sejam ótimos filmes.
+
+_Vidas ao Vento_&nbsp;foi, por um pouco mais de uma década, o último filme de Hayao Miyazaki: uma carta de amor ao seu pai e ao conflito ético de ser um criador cujas criações destruiram vidas. O filme é muito lindo, como é de se esperar, mas é claramente um filme menor. As estruturas dos filmes de Miyazaki são movidas muito mais por sentimentos e um crescimento interno de seus personagens. A narrativa progride com uma lógica interna que, se você contar, parece que tá falando bobagem — ela só funciona nos filmes em si. Nesse caso,&nbsp;_Vidas ao Vento_&nbsp;é um filme menos inventivo, porque o caráter bibliográfico da história nunca bate bem com o fluxo narrativo que Miyazaki entrega, e um acaba interrompendo o outro.&nbsp;_O Menino e a Garça_&nbsp;parece muito mais um resumo da obra de um mestre que&nbsp;_Vidas ao Vento_. Não deixa de ser lindo e emocionante. Mas é aquele baque, depois de assistir uma obra-prima. Eu devia ter esperado mais um dia.
+
+![Nausicaä no meio de uma floresta de fungos gigantes](https://64.media.tumblr.com/8ec7a065f1f8364ae263db3c338fa137/62f2cdb156b063fe-c5/s640x960/98c806849166235018b1ae80844de6fa14a829b0.jpg)
+
+_Nausicaä do Vale do Vento_&nbsp;não tem o obstáculo estrutural que me incomoda em&nbsp;_Vidas ao Vento_, e não tem culpa também de existir&nbsp;_Princesa Mononoke_, uma versão muito mais impecável desse filme.&nbsp;_Nausicaä_&nbsp;foi feito um pouco antes do Studio Ghibli existir de fato, mas as preocupações que Miyazaki explora em sua carreira estão aqui: a ação regida pelo desenvolvimento emocional de sua protagonista mais do que progressão da história, o conflito entre o homem e a natureza, a conexão espiritual com o mundo e os seus mistérios. A animação já é surpreendente — desde cedo Miyazaki tem uma mão fantástica para criar esses mundos repletos de incertezas e caos, e cheios de beco sem saída que eu adoraria me perder. Não é tão impactante quanto&nbsp;_Princesa Mononoke_&nbsp;nem&nbsp;_O Menino e a Garça_, seus descententes mais semelhantes na filmografia do diretor, mas é ótimo mesmo assim.
+

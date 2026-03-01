@@ -10,7 +10,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nbundle exec jekyll serve --drafts"
+      "script" : "#!\/bin\/sh\nbundle exec jekyll serve --drafts --incremental"
     }
   },
   "openLogOnRun" : "fail"

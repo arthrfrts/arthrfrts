@@ -1,0 +1,15 @@
+---
+layout: post
+title: ''
+date: '2025-09-07T10:34:00-03:00'
+tags:
+- músicas
+- shows
+- Gilberto Gil
+tumblr_url: https://arthrfrts.tumblr.com/post/798566242884747264/ontem-fui-no-show-do-gilberto-gil-que-pelo
+category: Notas
+---
+Ontem fui no show do Gilberto Gil, que pelo anúncio faz parte de sua “última turnê”. Eu acredito. Não porque o show foi ruim. Longe disso, talvez tenha sido o show mais alegre e enérgico que eu já fui. Uma exultação da cultura brasileira que Gil tem tanto orgulho de fazer parte. Eu acredito que essa seja sua última turnê porque, além da idade de Gil, ele parecia não querer parar de cantar. Foram quase três horas de show, com um bis imenso.
+
+Gil é um titã, e ir num show dele é presenciar um daqueles momentos transcendentais da nossa vida, em que a gente absorve um pouco do seu tempo no planeta. É impossível não se conectar com a infância dele na Bahia, seus anos de exílio, e sua conexão com sua família. É impossível de pensar o privilégio que é estar presente na companhia de um titã da nossa história, que viu e viveu tanto. E ele tá ali na nossa frente, feliz em cantar e dançar com a gente. Deu pra ver ele tremendo no início do show — tava 11°C ontem de noite — mas ele venceu o frio, moldou o tempo ao redor de nós e fez uma festa. Gil é um titã mesmo.
+
