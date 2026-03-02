@@ -8,7 +8,7 @@ My true mother tongue is **HTML, CSS, and JavaScript**. With these, it seems lik
 
 I also make small web games and [write on my blog][1].
 
-You can reach me at <email@arthr.me>.
+You can reach me at <email@arthr.dev>.
 
 Thank you!
 
