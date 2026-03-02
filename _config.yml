@@ -31,26 +31,41 @@ category_colors:
 main_menu:
   title: Navegar
   items:
-  - url: /
-    label: O Riacho
-  - url: /sobre/
-    label: A Casa
-  - url: /arquivo/
-    label: A Biblioteca
+    - url: /
+      label: O Riacho
+    - url: /sobre/
+      label: A Casa
+    - url: /arquivo/
+      label: A Biblioteca
 
 footer_menu:
   title: Onde me encontrar
   items:
-    - url: https://bsky.social/profile/arthr.me
-      label: Bluesky
-      rel: me atproto
-      external: true
     - url: /feed.xml
       rel: alternate
       label: RSS
     - url: /feed.json
       rel: alternate
       label: JSON Feed
+    - url: https://bsky.app/profile/arthr.me
+      label: Bluesky
+      rel: me atproto
+    - url: https://tangled.org/arthr.me
+      label: Tangled
+      rel: me atproto
+      external: true
+    - url: https://www.flickr.com/people/arthrfrts
+      label: Flickr
+      rel: me
+      external: true
+    - url: https://github.com/arthrfrts
+      label: GitHub
+      rel: me
+      external: true
+    - url: https://letterboxd.com/arthrfrts
+      label: Letterboxd
+      rel: me
+    - url: https://
 
 translations:
   byline: "Por"
