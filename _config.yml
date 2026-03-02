@@ -81,12 +81,12 @@ seo:
     - https://bsky.app/profile/arthr.me
     - https://github.com/arthrfrts
     - https://www.last.fm/user/arthrfrts
-    - https://www.flickr.com/photos/arthrfrts
+    - https://www.flickr.com/people/arthrfrts/
     - https://letterboxd.com/arthrfrts
     - https://tangled.org/arthr.me
     - https://arthrfrts.tumblr.com
     - https://www.linkedin.com/in/arthrfrts
-    
+
 jekyll-archives:
   permalinks:
     tags: /tag/:name
