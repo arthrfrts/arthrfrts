@@ -6,11 +6,12 @@ const axios = require('axios');
 const FormData = require('form-data');
 const fs = require('fs');
 const path = require('path');
+const { postUrl } = require('../utils/post-url');
 
 const UPLOAD_URL = 'https://up.flickr.com/services/upload/';
 const FLICKR_USER = 'arthrfrts'; // path alias; replace with NSID if needed
 
-async function postToFlickr(frontmatter, repoRoot) {
+async function postToFlickr(frontmatter, repoRoot, postRelPath) {
   if (!frontmatter.image) throw new Error(`Fotos post "${frontmatter.title}" has no image field`);
   for (const v of ['FLICKR_API_KEY', 'FLICKR_API_SECRET', 'FLICKR_TOKEN', 'FLICKR_TOKEN_SECRET']) {
     if (!process.env[v]) throw new Error(`Missing required env var: ${v}`);
@@ -39,7 +40,7 @@ async function postToFlickr(frontmatter, repoRoot) {
   form.append('title', frontmatter.title);
   form.append(
     'description',
-    `Publicado originalmente em https://arthr.me${frontmatter.url || ''}`
+    `Publicado originalmente em https://arthr.me${postUrl(postRelPath)}`
   );
   form.append('tags', (frontmatter.tags || []).join(' '));
   form.append('is_public', '1');
