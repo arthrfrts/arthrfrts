@@ -10,6 +10,8 @@ js
 .claude*
 docs
 
+.github/scripts/node_modules/
+
 # claude-reliability managed
 .claude/bin/
 .claude/*.local.md
