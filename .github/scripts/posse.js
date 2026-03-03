@@ -55,17 +55,17 @@ async function main() {
         let url;
         switch (platform) {
           case 'bluesky':
-            url = await postToBluesky(data, content);
+            url = await postToBluesky(data, content, postRelPath);
             break;
           case 'tumblr':
-            url = await postToTumblr(data, content);
+            url = await postToTumblr(data, content, postRelPath);
             break;
           case 'flickr':
             if (data.category !== 'Fotos') {
               console.log('  flickr: skipping (not a Fotos post)');
               continue;
             }
-            url = await postToFlickr(data, REPO_ROOT);
+            url = await postToFlickr(data, REPO_ROOT, postRelPath);
             break;
           default:
             console.log(`  unknown platform: ${platform}`);
@@ -83,6 +83,9 @@ async function main() {
       data.syndication_urls = syndUrls;
       fs.writeFileSync(postPath, matter.stringify(content, data));
       anyUpdated = true;
+    } else {
+      console.error(`All platforms failed for ${postRelPath}`);
+      process.exitCode = 1;
     }
   }
 

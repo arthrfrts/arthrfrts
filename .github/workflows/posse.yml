@@ -1,0 +1,42 @@
+name: POSSE
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  syndicate:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip posse]')"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: .github/scripts/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: .github/scripts
+
+      - name: Run POSSE
+        run: node posse.js
+        working-directory: .github/scripts
+        env:
+          BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
+          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
+          FLICKR_API_KEY: ${{ secrets.FLICKR_API_KEY }}
+          FLICKR_API_SECRET: ${{ secrets.FLICKR_API_SECRET }}
+          FLICKR_TOKEN: ${{ secrets.FLICKR_TOKEN }}
+          FLICKR_TOKEN_SECRET: ${{ secrets.FLICKR_TOKEN_SECRET }}
+          TUMBLR_CONSUMER_KEY: ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_TOKEN: ${{ secrets.TUMBLR_TOKEN }}
+          TUMBLR_TOKEN_SECRET: ${{ secrets.TUMBLR_TOKEN_SECRET }}

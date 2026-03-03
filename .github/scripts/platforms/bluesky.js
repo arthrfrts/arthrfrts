@@ -2,18 +2,19 @@
 
 const { BskyAgent, RichText } = require('@atproto/api');
 const { stripMarkdown } = require('../utils/markdown');
+const { postUrl } = require('../utils/post-url');
 
 const SITE_URL = 'https://arthr.me';
 const MAX_CHARS = 300;
 
-async function postToBluesky(frontmatter, body) {
+async function postToBluesky(frontmatter, body, postRelPath) {
   const agent = new BskyAgent({ service: 'https://bsky.social' });
   await agent.login({
     identifier: process.env.BLUESKY_IDENTIFIER,
     password: process.env.BLUESKY_PASSWORD,
   });
 
-  const postUrl = `${SITE_URL}${frontmatter.url || ''}`;
+  const postPath = `${SITE_URL}${postUrl(postRelPath)}`;
   let text;
 
   if (frontmatter.category === 'Notas') {
@@ -22,7 +23,7 @@ async function postToBluesky(frontmatter, body) {
     if (rt.graphemeLength <= MAX_CHARS) {
       text = plain;
     } else {
-      const suffix = `… ${postUrl}`;
+      const suffix = `… ${postPath}`;
       const suffixRt = new RichText({ text: suffix });
       const available = MAX_CHARS - suffixRt.graphemeLength;
       // Trim by characters until grapheme length fits
@@ -30,11 +31,11 @@ async function postToBluesky(frontmatter, body) {
       while (new RichText({ text: trimmed }).graphemeLength > available) {
         trimmed = trimmed.slice(0, -1);
       }
-      text = `${trimmed}… ${postUrl}`;
+      text = `${trimmed}… ${postPath}`;
     }
   } else {
     // Links, Impressões, Fotos → link post back to arthr.me
-    text = `${frontmatter.title}\n${postUrl}`;
+    text = `${frontmatter.title}\n${postPath}`;
   }
 
   const response = await agent.post({ text });

@@ -1,11 +1,12 @@
 'use strict';
 
 const tumblr = require('tumblr.js');
+const { postUrl } = require('../utils/post-url');
 
 const BLOG_NAME = 'arthrfrts';
 const SITE_URL = 'https://arthr.me';
 
-async function postToTumblr(frontmatter, body) {
+async function postToTumblr(frontmatter, body, postRelPath) {
   const client = tumblr.createClient({
     consumer_key: process.env.TUMBLR_CONSUMER_KEY,
     consumer_secret: process.env.TUMBLR_CONSUMER_SECRET,
@@ -13,7 +14,7 @@ async function postToTumblr(frontmatter, body) {
     token_secret: process.env.TUMBLR_TOKEN_SECRET,
   });
 
-  const postUrl = `${SITE_URL}${frontmatter.url || ''}`;
+  const postPath = `${SITE_URL}${postUrl(postRelPath)}`;
   let postData;
 
   switch (frontmatter.category) {
@@ -30,7 +31,7 @@ async function postToTumblr(frontmatter, body) {
       postData = {
         type: 'photo',
         source: `${SITE_URL}${frontmatter.image}`,
-        caption: `<a href="${postUrl}">${frontmatter.title}</a>`,
+        caption: `<a href="${postPath}">${frontmatter.title}</a>`,
       };
       break;
     default: // Notas, Impressões
