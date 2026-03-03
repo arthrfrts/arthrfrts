@@ -1,1 +1,8 @@
 <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+{% webmentions_head %}
+{% if page.syndication_urls %}
+  {% for syn in page.syndication_urls %}
+    <link rel="syndication" href="{{ syn[1] }}">
+  {% endfor %}
+{% endif %}
