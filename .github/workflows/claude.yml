@@ -35,7 +35,6 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          use_bedrock: "true"
           show_full_output: true
           prompt: |
 
