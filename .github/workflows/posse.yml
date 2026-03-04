@@ -8,7 +8,8 @@
 #
 # Bluesky (✅ configured):
 #   BLUESKY_IDENTIFIER  — your handle, e.g. arthr.me
-#   BLUESKY_PASSWORD    — App Password from bsky.app/settings/app-passwords
+#   BLUESKY_PASSWORD    — App Password from your PDS settings
+#   BLUESKY_SERVICE     — your PDS URL, e.g. https://tngl.sh (defaults to https://bsky.social)
 #
 # Tumblr (✅ configured):
 #   TUMBLR_CONSUMER_KEY     — from tumblr.com/oauth/apps
@@ -101,6 +102,7 @@ jobs:
         env:
           BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
           BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
+          BLUESKY_SERVICE: ${{ secrets.BLUESKY_SERVICE }}
           FLICKR_API_KEY: ${{ secrets.FLICKR_API_KEY }}
           FLICKR_API_SECRET: ${{ secrets.FLICKR_API_SECRET }}
           FLICKR_TOKEN: ${{ secrets.FLICKR_TOKEN }}

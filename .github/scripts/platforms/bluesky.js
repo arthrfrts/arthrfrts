@@ -8,7 +8,8 @@ const SITE_URL = 'https://arthr.me';
 const MAX_CHARS = 300;
 
 async function postToBluesky(frontmatter, body, postRelPath) {
-  const agent = new BskyAgent({ service: 'https://bsky.social' });
+  const service = process.env.BLUESKY_SERVICE || 'https://bsky.social';
+  const agent = new BskyAgent({ service });
   await agent.login({
     identifier: process.env.BLUESKY_IDENTIFIER,
     password: process.env.BLUESKY_PASSWORD,

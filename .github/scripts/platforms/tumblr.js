@@ -42,7 +42,7 @@ async function postToTumblr(frontmatter, body, postRelPath) {
       };
   }
 
-  const response = await client.createPost(BLOG_NAME, postData);
+  const response = await client.createLegacyPost(BLOG_NAME, postData);
 
   return `https://${BLOG_NAME}.tumblr.com/post/${response.id}`;
 }
