@@ -90,6 +90,7 @@ webmentions:
   username: arthr.me
   cache_folder: .cache
   cache_bad_uris_for: 1
+  syndication: {}
   legacy_domains:
     - https://arthrfrts.tumblr.com
     - https://irrelefante.tumblr.com
