@@ -1,3 +1,72 @@
+# POSSE — Publish on Own Site, Syndicate Elsewhere
+#
+# Syndicates new posts to Bluesky, Tumblr, and Flickr when pushed to main.
+# Posts opt in via front matter: syndicate_to: [bluesky, tumblr, flickr]
+# Syndicated URLs are committed back to the post as syndication_urls.
+#
+# Required GitHub secrets (Settings → Secrets and variables → Actions):
+#
+# Bluesky (✅ configured):
+#   BLUESKY_IDENTIFIER  — your handle, e.g. arthr.me
+#   BLUESKY_PASSWORD    — App Password from bsky.app/settings/app-passwords
+#
+# Tumblr (✅ configured):
+#   TUMBLR_CONSUMER_KEY     — from tumblr.com/oauth/apps
+#   TUMBLR_CONSUMER_SECRET  — from tumblr.com/oauth/apps
+#   TUMBLR_TOKEN            — from api.tumblr.com/console
+#   TUMBLR_TOKEN_SECRET     — from api.tumblr.com/console
+#
+# Flickr (⏳ requires Flickr Pro — set up when ready):
+#   1. Upgrade to Flickr Pro at flickr.com/account/upgrade
+#   2. Create a non-commercial app at flickr.com/services/apps/create/apply
+#      → saves FLICKR_API_KEY and FLICKR_API_SECRET
+#   3. Get your NSID at:
+#      flickr.com/services/api/explore/flickr.people.findByUsername
+#      (enter "arthrfrts") → replace FLICKR_USER in platforms/flickr.js
+#   4. Run the OAuth token helper from .github/scripts/:
+#        node -e "
+#          const OAuth = require('oauth-1.0a');
+#          const crypto = require('crypto');
+#          const https = require('https');
+#          const oauth = OAuth({
+#            consumer: { key: 'FLICKR_API_KEY', secret: 'FLICKR_API_SECRET' },
+#            signature_method: 'HMAC-SHA1',
+#            hash_function(b, k) {
+#              return crypto.createHmac('sha1', k).update(b).digest('base64');
+#            }
+#          });
+#          const req = {
+#            url: 'https://www.flickr.com/services/oauth/request_token',
+#            method: 'POST'
+#          };
+#          const auth = oauth.authorize(req);
+#          const params = new URLSearchParams({
+#            ...auth, oauth_callback: 'oob'
+#          });
+#          https.get(
+#            'https://www.flickr.com/services/oauth/request_token?' + params,
+#            r => { let d = ''; r.on('data', c => d += c);
+#            r.on('end', () => console.log(d)); }
+#          );
+#        "
+#      → visit the authorize URL printed, approve access, get the verifier
+#   5. Exchange verifier for final token:
+#        node -e "
+#          // same OAuth setup as above, then:
+#          const params = new URLSearchParams({
+#            ...oauth.authorize(req), oauth_token: 'REQUEST_TOKEN',
+#            oauth_verifier: 'VERIFIER'
+#          });
+#          https.get(
+#            'https://www.flickr.com/services/oauth/access_token?' + params,
+#            r => { let d = ''; r.on('data', c => d += c);
+#            r.on('end', () => console.log(d)); }
+#          );
+#        "
+#      → saves FLICKR_TOKEN and FLICKR_TOKEN_SECRET
+#   6. Add all four secrets to GitHub:
+#      FLICKR_API_KEY, FLICKR_API_SECRET, FLICKR_TOKEN, FLICKR_TOKEN_SECRET
+
 name: POSSE
 
 on:
