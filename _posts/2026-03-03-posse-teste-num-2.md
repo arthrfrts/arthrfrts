@@ -8,6 +8,7 @@ syndicate_to:
 tags:
   - meta
   - web
+  - vai sumir
 ---
 
 Isso é um post pra testar o POSSE do site. Se esse post aparecer no Tumblr e no Bluesky, é porque tá tudo certo! Dedos cruzados!
