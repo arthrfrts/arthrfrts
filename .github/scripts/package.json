@@ -8,7 +8,6 @@
     "axios": "^1.6.0",
     "form-data": "^4.0.0",
     "gray-matter": "^4.0.3",
-    "oauth-1.0a": "^2.2.6",
-    "tumblr.js": "^4.0.0"
+    "oauth-1.0a": "^2.2.6"
   }
 }

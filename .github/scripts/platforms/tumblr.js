@@ -1,18 +1,30 @@
 'use strict';
 
-const tumblr = require('tumblr.js');
+const axios = require('axios');
+const OAuth = require('oauth-1.0a');
+const crypto = require('crypto');
 const { postUrl } = require('../utils/post-url');
 
 const BLOG_NAME = 'arthrfrts';
 const SITE_URL = 'https://arthr.me';
+const API_URL = `https://api.tumblr.com/v2/blog/${BLOG_NAME}/post`;
 
 async function postToTumblr(frontmatter, body, postRelPath) {
-  const client = tumblr.createClient({
-    consumer_key: process.env.TUMBLR_CONSUMER_KEY,
-    consumer_secret: process.env.TUMBLR_CONSUMER_SECRET,
-    token: process.env.TUMBLR_TOKEN,
-    token_secret: process.env.TUMBLR_TOKEN_SECRET,
+  const oauth = new OAuth({
+    consumer: {
+      key: process.env.TUMBLR_CONSUMER_KEY,
+      secret: process.env.TUMBLR_CONSUMER_SECRET,
+    },
+    signature_method: 'HMAC-SHA1',
+    hash_function(base, key) {
+      return crypto.createHmac('sha1', key).update(base).digest('base64');
+    },
   });
+
+  const token = {
+    key: process.env.TUMBLR_TOKEN,
+    secret: process.env.TUMBLR_TOKEN_SECRET,
+  };
 
   const postPath = `${SITE_URL}${postUrl(postRelPath)}`;
   let postData;
@@ -23,7 +35,8 @@ async function postToTumblr(frontmatter, body, postRelPath) {
         type: 'link',
         title: frontmatter.title,
         url: frontmatter.source,
-        description: body,
+        description: body.trim(),
+        format: 'markdown',
       };
       break;
     case 'Fotos':
@@ -38,13 +51,23 @@ async function postToTumblr(frontmatter, body, postRelPath) {
       postData = {
         type: 'text',
         title: frontmatter.title,
-        body,
+        body: body.trim(),
+        format: 'markdown',
       };
   }
 
-  const response = await client.createLegacyPost(BLOG_NAME, postData);
+  const authHeader = oauth.toHeader(
+    oauth.authorize({ url: API_URL, method: 'POST', data: postData }, token),
+  );
 
-  return `https://${BLOG_NAME}.tumblr.com/post/${response.id}`;
+  const response = await axios.post(API_URL, new URLSearchParams(postData).toString(), {
+    headers: {
+      ...authHeader,
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+  });
+
+  return `https://${BLOG_NAME}.tumblr.com/post/${response.data.response.id}`;
 }
 
 module.exports = { postToTumblr };
