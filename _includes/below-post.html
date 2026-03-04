@@ -1,5 +1,5 @@
 {%- for syndication_url in page.syndication_urls -%}
   <a class="u-syndication {{ syndication_url | first }}" href="{{ syndication_url | last }}"></a>
-{%- endif -%}
+{%- endfor -%}
 
 {% webmentions page.url %}
