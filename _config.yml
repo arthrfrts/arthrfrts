@@ -15,7 +15,8 @@ logo: /uploads/avatar.png
 author:
   name: Arthur Freitas
   uri: https://arthr.me
-  mastodon: @arthr@organica.social
+  email: "arthur@arthr.me"
+  mastodon: "@arthr@organica.social"
 
 # Theme Settings
 
