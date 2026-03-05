@@ -8,7 +8,7 @@ tags:
 - séries
 - filmes
 tumblr_url: https://arthrfrts.tumblr.com/post/798566906824097792/minha-dieta-cultural-na-%C3%BAltima-semana-4
-category: Impressões
+category: Esquinas
 ---
 Hoje tá um dia lindo e a temperatura está gostosa. 21°C e ensolarado, com uma brisa leve e gostosa. Vou passar a tarde na praça lendo com o Tobias… mas agora pela manhã, eu tô fazendo feijão. Ontem saí de um dia bem bomba porrada e tiro do trabalho e desci aqui no bar do lado de casa pra tomar uma cerveja com o Erê e me senti bem feliz por ser brasileiro. Sensação boa, essa.
 
@@ -39,4 +39,3 @@ O episódio dessa semana anda mais com a narrativa, mas eu ainda acho todo o uso
 ![](https://64.media.tumblr.com/86f0798ecc512e7420bc5cf6928be8d8/a43e8c3a29cd7c3f-a1/s640x960/7aef2621124542ba3cf4a99a0076aba09410cb09.jpg)
 
 Ok. Eu cheguei na parte que Ishiguro decide tirar seu chão. Eu tô nos finalmentes do livro. Pelo que diz o progresso no ebook, 68%, mas a progressão é muito rápida, acho que acabo ele esse fim de semana. É incrível como Ishiguro torna um livro bastante interno em um virador de página com muita facilidade. Acho que semana que vem já vou ter mais ideia de onde esse íntimo todo vai dar. Por mais que o livro esteja desabrochando agora, eu não tenho ideia de onde ele quer chegar (e que sentimento legal esse).
-

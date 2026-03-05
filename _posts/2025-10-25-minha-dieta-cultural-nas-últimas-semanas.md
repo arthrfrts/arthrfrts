@@ -8,7 +8,7 @@ tags:
 - livros
 - músicas
 tumblr_url: https://arthrfrts.tumblr.com/post/798420863016927232/minha-dieta-cultural-nas-%C3%BAltimas-semanas
-category: Impressões
+category: Esquinas
 ---
 
 Faz um tempo que eu não posto um desses resumões, não é mesmo? Eu mudei de emprego nesse último mês e, como eu não estou acostumado a fazer isso, esse tipo de mudança acaba demandando bastante de mim. Tá melhor agora! A mudança de emprego me fez mudar minha rotina, o que acabou me fazendo muito bem — algo que eu não pensei que poderia melhorar. Uma boa surpresa!
@@ -38,4 +38,3 @@ Eu tô relendo pela terceira vez o _Frankenstein_ de Mary Shelley. Não tenho mu
 ## Música: _West End Girl_
 
 Conversando com minha amiga sobre, eu disse que _West End Girl_ parece com “Regret”, a música da Fiona Apple, mas explodida em um disco inteiro. Lilly Allen faz da traição uma montanha russa — com toda a raiva, vergonha, tristeza e redenção que ela vai trazer. Como _Fetch the Bolt Cutters_, que nos faz cantarolar uma música pesada como “Ladies”, _West End Girl_ cria música-chiclete (o melhor estilo de música-chiclete!) de versos sobre descobrir que o marido tem um “pussy palace”, ou de sentir vergonha da raiva que ela está sentindo da outra. É tão divertido quanto genial.
-

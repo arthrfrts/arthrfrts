@@ -5,7 +5,7 @@ date: '2024-11-07T23:41:10-03:00'
 tags:
 - filmes
 tumblr_url: https://arthrfrts.tumblr.com/post/766548136891219968/ainda-estou-aqui-de-walter-salles
-category: Impressões
+category: Esquinas
 ---
 Eu cresci em uma casa assim.
 
@@ -18,4 +18,3 @@ _Ainda Estou Aqui_ é o primeiro filme que já vi que realmente traça as cicatr
 Mas vejo tanto dos meus pais e dos meus avós em mim, na minha casa. Gosto de estar aqui, para um amigo que precisa de um lugar para passar a noite, para alguns amigos que querem tomar uma cerveja depois do trabalho. Para que a música toque, para que exista algum tipo de segurança para mim e para aqueles que amo.
 
 Salles reúne os melhores atores no melhor filme que um diretor brasileiro fez nesta década. Um filme para os brasileiros assistirem e entenderem as raízes de nossas cicatrizes e o valor precioso do nosso amor, do nosso lar.
-

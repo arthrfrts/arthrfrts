@@ -2,7 +2,7 @@
 layout: post
 title: Descobrindo músicas novas
 date: '2025-11-04T08:39:08-03:00'
-category: Impressões
+category: Esquinas
 tags:
 - descobertas
 - músicas
@@ -35,4 +35,3 @@ A outra recomendação é (eu acho) meu disco favorito desse ano: _ICONOCLASTS_,
 <iframe src="https://bandcamp.com/EmbeddedPlayer/size=medium/bgcol=ffffff/linkcol=0687f5/notracklist=true/transparent=true/track=3942005469/"></iframe>
 
 Eu acho essas descobertas empolgantes. Conhecer um artista novo, ver um filme e descobrir ali no meio dele que ele é um novo favorito, ler algo que acaba tirando teu chão do melhor jeito… É uma sensação única. Como se o mundo estivesse se abrindo pra nós.
-

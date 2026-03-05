@@ -3,7 +3,7 @@ layout: post
 title: 'As cinco melhores coisas de 2024'
 date: '2024-12-19T09:58:00-03:00'
 tumblr_url: https://arthrfrts.tumblr.com/post/779451924242202624/as-cinco-melhores-coisas-de-2024
-category: Impressões
+category: Esquinas
 ---
 Queridos,
 
@@ -79,4 +79,3 @@ Eu tava subindo os Andes ouvindo o _First Sounds_, o novo disco dos instrumentis
 É isso pra 2024.
 
 Nos vemos no futuro.
-

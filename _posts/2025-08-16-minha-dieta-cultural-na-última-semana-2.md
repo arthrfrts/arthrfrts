@@ -8,7 +8,7 @@ tags:
 - jogos
 - filmes
 tumblr_url: https://arthrfrts.tumblr.com/post/798568899687890944/minha-dieta-cultural-na-%C3%BAltima-semana-2
-category: Impressões
+category: Esquinas
 ---
 Tem feito muito frio por aqui, mas tem feito sol. Então eu tento aproveitar o máximo de tempo que eu tenho na rua com o Tobias. O que me dá menos tempo na frente da TV (eu tô tentando ficar menos tempo sentado no sofá, porque eu acabo dormindo), e mais tempo caminhando pela cidade — a coisa que eu mais gosto de fazer de todas. Mesmo assim, consegui fazer minha rotina cultural bem certinha, e fui atualizando esse rascunho pela semana. Agora, sentado no fim da tarde de sábado, vertendo coriza e com uma dor de cabeça descomunal, eu consegui escrever essa introdução. Queria que ela fosse mais inteligente, comentando como foi meu dia (foi um bom dia!), mas o cansaço tá batendo. Talvez semana que vem…
 
@@ -43,4 +43,3 @@ Comecei os dois primeiros episódios de _Alien: Earth_ (Disney+, primeira tempor
 Hoje de tarde eu e o Tobias fomos na praça aproveitar o sol e tomar um ar fresco e eu comecei esse livro do Kazuo Ishiguro que carrego há anos no Kindle e nunca comecei a ler. Em duas horas eu engoli metade do livro. Ishiguro é sempre genial, e eu adoro mergulhar nos livros dele sem saber de absolutamente nada antes. A forma com que ele desdobra tanto o interior quanto o exterior dos seus personagens é fascinante — e tem uma limpidez na sua narrativa, que parece que enxugou todo o desnecessário ao redor sem tirar dele a riqueza dos detalhes. Eu ainda não tenho ideia de onde o livro, sobre uma mulher que relembra uma amizade de sua juventude após o suicídio de sua filha mais velha, quer chegar. Mas como em _Não Me Abandone Jamais_, eu tô adorando ser carregado pelo autor daqui pra lá com tanta delicadeza e com tanta força ao mesmo tempo que eu nem sei se quero descobrir o que ele tá aprontando tão cedo.
 
 (Dei uma pausa no _O Feiticeiro de Terramar_ essa semana pela densidade, meu trabalho tá muito puxado).
-

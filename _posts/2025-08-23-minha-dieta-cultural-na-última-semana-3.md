@@ -9,7 +9,7 @@ tags:
 - filmes
 - músicas
 tumblr_url: https://arthrfrts.tumblr.com/post/798568755606290432/minha-dieta-cultural-na-%C3%BAltima-semana-3
-category: Impressões
+category: Esquinas
 ---
 Tá chovendo bastante por aqui hoje. Dá pra ouvir o vento subir correndo a escadaria aqui do lado de casa. Não vou mentir, eu tava torcendo por essa chuva. Minha semana foi tão movimentada que eu tava torcendo por uma chuvinha pra me forçar a ficar quietinho em casa, tomando café e vendo _Gilmore Girls_.
 
@@ -50,4 +50,3 @@ O CD, em dois volumes, tem um livreto com um ensaio sobre a curadoria da coleç�
 ![](https://64.media.tumblr.com/86f0798ecc512e7420bc5cf6928be8d8/b1ffd4fd7c98b893-14/s640x960/a6eb8669490413e92f90cc5a81c2631b81bacf9c.jpg)
 
 Cheguei na metade do livro, começando a segunda parte, e ainda sinto que ele tá escondendo o jogo de mim. No outro livro de Ishiguro que eu li esse sentimento era comum também, mas a essa altura do livro já dava pra ver que o autor estava desenhando algo. _Uma Visão Pálida das Colinas_ se limita tanto ao ponto de vista de sua protagonista que as limitações dela sobre as outras pessoas (seus anseios, suas frustrações) parece ser a própria história. Não é ruim em nenhuma página, vale dizer. É tão bom estar imerso na mente de Etsuko e naquilo que ela não sabe (principalmente as circunstâncias da vida e morte de sua filha mais velha, Keiko). Toda a realização que Etsuko tem é feita com sutilezas, como uma paisagem que se revela devagar na neblina. Eu ainda acho que o livro vai tirar o meu chão — e talvez o faça justamente dessa forma silenciosa.
-
