@@ -83,6 +83,24 @@ date_formats:
 # Build settings
 theme: linus
 
+defaults:
+-
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    syndicate_to:
+      - bluesky
+-
+  scope:
+    path: ""
+    type: posts
+    category: Fotos
+  values:
+    syndicate_to:
+      - bluesky
+      - flickr
+
 plugins:
   - jekyll-webmention_io
 
@@ -90,7 +108,11 @@ webmentions:
   username: arthr.me
   cache_folder: .cache
   cache_bad_uris_for: 1
-  syndication: {}
+  syndication:
+    bluesky:
+      endpoint: https://brid.gy/publish/bluesky
+    flickr:
+      endpoint: https://brid.gy/publish/flickr
   legacy_domains:
     - https://arthrfrts.tumblr.com
     - https://irrelefante.tumblr.com

@@ -1,1 +1,4 @@
 {% webmentions_js %}
+{% for target in page.syndicate_to %}
+  <a href="{{ site.webmentions.syndication[target].endpoint }}"></a>
+{% endfor %}
