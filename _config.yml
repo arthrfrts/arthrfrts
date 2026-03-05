@@ -83,6 +83,8 @@ date_formats:
 # Build settings
 theme: linus
 
+permalink: "/:year/:month/:day/:title/"
+
 defaults:
 -
   scope:
