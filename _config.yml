@@ -47,24 +47,6 @@ footer_menu:
     - url: /feed.json
       rel: alternate
       label: JSON Feed
-    - url: https://bsky.app/profile/arthr.me
-      label: Bluesky
-      rel: me atproto
-    - url: https://tangled.org/arthr.me
-      label: Tangled
-      rel: me atproto
-      external: true
-    - url: https://www.flickr.com/people/arthrfrts
-      label: Flickr
-      rel: me
-      external: true
-    - url: https://github.com/arthrfrts
-      label: GitHub
-      rel: me
-      external: true
-    - url: https://letterboxd.com/arthrfrts
-      label: Letterboxd
-      rel: me
 
 translations:
   byline: "Por"
@@ -115,6 +97,8 @@ webmentions:
       endpoint: https://brid.gy/publish/bluesky
     flickr:
       endpoint: https://brid.gy/publish/flickr
+    mastodon:
+      endpoint: https://brid.gy/publish/mastodon
   legacy_domains:
     - https://arthrfrts.tumblr.com
     - https://irrelefante.tumblr.com
@@ -133,6 +117,7 @@ seo:
     - https://tangled.org/arthr.me
     - https://arthrfrts.tumblr.com
     - https://www.linkedin.com/in/arthrfrts
+    - https://organica.social/@arthr
 
 jekyll-archives:
   permalinks:
