@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2025-09-27 10:18:00 -03:00
-categories:
-- Notas
+date: '2025-09-27T10:18:00-03:00'
 tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798565192446394368/pompoko-a-grande-batalha-dos-guaxinins-%C3%A9-um
+category: Notas
 ---
-
 ![Guaxinins observam casas durante a noite](https://64.media.tumblr.com/e8a9cff1f5b1bc8f5451adff3e698486/520e936dc793d76e-40/s640x960/56be17bed8147f1de0557b17793eb00915a2d1c4.jpg)
 
 _PomPoko: A Grande Batalha dos Guaxinins_ é um absurdo. Quando eu vi esse filme pela [primeira vez](https://boxd.it/1d7Gn1) eu fiquei impressionado sobre quanto esse filme vai fundo na ideia, sem vergonha de parecer ridículo. É um épico de guerra que consegue, ao mesmo tempo, modular entre a devastação de um conflito e achar graça no comportamento preguiçoso dos seus personagens e seus sacos gigantes.

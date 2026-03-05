@@ -1,15 +1,13 @@
 ---
+layout: post
 title: ''
-date: 2025-12-08 11:06:45 -02:00
-categories:
-- Links
+date: '2025-12-08T10:06:45-03:00'
 tags:
 - filmes
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/802373296883744768/john-gruber-no-daring-fireball-comentando-sobre
 source: https://daringfireball.net/linked/2025/12/05/netflix-buying-warner-bros
+category: Links
 ---
-
 [John Gruber, no _Daring Fireball_](https://daringfireball.net/linked/2025/12/05/netflix-buying-warner-bros), comentando sobre a compra da Warner Bros. pelo Netflix:
 
 > The LA Times article goes on to cite concerns from the movie theater industry, based on Netflix’s historic antipathy toward theatrical releases for its films. Netflix is promising to keep Warner Bros.’s film studio a separate operation, maintaining the studio’s current support for theatrical releases. I hope they do. I grew up loving going to the movies. I still enjoy it, but the truth is I go far less often as the years go on. Movie theaters shouldn’t be a protected class of business just because there’s so much affection and nostalgia for them. If they continue sliding into irrelevance, so be it. That’s how disruption, progress, and competition work.

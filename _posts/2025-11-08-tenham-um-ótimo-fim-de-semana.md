@@ -1,12 +1,11 @@
 ---
+layout: post
 title: Tenham um ótimo fim de semana
-date: 2025-11-08 11:03:52 -02:00
-categories:
-- Links
+date: '2025-11-08T10:03:52-03:00'
+category: Links
 tags:
 - fim de semana
 - dieta cultural
-layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/799651432183824384/tenham-um-%C3%B3timo-fim-de-semana
 ---
 

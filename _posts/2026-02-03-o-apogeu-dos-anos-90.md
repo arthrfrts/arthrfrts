@@ -1,11 +1,11 @@
 ---
+layout: post
 title: O apogeu dos anos 90
-date: 2026-02-03 13:17:39 -02:00
+date: '2026-02-03T12:17:39-03:00'
 tags:
 - links
 - sociedade
 - tecnologia
-layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/807541785070108672/o-apogeu-dos-anos-90
 ---
 

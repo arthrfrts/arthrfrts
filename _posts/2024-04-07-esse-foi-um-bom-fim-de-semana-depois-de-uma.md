@@ -1,14 +1,12 @@
 ---
+layout: post
 title: ''
-date: 2024-04-07 19:59:48 -03:00
-categories:
-- Notas
+date: '2024-04-07T19:59:48-03:00'
 tags:
 - memórias
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/747142684408496128/esse-foi-um-bom-fim-de-semana-depois-de-uma
+category: Notas
 ---
-
 Esse foi um bom fim de semana, depois de uma semana caótica.
 
 Ontem foi um dia perfeito. Tinha um céu lindo, bem azul, com poucas nuvens. E tava frio, com um ventinho gelado.

@@ -1,18 +1,16 @@
 ---
-title: Minha dieta cultural de janeiro
-date: 2024-02-18 17:20:48 -03:00
-categories:
-- Impressões
+layout: post
+title: 'Minha dieta cultural de janeiro'
+date: '2024-02-18T17:20:48-03:00'
 tags:
 - filmes
 - livros
 - séries
 - jogos
 - novelas
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/742697204021673985/minha-dieta-cultural-de-janeiro
+category: Impressões
 ---
-
 Eu tô bem contente com esse primeiro mês desde que eu comecei a minha nova “rotina cultural”. Não precisar escolher o que fazer no fim de cada dia liberou muito mais tempo para eu ler, ver e jogar mais. Por exemplo, embora o “dia de ler” seja na terça, o tempo que antes passaria decidindo o que ia fazer na quinta eu acabo usando para ler mais, etc.
 
 Um outro efeito interessante dessa rotina: a pesquisa do filme que eu vou ver, ou do próximo livro que eu vou ler, virou uma diversão. Eu gosto de usar os intervalos do trabalho, ou o meu dia “livre” na sexta, para ler sobre um diretor ou um movimento do cinema que eu quero explorar nas próximas quartas, ou planejar a ida no cinema. É uma empolgaçãozinha que eu não sentia faz tempo. Essa rotina acabou me trazendo aquela curiosidade cultural que eu tinha de volta, e eu tô muito satisfeito com isso.

@@ -1,11 +1,10 @@
 ---
+layout: post
 title: Os benefícios de desistir
-date: 2025-11-25 09:53:24 -02:00
-categories:
-- Notas
+date: '2025-11-25T08:53:24-03:00'
+category: Notas
 tags:
 - comportamento
-layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/801187147182931968/os-benef%C3%ADcios-de-desistir
 ---
 

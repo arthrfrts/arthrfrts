@@ -1,15 +1,13 @@
 ---
+layout: post
 title: 'Anotações: sobre “blogar”'
-date: 2023-11-28 06:34:38 -02:00
-categories:
-- Notas
+date: '2023-11-28T05:34:38-03:00'
 tags:
 - blogs
 - web
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/735223824338010112/anota%C3%A7%C3%B5es-sobre-blogar
+category: Notas
 ---
-
 [What happened to blogging for the hell of it? · wiwi blog](https://whiona.weblog.lol/2023/10/what-happened-to-blogging-for-the-hell-of-it)
 
 > I want to write more frequently about anything and everything, because it’s good for you, and I have so many thoughts constantly assailing this brain of mine

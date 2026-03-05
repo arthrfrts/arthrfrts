@@ -1,17 +1,15 @@
 ---
+layout: post
 title: ''
-date: 2026-02-04 22:49:50 -02:00
-categories:
-- Notas
+date: '2026-02-04T21:49:50-03:00'
 tags:
 - lista de leitura
 - comportamento
 - tecnologia
 - desktop
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/807672155713224704/eu-t%C3%B4-tentando-zerar-minha-lista-de-leitura-ela
+category: Notas
 ---
-
 Eu tô tentando zerar minha lista de leitura. Ela tem 209 links para ler, catalogar e arquivar. Pra me forçar a ler um pouco todo o dia, vou começar a postar aqui o que eu estou lendo, e talvez um comentário ou destaques.
 
 Hoje, foi **[TextEdit and the Relief of Simple Software](https://www.newyorker.com/culture/infinite-scroll/textedit-and-the-relief-of-simple-software)**, no _The New Yorker_.

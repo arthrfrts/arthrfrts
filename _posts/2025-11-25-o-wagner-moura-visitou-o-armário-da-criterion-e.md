@@ -1,13 +1,12 @@
 ---
+layout: post
 title: Wagner Moura no armário da Criterion
-date: 2025-11-25 11:21:58 -02:00
-categories:
-- Links
+date: '2025-11-25T10:21:58-03:00'
+category: Links
 tags:
 - filmes
 - Wagner Moura
 - Barry Jenkins
-layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/801192718925692928/o-wagner-moura-visitou-o-arm%C3%A1rio-da-criterion-e
 ---
 

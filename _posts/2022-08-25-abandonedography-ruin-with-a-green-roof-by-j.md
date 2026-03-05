@@ -1,12 +1,10 @@
 ---
-title: abandonedography ruin with a green roof by j
-date: 2022-08-25 09:51:06 -03:00
-categories:
-- Notas
 layout: post
+title: abandonedography ruin with a green roof by j
+date: '2022-08-25T09:51:06-03:00'
 tumblr_url: https://arthrfrts.tumblr.com/post/693561580576784384/abandonedography-ruin-with-a-green-roof-by-j
+category: Notas
 ---
-
  ![](/tumblr_files/tumblr_msl0j8d2A71r9943oo1_1280.jpg)  
 
 [abandonedography](https://abandonedography.com/post/60239696179/ruin-with-a-green-roof-by-j-fish):

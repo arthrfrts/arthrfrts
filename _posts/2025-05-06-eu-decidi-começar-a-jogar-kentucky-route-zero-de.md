@@ -1,15 +1,13 @@
 ---
+layout: post
 title: ''
-date: 2025-05-06 11:26:00 -03:00
-categories:
-- Notas
+date: '2025-05-06T11:26:00-03:00'
 tags:
 - jogos
 - Kentucky Route Zero
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798569484056215552/eu-decidi-come%C3%A7ar-a-jogar-kentucky-route-zero-de
+category: Notas
 ---
-
 Eu decidi começar a jogar _Kentucky Route Zero_ de novo.
 
 _KRZ_ é o meu jogo favorito, mas é a primeira vez que eu vou jogar ele de novo desde que o último ato foi lançado, no início de 2020. [Eu demorei meses pra conseguir escrever sobre](https://paomortadela.com.br/2020/10/kentucky-route-zero/).

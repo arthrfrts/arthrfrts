@@ -1,17 +1,15 @@
 ---
+layout: post
 title: 'Minha dieta cultural na última semana #2'
-date: 2025-08-16 11:16:00 -03:00
-categories:
-- Impressões
+date: '2025-08-16T11:16:00-03:00'
 tags:
 - livros
 - séries
 - jogos
 - filmes
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798568899687890944/minha-dieta-cultural-na-%C3%BAltima-semana-2
+category: Impressões
 ---
-
 Tem feito muito frio por aqui, mas tem feito sol. Então eu tento aproveitar o máximo de tempo que eu tenho na rua com o Tobias. O que me dá menos tempo na frente da TV (eu tô tentando ficar menos tempo sentado no sofá, porque eu acabo dormindo), e mais tempo caminhando pela cidade — a coisa que eu mais gosto de fazer de todas. Mesmo assim, consegui fazer minha rotina cultural bem certinha, e fui atualizando esse rascunho pela semana. Agora, sentado no fim da tarde de sábado, vertendo coriza e com uma dor de cabeça descomunal, eu consegui escrever essa introdução. Queria que ela fosse mais inteligente, comentando como foi meu dia (foi um bom dia!), mas o cansaço tá batendo. Talvez semana que vem…
 
 Eu queria ter escrito isso pela manhã, mas eu fiquei tão doente nessa última semana que eu acordei às 9h parecendo que eu apanhei a noite inteira. E isso que eu ando dormindo todos os segundos possíveis. Não escrevi sobre nenhum disco porque eu ainda não parei de tocar _Geraes_ o tempo inteiro. Que disco gigante.

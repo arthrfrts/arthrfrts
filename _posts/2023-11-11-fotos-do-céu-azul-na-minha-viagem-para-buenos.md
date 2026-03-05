@@ -1,15 +1,13 @@
 ---
+layout: post
 title: ''
-date: 2023-11-11 23:33:38 -02:00
-categories:
-- Fotos
+date: '2023-11-11T22:33:38-03:00'
 tags:
 - viagens
 - Buenos Aires
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/733747786464493568/fotos-do-c%C3%A9u-azul-na-minha-viagem-para-buenos
+category: Fotos
 ---
-
 ![](https://64.media.tumblr.com/d2a07492b7b0b21e0401d0d54e599966/02931086fe521470-22/s640x960/4657824bfeccccfb5d64ed5a1017913bb3257095.jpg)
 
 ![](https://64.media.tumblr.com/dcec40213e0b08fc6ef687a2c255c6a5/02931086fe521470-30/s640x960/ee6b37145ef181620956b797c95bf195af7b7be4.jpg)

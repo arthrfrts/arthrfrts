@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2024-09-30 22:34:01 -03:00
-categories:
-- Links
+date: '2024-09-30T22:34:01-03:00'
 tags:
 - jogos
 - web
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/763097452130746368/why-the-web
 source: https://www.2weeks.games/fun-club/why-the-web/
+category: Links
 ---
-
 [Why the Web](https://www.2weeks.games/fun-club/why-the-web/)
 
 > It’s an exciting time to be working in the space. After a long quiet period following the death of Flash, there are fewer and fewer technical barriers to making great games on the web.

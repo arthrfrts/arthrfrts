@@ -1,15 +1,13 @@
 ---
-title: "“Uma Batalha Após A Outra”, de Paul Thomas Anderson"
-date: 2025-10-01 20:27:00 -03:00
-categories:
-- Notas
+layout: post
+title: '“Uma Batalha Após A Outra”, de Paul Thomas Anderson'
+date: '2025-10-01T20:27:00-03:00'
 tags:
 - filmes
 - Paul Thomas Anderson
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798422294731046912/uma-batalha-ap%C3%B3s-a-outra-de-paul-thomas
+category: Notas
 ---
-
 Três dias depois e eu ainda tô vidrado, pensando em&nbsp;_Uma Batalha Após A Outra_. Eu nem sei por onde começar a falar desse filme.
 
 Paul Thomas Anderson cita Robert Altman há muito tempo — desde&nbsp;_Boogie Nights_, talvez? — e usa os ensinamentos de seu professor na máxima potência pra dirigir a ação de&nbsp;_Uma Batalha Após A Outra_. Ele mapeia cada personagem participando de uma sequência que, por mais caótica que ela seja, você sabe para onde cada um está rumando, qual o objetivo de cada um. Isso torna a ação mais grandiosa, e nos faz ver não só cada engrenagem funcionando, como a máquina inteira andando também.
