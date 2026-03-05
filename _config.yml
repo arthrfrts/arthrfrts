@@ -70,25 +70,24 @@ theme: linus
 permalink: "/:year/:month/:day/:title/"
 
 defaults:
--
-  scope:
-    path: ""
-    type: "posts"
-  values:
-    syndicate_to:
-      - bluesky
--
-  scope:
-    path: ""
-    type: posts
-    category: Fotos
-  values:
-    syndicate_to:
-      - bluesky
-      - flickr
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      syndicate_to:
+        - bluesky
+  - scope:
+      path: ""
+      type: posts
+      category: Fotos
+    values:
+      syndicate_to:
+        - bluesky
+        - flickr
 
 plugins:
   - jekyll-webmention_io
+  - jekyll-compose
 
 webmentions:
   username: arthr.me
@@ -125,3 +124,12 @@ jekyll-archives:
   permalinks:
     tags: /tag/:name
     category: /categoria/:name/
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      category:
+      tags:
+    posts:
+      category:
+      tags:
