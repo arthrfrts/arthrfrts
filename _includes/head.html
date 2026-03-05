@@ -1,8 +1,11 @@
-<link rel="authorization_endpoint" href="https://indieauth.com/auth">
-<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-{% webmentions_head %}
+<meta name="fediverse:creator" content="{{ site.author.mastodon }}" />
+<link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+
 {% if page.syndication_urls %}
   {% for syn in page.syndication_urls %}
-    <link rel="syndication" href="{{ syn[1] }}">
+    <link rel="syndication" href="{{ syn[1] }}" />
   {% endfor %}
 {% endif %}
+
+{% webmentions_head %}
