@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2025-09-24T10:19:00-03:00'
+date: 2025-09-24 10:19:00 -03:00
+categories:
+- Notas
 tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798565227532845056/ontem-foi-anivers%C3%A1rio-do-meu-pai-ent%C3%A3o-n%C3%A3o
-category: Notas
 ---
+
 Ontem foi aniversário do meu pai, então não consegui passar no meu computador e escrever sobre o filme de ontem do festival, _Da Colina Kokuriko_, de Gorō Miyazaki. Também não vou dizer que fiz muita questão, já que o filme não é lá essas coisas. Ele é bonito, mas a melancolia que ele evoca é muito básica, nem parece ser do mesmo estúdio em que o eco do vento pode ser sentido no farfalhar da floresta do _Meu Amigo Totoro_. Sua narração torna a melancolia em texto, ao invés do subtexto com a qual os melhores filmes do estúdio parecem trabalhar. Te dizer que eu tentei ver esse filme duas vezes, e nas duas vezes eu cochilei. Nem no cinema eu me aguentei.
 
 ![A família Yamada assistindo TV, com o pai do lado de fora de casa com cara de brabo](https://64.media.tumblr.com/665c597e592d43977603d71fb19e25b8/369423b9aff7188c-ad/s640x960/ac6c6396d7316ba1f7a5c557a0b3f45e241b0857.jpg)

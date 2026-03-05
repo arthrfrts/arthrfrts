@@ -1,13 +1,15 @@
 ---
-layout: post
 title: Columbus
-date: '2026-01-01T17:14:14-03:00'
+date: 2026-01-01 18:14:14 -02:00
+categories:
+- Impressões
 tags:
 - filmes
 - Kogonada
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/804574518652878848/primeiro-filme-que-eu-assisti-esse-ano-foi
-category: Impressões
 ---
+
 Primeiro filme que eu assisti esse ano foi _Columbus_ (2017), dirigido por Kogonada. Achei um filme muito lindo, que se interessa tanto pelas suas personagens quanto os espaços que elas percorrem. Tem uma aura de cidade pequena que me agrada muito, e gosto também da calma com que Kogonada enxerga seus filmes — algo que me impressionou muito no outro filme que eu vi dele, _A Vida Depois de Yang_.
 
 Me pegou de surpresa como o ato de enxergar é importante pro cinema de Kogonada. Não só o de ver, mas seus personagens se preocupam se eles enxergam, realmente, aquilo que eles amam. Em _A Vida Depois de Yang_, o robô suspira quando diz que ele queria realmente apreciar chás, não só enumerar curiosidades sobre chá. Uma boa parte da preocupação de Casey e Lin em _Columbus_ é em enxergar o que os faz amar onde eles estão: Casey primeiro comenta sobre as curiosidades do arquiteto, de suas inspirações para os materiais, mas Lin insiste que ela diga porquê ela ama aquele lugar, e é quando ela desaba.

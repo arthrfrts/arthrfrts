@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2025-09-21T10:20:00-03:00'
+date: 2025-09-21 10:20:00 -03:00
+categories:
+- Notas
 tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798565307137523712/eu-e-o-tobias-est%C3%A1vamos-nas-manifesta%C3%A7%C3%B5es-aqui-da
-category: Notas
 ---
+
 Eu e o Tobias estávamos nas manifestações aqui da minha cidade contra a PEC da blindagem e do PL da anistia. Foi muito bonito, muito alegre. Pra uma cidade cada vez mais cinza, até o sol abriu. Deu um bocado de esperança ver toda aquela galera junta.
 
 Algumas horas depois deixei o Tobias em casa pra ir na sessão do Ghibli Fest de hoje. Deu tempo de pegar um pastel no bar aqui do lado de casa e seguir caminho. É muito bom ser brasileiro.

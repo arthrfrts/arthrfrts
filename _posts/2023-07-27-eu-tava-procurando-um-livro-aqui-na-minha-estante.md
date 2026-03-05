@@ -1,10 +1,12 @@
 ---
-layout: post
 title: ''
-date: '2023-07-27T09:42:51-03:00'
+date: 2023-07-27 09:42:51 -03:00
+categories:
+- Notas
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/724001642224271360/eu-tava-procurando-um-livro-aqui-na-minha-estante
-category: Notas
 ---
+
 Eu tava procurando um livro aqui na minha estante. Acabei encontrando um desenho que uma amiga minha, que eu não vejo há mais de uma década, fez pra mim.
 
 Atrás do desenho tinha uma dedicatória, “Da Bibi pro Atum”. Ela foi a única pessoa a me apelidar de “atum”. Eu esqueci completamente que, um dia, alguém já me chamou assim.

@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Lô Borges
-date: '2025-11-03T14:20:39-03:00'
-category: Notas
+date: 2025-11-03 15:20:39 -02:00
+categories:
+- Notas
 tags:
 - músicas
 - Lô Borges
 - MPB
 - em memória
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/799214602810507264/se-eu-morrer-n%C3%A3o-chore-n%C3%A3o-%C3%A9-s%C3%B3-a-lua-a-not%C3%ADcia
 ---
 

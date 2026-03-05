@@ -1,17 +1,19 @@
 ---
-layout: post
 title: ''
-date: '2024-06-26T12:19:33-03:00'
+date: 2024-06-26 12:19:33 -03:00
+categories:
+- Notas
 tags:
 - web
 - tecnologia
 - jogos
 - StreetPass
 - Nintendo
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/754361484779405312/dropped-connection-the-loss-of-local-handheld
 source: https://vgbees.com/dropped-connection-the-loss-of-local-handheld-multiplayer/
-category: Notas
 ---
+
 [Dropped Connection: The Loss of Local Handheld Multiplayer - VGBees](https://vgbees.com/dropped-connection-the-loss-of-local-handheld-multiplayer/?utm_source=pocket_shared)
 
 Merrit K:

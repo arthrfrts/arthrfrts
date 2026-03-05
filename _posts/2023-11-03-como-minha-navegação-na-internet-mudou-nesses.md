@@ -1,12 +1,14 @@
 ---
-layout: post
-title: 'Como minha navegação na internet mudou nesses últimos meses'
-date: '2023-11-03T11:22:40-03:00'
+title: Como minha navegação na internet mudou nesses últimos meses
+date: 2023-11-03 12:22:40 -02:00
+categories:
+- Notas
 tags:
 - web
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/732977022404526080/como-minha-navega%C3%A7%C3%A3o-na-internet-mudou-nesses
-category: Notas
 ---
+
 Minha saída do Twitter há alguns meses mudou profundamente a forma como eu navego na internet. Por mais de uma década, o Twitter servia como a verdadeira página inicial da minha navegação. Era o que eu abria primeiro para descobrir links que meus amigos ou pessoas que eu seguia estavam compartilhando, e começava minha jornada diária na internet por aí.
 
 Com minha saída, o efeito imediato foi parecer que a internet encolheu consideravelmente. Meu tempo na frente do navegador diminuiu (um efeito bom!) e nenhuma das outras redes que tentam substituir o que o Twitter criou (o Bluesky, o Mastodon, o Threads) conseguiu me cativar da mesma forma. A maior parte do conteúdo nesses _feeds_ aponta para eles mesmos, quando minha experiência no Twitter era a oposta. Eu clicava em links para fora, que me ajudavam a explorar tópicos que eu tinha curiosidade, mas que não sabia muito sobre. Foi assim que eu li sobre astronomia e ecologia e arquitetura e linguística. Tópicos que eu adoro ler sobre, mas preciso que pessoas me guiem para eu conseguir me aventurar.

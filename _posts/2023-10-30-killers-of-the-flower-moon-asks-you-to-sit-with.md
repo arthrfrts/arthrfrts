@@ -1,13 +1,15 @@
 ---
-layout: post
 title: ''
-date: '2023-10-30T08:44:14-03:00'
+date: 2023-10-30 09:44:14 -02:00
+categories:
+- Notas
 tags:
 - livros
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/732604666409566208/killers-of-the-flower-moon-asks-you-to-sit-with
 source: https://defector.com/killers-of-the-flower-moon-asks-you-to-sit-with-its-contradictions
-category: Notas
 ---
+
 [‘Killers Of The Flower Moon’ Asks You To Sit With Its Contradictions | Defector](https://href.li/?https://defector.com/killers-of-the-flower-moon-asks-you-to-sit-with-its-contradictions)
 
 > The reason I keep thinking of that storm scene is because there seems to be a collective inability in our culture to sit in silence without saying something reflexively, particularly when that silence is pregnant with the kind of contradiction art is meant to produce. I know social media doesn’t exactly promote reticence or nuance of any kind, but this appears to be something more widespread. The compulsion to assess films, television series, music, books, anything, really, based on whether they are moral has leaked out of conservative enclaves into the mainstream. And just as equating the art with the artist has always struck me as a strange reduction, so too is equating the politics with the art

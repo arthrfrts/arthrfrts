@@ -1,14 +1,16 @@
 ---
-layout: post
 title: Como artistas representavam fogos de artifício através do tempo
-date: '2025-11-05T10:17:49-03:00'
-category: Links
+date: 2025-11-05 11:17:49 -02:00
+categories:
+- Links
 tags:
 - ensaios
 - arte
 - pirotecnia
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/799380518676348928/como-artistas-representavam-fogos-de-artif%C3%ADcio
 ---
+
 # 
 
 ![Detalhe de “Fogos de artifício no Jardim do Convento” (1690), por Bernard Lens II.](https://64.media.tumblr.com/e3831c0179c921408ebd82db60c3e854/a348d634c6c08281-e7/s640x960/a541cec87a5ad053074760a15345e48eb6e9fe97.webp)

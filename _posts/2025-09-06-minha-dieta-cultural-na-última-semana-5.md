@@ -1,15 +1,17 @@
 ---
-layout: post
 title: 'Minha dieta cultural na última semana #5'
-date: '2025-09-06T10:38:00-03:00'
+date: 2025-09-06 10:38:00 -03:00
+categories:
+- Impressões
 tags:
 - livros
 - jogos
 - séries
 - filmes
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798566471295025152/minha-dieta-cultural-na-%C3%BAltima-semana-5
-category: Impressões
 ---
+
 O dia hoje tá lindo, e tá geladinho. Bem como eu gosto. Acho que eu vou pegar o Tobias e ir no Açorianos ler um livro de tarde. Tô pensando em voltar pro _Feiticeiro de Terramar_ agora que terminei _Uma Visão Pálida das Colinas_, mas esse frescor no ar me pede uma história de mistério. Vou ver o que eu tenho aqui pra ler.
 
 Como eu gosto do frio. Esse provavelmente é o último frio do ano — a primavera chega em algumas semanas, e os dias já estão mais quentes. Hoje amanheceu com 9°C, e eu aproveitei cada segundo tomando um café e vendo o sol se levantar. Vou sentir falta desse friozinho.

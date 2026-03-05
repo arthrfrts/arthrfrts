@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Wajã Xipai reflete sobre sua entrevista com António Guterres
-date: '2025-10-29T07:29:52-03:00'
-category: Links
+date: 2025-10-29 08:29:52 -02:00
+categories:
+- Links
 tags:
 - leituras
 - meio-ambiente
 - Amazônia
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/798735773539205120/waj%C3%A3-xipai-reflete-sobre-sua-entrevista-com
 source: https://sumauma.com/quando-o-mundo-rio-encontrou-o-mundo-onu-a-conversa-com-o-secretario-geral-que-ecoa-em-mim/
 ---

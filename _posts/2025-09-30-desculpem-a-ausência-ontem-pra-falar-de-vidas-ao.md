@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2025-09-30T15:40:00-03:00'
+date: 2025-09-30 15:40:00 -03:00
+categories:
+- Notas
 tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798422364237053952/desculpem-a-aus%C3%AAncia-ontem-pra-falar-de-vidas-ao
-category: Notas
 ---
+
 Desculpem a ausência ontem pra falar de&nbsp;_Vidas ao Vento_&nbsp;e&nbsp;_Nausicaä do Vale do Vento_. Eu acabei aproveitando pra assistir&nbsp;_Uma Batalha Após A Outra_, o novo filme do Paul Thomas Anderson (logo mais escrevo um pouquinho sobre o que é, provavelmente, o melhor filme que eu assisti esse ano).
 
 Também tem um motivo de curadoria. Eu acho que&nbsp;_A Viagem de Chihiro_&nbsp;devia ser o último filme da primeira parte do Ghibli Fest. É um filme tão perfeito, tão definitivo, que não dá pra evitar uma certa decepção com o que vem a seguir, mesmo que os filmes que se seguiram na mostra sejam ótimos filmes.
