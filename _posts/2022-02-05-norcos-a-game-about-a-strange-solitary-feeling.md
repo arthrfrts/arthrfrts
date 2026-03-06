@@ -1,10 +1,12 @@
 ---
-layout: post
 title: norcos a game about a strange solitary feeling
-date: '2022-02-04T23:30:21-03:00'
+date: 2022-02-05 00:30:21 -02:00
+categories:
+- Notas
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/675316311159717888/norcos-a-game-about-a-strange-solitary-feeling
-category: Notas
 ---
+
  ![](/tumblr_files/6ae919c2e3d3393540c3a377d3af8d08ffc6d85e.png)  
  ![](/tumblr_files/81fc6d9a84b256242b0972d8e27a5aa765173464.png)  
  ![](/tumblr_files/9e5364f66d8303fabb826ace3bbe90bb697730b6.png)  

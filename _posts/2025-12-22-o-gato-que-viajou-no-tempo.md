@@ -1,12 +1,13 @@
 ---
-layout: post
 title: A Gata Que Viajou No Tempo
-date: '2025-12-22T12:57:16-03:00'
-category: Links
+date: 2025-12-22 13:57:16 -02:00
+categories:
+- Links
 tags:
 - links
 - bichos de estimação
 - arte
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/803648607310970880/o-gato-que-viajou-no-tempo
 ---
 

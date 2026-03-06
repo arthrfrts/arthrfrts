@@ -1,16 +1,18 @@
 ---
-layout: post
-title: 'Minha dieta cultural na última semana'
-date: '2025-08-11T11:22:00-03:00'
+title: Minha dieta cultural na última semana
+date: 2025-08-11 11:22:00 -03:00
+categories:
+- Impressões
 tags:
 - filmes
 - jogos
 - séries
 - músicas
 - livros
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798569321737699328/minha-dieta-cultural-na-%C3%BAltima-semana
-category: Esquinas
 ---
+
 Eu vou tentar escrever toda semana sobre o que eu tô vendo, lendo, jogando e ouvindo. Eu parei de usar o Letterboxd há uns meses e sinto que eu tô esquecendo dos filmes que eu vejo. Não quero voltar para o Letterboxd por enquanto, então acho que uma boa solução é manter minhas impressões por aqui mesmo. A partir da semana que vem, esses resumos devem ser publicados no sábado pela manhã.
 
 **Jogos: _skate._, _Time Flies_.**
@@ -42,3 +44,4 @@ Tô lendo devagarinho.
 **Música: _Geraes_.**
 
 Não consigo parar de ouvir o _Geraes_ (1976) do Milton Nascimento. Nada de novo… Milton cria músicas imensas, e _Geraes_ parece ser a música do fundo das montanhas e do campo. Parece uma música que ecoa pra sempre nos lugares que ela foi cantada. A voz de Milton parece o próprio vento. “O Ceio da Terra” é lindo. (Dei o vinil pro meu pai do dia dos pais).
+

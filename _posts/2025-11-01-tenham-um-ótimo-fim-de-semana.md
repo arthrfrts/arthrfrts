@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Tenham um ótimo fim de semana
-date: '2025-11-01T14:32:59-03:00'
-category: Notas
+date: 2025-11-01 15:32:59 -02:00
+categories:
+- Notas
 tags:
 - fim de semana
 - links
 - leituras
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/799034184359444481/tenham-um-%C3%B3timo-fim-de-semana
 ---
 

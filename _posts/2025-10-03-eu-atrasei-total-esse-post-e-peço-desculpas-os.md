@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2025-10-03T20:25:00-03:00'
+date: 2025-10-03 20:25:00 -03:00
+categories:
+- Notas
 tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798422233929465856/eu-atrasei-total-esse-post-e-pe%C3%A7o-desculpas-os
-category: Notas
 ---
+
 Eu atrasei total esse post, e peço desculpas. Os últimos dias no trabalho — meus últimos dias na empresa que eu trabalhei pelos últimos anos — foram intensos.
 
 Essa primeira etapa do Ghibli Fest acabou com dois filmes charmosos.&nbsp;_Sussurros do Coração_, que passou na terça-feira, é uma pérola. Um romance que tem um cenário tão marcante que eu nem sabia que ficava na memória com tanta intensidade: a loja de antiguidades que a protagonista Shizuku conhece depois de seguir um gato. Eu amo uma história de amor impossível, e a história de amor que&nbsp;_Sussurros do Coração_revela (não a dos protagonistas, mas a que existe nessa loja de antiguidades) é bem do tipinho que eu gosto. Toda a trama da frustração que é escrever também é muito a minha zona — e de uma especificidade deliciosa. O jeito como Shizuku parece aliviada a finalmente tirar essa história de dentro de si é linda.

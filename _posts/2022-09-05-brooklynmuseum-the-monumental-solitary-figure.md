@@ -1,10 +1,12 @@
 ---
-layout: post
 title: brooklynmuseum the monumental solitary figure
-date: '2022-09-05T11:19:53-03:00'
+date: 2022-09-05 11:19:53 -03:00
+categories:
+- Notas
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/694563733062713344/brooklynmuseum-the-monumental-solitary-figure
-category: Notas
 ---
+
  ![](/tumblr_files/22dd33de585a40bc789907cd14795f9400853d9f.jpg)  
 
 [brooklynmuseum](https://brooklynmuseum.tumblr.com/post/694558737356275712/the-monumental-solitary-figure-of-a-cloaked):

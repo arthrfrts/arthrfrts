@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Esse é um post escrito no iPad
-date: '2025-10-24T07:37:00-03:00'
+date: 2025-10-24 08:37:00 -02:00
+categories:
+- Notas
 tags:
 - dispositivos
 - blogs
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798421127582089216/esse-%C3%A9-um-post-escrito-no-ipad
-category: Notas
 ---
 
 Eu tava pensando, faz um tempo já, em comprar um iPad ao invés de comprar um laptop novo. Eu tenho um Mac mini na minha mesa, onde eu trabalho, mas usava meu laptop pra escrever quando estou na sala, ou viajando. Eu até cogitei em comprar um MacBook Air — desde que a Apple começou a usar os seus próprios processadores, o computador mais simples já dá pro gasto pra mim.

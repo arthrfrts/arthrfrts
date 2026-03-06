@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Amizade e sentido
-category: Esquinas
-date: '2026-01-06T08:05:20-03:00'
+date: 2026-01-06 09:05:20 -02:00
+categories:
+- Impressões
 tags:
 - comportamento
 - amizades
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/804989195027431424/amizade-e-sentido
 ---
 
@@ -24,3 +25,4 @@ Qual é o _sentido_ de uma amizade, afinal? Eu digo isso como um questionamento 
 Eu defini, há muito tempo, que [amizades são as relações mais importantes da minha vida](https://archive.is/gICow). Eu acerto rituais com meus amigos: aniversários precisam ser celebrados, bem como datas importantes; mensagens, sem necessariamente ter nenhuma informação pra dar, são frequentes; sempre que possível, marcamos algo. Existe um balanço aí que é difícil de alcançar mas que eu acho que manejamos bem: a leveza de uma amizade precisa ser mantida, então comemoramos sempre, não forçamos encontros quando a rotina está pesada, e as vezes nem precisamos falar muito quando estamos juntos — só a companhia já basta pra aliviar o cansaço ou a tristeza. São meus amigos que existem no meu dia-a-dia, e muitas dessas amizades surgiram justamente durante as nossas rotinas.
 
 [Muitas das minhas amizades começaram em contextos diferentes do que os que a gente vive hoje](https://paomortadela.com.br/2021/02/sobre-amizade-e-imortalidade/). Alguns eram colegas de escola, outros de trabalho; alguns eu conheci quando ia em um café que não existe mais, e outros eu não vejo há quase uma década porque moramos em lugares distantes. Não existe um sentido para eu manter contato com essas pessoas, além do afeto. Da troca de um sorriso ou de um suspiro. Diferente da nossa família, e do nosso trabalho, nossos amigos estão livres de sentido. Quando uma amizade acaba, não é porque o sentido dela se foi. O que não existe mais é o amor.
+

@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2024-03-25T08:51:58-03:00'
+date: 2024-03-25 08:51:58 -03:00
+categories:
+- Notas
 tags:
 - jogos
 - zelda
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/745922907487797248/the-boundless-legacy-of-breath-of-the-wild
 source: https://www.theringer.com/video-games/2023/5/12/23719757/the-legend-of-zelda-breath-of-the-wild-legacy-nintendo
-category: Notas
 ---
+
 [The Boundless Legacy of ‘Breath of the Wild’](https://www.theringer.com/video-games/2023/5/12/23719757/the-legend-of-zelda-breath-of-the-wild-legacy-nintendo?utm_source=pocket_saves)
 
 Lewis Gordon, _[The Ringer](https://www.theringer.com/video-games/2023/5/12/23719757/the-legend-of-zelda-breath-of-the-wild-legacy-nintendo?utm_source=pocket_saves)_:

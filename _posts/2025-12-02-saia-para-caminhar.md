@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Saia para caminhar
-date: '2025-12-02T07:43:51-03:00'
-category: Links
+date: 2025-12-02 08:43:51 -02:00
+categories:
+- Links
 tags:
 - caminhadas
 - links
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/801816950336569344/saia-para-caminhar
 ---
 

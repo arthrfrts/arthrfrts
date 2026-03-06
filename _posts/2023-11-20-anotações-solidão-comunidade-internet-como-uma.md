@@ -1,15 +1,17 @@
 ---
-layout: post
 title: 'Anotações: solidão, comunidade, internet como uma vizinhança'
-date: '2023-11-20T09:50:01-03:00'
+date: 2023-11-20 10:50:01 -02:00
+categories:
+- Notas
 tags:
 - livros
 - web
 - solidão
 - sentimentos
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/734515115929583616/anota%C3%A7%C3%B5es-solid%C3%A3o-comunidade-internet-como-uma
-category: Notas
 ---
+
 [Out There: On Not Finishing - Longreads](https://href.li/?https://longreads.com/2020/09/08/out-there-on-not-finishing/)
 
 Devin Kelly:

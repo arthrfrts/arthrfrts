@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2025-09-29T09:13:00-03:00'
+date: 2025-09-29 09:13:00 -03:00
+categories:
+- Links
 tags:
 - web
 - cartografia
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798422574614937600/eu-tropecei-nessa-p%C3%A1gina-do-site-de-kevin-kelly-em
 source: https://kk.org/ct2/the-internet-mapping-project/
-category: Links
 ---
+
 Eu tropecei&nbsp;[nessa página do site de Kevin Kelly](https://kk.org/ct2/the-internet-mapping-project/)&nbsp;em que ele pede pras pessoas ajudarem ele a mapear a internet. Mas não mapear&nbsp;_toda_&nbsp;a internet, mapear como as pessoas organizam ela na mente.
 
 É um projeto que tá rolando desde 2009. Eu não sei se ele acabou, mas no álbum completo existem mapas publicados até 2019. (Como é bom tropeçar num link pro Flickr).

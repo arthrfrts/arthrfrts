@@ -1,15 +1,17 @@
 ---
-layout: post
 title: 'Vivi: cinco anos com, seis anos sem'
-date: '2025-08-27T10:51:00-03:00'
+date: 2025-08-27 10:51:00 -03:00
+categories:
+- Notas
 tags:
 - memórias
 - luto
 - cachorros
 - Vivi
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798567294250926080/vivi-cinco-anos-com-seis-anos-sem
-category: Notas
 ---
+
 Hoje completam seis anos da morte da Vivi. A partir de hoje, o tempo que eu sinto saudades da Vivi é maior do que o tempo que eu tive perto dela. Foi a primeira coisa que eu pensei quando acordei.
 
 A chegada da Vivi na nossa casa começou com tristeza. Por semanas, ela viveu na frente do nosso pátio, embaixo de um caminhão estacionado na frente da casa de um vizinho. Eu lembro de ter ido lá mais de uma vez dar comida pra ela. Um dia, nós demos comida para ela dentro do nosso pátio, e fechamos o portão. Naquela noite, Vivi conseguiu furar a cerca e fugir pro pátio do vizinho, onde os cachorros dele a atacaram, quebrando sua coluna. Eu lembro de ouvir um barulho de briga durante a noite, mas não juntei os pontos. Tem sempre alguma intriga canina na vizinhança.

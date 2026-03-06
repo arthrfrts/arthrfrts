@@ -1,14 +1,16 @@
 ---
-layout: post
-title: 'Últimas memórias'
-date: '2025-05-06T10:55:00-03:00'
+title: Últimas memórias
+date: 2025-05-06 10:55:00 -03:00
+categories:
+- Notas
 tags:
 - memórias
 - cachorros
 - Vivi
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798567551571509248/%C3%BAltimas-mem%C3%B3rias
-category: Notas
 ---
+
 Um pensamento estranho passou pela minha cabeça agora.
 
 As vezes, uns _flashes_ da noite em que a Vivi morreu aparecem, e eu lembro de alguns detalhes. Eu já lembrei dessa noite toda várias vezes, e não tem nada em especial sobre isso. Não precisa de algum evento ter acontecido pra que eu volte a lembrar dessa noite nem nada disso. Ela só vem, como se sempre estivesse ali no fundinho da mente. Eu acho que está.

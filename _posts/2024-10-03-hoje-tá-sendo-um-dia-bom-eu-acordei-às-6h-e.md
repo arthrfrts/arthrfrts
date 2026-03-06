@@ -1,10 +1,12 @@
 ---
-layout: post
 title: hoje tá sendo um dia bom eu acordei às 6h e
-date: '2024-10-03T11:07:14-03:00'
+date: 2024-10-03 11:07:14 -03:00
+categories:
+- Notas
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/763326041040240640/hoje-t%C3%A1-sendo-um-dia-bom-eu-acordei-%C3%A0s-6h-e
-category: Notas
 ---
+
  ![](/tumblr_files/4c224cdaa23b20997c5f35d54be333bfe2e59949.jpg)  
 
 Hoje tá sendo um dia bom.

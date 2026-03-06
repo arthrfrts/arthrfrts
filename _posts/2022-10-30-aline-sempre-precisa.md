@@ -1,10 +1,12 @@
 ---
-layout: post
 title: ''
-date: '2022-10-30T08:20:24-03:00'
+date: 2022-10-30 09:20:24 -02:00
+categories:
+- Notas
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/699535274209886208/aline-sempre-precisa
-category: Notas
 ---
+
 !["todas as forças
 estão reunidas
 para que o dia amanheça"

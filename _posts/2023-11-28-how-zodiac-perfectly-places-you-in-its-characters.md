@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2023-11-28T05:27:59-03:00'
+date: 2023-11-28 06:27:59 -02:00
+categories:
+- Notas
 tags:
 - filmes
 - David Fincher
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/735223406261387264/how-zodiac-perfectly-places-you-in-its-characters
 source: https://episodes.ghost.io/zodiac-david-fincher-true-crime/
-category: Notas
 ---
+
 [How Zodiac perfectly places you in its characters’ obsessive worldview](https://episodes.ghost.io/zodiac-david-fincher-true-crime/)
 
 Emly St. James:

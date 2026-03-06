@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2025-09-18T10:30:00-03:00'
+date: 2025-09-18 10:30:00 -03:00
+categories:
+- Notas
 tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798565976129093633/hoje-foi-o-primeiro-dia-do-ghibli-fest-aqui-na
-category: Notas
 ---
+
 Hoje foi o primeiro dia do Ghibli Fest aqui na Cinemateca Paulo Amorim. Eu vou ir em todas as sessões, e vou tentar escrever sobre todos os filmes (brevemente) aqui.
 
 O filme de hoje foi _Eu Posso Ouvir o Oceano_, que o Studio Ghibli lançou originalmente em 1993. O filme é uma espécie de romance, uma espécie de filme de memória. Como romance ele não é muito bom, mas acho que é proposital: na história, dois amigos adolescentes se apaixonam pela colega nova na escola. Contando assim parece um triângulo amoroso, mas o diretor Tomomi Mochizuki não parece tão interessado nesse aspecto. _Eu Posso Ouvir o Oceano_ é muito melhor como um filme de memórias, porque é mais preocupado em capturar como esses jovens são desajeitados em se expressarem e nas suas preocupações (a viagem de férias, o festival do colégio, as dinâmicas entre os grupinhos na escola) do que o que eles estão sentindo. Taku é extremamente desajeitado e incerto sobre seus sentimentos — ele age por impulso, tá sempre se apoiando em algo porque parece que nem os pés ele consegue segurar. Quando o salto temporal acontece, o filme fica muito melhor — e me faz querer que ele tivesse indo e vindo no tempo mais vezes. A dinâmica dos ex-colegas na noitada é muito específica para não ser baseada em fatos (eu mesmo já tive noites assim com amigos de infância).

@@ -1,8 +1,8 @@
 ---
-layout: post
 title: As cinco melhores coisas de 2025
-date: '2025-12-30T10:00:19-03:00'
-category: Esquinas
+date: 2025-12-30 11:00:19 -02:00
+categories:
+- Impressões
 tags:
 - listas
 - melhores do ano
@@ -12,6 +12,7 @@ tags:
 - séries
 - jogos
 - links
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/804362250332913664/as-cinco-melhores-coisas-de-2025
 ---
 
@@ -96,3 +97,4 @@ Três anos depois da primeira temporada, eu tava curioso pra ver se _Ruptura_ ia
 - **Andor** (2ª temporada, Disney+). Eu duvidava que iam conseguir, mas o segundo ano de _Andor_ superou a já incrível primeira temporada, e é a melhor história do universo _Star Wars_, a ponto de ter estragado todo o resto um pouquinho. A gente se contentava com pouco. _Andor_ entregou uma das visões mais didáticas sobre como o fascismo vence, e o custo que é revolucionar.
 - **Pluribus** (1ª temporada, Apple TV). Eu acho que todo mundo já viu _Pluribus_, mas se você não viu, eu não quero estragar a maior surpresa que você vai ter nesse ano. Eu não te duvido que ela seja a melhor série do ano na segunda temporada — é muito bem escrita, dirigida, montada e, principalmente, atuada. O tipo de série que a gente quer ir pro escritório conversar sobre com os colegas no dia seguinte. Nem parece feita no nosso tempo.
 - **The Pitt** (1ª temporada, HBO Max). Outra série que parece vinda de outro tempo: uma mistura de _24 Horas_ com _Plantão Médico_. Eu não sabia que eu queria algo assim, mas fiquei tão feliz que _The Pitt_ entrega. Tem a crueza, a intensidade e a emoção do clássico drama médico; mas é nova, empolgante e audaciosa com sua estrutura narrativa. Louco pra ver a segunda temporada que estreia no início de 2026.
+
