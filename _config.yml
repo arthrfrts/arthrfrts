@@ -158,7 +158,7 @@ prose:
       - name: date
         field:
           label: Date
-          element: date
+          element: text
           value: CURRENT_DATETIME
       - name: category
         field:
