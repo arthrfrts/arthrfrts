@@ -1,0 +1,12 @@
+---
+---
+callback(
+  [
+    {%- for category in site.categories %}
+      {
+        "name": "{{- category | first -}}",
+        "value": "{{- category | first -}}"
+      }{%- unless forloop.last -%}, {% endunless-%}
+    {% endfor -%}
+  ]
+)
