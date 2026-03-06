@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2024-05-27T23:41:22-03:00'
+date: 2024-05-27 23:41:22 -03:00
+categories:
+- Notas
 tags:
 - jogos
 - Kentucky Route Zero
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/751686472161280000/where-do-we-go-next-kentucky-route-zeros-anxious
 source: https://sidequest.zone/2020/04/13/where-do-we-go-next-kentucky-route-zero-s-anxious-approach-to-hope/
-category: Notas
 ---
+
 [Where Do We Go Next: Kentucky Route Zero’s Anxious Approach to Hope - Sidequest](https://sidequest.zone/2020/04/13/where-do-we-go-next-kentucky-route-zero-s-anxious-approach-to-hope/)
 
 Madison Butler, para o Sidequest:

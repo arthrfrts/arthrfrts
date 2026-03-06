@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Na internet todo mundo sabe que você tinha um cachorro
-date: '2025-10-28T11:36:27-03:00'
-category: Links
+date: 2025-10-28 12:36:27 -02:00
+categories:
+- Links
 tags:
 - descobertas
 - cachorros
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/798660689665441792/na-internet-todo-mundo-sabe-que-voc%C3%AA-tinha-um
 source: https://ontheinterneteverybodyknows.geocities.institute/
 ---

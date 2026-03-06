@@ -1,12 +1,14 @@
 ---
-layout: post
-title: '_Ainda Estou Aqui_, de Walter Salles'
-date: '2024-11-07T23:41:10-03:00'
+title: _Ainda Estou Aqui_, de Walter Salles
+date: 2024-11-08 00:41:10 -02:00
+categories:
+- Esquinas
 tags:
 - filmes
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/766548136891219968/ainda-estou-aqui-de-walter-salles
-category: Esquinas
 ---
+
 Eu cresci em uma casa assim.
 
 Meus pais foram crianças como aquelas. Cresceram em silêncio. Seus pais, sindicalistas, enchiam a casa de amigos. Mas quando as crianças entravam, eles ficavam quietos. As crianças não entenderiam, mas poderiam falar algo.

@@ -1,10 +1,12 @@
 ---
-layout: post
 title: ''
-date: '2024-10-17T11:36:45-03:00'
+date: 2024-10-17 11:36:45 -03:00
+categories:
+- Notas
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/764596249253003265/passeando-com-o-tobias-hoje-de-manh%C3%A3-ele-tem
-category: Notas
 ---
+
 Passeando com o Tobias hoje de manhã (ele tem acordado às 6h pra dar a primeira saidinha do dia), eu decidi variar um pouco os ares e fomos em direção ao Açorianos. Lá, o Tobias conheceu uma família de caturritas, uns amores.
 
 <video style="max-width: 100%;" controls="controls">

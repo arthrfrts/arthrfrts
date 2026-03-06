@@ -1,14 +1,16 @@
 ---
-layout: post
 title: The Leftovers is one of the best TV shows ever made
-date: '2024-10-17T11:40:52-03:00'
+date: 2024-10-17 11:40:52 -03:00
+categories:
+- Notas
 tags:
 - séries
 - The Leftovers
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/764596508441149440/the-leftovers-is-one-of-the-best-tv-shows-ever
 source: https://www.vox.com/culture/2017/6/5/15730378/the-leftovers-finale-review-best-series-ever
-category: Notas
 ---
+
 [The Leftovers is one of the best TV shows ever made](https://www.vox.com/culture/2017/6/5/15730378/the-leftovers-finale-review-best-series-ever)  
 
 Emily St. James, para a Vox:

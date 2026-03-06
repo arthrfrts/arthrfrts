@@ -1,15 +1,17 @@
 ---
-layout: post
 title: ''
-date: '2026-02-04T15:36:58-03:00'
+date: 2026-02-04 16:36:58 -02:00
+categories:
+- Notas
 tags:
 - memórias
 - cachorros
 - Vivi
 - Tobias
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/807648696537923584/uma-coisa-que-eu-sinto-muita-falta-nos-meus-dias
-category: Notas
 ---
+
 Uma coisa que eu sinto muita falta nos meus dias com a Vivi é a sensação de que ela adorava estar pertinho de mim.
 
 Quando eu ficava trabalhando no escritório, a Vivi gostava de ficar deitada em algum lugar perto dos meus pés — de vez em quando ela até se apoiava neles, e eu tinha que ficar com o pé parado, dobrado, pra não atrapalhar o sonho dela. Quando eu saía pra pegar uma água ou um café, ela ia atrás, e depois voltava comigo. De noite, ela ficava comigo enquanto eu assistia um filme. Ela me acompanhava pelo pátio enquanto eu caminhava depois do trabalho. Ela tava sempre por perto.

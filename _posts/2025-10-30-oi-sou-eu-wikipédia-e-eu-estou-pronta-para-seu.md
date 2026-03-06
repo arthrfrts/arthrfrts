@@ -1,10 +1,11 @@
 ---
-layout: post
-title: “Oi, sou eu, Wikipédia, e eu estou pronta para seu pedido de desculpas”
-date: '2025-10-30T22:09:56-03:00'
-category: Links
+title: "“Oi, sou eu, Wikipédia, e eu estou pronta para seu pedido de desculpas”"
+date: 2025-10-30 23:09:56 -02:00
+categories:
+- Links
 tags:
 - Wikipédia
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/798881739617550336/oi-sou-eu-wikip%C3%A9dia-e-eu-estou-pronta-para-seu
 source: https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology
 ---

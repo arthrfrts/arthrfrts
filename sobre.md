@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Sobre
-permalink: /sobre/
+permalink: "/sobre/"
+layout: page
 ---
 
 Olá, eu sou o Arthur e esse é o meu site.

@@ -1,15 +1,17 @@
 ---
-layout: post
-title: 'Algumas outras impressões sobre _O Menino e a Garça_'
-date: '2024-02-17T20:17:16-03:00'
+title: Algumas outras impressões sobre _O Menino e a Garça_
+date: 2024-02-17 21:17:16 -02:00
+categories:
+- Esquinas
 tags:
 - filmes
 - O Menino e a Garça
 - Hayao Miyazaki
 - Studio Ghibli
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/742617710043742208/algumas-outras-impress%C3%B5es-sobre-o-menino-e-a-gar%C3%A7a
-category: Esquinas
 ---
+
 [Eu escrevi sobre _O Menino e a Garça_ ali no Letterboxd](https://boxd.it/5R5ywH), mas eu ainda tenho algumas impressões não muito desenvolvidas que eu quero colocar aqui.
 
 1. A cena inicial, e algumas cenas mais para o final, quando os periquitos entram em cena, parecem mais vindas de um filme do Isao Takahata — são mais simbólicas, cheias de transformações e deformações. Eu gostei muito.

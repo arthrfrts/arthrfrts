@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Amizade e sentido
-category: Esquinas
-date: '2026-01-06T08:05:20-03:00'
+date: 2026-01-06 09:05:20 -02:00
+categories:
+- Esquinas
 tags:
 - comportamento
 - amizades
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/804989195027431424/amizade-e-sentido
 ---
 

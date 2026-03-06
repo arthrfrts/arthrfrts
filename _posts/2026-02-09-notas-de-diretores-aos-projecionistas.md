@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Notas de diretores aos projecionistas
-date: '2026-02-09T22:24:55-03:00'
+date: 2026-02-09 23:24:55 -02:00
 tags:
 - curiosidades
 - filmes
 - lista de leituras
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/808123572500480000/notas-de-diretores-aos-projecionistas
 ---
+
 Gosto muito dessa arte perdida de notas de diretores para os projecionistas que cuidam da exibição dos filmes nas salas de cinema. Alguns diretores enviavam notas aos projecionistas com observações a serem tomadas, como indicadores de trocas do rolo do filme, configurações para o sistema de som e até mesmo pequenos pedidos para corrigir momentos do filme. É uma observação dos diretores para as pessoas responsáveis por exibirem os filmes para o público.
 
 Pelo menos aqui na minha cidade, os únicos cinemas que projetam os filmes com um mínimo de cuidado são as cinematecas que ficam no centro da cidade. Os cinemas de shopping, todos digitais, só colocam o DCP pra rodar e esquecem. Uma vez eu tive que sair da sessão e pedir pro pessoal desligar a luz.

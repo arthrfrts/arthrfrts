@@ -1,15 +1,17 @@
 ---
-layout: post
 title: 'Minha dieta cultural na última semana #4'
-date: '2025-08-30T10:45:00-03:00'
+date: 2025-08-30 10:45:00 -03:00
+categories:
+- Esquinas
 tags:
 - livros
 - jogos
 - séries
 - filmes
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798566906824097792/minha-dieta-cultural-na-%C3%BAltima-semana-4
-category: Esquinas
 ---
+
 Hoje tá um dia lindo e a temperatura está gostosa. 21°C e ensolarado, com uma brisa leve e gostosa. Vou passar a tarde na praça lendo com o Tobias… mas agora pela manhã, eu tô fazendo feijão. Ontem saí de um dia bem bomba porrada e tiro do trabalho e desci aqui no bar do lado de casa pra tomar uma cerveja com o Erê e me senti bem feliz por ser brasileiro. Sensação boa, essa.
 
 Em outras realizações sobre ser brasileiro, eu decidi que _Vale Tudo_ vai ser a última novela que eu vou acompanhar. _Vale Tudo_ não é tão boa assim (é mais divertido assistir pra falar mal com os amigos) e gasto um tempinho pós-trabalho que eu queria gastar fazendo outras coisas. Como _Vale Tudo_ deve acabar em setembro, e setembro tá logo ali, logo mais vou ter uma mudança na rotina. Vamos ver como vai mudar minha dieta cultural semanal. Vou avisando por aqui.

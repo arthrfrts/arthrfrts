@@ -1,8 +1,8 @@
 ---
-layout: post
 title: As cinco melhores coisas de 2025
-date: '2025-12-30T10:00:19-03:00'
-category: Esquinas
+date: 2025-12-30 11:00:19 -02:00
+categories:
+- Esquinas
 tags:
 - listas
 - melhores do ano
@@ -12,6 +12,7 @@ tags:
 - séries
 - jogos
 - links
+layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/804362250332913664/as-cinco-melhores-coisas-de-2025
 ---
 

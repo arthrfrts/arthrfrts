@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2023-11-20T09:42:01-03:00'
+date: 2023-11-20 10:42:01 -02:00
+categories:
+- Notas
 tags:
 - filmes
 - David Fincher
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/734514612779827200/david-finchers-new-movie-the-killer-is-sigma
 source: https://maxread.substack.com/p/david-finchers-new-movie-the-killer
-category: Notas
 ---
+
 [David Fincher’s new movie ‘The Killer’ is sigma cinema](https://maxread.substack.com/p/david-finchers-new-movie-the-killer)
 
 Max Read:

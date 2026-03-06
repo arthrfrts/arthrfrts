@@ -1,14 +1,16 @@
 ---
-layout: post
 title: ''
-date: '2025-12-02T09:17:30-03:00'
+date: 2025-12-02 10:17:30 -02:00
+categories:
+- Notas
 tags:
 - tirinhas
 - Peanuts
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/801826616500224000/somebody-loves-you-charles-m-schulz-1996
 source: https://www.tumblr.com/blog/view/theinternetarchive/779301968695918592
-category: Notas
 ---
+
 [theinternetarchive](https://www.tumblr.com/blog/view/theinternetarchive/779301968695918592):
 
 > ![](https://64.media.tumblr.com/0760a5105a2e54842e82d599ce8a2a03/a8a275c7f1e9e481-c2/s640x960/30f9283486b4a45d2304235afa3a6dd40bf5f732.png)

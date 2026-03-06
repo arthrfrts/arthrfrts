@@ -1,15 +1,17 @@
 ---
-layout: post
-title: 'Uma semana sem notificações'
-date: '2025-08-31T10:42:00-03:00'
+title: Uma semana sem notificações
+date: 2025-08-31 10:42:00 -03:00
+categories:
+- Notas
 tags:
 - tecnologia
 - comportamento
 - rotina
 - apps
+layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798566685994041344/uma-semana-sem-notifica%C3%A7%C3%B5es
-category: Notas
 ---
+
 Eu passei essa última semana com as notificações do meu celular desativadas e tudo fluiu bem. Bem demais, até: eu não perdi nada importante. Segundo o Tempo de Uso do iPhone, o meu número de ativações do celular também não aumentou com isso. Eu imaginei que aumentaria porque eu ia verificar o WhatsApp ou o iMessage com mais frequência para ver se eu não perdi uma mensagem dos meus amigos e da minha família, mas não aconteceu. Um dos motivos é que durante o trabalho eu uso o WhatsApp no navegador, então não preciso ficar conferindo o celular de tempos em tempos.
 
 Eu me inspirei a fazer isso a partir [desse texto de Maxime Vaillancourt](https://maximevaillancourt.com/blog/turning-my-smartphone-into-a-boring-tool), sobre como transformar o celular em uma “ferramenta chata”:
