@@ -145,7 +145,7 @@ jekyll_compose:
 prose:
   rooturl: "_posts"
   siteurl: "https://arthr.me"
-  media: uploads
+  media: "uploads"
   relative_links: "https://arthr.me/json/links.jsonp"
   metadata:
     _posts:
@@ -160,7 +160,7 @@ prose:
       - name: date
         field:
           label: Date
-          type: date
+          type: text
           value: CURRENT_DATETIME
       - name: category
         field:
