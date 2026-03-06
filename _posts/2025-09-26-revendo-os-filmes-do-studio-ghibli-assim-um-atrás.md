@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2025-09-26 10:18:00 -03:00
-categories:
-- Notas
+date: '2025-09-26T10:18:00-03:00'
 tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798565210960052224/revendo-os-filmes-do-studio-ghibli-assim-um-atr%C3%A1s
+category: Notas
 ---
-
 ![Uma plantação de flores em meio às montanhas, com pessoas coletando elas](https://64.media.tumblr.com/ffb6d2f6f3616d8fc6698bf95fc66a0c/4ab85f634b7e3312-95/s640x960/33a91c16edb0e45a161979bc7be9fb2d33e36bb3.jpg)
 
 Revendo os filmes do Studio Ghibli assim, um atrás do outro, a gente querendo ou não fica fazendo paralelos e suposições. Por exemplo, os dois filmes menos excelentes até aqui — _Eu Posso Ouvir o Oceano_ e _Da Colina Korukiko_ — parecem querer muito beber da fonte de _Memórias de Ontem_, uma das pérolas do cinema de Isao Takahata.

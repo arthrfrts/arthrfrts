@@ -1,15 +1,13 @@
 ---
+layout: post
 title: ''
-date: 2024-10-02 00:13:38 -03:00
-categories:
-- Links
+date: '2024-10-02T00:13:38-03:00'
 tags:
 - web
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/763194316580651008/ti-09-the-internet-is-one-big-video-game
 source: https://spencerchang.substack.com/p/ti-09-the-internet-is-one-big-video
+category: Links
 ---
-
 [[TI-09] the internet is one big video game](https://spencerchang.substack.com/p/ti-09-the-internet-is-one-big-video)
 
 > I like newsletters that feel more like dispatches than editorialized posts. Inspired by Laurel and Robin, I’d like to share a little bit about where I am and where I’ve been lately.  

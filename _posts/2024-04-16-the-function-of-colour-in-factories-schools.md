@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2024-04-16 08:29:36 -03:00
-categories:
-- Notas
+date: '2024-04-16T08:29:36-03:00'
 tags:
 - design
 - cores
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/747914633199976448/the-function-of-colour-in-factories-schools
 source: https://www.presentandcorrect.com/blogs/blog/the-function-of-colour-in-schools-hospitals-1930
+category: Notas
 ---
-
 [The Function Of Colour In Factories, Schools & Hospitals.](https://www.presentandcorrect.com/blogs/blog/the-function-of-colour-in-schools-hospitals-1930?utm_source=pocket_saves)
 
 Lindas ilustrações escaneadas do livro _The Function of Colour In Factories, Schools & Hospitals_.

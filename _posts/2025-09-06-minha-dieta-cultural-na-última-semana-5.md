@@ -1,17 +1,15 @@
 ---
+layout: post
 title: 'Minha dieta cultural na última semana #5'
-date: 2025-09-06 10:38:00 -03:00
-categories:
-- Impressões
+date: '2025-09-06T10:38:00-03:00'
 tags:
 - livros
 - jogos
 - séries
 - filmes
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798566471295025152/minha-dieta-cultural-na-%C3%BAltima-semana-5
+category: Esquinas
 ---
-
 O dia hoje tá lindo, e tá geladinho. Bem como eu gosto. Acho que eu vou pegar o Tobias e ir no Açorianos ler um livro de tarde. Tô pensando em voltar pro _Feiticeiro de Terramar_ agora que terminei _Uma Visão Pálida das Colinas_, mas esse frescor no ar me pede uma história de mistério. Vou ver o que eu tenho aqui pra ler.
 
 Como eu gosto do frio. Esse provavelmente é o último frio do ano — a primavera chega em algumas semanas, e os dias já estão mais quentes. Hoje amanheceu com 9°C, e eu aproveitei cada segundo tomando um café e vendo o sol se levantar. Vou sentir falta desse friozinho.
@@ -53,4 +51,3 @@ Também me fez querer que jogos do Switch fossem mais adaptativos quanto à como
 Me sentindo meio culpado de ter gostado bem mais do quinto episódio de _Alien: Earth_ depois das decepções dos três episódios anteriores… justamente porque a série praticamente só fez um filme de _Alien_ redux. Eu ainda acho que a série quer muito fazer com o filme o que a série de _Watchmen_ fez com o quadrinho, tanto que a estrutura é parecida. Estamos no meio da temporada e a série interrompe sua propulsão para voltar atrás, beber explicitamente da fonte original enquanto revela alguns detalhes que ainda não tinha largado pro espectador. Me parece muito _This Extraordinary Being_, o magnífico sexto episódio que revela as origens do Justiceiro Mascarado.
 
 Continuo revendo _Community_ (tô nostálgico!), e cheguei nos finalmentes da primeira temporada. Como essa série tem coração nesse início, não é a toa que essa primeira temporada garantiu duas renovações diretas. É o melhor momento tanto para Britta quanto para Chang, que continuam bons na segunda temporada mas degringolam para versões ininteligíveis deles mesmos depois disso. Passei pelo episódio do frango frito, inspirado nos filmes do Martin Scorsese, que eu acho que é um dos melhores episódios temáticos que a série entregou justamente pelo carinho que tem tanto pelos seus personagens quanto pela dinâmica entre eles. Esqueço sempre que esse episódio é a origem do Peitos da Annie, o macaco do Troy. Tô soltando uma risadinha só de escrever essa bobagem.
-

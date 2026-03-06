@@ -1,13 +1,12 @@
 ---
+layout: post
 title: Rattlesnake Kate
-date: 2025-10-27 10:26:02 -02:00
-categories:
-- Links
+date: '2025-10-27T09:26:02-03:00'
+category: Links
 tags:
 - pessoas
 - histórias
 - Wikipédia
-layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/798561887604342784/rattlesnake-kate
 source: https://en.wikipedia.org/wiki/Katherine_McHale_Slaughterback
 ---

@@ -1,18 +1,16 @@
 ---
+layout: post
 title: ''
-date: 2024-12-06 11:24:56 -02:00
-categories:
-- Fotos
+date: '2024-12-06T10:24:56-03:00'
 tags:
 - viagens
 - Santiago
 - Valparaíso
 - Chile
 - Los Andes
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/769125353992208384/minhas-fotos-favoritas-da-viagem-ao-chile
+category: Fotos
 ---
-
 ![Um cachorrinho dormindo em sua almofada numa das escadarias de Valparaíso.](https://64.media.tumblr.com/6e4fc1b406eac0f85efc885449300a35/b64e4928a6b41f08-0d/s640x960/0a7809e79b01558621696e076f72cb9eb9533e22.jpg)
 
 ![Chemamule, estátua do povo Mapuche, entre as árvores de um parque de Santiago.](https://64.media.tumblr.com/5ec08e49a674c42bb4cec564e5b6e0ed/b64e4928a6b41f08-1f/s640x960/adf6f519feb37bea780fa96244e2486e199648c0.jpg)

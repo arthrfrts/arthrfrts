@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2025-09-13 10:33:00 -03:00
-categories:
-- Impressões
+date: '2025-09-13T10:33:00-03:00'
 tags:
 - filmes
 - séries
 - jogos
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798566127187918848/hoje-o-dia-amanheceu-cedo-ontem-eu-levei-o-tobias
+category: Esquinas
 ---
-
 Hoje o dia amanheceu cedo. Ontem eu levei o Tobias pra uma das minhas caminhadas longas, pensando que ele ia dormir até mais tarde hoje, mas me enganei. Eram seis e meia quando ele começou a pedir pra sair. Eu até consegui ficar na cama mais um pouquinho — mas não tanto quanto eu queria. Pelo menos o dia está bonito — o céu tá bem azul, e tá fresquinho (15°C). Eu quero aproveitar o máximo possível esse tempo ameno antes do calorão infernal de Porto Alegre começar.
 
 Minha semana foi, ao mesmo tempo, muito longa e muito curta. Muito longa, porque as horas de trabalho foram sem sossego nenhum; muito curta, porque tive pouco tempo pra me divertir. Não consegui ler, porque quando caía na cama eu já pegava no sono (isso não justifica a completa ausência de um livro na dieta cultural dessa semana, eu sei), mas consegui caminhar todos os dias essa semana. Isso foi bacana, faziam meses que eu não conseguia bater o pé no chão e demandar esse tempo pras minhas caminhadas. Quero ver se a próxima semana me trata melhor, e se o tempo continua bom assim.
@@ -42,4 +40,3 @@ Não vi o episódio de _Alien: Earth_ essa semana, talvez eu veja no fim de sema
 Assisti o primeiro capítulo de _Mussolini: O Filho do Século_ (na MUBI), a minissérie do Joe Wright. Gostei bastante do que a série ensaia nesse primeiro episódio — usar o carisma do ator para refletir o carisma que o facista teve na Itália, fazendo ele conversar com a audiência o tempo todo para “vender seu ponto”. Eu tenho um certo problema com bibliografias que se centram demais em seus personagens como as figuras públicas que eram, sem dar tempo para como eles eram ao redor de outros assuntos mais particulares, mas estou relevando isso por enquanto. É só o primeiro episódio.
 
 É uma série que se assenta muito no discurso, Mussolini fala o tempo todo, seja pra agir ou pra explicar para a audiência o porque ele está fazendo tudo. Joe Wright parece saber disso, então preenche a série com seus visuais estonteantes. A cenografia é maravilhosa, o ritmo é muito bom, quase operístico. Ele encena muito bem — todos os seus filmes parecem ter aquele proscênio delimitado pela câmera, onde o mundo todo gira ao redor dela. Eu ainda quero ver ele voltar à fluidez do movimento que ele tinha de _Orgulho & Preconceito_ (2005) até _Hanna_ (2011).
-

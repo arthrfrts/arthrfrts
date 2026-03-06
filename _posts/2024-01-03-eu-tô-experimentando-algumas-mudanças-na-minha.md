@@ -1,12 +1,10 @@
 ---
-title: ''
-date: 2024-01-03 11:48:12 -02:00
-categories:
-- Notas
 layout: post
+title: ''
+date: '2024-01-03T10:48:12-03:00'
 tumblr_url: https://arthrfrts.tumblr.com/post/738505043053019136/eu-t%C3%B4-experimentando-algumas-mudan%C3%A7as-na-minha
+category: Notas
 ---
-
 Eu tô experimentando algumas mudanças na minha rotina nessa semana. Em 2023, eu senti que passei muito tempo pensando que eu não estava fazendo nada, mesmo que isso não fosse verdade. Acho que essa impressão veio pelo fato de eu parar de fazer coisas que eu gostava e que me faziam bem, como estudar francês, caminhar e escrever.
 
 Não que eu não fizesse esse tipo de coisa, mas eu as fiz sem uma frequência que eu gosto, e geralmente de forma paliativa. Eu _sentia_ que eu não estava fazendo nada, e então decidia “tampar” esse sentimento com alguma tarefa. Porém, eu gosto de rotinas, elas costumam me fazer bem.

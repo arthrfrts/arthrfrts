@@ -1,15 +1,13 @@
 ---
+layout: post
 title: The Quiet Web
-date: 2024-10-01 16:12:44 -03:00
-categories:
-- Links
+date: '2024-10-01T16:12:44-03:00'
 tags:
 - web
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/763164061162700800/the-quiet-web
 source: https://briankoberlein.com/tech/quiet-web/
+category: Links
 ---
-
 [The Quiet Web](https://briankoberlein.com/tech/quiet-web/)  
 
 Brian Koberlein:

@@ -1,16 +1,14 @@
 ---
+layout: post
 title: On personal websites and social web
-date: 2024-10-01 14:24:44 -03:00
-categories:
-- Links
+date: '2024-10-01T14:24:44-03:00'
 tags:
 - web
 - blogs
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/763157267043500032/on-personal-websites-and-social-web
 source: https://manuelmoreale.com/@/page/acx1bK7UldiQW556
+category: Links
 ---
-
 [On personal websites and social web](https://manuelmoreale.com/@/page/acx1bK7UldiQW556)  
 
 Manuel Moreale:

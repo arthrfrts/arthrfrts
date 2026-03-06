@@ -1,15 +1,13 @@
 ---
+layout: post
 title: Columbus
-date: 2026-01-01 18:14:14 -02:00
-categories:
-- Impressões
+date: '2026-01-01T17:14:14-03:00'
 tags:
 - filmes
 - Kogonada
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/804574518652878848/primeiro-filme-que-eu-assisti-esse-ano-foi
+category: Esquinas
 ---
-
 Primeiro filme que eu assisti esse ano foi _Columbus_ (2017), dirigido por Kogonada. Achei um filme muito lindo, que se interessa tanto pelas suas personagens quanto os espaços que elas percorrem. Tem uma aura de cidade pequena que me agrada muito, e gosto também da calma com que Kogonada enxerga seus filmes — algo que me impressionou muito no outro filme que eu vi dele, _A Vida Depois de Yang_.
 
 Me pegou de surpresa como o ato de enxergar é importante pro cinema de Kogonada. Não só o de ver, mas seus personagens se preocupam se eles enxergam, realmente, aquilo que eles amam. Em _A Vida Depois de Yang_, o robô suspira quando diz que ele queria realmente apreciar chás, não só enumerar curiosidades sobre chá. Uma boa parte da preocupação de Casey e Lin em _Columbus_ é em enxergar o que os faz amar onde eles estão: Casey primeiro comenta sobre as curiosidades do arquiteto, de suas inspirações para os materiais, mas Lin insiste que ela diga porquê ela ama aquele lugar, e é quando ela desaba.
@@ -17,4 +15,3 @@ Me pegou de surpresa como o ato de enxergar é importante pro cinema de Kogonada
 É um duplo jogo de fantasma, esse: os prédios que Casey apresenta pra Lin parecem assombrar os dois, por motivos distintos — ela está presa naquela cidade, e aprendeu a amar os prédios que ela frequenta; ele tenta entender o amor do pai distante pelo ofício. No fim, quando vemos esses espaços vazios, eles também parecem ser assombrados. Não só pelos personagens que antes estavam lá, mas por todas as pessoas que um dia já olharam pra cima e conseguiram _enxergar_. É o que a gente deixa pra trás.
 
 Lindo filme pra começar o ano. Tá na [MUBI](https://mubi.com/pt/br/films/columbus).
-

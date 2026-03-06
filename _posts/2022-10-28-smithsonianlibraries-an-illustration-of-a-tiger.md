@@ -1,12 +1,10 @@
 ---
-title: smithsonianlibraries an illustration of a tiger
-date: 2022-10-28 12:29:36 -02:00
-categories:
-- Notas
 layout: post
+title: smithsonianlibraries an illustration of a tiger
+date: '2022-10-28T11:29:36-03:00'
 tumblr_url: https://arthrfrts.tumblr.com/post/699365983844974592/smithsonianlibraries-an-illustration-of-a-tiger
+category: Notas
 ---
-
  ![](/tumblr_files/d3db5541589f5e2444364966fd72bf4cd991e46d.jpg)  
 
 [smithsonianlibraries](https://smithsonianlibraries.tumblr.com/post/699364166404882432/an-illustration-of-a-tiger-shovelnose-catfish-from):

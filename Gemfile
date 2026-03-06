@@ -11,3 +11,5 @@ end
 gem "linus", "~> 1.0"
 
 gem "jekyll-webmention_io", "~> 4.1", group: :jekyll_plugins
+
+gem "jekyll-compose", "~> 0.12.0", group: :jekyll_plugins

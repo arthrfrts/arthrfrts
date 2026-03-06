@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2024-07-12 20:24:54 -03:00
-categories:
-- Notas
+date: '2024-07-12T20:24:54-03:00'
 tags:
 - memórias
 - cachorros
 - sentimentos
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/755841572311023616/quando-eu-lembro-da-delinha-ou-da-vivi-ou-do
+category: Notas
 ---
-
 Quando eu lembro da Delinha, ou da Vivi, ou do Pepi, ou do Tigre, eu nunca lembro dos momentos banais do nosso dia-a-dia juntos, de como foi bom crescer e viver ao lado deles. Daquele ócio, daquela banalidade doce que a segurança da companhia deles trazia.
 
 Eu lembro, sempre, dos momentos ao redor de suas mortes. Eu lembro de encontrar o Tigre no meio dos escombros, eu lembro do Achei não conseguindo mais levantar, ou de minha mãe chorando porque viu o Pepi atropelado na estrada. Eu lembro da respiração ofegante da Vivi. Eu lembro do olhar assustado da Delinha.

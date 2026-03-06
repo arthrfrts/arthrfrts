@@ -1,15 +1,13 @@
 ---
+layout: post
 title: jennhoney no rory this great man wasnt
-date: 2024-06-12 16:10:18 -03:00
-categories:
-- Notas
+date: '2024-06-12T16:10:18-03:00'
 tags:
 - séries
 - Gilmore Girls
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/753107644773023744/jennhoney-no-rory-this-great-man-wasnt
+category: Notas
 ---
-
  ![](/tumblr_files/tumblr_lqn5gbrvIu1qa4ub1o1_250.gif)  
  ![](/tumblr_files/tumblr_lqn5gbrvIu1qa4ub1o2_250.gif)  
  ![](/tumblr_files/tumblr_lqn5gbrvIu1qa4ub1o3_250.gif)  

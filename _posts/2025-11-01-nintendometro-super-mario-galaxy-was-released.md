@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2025-11-01 14:57:11 -02:00
-categories:
-- Notas
+date: '2025-11-01T13:57:11-03:00'
 tags:
 - jogos
 - Super Mario
 - Wii
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/799031932007727104/nintendometro-super-mario-galaxy-was-released
+category: Notas
 ---
-
 <video id="embed-699cf28699835852257712" class="crt-video crt-skin-default" width="400" height="300" poster="https://64.media.tumblr.com/tumblr_t51u0bDpF41xq97ye_smart1.jpg" preload="none" muted data-crt-video data-crt-options='{"autoheight":null,"duration":15,"hdUrl":"https://va.media.tumblr.com/tumblr_t51u0bDpF41xq97ye.mp4","filmstrip":{"url":"https://64.media.tumblr.com/previews/tumblr_t51u0bDpF41xq97ye_filmstrip.jpg","width":"200","height":"150"}}' crossorigin="anonymous" controls>
     <source src="https://va.media.tumblr.com/tumblr_t51u0bDpF41xq97ye_480.mp4" type="video/mp4">
 </source></video>  

@@ -1,12 +1,10 @@
 ---
-title: its nationalsandwichday celebrate with a peruse
-date: 2025-11-03 09:48:05 -02:00
-categories:
-- Notas
 layout: post
+title: its nationalsandwichday celebrate with a peruse
+date: '2025-11-03T08:48:05-03:00'
 tumblr_url: https://arthrfrts.tumblr.com/post/799197453988610048/its-nationalsandwichday-celebrate-with-a-peruse
+category: Notas
 ---
-
  ![](/tumblr_files/98f600b7cf7119229e525d1d6d2d837180643c07.jpg)  
 
 [publicdomainreview](https://publicdomainreview.tumblr.com/post/799197401375195136/its-nationalsandwichday-celebrate-with-a-peruse):

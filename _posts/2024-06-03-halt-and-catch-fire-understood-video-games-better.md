@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2024-06-03 08:01:04 -03:00
-categories:
-- Links
+date: '2024-06-03T08:01:04-03:00'
 tags:
 - séries
 - Halt and Catch Fire
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/752261492657831936/halt-and-catch-fire-understood-video-games-better
 source: https://www.polygon.com/24168298/halt-catch-fire-video-games-anniversary-best-show
+category: Links
 ---
-
 [Halt and Catch Fire understood video games better than any other show](https://www.polygon.com/24168298/halt-catch-fire-video-games-anniversary-best-show?utm_source=pocket_saves)
 
 Devan Suber, para a Polygon:

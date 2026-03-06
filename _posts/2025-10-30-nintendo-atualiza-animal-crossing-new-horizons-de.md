@@ -1,15 +1,13 @@
 ---
-title: 'Nintendo atualiza Animal Crossing: New Horizons de novo, quatro anos depois'
-date: 2025-10-30 20:45:12 -02:00
-categories:
-- Links
+layout: post
+title: "Nintendo atualiza Animal Crossing: New Horizons de novo, quatro anos depois"
+date: '2025-10-30T19:45:12-03:00'
+category: Links
 tags:
 - jogos
 - Animal Crossing
-layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/798872632947851264/nintendo-atualiza-animal-crossing-new-horizons-de
 ---
-
 Do nada, a Nintendo postou isso no YouTube hoje de manhã:
 
 <iframe src="https://www.youtube.com/embed/7nODHyw3lgs?feature=oembed"></iframe>

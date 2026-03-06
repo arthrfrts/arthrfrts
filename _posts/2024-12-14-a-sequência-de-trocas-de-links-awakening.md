@@ -1,16 +1,14 @@
 ---
-title: A sequência de trocas de “Link’s Awakening”
-date: 2024-12-14 07:38:00 -02:00
-categories:
-- Impressões
+layout: post
+title: 'A sequência de trocas de “Link’s Awakening”'
+date: '2024-12-14T06:38:00-03:00'
 tags:
 - jogos
 - link's awakening
 - the legend of zelda
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/778627523737272320/a-sequ%C3%AAncia-de-trocas-de-links-awakening
+category: Esquinas
 ---
-
 _Link’s Awakening_ é [o meu jogo de _Zelda_ favorito](https://paomortadela.com.br/2020/06/the-legend-of-zelda-ranking/). Eu tô jogando ele de novo (no remake lançado pro Nintendo Switch em 2019), e eu lembrei da genialidade que é a sequência de trocas que existe nele.
 
 Em _Link’s Awakening_, o Link se perdeu atravessando o Grande Mar e acaba naufragando na Ilha Koholint. Ela é diferente de tudo o que já vimos na Hyrule dos Zelda anteriores: é uma ilha tropical cheia de monstros vindos de outros jogos da Nintendo, como os Goomba do Super Mario e [uma criatura que parece muito o Kirby](https://www.zeldadungeon.net/wiki/Anti-Kirby).
@@ -26,4 +24,3 @@ Conforme o jogo progride, você encontra um personagem que vai trocar o laço po
 Acho que a sequência de trocas é o meu detalhe favorito de _Link’s Awakening_, e provavelmente é meu detalhe favorito dentre todos os jogos que eu já joguei. É incrível, principalmente com o quão trágico esse jogo é. Sua missão nessa lenda de _Zelda_ é acordar o Peixe-Vento, e suas boas ações nesse jogo te faz se aproximar dos personagens, que te ajudam nessa missão. Porém (e spoilers para a trama do jogo), é justamente o que irá “destruir” Koholint e a vida desses personagens que você quis tanto ajudar.
 
 Isso tudo, porém, pontuado o humor e estranheza típicos de _Link’s Awakening_ tornam esse jogo em algo realmente único pra mim. Embora seja engraçado e trágico ao mesmo tempo, _Link’s Awakening_ é o único jogo além de _Breath of the Wild_ que parece capturar um lugar com tanta vivacidade. Mesmo pequena, a ilha Koholint é imensa em história — cada personagem tá fazendo algo ou precisa de algo, tem alguma relação com outro personagem ou outro lugar, e assim por diante. É mágico e surpreendente, porque a sequência de trocas (e _Link’s Awakening_ como um todo) opera como um sonho: você lembra que está lá e lembra que uma coisa leva a outra, mas as especificidades são tão intricadas que você as perde com o tempo, já que para lembrar de algo tão detalhadinho você precisaria lembrar de todos os detalhes ao redor também. Sempre que eu jogo Link’s Awakening, eu me surpreendo de novo.
-

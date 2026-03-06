@@ -1,15 +1,13 @@
 ---
+layout: post
 title: The Department of Everything
-date: 2024-10-31 15:57:22 -02:00
-categories:
-- Links
+date: '2024-10-31T14:57:22-03:00'
 tags:
 - Wikipédia
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/765877229066551296/the-department-of-everything
 source: https://hedgehogreview.com/issues/the-varieties-of-travel-experience/articles/the-department-of-everything
+category: Links
 ---
-
 [The Department of Everything](https://hedgehogreview.com/issues/the-varieties-of-travel-experience/articles/the-department-of-everything)  
 
 Nos anos 80, a Biblioteca Pública do Brooklyn tinha uma “Telephone Reference Division”, que atendia ligações de pessoas querendo saber alguma informação — editores de jornal, aspirantes do Jeopardy, ou pessoas curiosas. Eles respondiam perguntas como os integrantes de uma banda, a população de Marrocos, a expectativa de vida de uma espécie de pássaro, citando as fontes da informação dentro daquela biblioteca.

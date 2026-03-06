@@ -1,86 +1,97 @@
----
 title: Arthur Freitas
-timezone: America/Sao_Paulo
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    syndicate_to:
-    - bluesky
-- scope:
-    path: ''
-    type: posts
-  values:
-    syndicate_to:
-    - bluesky
-    - flickr
 tagline: Faço sites e vejo filmes.
-description: Eu faço sites adoráveis e artesanais para pessoas bacanas ao redor do
-  mundo.
+description: >-
+  Eu faço sites adoráveis e artesanais para pessoas bacanas ao redor do mundo.
+
 url: https://arthr.me
-baseurl: ''
+baseurl: ""
+
 lang: pt-BR
+timezone: America/Sao_Paulo
 encoding: utf-8
-logo: "/uploads/avatar.png"
+
+logo: /uploads/avatar.png
+
 author:
   name: Arthur Freitas
   uri: https://arthr.me
-  email: arthur@arthr.me
+  email: "arthur@arthr.me"
   mastodon: "@arthr@organica.social"
+
+# Theme Settings
+
 category_colors:
-- name: Notas
-  color: "#F5C842"
-- name: Links
-  color: "#6BAED6"
-- name: Impressões
-  color: "#F06A55"
-- name: Fotos
-  color: "#88C0D0"
+  - name: Esquinas
+    color: "#F06A55"
+  - name: Notas
+    color: "#F5C842"
+  - name: Links
+    color: "#6BAED6"
+  - name: Fotos
+    color: "#88C0D0"
+
 main_menu:
   title: Navegar
   items:
-  - url: "/"
-    label: O Riacho
-  - url: "/sobre/"
-    label: A Casa
-  - url: "/arquivo/"
-    label: A Biblioteca
+    - url: /
+      label: O Riacho
+    - url: /sobre/
+      label: A Casa
+    - url: /arquivo/
+      label: A Biblioteca
+
 footer_menu:
   title: Onde me encontrar
   items:
-  - url: "/feed.xml"
-    rel: alternate
-    label: RSS
-  - url: "/feed.json"
-    rel: alternate
-    label: JSON Feed
+    - url: /feed.xml
+      rel: alternate
+      label: RSS
+    - url: /feed.json
+      rel: alternate
+      label: JSON Feed
+
 translations:
-  byline: Por
-  archive_date_title: Arquivos de %date
-  archive_tag_title: Posts marcados com “%tag’
-  archive_category_title: Arquivo de %category
-  blog_pagination_title: Paginação do blog
-  blog_pagination_prev_page: Página anterior
-  blog_pagination_next_page: Próxima página
+  byline: "Por"
+  archive_date_title: "Arquivos de %date"
+  archive_tag_title: "Posts marcados com “%tag’"
+  archive_category_title: "Arquivo de %category"
+  blog_pagination_title: "Paginação do blog"
+  blog_pagination_prev_page: "Página anterior"
+  blog_pagination_next_page: "Próxima página"
+
 date_formats:
   day: "%d/%m/%y"
   month: "%m/%y"
   year: "%Y"
+
+# Build settings
 theme: linus
-permalink: "/:year/:month/:day/:title/"
+
+permalink: "/:categories/:year/:month/:day/:title/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      syndicate_to:
+        - bluesky
+  - scope:
+      path: ""
+      type: posts
+      category: Fotos
+    values:
+      syndicate_to:
+        - bluesky
+        - flickr
+
 plugins:
-- jekyll-webmention_io
+  - jekyll-webmention_io
+  - jekyll-compose
+
 webmentions:
   username: arthr.me
-  cache_folder: ".cache"
+  cache_folder: .cache
   cache_bad_uris_for: 1
   syndication:
     bluesky:
@@ -90,23 +101,35 @@ webmentions:
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
   legacy_domains:
-  - https://arthrfrts.tumblr.com
-  - https://irrelefante.tumblr.com
+    - https://arthrfrts.tumblr.com
+    - https://irrelefante.tumblr.com
+
 include:
-- _redirects
+  - _redirects
+
 seo:
   name: Arthur Freitas
   links:
-  - https://bsky.app/profile/arthr.me
-  - https://github.com/arthrfrts
-  - https://www.last.fm/user/arthrfrts
-  - https://www.flickr.com/people/arthrfrts/
-  - https://letterboxd.com/arthrfrts
-  - https://tangled.org/arthr.me
-  - https://arthrfrts.tumblr.com
-  - https://www.linkedin.com/in/arthrfrts
-  - https://organica.social/@arthr
+    - https://bsky.app/profile/arthr.me
+    - https://github.com/arthrfrts
+    - https://www.last.fm/user/arthrfrts
+    - https://www.flickr.com/people/arthrfrts/
+    - https://letterboxd.com/arthrfrts
+    - https://tangled.org/arthr.me
+    - https://arthrfrts.tumblr.com
+    - https://www.linkedin.com/in/arthrfrts
+    - https://organica.social/@arthr
+
 jekyll-archives:
   permalinks:
-    tags: "/tag/:name"
-    category: "/categoria/:name/"
+    tags: /tag/:name
+    category: /:name/
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      category:
+      tags:
+    posts:
+      category:
+      tags:

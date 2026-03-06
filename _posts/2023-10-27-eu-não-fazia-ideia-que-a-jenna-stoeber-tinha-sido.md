@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2023-10-27 14:14:35 -02:00
-categories:
-- Links
+date: '2023-10-27T13:14:35-03:00'
 tags:
 - jogos
 - Jenna Stoeber
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/732349884083126272/eu-n%C3%A3o-fazia-ideia-que-a-jenna-stoeber-tinha-sido
 source: https://www.youtube.com/watch?v=q6j3Tj7l820
+category: Links
 ---
-
 https://www.youtube.com/embed/q6j3Tj7l820?feature=oembed&enablejsapi=1&origin=https://safe.txmblr.com&wmode=opaque
 
 Eu não fazia ideia que a Jenna Stoeber tinha sido demitida da Polygon. Ela fazia meus vídeos favoritos do canal (pelo menos, aqueles que não eram os vídeos do BDG). Fico feliz que ela tenha continuado a produzir vídeos no YouTube.
