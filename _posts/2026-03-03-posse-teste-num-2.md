@@ -10,7 +10,7 @@ tags:
   - web
   - vai sumir
 syndication_urls:
-  bluesky: 'https://bsky.app/profile/did:plc:aeaouj6eedwqmk4z3pies55n/post/3mg7477pl2v2u'
+  bluesky: 'https://bsky.app/profile/arthr.me/post/3mg7477pl2v2u'
 ---
 
 Isso é um post pra testar o POSSE do site. Se esse post aparecer no Tumblr e no Bluesky, é porque tá tudo certo! Dedos cruzados!
