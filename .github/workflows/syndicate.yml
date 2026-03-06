@@ -1,0 +1,52 @@
+name: POSSE — Syndicate to social networks
+
+on:
+  push:
+    branches: [main]
+    paths: ["_posts/**"]
+
+jobs:
+  syndicate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Find new/modified posts
+        run: |
+          if git rev-parse HEAD~1 &>/dev/null; then
+            git diff --name-only HEAD~1 HEAD -- '_posts/*.md' > changed_posts.txt
+          else
+            git show --name-only --format="" HEAD -- '_posts/*.md' > changed_posts.txt
+          fi
+          echo "Posts changed in this push:"
+          cat changed_posts.txt
+
+      - name: Wait for Cloudflare Pages deployment
+        run: |
+          echo "Waiting for Cloudflare Pages deployment to go live..."
+          sleep 120
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests python-frontmatter
+
+      - name: Syndicate posts via Bridgy
+        run: python .github/scripts/syndicate.py
+        env:
+          SITE_URL: https://arthr.me
+          CHANGED_POSTS_FILE: changed_posts.txt
+
+      - name: Commit syndication URLs back to posts
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: add syndication URLs [skip ci]"
+          file_pattern: "_posts/*.md"
