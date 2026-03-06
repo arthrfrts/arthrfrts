@@ -1,13 +1,11 @@
 ---
-title: ''
-date: 2022-02-26 12:01:09 -03:00
-categories:
-- Links
 layout: post
+title: ''
+date: '2022-02-26T12:01:09-03:00'
 tumblr_url: https://arthrfrts.tumblr.com/post/677266084050649088/best-of-reblogs-critical-perspective
 source: https://best-of-reblogs.tumblr.com/post/677171691013685248/critical-perspective-etherialism
+category: Links
 ---
-
 [best-of-reblogs](https://best-of-reblogs.tumblr.com/post/677171691013685248/critical-perspective-etherialism):
 
 > [critical-perspective](http://critical-perspective.tumblr.com/post/157345501922/etherialism-cornputer-assindeto-take-me-to):

@@ -1,17 +1,15 @@
 ---
+layout: post
 title: 'WWW: The Way We Were'
-date: 2024-10-01 16:25:45 -03:00
-categories:
-- Links
+date: '2024-10-01T16:25:45-03:00'
 tags:
 - web
 - séries
 - Halt and Catch Fire
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/763164880159277056/www-the-way-we-were
 source: https://kottke.org/24/07/www-the-way-we-were-1
+category: Links
 ---
-
 [WWW: The Way We Were](https://kottke.org/24/07/www-the-way-we-were-1)  
 
 Jason Kottke, citando um diálogo nos momentos finais de _Halt & Catch Fire_:

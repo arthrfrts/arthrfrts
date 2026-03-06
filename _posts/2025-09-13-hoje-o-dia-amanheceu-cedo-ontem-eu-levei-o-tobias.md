@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2025-09-13 10:33:00 -03:00
-categories:
-- Esquinas
+date: '2025-09-13T10:33:00-03:00'
 tags:
 - filmes
 - séries
 - jogos
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798566127187918848/hoje-o-dia-amanheceu-cedo-ontem-eu-levei-o-tobias
+category: Esquinas
 ---
-
 Hoje o dia amanheceu cedo. Ontem eu levei o Tobias pra uma das minhas caminhadas longas, pensando que ele ia dormir até mais tarde hoje, mas me enganei. Eram seis e meia quando ele começou a pedir pra sair. Eu até consegui ficar na cama mais um pouquinho — mas não tanto quanto eu queria. Pelo menos o dia está bonito — o céu tá bem azul, e tá fresquinho (15°C). Eu quero aproveitar o máximo possível esse tempo ameno antes do calorão infernal de Porto Alegre começar.
 
 Minha semana foi, ao mesmo tempo, muito longa e muito curta. Muito longa, porque as horas de trabalho foram sem sossego nenhum; muito curta, porque tive pouco tempo pra me divertir. Não consegui ler, porque quando caía na cama eu já pegava no sono (isso não justifica a completa ausência de um livro na dieta cultural dessa semana, eu sei), mas consegui caminhar todos os dias essa semana. Isso foi bacana, faziam meses que eu não conseguia bater o pé no chão e demandar esse tempo pras minhas caminhadas. Quero ver se a próxima semana me trata melhor, e se o tempo continua bom assim.

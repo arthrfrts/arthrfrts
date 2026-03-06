@@ -1,15 +1,13 @@
 ---
-title: Transformando a internet em um lugar
-date: 2024-05-01 13:18:55 -03:00
-categories:
-- Notas
+layout: post
+title: 'Transformando a internet em um lugar'
+date: '2024-05-01T13:18:55-03:00'
 tags:
 - web
 - rotina
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/749291789604831232/transformando-a-internet-em-um-lugar
+category: Notas
 ---
-
 Tenho feito um experimento de “isolar” meu contato direto com a web para a minha escrivaninha, e os resultados têm sido bons. É impossível isolar a internet da minha vida hoje em dia, mas estou me referindo como “contato direto” à minha navegação na web, tanto para trabalho quanto para lazer. Com isso, meu relacionamento com ela tem sido cada vez melhor.
 
 Essa experiência vem de uma espécie de nostalgia por um tempo em que eu só podia acessar a internet depois da meia-noite nos dias de semana ou aos finais de semana, quando o pulso era mais barato. Era como atravessar por um portal para a internet. Era um lugar — na “salinha do computador” na casa dos meus pais, explorando a Wikipédia ou o blog de alguém sobre um tópico específico. Foi assim que descobri meu amor pela história do cinema e meu primeiro contato com os jogos e a própria arquitetura da web. Coisas que moldaram profundamente minha vida profissional e pessoal.

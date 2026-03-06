@@ -1,15 +1,14 @@
 ---
+layout: post
 title: Descobrindo músicas novas
-date: 2025-11-04 09:39:08 -02:00
-categories:
-- Esquinas
+date: '2025-11-04T08:39:08-03:00'
+category: Esquinas
 tags:
 - descobertas
 - músicas
 - Sudan Archives
 - Anna von Hausswolff
 - Bandcamp
-layout: post
 tumblr_url: https://irrelefante.tumblr.com/post/799283712590282752/descobrindo-m%C3%BAsicas-novas
 ---
 

@@ -1,15 +1,14 @@
 ---
+layout: post
 title: Minha dieta cultural nas últimas semanas
-date: 2025-10-25 13:19:00 -02:00
-categories:
-- Esquinas
+date: '2025-10-25T12:19:00-03:00'
 tags:
 - jogos
 - séries
 - livros
 - músicas
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798420863016927232/minha-dieta-cultural-nas-%C3%BAltimas-semanas
+category: Esquinas
 ---
 
 Faz um tempo que eu não posto um desses resumões, não é mesmo? Eu mudei de emprego nesse último mês e, como eu não estou acostumado a fazer isso, esse tipo de mudança acaba demandando bastante de mim. Tá melhor agora! A mudança de emprego me fez mudar minha rotina, o que acabou me fazendo muito bem — algo que eu não pensei que poderia melhorar. Uma boa surpresa!

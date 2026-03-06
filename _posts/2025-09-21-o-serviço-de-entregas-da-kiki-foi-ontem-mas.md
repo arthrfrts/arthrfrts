@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ''
-date: 2025-09-21 10:20:00 -03:00
-categories:
-- Notas
+date: '2025-09-21T10:20:00-03:00'
 tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798565383564083200/o-servi%C3%A7o-de-entregas-da-kiki-foi-ontem-mas
+category: Notas
 ---
-
 ![](https://64.media.tumblr.com/a6dba1780690393dc5fe978334a61de5/f95ad655c48aa07c-8f/s640x960/c5e072b3b4f9d99349774bc4d7bd2f4db57669cb.png)
 
 _O Serviço de Entregas da Kiki_ foi ontem, mas depois da sessão eu tinha um aniversário pra ir e só consegui sentar agora no computador pra escrever sobre. Mais uma sessão cheia — essa a gente sabia que tava esgotada já fazia uns dias. Tava chovendo bastante, e mesmo assim quase todo mundo veio. Só tinham uns dois ou três lugares vagos nas poltronas da primeira fileira.

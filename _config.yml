@@ -11,6 +11,7 @@ url: https://arthr.me
 baseurl: ""
 
 lang: pt-BR
+timezone: America/Sao_Paulo
 encoding: utf-8
 
 logo: "/uploads/avatar.png"
@@ -18,7 +19,7 @@ logo: "/uploads/avatar.png"
 author:
   name: Arthur Freitas
   uri: https://arthr.me
-  email: arthur@arthr.me
+  email: "arthur@arthr.me"
   mastodon: "@arthr@organica.social"
 
 # Theme Settings
@@ -97,7 +98,7 @@ plugins:
 # Plugin: jekyll-webmention_io
 webmentions:
   username: arthr.me
-  cache_folder: ".cache"
+  cache_folder: .cache
   cache_bad_uris_for: 1
   syndication:
     bluesky:
@@ -156,6 +157,23 @@ prose:
         field:
           element: text
           label: Title
+      - name: date
+        field:
+          label: Date
+          type: date
+          value: CURRENT_DATETIME
+      - name: category
+        field:
+          element: select
+          label: Category
+          options: "https://arthr.me/json/categories.jsonp"
+          value: Notas
+      - name: tags
+        field:
+          element: multiselect
+          label: Tags
+          alterable: true
+          options: "https://arthr.me/json/tags.jsonp"
       - name: "syndicate_to"
         field:
           element: multiselect
@@ -167,20 +185,3 @@ prose:
               value: mastodon
             - name: Flickr
               value: flickr
-      - name: tags
-        field:
-          element: multiselect
-          label: Tags
-          alterable: true
-          options: "https://arthr.me/json/tags.jsonp"
-      - name: category
-        field:
-          element: select
-          label: Category
-          options: "https://arthr.me/json/categories.jsonp"
-          value: Notas
-      - name: date
-        field:
-          label: Date
-          type: date
-          value: CURRENT_DATETIME

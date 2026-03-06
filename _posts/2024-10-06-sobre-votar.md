@@ -1,14 +1,12 @@
 ---
+layout: post
 title: Sobre votar
-date: 2024-10-06 14:39:56 -03:00
-categories:
-- Notas
+date: '2024-10-06T14:39:56-03:00'
 tags:
 - eleições
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/763611207980695552/sobre-votar
+category: Notas
 ---
-
 Eu gosto muito de votar. Eu gosto de chegar na minha zona eleitoral e ver alguns vizinhos ali. Estamos todos juntos em um ambiente neutro (eu voto no Palácio da Justiça aqui em Porto Alegre). Os mesários da minha zona são sempre muito gentis.
 
 Eu gosto mais é do senso de comunidade do ambiente de votação. Embora eu reveja alguns vizinhos na zona eleitoral, uns como eleitores e outros como mesários, são poucas as vezes que a gente se reúne em um só lugar pra uma ação que leva alguns segundos e é profundamente imensa. Me faz sentir (ou perceber que eu sou) parte de uma comunidade, um entre muitos.

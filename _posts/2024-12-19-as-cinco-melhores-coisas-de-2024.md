@@ -1,12 +1,10 @@
 ---
-title: As cinco melhores coisas de 2024
-date: 2024-12-19 10:58:00 -02:00
-categories:
-- Esquinas
 layout: post
+title: 'As cinco melhores coisas de 2024'
+date: '2024-12-19T09:58:00-03:00'
 tumblr_url: https://arthrfrts.tumblr.com/post/779451924242202624/as-cinco-melhores-coisas-de-2024
+category: Esquinas
 ---
-
 Queridos,
 
 Esse é o último post do ano. Que ano… talvez o mais estranho e difícil que eu tive até aqui. Mas o Tobias está melhor agora, e as contas estão em dia.

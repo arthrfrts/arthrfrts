@@ -1,16 +1,14 @@
 ---
+layout: post
 title: poetsandwriters poetry is not about an event
-date: 2024-03-05 23:25:15 -03:00
-categories:
-- Notas
+date: '2024-03-05T23:25:15-03:00'
 tags:
 - arte
 - poesia
 - escrita
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/744169684440629249/poetsandwriters-poetry-is-not-about-an-event
+category: Notas
 ---
-
  ![](/tumblr_files/tumblr_pnpj2x1cYn1r8bkboo1_640.jpg)  
 
 [poetsandwriters](https://poetsandwriters.tumblr.com/post/183148069666/poetry-is-not-about-an-event-it-is-the-event):

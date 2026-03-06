@@ -1,17 +1,15 @@
 ---
+layout: post
 title: ''
-date: 2025-09-20 10:28:00 -03:00
-categories:
-- Notas
+date: '2025-09-20T10:28:00-03:00'
 tags:
 - tecnologia
 - computação
 - sistemas operacionais
 - Mac
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798565820764651520/o-liquid-glass-%C3%A9-muito-inconsistente-no-mac-e
+category: Notas
 ---
-
 O Liquid Glass é muito inconsistente no Mac, e isso tá me incomodando muito. Parece até quando o Windows muda de visual, mas fica com “heranças” de redesigns anteriores (como o Explorador de arquivos).
 
 O Safari parece um exemplo de todos os problemas nas inconsistências. A barra lateral, que deveria ser semitransparente, tem um fundo branco. Dá pra ver quando a página da web começa e onde termina a barra lateral. Fica evidente que a barra lateral, nesse caso, só quer ocupar espaço:

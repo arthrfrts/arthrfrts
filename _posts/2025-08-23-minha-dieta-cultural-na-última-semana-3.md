@@ -1,18 +1,16 @@
 ---
+layout: post
 title: 'Minha dieta cultural na última semana #3'
-date: 2025-08-23 11:14:00 -03:00
-categories:
-- Esquinas
+date: '2025-08-23T11:14:00-03:00'
 tags:
 - jogos
 - séries
 - livros
 - filmes
 - músicas
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/798568755606290432/minha-dieta-cultural-na-%C3%BAltima-semana-3
+category: Esquinas
 ---
-
 Tá chovendo bastante por aqui hoje. Dá pra ouvir o vento subir correndo a escadaria aqui do lado de casa. Não vou mentir, eu tava torcendo por essa chuva. Minha semana foi tão movimentada que eu tava torcendo por uma chuvinha pra me forçar a ficar quietinho em casa, tomando café e vendo _Gilmore Girls_.
 
 Não quero prometer nada, mas quero escrever mais essa semana. Eu fiquei feliz de ter organizado meu tempo bem o suficiente pra conseguir caminhar todos os dias, e pra estudar francês todos os dias. Quem sabe eu vou conseguir escrever todos os dias mais pra frente? Não custa tentar.

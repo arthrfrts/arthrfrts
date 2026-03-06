@@ -1,15 +1,13 @@
 ---
-title: Encanamento
-date: 2026-03-05 21:08:43.751000000 -03:00
-categories:
-- Esquinas
-tags:
-- web
-- desenvolvimento
 layout: post
+title: Encanamento
+category: Esquinas
 syndicate_to:
-- bluesky
-- mastodon
+  - bluesky
+  - mastodon
+tags:
+  - web
+  - desenvolvimento
 ---
 
 Tava lendo esse [artigo no _Unsung_ sobre a estrutura de URLs do Flickr](https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/), e [essa continuação com links sobre "design de URLs"](https://unsung.aresluna.org/mailbag-urls-as-ui/).

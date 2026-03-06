@@ -1,14 +1,12 @@
 ---
+layout: post
 title: ''
-date: 2022-11-09 13:33:18 -02:00
-categories:
-- Notas
+date: '2022-11-09T12:33:18-03:00'
 tags:
 - músicas
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/700460929425473536/eu-vi-um-menino-correndo-eu-vi-o-tempo-brincando
+category: Notas
 ---
-
 https://www.youtube.com/embed/JeY2ojRkSys?feature=oembed&enablejsapi=1&origin=https://safe.txmblr.com&wmode=opaque
 
 > Eu vi um menino correndo  

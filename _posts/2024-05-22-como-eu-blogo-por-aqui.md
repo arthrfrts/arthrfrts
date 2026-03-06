@@ -1,14 +1,12 @@
 ---
-title: Como eu blogo por aqui
-date: 2024-05-22 09:42:33 -03:00
-categories:
-- Notas
+layout: post
+title: 'Como eu blogo por aqui'
+date: '2024-05-22T09:42:33-03:00'
 tags:
 - blogs
-layout: post
 tumblr_url: https://arthrfrts.tumblr.com/post/751180713837101056/como-eu-blogo-por-aqui
+category: Notas
 ---
-
 O [Ghedin trouxe pra esse lado da internet](https://manualdousuario.net/orbita-post/como-e-seu-fluxo-para-postar-no-blog/) uma corrente gringa de como é o fluxo para blogar.
 
 Eu posto no Tumblr, o que é mais fácil. Alguns posts mais breves surgem do celular ou do navegador mesmo (como [uma foto](https://arthr.me/tagged/fotos) ou [uma efêmera](https://arthr.me/tagged/ef%C3%AAmera)). Esse é um deles.
