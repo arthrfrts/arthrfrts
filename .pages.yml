@@ -71,6 +71,8 @@ content:
               value: mastodon
             - label: Flickr
               value: flickr
+          multiple: true
+          creatable: false
       - name: published
         label: Published
         type: boolean
