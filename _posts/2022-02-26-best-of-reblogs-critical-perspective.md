@@ -1,10 +1,14 @@
 ---
-layout: post
-title: ''
-date: '2022-02-26T12:01:09-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/677266084050649088/best-of-reblogs-critical-perspective
-source: https://best-of-reblogs.tumblr.com/post/677171691013685248/critical-perspective-etherialism
+title: A arte do reblog no Tumblr
+date: 2022-02-26T01:29:00+0000
 category: Links
+tags:
+  - reblogs
+  - Tumblr
+  - web
+syndicate_to: bluesky
+published: true
+slug: a-arte-do-reblog-no-tumblr
 ---
 [best-of-reblogs](https://best-of-reblogs.tumblr.com/post/677171691013685248/critical-perspective-etherialism):
 
@@ -27,4 +31,3 @@ category: Links
 > > ![](https://64.media.tumblr.com/487f215046d524f675af8c75d34231fa/tumblr_inline_oli8x4WHSA1s6f5ma_540.jpg)
 > 
 > ![](https://64.media.tumblr.com/b87b3228573c94f2336d025b41f1ee6d/41d5b9bb30197264-29/s2048x3072/037eb96c57a71d2414d852e7656fb4367f532562.gif)
-
