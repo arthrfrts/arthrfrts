@@ -144,7 +144,7 @@ prose:
   rooturl: "_posts"
   siteurl: "https://arthr.me"
   media: "uploads"
-  relative_links: "https://arthr.me/json/links.jsonp"
+  # relative_links: "https://arthr.me/json/links.jsonp"
   metadata:
     _posts:
       - name: layout
@@ -162,16 +162,16 @@ prose:
           value: CURRENT_DATETIME
       - name: category
         field:
-          element: select
+          element: text
           label: Category
-          options: "https://arthr.me/json/categories.jsonp"
+          # options: "https://arthr.me/json/categories.jsonp"
           value: Notas
       - name: tags
         field:
-          element: multiselect
+          element: text
           label: Tags
           alterable: true
-          options: "https://arthr.me/json/tags.jsonp"
+          # options: "https://arthr.me/json/tags.jsonp"
       - name: "syndicate_to"
         field:
           element: multiselect
