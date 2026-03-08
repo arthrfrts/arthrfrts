@@ -24,7 +24,7 @@ content:
       - name: layout
         label: Layout
         type: string
-        value: post
+        default: post
         hidden: true
       - name: title
         label: Title
