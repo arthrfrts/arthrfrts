@@ -88,6 +88,10 @@ content:
       - name: source
         label: Source Link
         type: string
+      - name: tumblr_url
+        label: Tumblr URL
+        type: string
+        hidden: true
     view:
       fields:
         - date
