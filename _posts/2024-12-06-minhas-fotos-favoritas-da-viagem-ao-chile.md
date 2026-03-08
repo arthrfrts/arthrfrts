@@ -1,15 +1,18 @@
 ---
 layout: post
-title: ''
-date: '2024-12-06T10:24:56-03:00'
-tags:
-- viagens
-- Santiago
-- Valparaíso
-- Chile
-- Los Andes
-tumblr_url: https://arthrfrts.tumblr.com/post/769125353992208384/minhas-fotos-favoritas-da-viagem-ao-chile
+title: Chile, novembro de 2024
+date: 2024-12-06T13:24:00+00:00
 category: Fotos
+tags:
+  - viagens
+  - Chile
+syndicate_to:
+  - bluesky
+  - mastodon
+  - flickr
+published: true
+slug: fotos-da-viagem-ao-chile
+tumblr_url: https://arthrfrts.tumblr.com/post/769125353992208384/minhas-fotos-favoritas-da-viagem-ao-chile
 ---
 ![Um cachorrinho dormindo em sua almofada numa das escadarias de Valparaíso.](https://64.media.tumblr.com/6e4fc1b406eac0f85efc885449300a35/b64e4928a6b41f08-0d/s640x960/0a7809e79b01558621696e076f72cb9eb9533e22.jpg)
 
@@ -28,4 +31,3 @@ category: Fotos
 ![Vista do Embalse El Yeso, com as montanhas nevadas dos Andes ao fundo.](https://64.media.tumblr.com/d52728285097754c003913ea054b0ba3/b64e4928a6b41f08-29/s640x960/444f2ec96409925985cebbfdc2c5e6309f538306.jpg)
 
 Minhas fotos favoritas da viagem ao Chile.
-
