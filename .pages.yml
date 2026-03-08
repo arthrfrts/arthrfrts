@@ -78,6 +78,22 @@ content:
               value: flickr
           multiple: true
           creatable: false
+      - name: syndication_urls
+        label: Syndication URLs
+        type: object
+        fields:
+          - name: bluesky
+            label: Bluesky
+            type: string
+          - name: mastodon
+            label: Mastodon
+            type: string
+          - name: flickr
+            label: Flickr
+            type: string
+          - name: tumblr
+            label: Tumblr
+            type: string
       - name: published
         label: Published
         type: boolean
