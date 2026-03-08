@@ -162,10 +162,10 @@ prose:
           value: CURRENT_DATETIME
       - name: category
         field:
-          element: text
+          element: select
           label: Category
-          # options: "https://arthr.me/json/categories.jsonp"
-          value: Notas
+          options: "https://arthr.me/json/categories.jsonp"
+          # value: Notas
       - name: tags
         field:
           element: text
