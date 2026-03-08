@@ -144,7 +144,7 @@ prose:
   rooturl: "_posts"
   siteurl: "https://arthr.me"
   media: "uploads"
-  # relative_links: "https://arthr.me/json/links.jsonp"
+  relative_links: "https://arthr.me/json/links.jsonp"
   metadata:
     _posts:
       - name: layout
