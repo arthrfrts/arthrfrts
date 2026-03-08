@@ -21,6 +21,10 @@ content:
     path: _posts
     filename: '{year}/{year}-{month}-{day}-{primary}.md'
     fields:
+      - name: layout
+        label: Layout
+        type: hidden
+        value: post
       - name: title
         label: Title
         type: string
