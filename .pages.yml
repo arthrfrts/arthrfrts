@@ -91,7 +91,6 @@ content:
       - name: tumblr_url
         label: Tumblr URL
         type: string
-        hidden: true
     view:
       fields:
         - date
