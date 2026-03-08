@@ -1,17 +1,20 @@
 ---
-title: A arte do reblog no Tumblr
-date: 2022-02-26T01:29:00+00:00
 category: Links
-tags:
-  - reblogs
-  - Tumblr
-  - web
-syndicate_to:
-  - bluesky
-  - mastodon
+date: 2022-02-26 01:29:00+00:00
 published: true
 slug: a-arte-do-reblog-no-tumblr
+syndicate_to:
+- bluesky
+- mastodon
+syndication_urls:
+  mastodon: https://organica.social/@arthr/116193924031400744
+tags:
+- reblogs
+- Tumblr
+- web
+title: A arte do reblog no Tumblr
 ---
+
 [best-of-reblogs](https://best-of-reblogs.tumblr.com/post/677171691013685248/critical-perspective-etherialism):
 
 > [critical-perspective](http://critical-perspective.tumblr.com/post/157345501922/etherialism-cornputer-assindeto-take-me-to):
