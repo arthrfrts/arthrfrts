@@ -5,9 +5,13 @@ category: Notas
 tags:
   - jogos
   - Kentucky Route Zero
+syndicate_to:
+  - bluesky
+  - mastodon
 published: true
 slug: deja-vu
 source: https://krzero.tumblr.com/post/676985236985462784
+tumblr_url: ttps://arthrfrts.tumblr.com/post/677265142615048192/conway-o-qu%C3%AA-shannon-s%C3%B3-voc%C3%AA-sabe-d%C3%A9ja
 ---
 [krzero](https://krzero.tumblr.com/post/676985236985462784):
 
