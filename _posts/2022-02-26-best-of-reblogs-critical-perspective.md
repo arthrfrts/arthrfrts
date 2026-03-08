@@ -1,6 +1,6 @@
 ---
 title: A arte do reblog no Tumblr
-date: 2022-02-26T01:29:00+0000
+date: 2022-02-26T01:29:00+00:00
 category: Links
 tags:
   - reblogs
