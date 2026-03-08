@@ -6,7 +6,9 @@ tags:
   - reblogs
   - Tumblr
   - web
-syndicate_to: bluesky
+syndicate_to:
+  - bluesky
+  - mastodon
 published: true
 slug: a-arte-do-reblog-no-tumblr
 ---
