@@ -31,7 +31,7 @@ content:
         type: date
         options:
           time: true
-          format: yyy-MM-dd HH:mm:ss xx
+          format: yyyy-MM-dd'T'HH:mm:ss xx
       - name: body
         label: Body
         type: rich-text
