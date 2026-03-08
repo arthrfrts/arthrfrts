@@ -78,6 +78,9 @@ content:
         label: Permalink
         type: string
         required: true
+      - name: source
+        label: Source Link
+        type: string
     view:
       fields:
         - date
