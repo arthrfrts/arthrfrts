@@ -1,12 +1,13 @@
 ---
-layout: post
-title: ''
-date: '2022-02-26T11:46:11-03:00'
-tags:
-- jogos
-tumblr_url: https://arthrfrts.tumblr.com/post/677265142615048192/conway-o-qu%C3%AA-shannon-s%C3%B3-voc%C3%AA-sabe-d%C3%A9ja
-source: https://krzero.tumblr.com/post/676985236985462784
+title: Déja vù
+date: 2022-02-26T14:46:00+00:00
 category: Notas
+tags:
+  - jogos
+  - Kentucky Route Zero
+published: true
+slug: deja-vu
+source: https://krzero.tumblr.com/post/676985236985462784
 ---
 [krzero](https://krzero.tumblr.com/post/676985236985462784):
 
@@ -16,4 +17,3 @@ category: Notas
 **Shannon:** “Só… você sabe, déja vù”.  
 **Conway:** “Eu também”.  
 **Shannon:** “Eu sempre me sinto um pouco envergonhada quando isso acontece. Como se eu estivesse em uma peça, mas não soubesse minha fala”.
-
