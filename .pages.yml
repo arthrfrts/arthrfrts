@@ -23,8 +23,9 @@ content:
     fields:
       - name: layout
         label: Layout
-        type: hidden
+        type: string
         value: post
+        hidden: true
       - name: title
         label: Title
         type: string
