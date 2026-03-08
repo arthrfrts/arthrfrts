@@ -10,6 +10,8 @@ syndicate_to:
   - bluesky
   - mastodon
   - flickr
+syndication_urls:
+  flickr: https://www.flickr.com/photos/arthrfrts/55136174495/
 published: true
 slug: fotos-da-viagem-ao-chile
 tumblr_url: https://arthrfrts.tumblr.com/post/769125353992208384/minhas-fotos-favoritas-da-viagem-ao-chile
