@@ -1,0 +1,95 @@
+media:
+  - name: files
+    label: Files
+    input: uploads/files
+    output: /uploads/files
+    categories:
+      - document
+      - compressed
+  - name: media
+    label: Media
+    input: uploads/media
+    output: /uploads/media
+    categories:
+      - image
+      - video
+      - audio
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: _posts
+    filename: '{year}/{year}-{month}-{day}-{primary}.md'
+    fields:
+      - name: title
+        label: Title
+        type: text
+        default: ""
+        required: true
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
+          format: yyy-MM-dd HH:mm:ss xx
+      - name: body
+        label: Body
+        type: rich-text
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - Notas
+            - Links
+            - Fotos
+            - Esquinas
+          multiple: false
+          creatable: false
+      - name: tags
+        label: Tags
+        type: select
+        required: true
+        options:
+          values:
+            - filmes
+            - músicas
+            - séries
+            - leituras
+            - jogos
+          multiple: true
+          creatable: true
+      - name: syndicate_to
+        label: Syndication
+        type: select
+        options:
+          values:
+            - label: Bluesky
+              value: bluesky
+            - label: Mastodon
+              value: mastodon
+            - label: Flickr
+              value: flickr
+      - name: published
+        label: Published
+        type: boolean
+    view:
+      fields:
+        - date
+        - title
+        - slug
+        - category
+      sort:
+        - date
+        - title
+        - published
+      primary: slug
+      search:
+        - title
+        - slug
+        - category
+        - tags
+        - body
+      layout: tree
+    subfolders: true
