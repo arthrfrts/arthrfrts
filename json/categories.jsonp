@@ -4,9 +4,9 @@ callback(
   [
     {%- for category in site.categories %}
       {
-        "name": "{{- category | first -}}",
-        "value": "{{- category | first -}}"
-      }{%- unless forloop.last -%}, {% endunless-%}
-    {% endfor -%}
+        "name": {{ category | first | jsonify }},
+        "value": {{ category | first | jsonify }}
+      }{%- unless forloop.last -%}, {%- endunless -%}
+    {%- endfor %}
   ]
 )

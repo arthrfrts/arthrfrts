@@ -4,9 +4,9 @@ callback(
   [
     {%- for tag in site.tags %}
       {
-        "name": "{{- tag | first -}}",
-        "value": "{{- tag | first -}}"
-      }{%- unless forloop.last -%}, {% endunless-%}
-    {% endfor -%}
+        "name": {{ tag | first | jsonify }},
+        "value": {{ tag | first | jsonify }}
+      }{%- unless forloop.last -%}, {%- endunless -%}
+    {%- endfor %}
   ]
 )
