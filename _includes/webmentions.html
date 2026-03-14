@@ -15,7 +15,7 @@
       {{ reactions.size }}
       {%- if reactions.size == 1 %} pessoa curtiu ou repostou{%- else %} pessoas curtiram ou repostaram{%- endif %}
     </p>
-    <ul class="webmentions-facepile" aria-label="Reações">
+    <ul class="webmentions-facepile">
       {% for webmention in reactions %}
         {% if webmention.author %}
         <li class="webmentions-facepile__item">
@@ -91,8 +91,8 @@
 
         <footer class="webmention-thread__meta">
           {% if webmention.pubdate %}
-            <time class="dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">
-              {{ webmention.pubdate | date: "%d/%m/%y" }}
+            <time class="dt-published" datetime="{{ webmention.pubdate | date_to_xmlschema }}">
+              {{ webmention.pubdate | date: site.date_formats.day }}
             </time>
           {% endif %}
           {% if webmention.uri %}
