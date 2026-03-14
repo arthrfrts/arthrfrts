@@ -105,6 +105,8 @@ webmentions:
       endpoint: https://brid.gy/publish/flickr
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
+  templates:
+    webmentions: _includes/webmentions/webmentions.html
   legacy_domains:
     - https://arthrfrts.tumblr.com
     - https://irrelefante.tumblr.com

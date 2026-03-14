@@ -1,0 +1,109 @@
+{%- if html_proofer_ignore == "all" -%}
+  {%- assign html_proofer_attr = " data-proofer-ignore" -%}
+{%- endif -%}
+
+{%- assign reactions = webmentions | where_exp: "item", "item.type == 'like' or item.type == 'repost'" -%}
+{%- assign replies = webmentions | where_exp: "item", "item.type == 'reply' or item.type == 'mention'" -%}
+
+{% if webmentions.size > 0 %}
+<section class="webmentions"{{ html_proofer_attr }}>
+  <h2 class="webmentions__title">Webmentions</h2>
+
+  {% if reactions.size > 0 %}
+  <div class="webmentions__reactions">
+    <p class="webmentions__reactions-label">
+      {{ reactions.size }}
+      {%- if reactions.size == 1 %} pessoa curtiu ou repostou{%- else %} pessoas curtiram ou repostaram{%- endif %}
+    </p>
+    <ul class="webmentions-facepile" aria-label="Reações">
+      {% for webmention in reactions %}
+        {% if webmention.author %}
+        <li class="webmentions-facepile__item">
+          {% if webmention.author.url %}
+            <a class="webmentions-facepile__link u-url" href="{{ webmention.author.url }}" rel="nofollow">
+          {% endif %}
+            {% if webmention.author.photo %}
+              <img
+                class="webmentions-facepile__avatar u-photo"
+                src="{{ webmention.author.photo }}"
+                alt="{{ webmention.author.name }}"
+                title="{{ webmention.author.name }}"
+                loading="lazy"
+                width="28"
+                height="28">
+            {% else %}
+              <span class="webmentions-facepile__avatar webmentions-facepile__avatar--placeholder" title="{{ webmention.author.name }}">
+                {{ webmention.author.name | slice: 0 }}
+              </span>
+            {% endif %}
+          {% if webmention.author.url %}
+            </a>
+          {% endif %}
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if replies.size > 0 %}
+  <ol class="webmentions__replies">
+    {% for webmention in replies %}
+    <li id="webmention-{{ webmention.id }}" class="webmention-thread h-cite webmention-thread--{{ webmention.type }}">
+      <div class="webmention-thread__avatar-col">
+        {% if webmention.author.photo %}
+          {% if webmention.author.url %}
+            <a class="u-url" href="{{ webmention.author.url }}" rel="nofollow" tabindex="-1" aria-hidden="true">
+          {% endif %}
+            <img
+              class="webmention-thread__avatar u-photo"
+              src="{{ webmention.author.photo }}"
+              alt=""
+              loading="lazy"
+              width="28"
+              height="28">
+          {% if webmention.author.url %}
+            </a>
+          {% endif %}
+        {% else %}
+          <span class="webmention-thread__avatar webmention-thread__avatar--placeholder" aria-hidden="true">
+            {{ webmention.author.name | slice: 0 }}
+          </span>
+        {% endif %}
+      </div>
+
+      <div class="webmention-thread__body p-author h-card">
+        <p class="webmention-thread__author">
+          {% if webmention.author.url %}
+            <a class="webmention-thread__author-link u-url" href="{{ webmention.author.url }}" rel="nofollow">
+              <span class="p-name">{{ webmention.author.name }}</span>
+            </a>
+          {% else %}
+            <span class="p-name">{{ webmention.author.name }}</span>
+          {% endif %}
+        </p>
+
+        {% if webmention.content or webmention.title %}
+        <div class="webmention-thread__content p-content">
+          {{ webmention.content | default: webmention.title }}
+        </div>
+        {% endif %}
+
+        <footer class="webmention-thread__meta">
+          {% if webmention.pubdate %}
+            <time class="dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">
+              {{ webmention.pubdate | date: "%d/%m/%y" }}
+            </time>
+          {% endif %}
+          {% if webmention.uri %}
+            <a class="webmention-thread__permalink u-url" href="{{ webmention.uri }}" rel="nofollow">Permalink</a>
+          {% endif %}
+        </footer>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+
+</section>
+{% endif %}

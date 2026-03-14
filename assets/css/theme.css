@@ -1,0 +1,200 @@
+/*
+  Custom styles for arthr.me
+  Overrides the linus theme defaults.
+*/
+
+:root {
+  --font-body: "Atkinson Hyperlegible Next", sans-serif;
+  --font-code: "Atkinson Hyperlegible Mono", monospace;
+}
+
+
+/* ===========================================
+   Webmentions
+   =========================================== */
+
+.webmentions {
+  max-width: var(--content-width);
+  margin-left: auto;
+  margin-top: calc(var(--spacing) * 2);
+  display: flex;
+  flex-flow: column nowrap;
+  gap: calc(var(--spacing) * 1.5);
+
+  &::before {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 3lh;
+    background-color: var(--color-border);
+  }
+}
+
+.webmentions__title {
+  font-family: var(--font-headings);
+  font-size: var(--text-size);
+  font-weight: normal;
+  font-style: italic;
+  color: color-mix(in srgb, var(--color-text), transparent 40%);
+}
+
+
+/* -------------------------------------------
+   Facepile (likes + reposts)
+   ------------------------------------------- */
+
+.webmentions__reactions {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: calc(var(--spacing) / 2);
+}
+
+.webmentions__reactions-label {
+  font-size: 1.2rem;
+  color: color-mix(in srgb, var(--color-text), transparent 40%);
+  margin-bottom: 0;
+}
+
+.webmentions-facepile {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding-inline-start: 8px; /* offset for the first item's negative margin */
+  list-style: none;
+  margin: 0;
+}
+
+.webmentions-facepile__item {
+  margin-block: 0;
+  margin-inline-start: -8px;
+  transition: transform var(--transition-duration) ease, z-index 0s;
+  z-index: 0;
+
+  &:hover,
+  &:focus-within {
+    transform: translateY(-3px);
+    z-index: 1;
+  }
+}
+
+.webmentions-facepile__link {
+  display: block;
+  border-radius: 100%;
+}
+
+.webmentions-facepile__avatar {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  /* The background-color border "punches out" the gap between overlapping avatars */
+  outline: 2px solid var(--color-background);
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.webmentions-facepile__avatar--placeholder {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-shadows);
+  color: var(--color-text);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+
+/* -------------------------------------------
+   Reply thread
+   ------------------------------------------- */
+
+.webmentions__replies {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: calc(var(--spacing) * 1.25);
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.webmentions__replies > li {
+  margin-block: 0;
+}
+
+.webmention-thread {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 0 .8ch;
+  align-items: start;
+}
+
+.webmention-thread__avatar-col {
+  padding-top: .2em; /* nudge avatar to align with the author name baseline */
+}
+
+.webmention-thread__avatar {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.webmention-thread__avatar--placeholder {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-shadows);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.webmention-thread__body {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .3em;
+}
+
+.webmention-thread__author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.webmention-thread__author-link {
+  color: var(--color-text);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    text-decoration-color: var(--color-border);
+  }
+}
+
+.webmention-thread__content {
+  font-size: var(--text-size);
+  line-height: var(--text-line-height);
+}
+
+.webmention-thread__meta {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1ch;
+  font-size: 1.2rem;
+  color: color-mix(in srgb, var(--color-text), transparent 40%);
+}
+
+.webmention-thread__permalink {
+  color: inherit;
+}
