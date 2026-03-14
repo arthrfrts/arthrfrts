@@ -18,7 +18,7 @@
     <ul class="webmentions-facepile">
       {% for webmention in reactions %}
         {% if webmention.author %}
-        <li class="webmentions-facepile__item">
+        <li id="webmention-{{ webmention.id }}" class="webmentions-facepile__item">
           {% if webmention.author.url %}
             <a class="webmentions-facepile__link u-url" href="{{ webmention.author.url }}" rel="nofollow">
           {% endif %}
