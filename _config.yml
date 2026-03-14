@@ -30,13 +30,13 @@ date_formats:
 
 category_colors:
   - name: Esquinas
-    color: "#F06A55"
+    color: "#A06840"
   - name: Notas
-    color: "#F5C842"
+    color: "#6A8F62"
   - name: Links
-    color: "#6BAED6"
+    color: "#5A8090"
   - name: Fotos
-    color: "#88C0D0"
+    color: "#907858"
 main_menu:
   title: Navegar
   items:

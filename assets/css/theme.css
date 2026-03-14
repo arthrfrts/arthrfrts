@@ -6,6 +6,22 @@
 :root {
   --font-body: "Atkinson Hyperlegible Next", sans-serif;
   --font-code: "Atkinson Hyperlegible Mono", monospace;
+
+  --color-background: #F6F3EE;
+  --color-text:       #1E1510;
+  --color-link:       #4D6845;
+  --color-link-hover: #324530;
+  --color-support:    #A06840;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #1A1210;
+    --color-text:       #EEE9E0;
+    --color-link:       #7FAF72;
+    --color-link-hover: #A0CF92;
+    --color-support:    #C48855;
+  }
 }
 
 
