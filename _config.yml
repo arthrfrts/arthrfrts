@@ -58,7 +58,7 @@ footer_menu:
 translations:
   byline: "Por"
   archive_date_title: "Arquivos de %date"
-  archive_tag_title: "Posts marcados com “%tag’"
+  archive_tag_title: "Posts marcados com “%tag”"
   archive_category_title: "Arquivo de %category"
   blog_pagination_title: "Paginação do blog"
   blog_pagination_prev_page: "Página anterior"
