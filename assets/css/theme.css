@@ -214,3 +214,26 @@
 .webmention-thread__permalink {
   color: inherit;
 }
+
+
+/* ===========================================
+   Syndication Callout
+   =========================================== */
+
+.syndication-callout {
+  max-width: var(--content-width);
+  margin-left: auto;
+  margin-top: calc(var(--spacing) * 2);
+  font-size: 1.2rem;
+  color: color-mix(in srgb, var(--color-text), transparent 40%);
+
+  p { margin: 0; line-height: 1.5; }
+
+  a {
+    color: var(--color-link);
+    text-decoration-color: var(--color-border);
+    text-underline-offset: 2px;
+  }
+
+  a:hover { color: var(--color-link-hover); }
+}

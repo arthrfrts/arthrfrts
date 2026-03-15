@@ -1,5 +1,11 @@
-{%- for syndication_url in page.syndication_urls -%}
-  <a class="u-syndication {{ syndication_url | first }}" href="{{ syndication_url | last }}"></a>
-{%- endfor -%}
+{% if page.syndication_urls.size > 0 %}
+<aside class="syndication-callout">
+  <p>👋 Este post também está nestes lugares:
+    {%- for url in page.syndication_urls %} <a class="u-syndication" href="{{ url | last }}">{{ url | first | capitalize }}</a>{%- unless forloop.last %},{%- endunless %}{%- endfor %}
+    — passe lá pra curtir ou comentar.
+    Você também pode responder no seu blog com um <a href="https://indieweb.org/Webmention">webmention</a>.
+  </p>
+</aside>
+{% endif %}
 
 {% webmentions page.url %}
