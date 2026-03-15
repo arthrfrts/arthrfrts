@@ -7,6 +7,7 @@ syndicate_to:
 - mastodon
 syndication_urls:
   mastodon: https://organica.social/@arthr/116234414041990960
+  bluesky: https://bsky.app/profile/arthr.me/post/3mh4jnyk5hm2t
 tags:
 - IndieWeb
 - Webmentions
