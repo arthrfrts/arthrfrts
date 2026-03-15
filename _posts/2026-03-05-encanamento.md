@@ -8,6 +8,7 @@ syndicate_to:
 tags:
   - web
   - desenvolvimento
+  - meta
 date: '2026-03-05 22:33:00 -0300'
 syndication_urls:
   mastodon: https://organica.social/@arthr/116179939132305197
