@@ -4,9 +4,9 @@
   Licence: MIT
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
-    <title>Wander Console - Browse the Small Web</title>
+    <title>Wander Console - Explore a Web Independente</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -429,86 +429,82 @@
     </script>
   </head>
   <body>
-    <noscript>JavaScript is required to use this application.</noscript>
+    <noscript>JavaScript é necessário para usar esta aplicação.</noscript>
     <header>
-      <button id="wander-button">Wander</button><!--
+      <button id="wander-button">Explorar</button><!--
       --><button id="console-button">Console</button><!--
-      --><button id="reload-button">Reload</button><!--
+      --><button id="reload-button">Recarregar</button><!--
       --><input id="url-wide-input" autocomplete="off"><!--
-      --><button id="go-button">Go</button><!--
-      --><button id="open-button">Open</button><!--
-      --><button id="about-button">About</button><!--
+      --><button id="go-button">Ir</button><!--
+      --><button id="open-button">Abrir</button><!--
+      --><button id="about-button">Sobre</button><!--
       --><input id="url-narrow-input">
     </header>
     <iframe id="wander-iframe"></iframe>
     <iframe id="sandbox-iframe" sandbox="allow-scripts"></iframe>
     <dialog id="console-dialog">
       <header>
-        <h1>Console Explorer</h1><form method="dialog"><button>x</button></form>
+        <h1>Explorador de Consoles</h1><form method="dialog"><button>x</button></form>
       </header>
-      <h2>Host Console</h2>
+      <h2>Console Atual</h2>
       <p>
-        You are currently on <a id="host-console-link"></a>.
-        This console is helping you navigate the Wander network.
+        Você está em <a id="host-console-link"></a>.
+        Este console está te ajudando a navegar pela rede Wander.
       </p>
-      <h2>Console Neighbourhood</h2>
+      <h2>Vizinhança de Consoles</h2>
       <p>
-        Your host console lists the following consoles as its
-        neighbours:
+        Seu console atual lista os seguintes consoles como vizinhos:
       </p>
       <ul id="console-dialog-list"></ul>
       <p>
-        You can wander to a neighbouring console by clicking one of
-        the links above.  Note that you do not really need to change
-        console to browse the Wander network.  The host console can
-        fetch recommendations from other consoles, then from the
-        consoles they link to and so on recursively.
+        Você pode explorar um console vizinho clicando em um dos links
+        acima. Note que não é necessário trocar de console para navegar
+        pela rede Wander. O console atual pode buscar recomendações de
+        outros consoles, e desses para os consoles que eles indicam,
+        de forma recursiva.
       </p>
-      <h2>Wandering History</h2>
+      <h2>Histórico de Navegação</h2>
       <p>
-        Your wandering history in reverse chronological order:
+        Seu histórico de navegação em ordem cronológica inversa:
       </p>
       <ul id="history-list"></ul>
       <p>
-        Each item above includes three links: the page recommended to
-        you, the console that recommended it and the wander.js file of
-        that console.
+        Cada item acima contém três links: a página recomendada,
+        o console que a recomendou e o arquivo wander.js desse console.
       </p>
-      <footer><form method="dialog"><button>Close</button></form></footer>
+      <footer><form method="dialog"><button>Fechar</button></form></footer>
     </dialog>
     <dialog id="about-dialog">
       <header>
         <h1>Wander Console</h1><form method="dialog"><button>x</button></form>
-        <div>Version <span class="version">&nbsp;</span></div>
+        <div>Versão <span class="version">&nbsp;</span></div>
       </header>
       <p>
-        Hello!  You are currently on a Wander console!  A Wander
-        console lets you browse random websites and pages from the
-        Wander community.  The Wander community consists of
-        individuals who develop and maintain their own personal
-        websites.
+        Olá! Você está em um console Wander! Um console Wander permite
+        que você explore sites e páginas aleatórios da comunidade Wander.
+        A comunidade Wander é formada por pessoas que desenvolvem e
+        mantêm seus próprios sites pessoais.
       </p>
       <p>
-        To set up your own Wander console, download
-        <a href="https://codeberg.org/susam/wander/archive/wander.zip">this ZIP file</a>,
-        extract index.html and wander.js, and place them
-        in the /wander/ directory of your website. Then edit
-        wander.js by following the directions at
+        Para criar seu próprio console Wander, baixe
+        <a href="https://codeberg.org/susam/wander/archive/wander.zip">este arquivo ZIP</a>,
+        extraia index.html e wander.js, e coloque-os
+        no diretório /wander/ do seu site. Em seguida, edite
+        wander.js seguindo as instruções em
         <a href="https://codeberg.org/susam/wander#readme">codeberg.org/susam/wander</a>.
       </p>
       <p>
-        That's it! Once your /wander/ directory is ready on your web
-        server, you can share a link to your Wander console in
-        <a href="https://codeberg.org/susam/wander/issues/1">this
-        community thread</a>.  Hopefully, someone will add your
-        console to theirs and you will become part of the Wander
-        network.
+        É isso! Quando seu diretório /wander/ estiver pronto no seu
+        servidor, você pode compartilhar um link para o seu console Wander
+        <a href="https://codeberg.org/susam/wander/issues/1">nesta
+        thread da comunidade</a>. Com sorte, alguém vai adicionar seu
+        console ao deles e você fará parte da rede Wander.
       </p>
       <p>
-        For more information about Wander, please
-        see <a href="https://codeberg.org/susam/wander#readme">codeberg.org/susam/wander</a>.
+        Para mais informações sobre o Wander, consulte
+        <a href="https://codeberg.org/susam/wander#readme">codeberg.org/susam/wander</a>.
       </p>
-      <footer><form method="dialog"><button>Close</button></form></footer>
+      <footer><form method="dialog"><button>Fechar</button></form></footer>
     </dialog>
   </body>
 </html>
