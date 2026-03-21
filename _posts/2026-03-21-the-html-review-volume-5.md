@@ -1,16 +1,19 @@
 ---
-layout: post
-date: 2026-03-21 11:35 -0300
-title: The HTML Review, volume 5
 category: Links
+date: 2026-03-21 11:35 -0300
+layout: post
+syndicate_to:
+- mastodon
+- bluesky
+syndication_urls:
+  mastodon: https://organica.social/@arthr/116267685048156802
 tags:
 - web
 - caminhadas
 - psicogeografia
-syndicate_to:
-- mastodon
-- bluesky
+title: The HTML Review, volume 5
 ---
+
 Saiu o novo volume da _[The HTML Review](https://thehtml.review/05/)_, uma revista sobre a internet feita à mão. Como todos os anos, ela é cheia de pequenos experimentos.
 
 Toda a _HTML Review_ é especial. Eu recomendo começar sempre da primeira página e ir seguindo, como se folheasse uma revista mesmo. Eu ainda tô adentrando essa edição, mas duas seções me cativaram muito:
