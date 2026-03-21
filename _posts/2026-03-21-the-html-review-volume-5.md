@@ -7,6 +7,7 @@ syndicate_to:
 - bluesky
 syndication_urls:
   mastodon: https://organica.social/@arthr/116267685048156802
+  bluesky: https://bsky.app/profile/arthr.me/post/3mhlbox3otd2t
 tags:
 - web
 - caminhadas
