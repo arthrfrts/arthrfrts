@@ -1,17 +1,16 @@
 const wander = {
-  // Other Wander consoles that visitors can reach from my console.
   consoles: [
     'https://susam.net/wander/',
   ],
-
-  // My favourite websites and pages I recommend to the Wander community.
   pages: [
     'https://boingboing.net/',
     'https://www.swiss-miss.com/',
     'https://waxy.org/',
     'https://le-chouchou.ghost.io/',
+    'https://osolnacabeca.com.br/',
+    'https://ellesho.me/page/website/now/',
+    'https://a-website-is-a-room.net/'
   ],
-
   // Websites and consoles to ignore.  When this console serves as
   // your host console, it will never contact consoles or recommend
   // web pages with addresses that match the following regular
