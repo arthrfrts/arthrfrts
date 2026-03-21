@@ -3,13 +3,20 @@ const wander = {
     'https://susam.net/wander/',
   ],
   pages: [
+    'https://arbesman.net/computationaldelights/',
+    'https://sarajoy.dev/',
     'https://boingboing.net/',
     'https://www.swiss-miss.com/',
     'https://waxy.org/',
     'https://le-chouchou.ghost.io/',
     'https://osolnacabeca.com.br/',
     'https://ellesho.me/page/website/now/',
-    'https://a-website-is-a-room.net/'
+    'https://a-website-is-a-room.net/',
+    'https://doubleloop.net/',
+    'https://marigold.town/',
+    'https://whimsical.club/',
+    'https://www.robinsloan.com/tap/tour/',
+    'https://permacomputing.net/',
   ],
   // Websites and consoles to ignore.  When this console serves as
   // your host console, it will never contact consoles or recommend
