@@ -1,15 +1,19 @@
 ---
-layout: post
-date: 2026-03-21 12:44 -0300
-title: Algumas coisas novas no site essa semana
 category: Notas
-tags:
-  - meta
-  - navegar na internet
+date: 2026-03-21 12:44 -0300
+layout: post
 syndicate_to:
-  - mastodon
-  - bluesky
+- mastodon
+- bluesky
+syndication_urls:
+  bluesky: https://bsky.app/profile/arthr.me/post/3mhlf3eypfn2t
+  mastodon: https://organica.social/@arthr/116267956162887223
+tags:
+- meta
+- navegar na internet
+title: Algumas coisas novas no site essa semana
 ---
+
 Depois das [webmentions]({%-  post_url 2026-03-15-webmentions -%}), essa semana eu me dediquei a adicionar links pelo site.
 
 No menu principal, um novo item: [A Trilha]({{ '/wander/' | relative_link }}), que é uma instância do [Wander Console](https://codeberg.org/susam/wander), que é uma rede interligada de links recomendados de várias pessoas em seus próprios sites. Por exemplo, eu recomendo alguns links, como o blog _[O Sol na Cabeça](https://osolnacabeca.com.br/)_, e recomendo outras instâncias do Wander, como o de [Susan Pal](https://susam.net/), que criou o projeto. Na Trilha, você vai ver os sites que eu _e_ Susan recomendamos.
