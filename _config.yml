@@ -37,6 +37,7 @@ category_colors:
     color: "#3B9EFF"
   - name: Fotos
     color: "#FFD000"
+
 main_menu:
   title: Navegar
   items:
@@ -46,6 +47,9 @@ main_menu:
       label: A Casa
     - url: "/arquivo/"
       label: A Biblioteca
+    - url: "/wander/"
+      label: A Trilha
+
 footer_menu:
   title: Onde me encontrar
   items:
@@ -55,6 +59,23 @@ footer_menu:
     - url: "/feed.json"
       rel: alternate
       label: JSON Feed
+    - url: "https://bsky.app/profile/arthr.me"
+      rel: me
+      label: Bluesky
+      external: true
+    - url: "https://www.flickr.com/photos/arthrfrts"
+      rel: me
+      label: Flickr
+      external: true
+    - url: "https://www.last.fm/user/arthrfrts"
+      rel: me
+      label: Last.FM
+      external: true
+    - url: "https://letterboxd.com/arthrfrts"
+      rel: me
+      label: Letterboxd
+      external: true
+
 translations:
   byline: "Por"
   archive_date_title: "Arquivos de %date"
