@@ -8,6 +8,7 @@ vendor
 js
 .claude*
 docs
+Gemfile.lock
 
 .github/scripts/node_modules/
 
