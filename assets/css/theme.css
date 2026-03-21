@@ -237,3 +237,40 @@
 
   a:hover { color: var(--color-link-hover); }
 }
+
+
+/* ===========================================
+   Webring
+   =========================================== */
+
+.webring {
+  max-width: var(--content-width);
+  margin-inline: auto;
+  margin-top: calc(var(--spacing) * 2);
+  padding-block: calc(var(--spacing) * 1.5);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-flow: row wrap;
+  gap: .5ch 2ch;
+  font-size: 1.2rem;
+  justify-content: center;
+
+  &::before {
+    content: attr(aria-label);
+    width: 100%;
+    text-align: center;
+    color: color-mix(in srgb, var(--color-text), transparent 60%);
+    font-style: italic;
+  }
+
+  a {
+    color: color-mix(in srgb, var(--color-text), transparent 40%);
+    text-decoration: none;
+    transition: color var(--transition-duration) ease;
+
+    &:hover,
+    &:focus {
+      color: var(--color-link-hover);
+    }
+  }
+}
