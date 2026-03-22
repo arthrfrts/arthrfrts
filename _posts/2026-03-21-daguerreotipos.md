@@ -1,19 +1,21 @@
 ---
-layout: post
-title: Daguerreótipos
 category: Notas
-tags:
-- filmes
-- documentário
-- Agnès Varda
-- impressões
+date: 2026-03-21 16:01 -0300
+layout: post
 syndicate_to:
 - bluesky
 - mastodon
 syndication_urls:
   letterboxd: https://boxd.it/dCfLrz
-date: 2026-03-21 16:01 -0300
+  mastodon: https://organica.social/@arthr/116269885242697456
+tags:
+- filmes
+- documentário
+- Agnès Varda
+- impressões
+title: Daguerreótipos
 ---
+
 É a segunda vez que revejo _Daguerreótipos_ no cinema. A primeira vez foi na Cinemateca Capitólio. Dessa, foi na Cinemateca Paulo Amorim — meu cinema favorito da cidade, que fica pertinho aqui de casa. A sessão não tinha tanta gente, mas todo mundo parecia apaixonado pelos sujeitos que Varda observava.
 
 Eu experimentei ir pra Cinemateca sem o celular, porque eu já sabia a experiência que o filme ia provocar em mim, e foi certeiro. Foi muito bom poder ir e voltar da CCMQ tendo que olhar pros arredores, considerar as pessoas que estão junto, sem poder recorrer aos problemas de longe pra me distrair. Eu percebi o quanto eu me sinto em casa onde eu moro hoje — como me sinto protegido por acenar pro Itamar, o dono do bar ao lado, toda noite ao voltar pra casa. Como eu me sinto próximo das pessoas que me ajudam a viver minha rotina, como as mulheres da lavanderia; a bilheteira da CCMQ; o dono do café que fica do lado da entrada da sala; a dona da vendinha que tem aqui perto de casa.
