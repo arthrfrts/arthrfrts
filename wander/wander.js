@@ -1,6 +1,7 @@
 const wander = {
   consoles: [
     'https://susam.net/wander/',
+    'https://heckmeck.de'
   ],
   pages: [
     'https://arbesman.net/computationaldelights/',
@@ -17,6 +18,8 @@ const wander = {
     'https://whimsical.club/',
     'https://www.robinsloan.com/tap/tour/',
     'https://permacomputing.net/',
+    'https://www.thenewatlantis.com/publications/do-elephants-have-souls',
+    'https://syllabusproject.org/syllabus-for-taking-an-internet-walk/',
   ],
   // Websites and consoles to ignore.  When this console serves as
   // your host console, it will never contact consoles or recommend
