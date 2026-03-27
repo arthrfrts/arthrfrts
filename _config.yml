@@ -170,7 +170,23 @@ prose:
   rooturl: "_posts"
   siteurl: "https://arthr.me"
   media: "uploads"
-  relative_links: "https://arthr.me/json/links.jsonp"
+  relativeLinks: "https://arthr.me/json/links.jsonp"
+  ignore:
+    - _site
+    - _includes
+    - _layouts
+    - assets
+    - docs
+    - js
+    - tumblr_files
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - humans.txt
+    - arquivo.md
+    - sobre.md
+    - 404.html
+    - index.html
   metadata:
     _posts:
       - name: layout
@@ -191,13 +207,43 @@ prose:
           element: select
           label: Category
           options: "https://arthr.me/json/categories.jsonp"
-          # value: Notas
       - name: tags
         field:
-          element: text
+          element: multiselect
           label: Tags
           alterable: true
-          # options: "https://arthr.me/json/tags.jsonp"
+          options: "https://arthr.me/json/tags.jsonp"
+      - name: "syndicate_to"
+        field:
+          element: multiselect
+          label: Syndication
+          options:
+            - name: Bluesky
+              value: bluesky
+            - name: Mastodon
+              value: mastodon
+            - name: Flickr
+              value: flickr
+    _drafts:
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: title
+        field:
+          element: text
+          label: Title
+      - name: category
+        field:
+          element: select
+          label: Category
+          options: "https://arthr.me/json/categories.jsonp"
+      - name: tags
+        field:
+          element: multiselect
+          label: Tags
+          alterable: true
+          options: "https://arthr.me/json/tags.jsonp"
       - name: "syndicate_to"
         field:
           element: multiselect
