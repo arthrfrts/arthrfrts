@@ -3,14 +3,14 @@ layout: post
 date: 2026-03-27 11:21 -0300
 title: Filmes que me fazem me sentir em casa
 syndicate_to:
-- bluesky
-- mastodon
+  - bluesky
+  - mastodon
 syndication_urls:
   letterboxd: https://letterboxd.com/arthrfrts/list/filmes-que-me-fazem-me-sentir-em-casa/
 category: Esquinas
 tags:
-- listas
-- filmes
+  - listas
+  - filmes
 ---
 Eu sou uma pessoa muito medrosa. Tenho medo de sentir dor, e de me sentir sozinho. Coisas completamente normais, e esperadas, de se sentir na experiência humana. Minha casa, nesse tempo que vivo aqui, se tornou um templo pra mim — as coisas mudam lá fora, mas aqui o que muda geralmente só muda de lugar. Mas uma mudança gigante abateu minha casa dessa vez, e me fez questionar ela todinha.
 
