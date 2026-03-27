@@ -1,19 +1,22 @@
 ---
-layout: post
-date: 2026-03-27 12:33 -0300
-title: Herança Nuclear
 category: Notas
+date: 2026-03-27 12:33 -0300
+layout: post
+syndicate_to:
+- mastodon
+- bluesky
+syndication_urls:
+  bluesky: https://bsky.app/profile/arthr.me/post/3mi2hayabdw2t
+  letterboxd: https://letterboxd.com/arthrfrts/film/testament/
+  mastodon: https://organica.social/@arthr/116301886340528394
 tags:
 - impressões
 - filmes
 - Lynne Littman
 - era nuclear
-syndicate_to:
-- mastodon
-- bluesky
-syndication_urls:
-  letterboxd: https://letterboxd.com/arthrfrts/film/testament/
+title: Herança Nuclear
 ---
+
 Me lembrou de dois filmes, tão bons quanto.
 
 O primeiro foi _Stalker_, um outro filme que vê na “Era Atômica” o fim da humanidade. Ou melhor: como a bomba atômica tirou da humanidade a capacidade de sonhar, da possibilidade de um mundo melhor. Em _Stalker_, os intelectuais são engolidos pela própria desilusão, não conseguindo entender como chegamos a esse ponto de autodestruição. Em _Herança Nuclear_, o futuro é a primeira coisa que desaparece: os bebês morrem antes, e depois as crianças.
