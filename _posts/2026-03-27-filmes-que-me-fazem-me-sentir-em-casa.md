@@ -1,17 +1,20 @@
 ---
-layout: post
-date: 2026-03-27 11:21 -0300
-title: Filmes que me fazem me sentir em casa
-syndicate_to:
-  - bluesky
-  - mastodon
-syndication_urls:
-  letterboxd: https://letterboxd.com/arthrfrts/list/filmes-que-me-fazem-me-sentir-em-casa/
 category: Esquinas
+date: 2026-03-27 11:21 -0300
+layout: post
+syndicate_to:
+- bluesky
+- mastodon
+syndication_urls:
+  bluesky: https://bsky.app/profile/arthr.me/post/3mi2dr2t7262t
+  letterboxd: https://letterboxd.com/arthrfrts/list/filmes-que-me-fazem-me-sentir-em-casa/
+  mastodon: https://organica.social/@arthr/116301640951250149
 tags:
-  - listas
-  - filmes
+- listas
+- filmes
+title: Filmes que me fazem me sentir em casa
 ---
+
 Eu sou uma pessoa muito medrosa. Tenho medo de sentir dor, e de me sentir sozinho. Coisas completamente normais, e esperadas, de se sentir na experiência humana. Minha casa, nesse tempo que vivo aqui, se tornou um templo pra mim — as coisas mudam lá fora, mas aqui o que muda geralmente só muda de lugar. Mas uma mudança gigante abateu minha casa dessa vez, e me fez questionar ela todinha.
 
 Muita coisa mudou em pouco tempo por aqui. Eu e meu namorado terminamos depois de quatro anos juntos e, com isso, várias mudanças pequenas aconteceram ao redor dessa mudança grande. A rotina, os trajetos pra casa, as combinações, e até mesmo os sentimentos um pelo outro. A gente não brigou, nem nada, e ainda assim muita coisa foi de um lugar pra outro. Rituais que antes pareciam sagrados simplesmente desapareceram. Soluções pra problemas antigos deixaram de fazer sentido. Problemas que antes eram nossos passaram a ser só meus, ou só dele. Dúvidas não foram respondidas, e mesmo assim deixaram de existir; enquanto certezas que existiam voltaram a sumir. Espaços na minha casa ficaram vazios, e depois eu precisei ocupá-los com minhas próprias coisas.
