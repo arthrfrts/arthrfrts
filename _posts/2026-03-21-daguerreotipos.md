@@ -8,6 +8,7 @@ syndicate_to:
 syndication_urls:
   letterboxd: https://boxd.it/dCfLrz
   mastodon: https://organica.social/@arthr/116269885242697456
+  bluesky: https://bsky.app/profile/arthr.me/post/3mhmffn7b3a2t
 tags:
 - filmes
 - documentário
