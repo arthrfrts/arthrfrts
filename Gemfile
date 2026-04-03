@@ -8,7 +8,7 @@ install_if -> { Gem.win_platform? } do
   gem "tzinfo-data"
 end
 
-gem "linus", "~> 1.2.1"
+gem "linus", "~> 1.2.2"
 
 gem "jekyll-webmention_io", "~> 4.1", group: :jekyll_plugins
 
