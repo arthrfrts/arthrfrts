@@ -6,15 +6,7 @@ _site
 vendor
 .DS_Store
 js
-.claude*
 docs
 Gemfile.lock
 
 .github/scripts/node_modules/
-
-# claude-reliability managed
-.claude/bin/
-.claude/*.local.md
-.claude/*.local.json
-.claude/*.local
-.claude-reliability/
