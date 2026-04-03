@@ -6,7 +6,7 @@ permalink: /sobre/
 
 Olá, eu sou o Arthur e esse é o meu site.
 
-Eu faço sites e escrevo em sites. Eu moro em Porto Alegre, cuido do Tobias, e pratico caminhadas longas. Hoje, eu escrevo o [Irrelefante](https://irrelefante.com.br/. Eu faço pequenos jogos, e mantive os blogs [Pão com Mortadela](https://paomortadela.com.br/), [Um filme por dia](https://umfilmeumdia.wordpress.com/). Eu também [fiz um podcast](https://anchor.fm/paomortadela) durante a pandemia para conversar com meus amigos.
+Eu faço sites e escrevo em sites. Eu moro em Porto Alegre, cuido do Tobias, e pratico caminhadas longas. Hoje, eu escrevo por aqui. Eu faço pequenos jogos, e mantive os blogs [Pão com Mortadela](https://paomortadela.com.br/), [Um filme por dia](https://umfilmeumdia.wordpress.com/). Eu também [fiz um podcast](https://anchor.fm/paomortadela) durante a pandemia para conversar com meus amigos.
 
 Aqui está uma foto minha comendo uma torrada Bauducco.
 
