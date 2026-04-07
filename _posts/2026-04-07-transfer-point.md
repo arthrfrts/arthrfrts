@@ -15,4 +15,4 @@ tags:
   - experimentos
 ---
 
-_Transfer Pont_ é um jogo de aventura de apontar-e-clicar feito entre 2024 e 2025 usando o [World Builder](https://en.wikipedia.org/wiki/World_Builder), um programa de criação de aventuras de texto para o Macintosh original. Para jogar, é preciso emular o System 6 do Mac — algo que um navegador pode fazer hoje em dia. [Você pode jogar ele aqui](https://robotspacer.software/emulator/transfer-point.html)
+_Transfer Point_ é um jogo de aventura de apontar-e-clicar feito entre 2024 e 2025 usando o [World Builder](https://en.wikipedia.org/wiki/World_Builder), um programa de criação de aventuras de texto para o Macintosh original. Para jogar, é preciso emular o System 6 do Mac — algo que um navegador pode fazer hoje em dia. [Você pode jogar ele aqui](https://robotspacer.software/emulator/transfer-point.html)
