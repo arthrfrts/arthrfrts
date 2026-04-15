@@ -12,6 +12,7 @@ syndicate_to:
   - mastodon
 syndication_urls:
   bluesky: https://bsky.app/profile/arthr.me/post/3mjklbn2ljc2y
+  mastodon: https://organica.social/@arthr/116410354927714691
 date: 2026-04-15 16:15 -0300
 ---
 
