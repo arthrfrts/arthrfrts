@@ -20,6 +20,7 @@ const wander = {
     'https://permacomputing.net/',
     'https://www.thenewatlantis.com/publications/do-elephants-have-souls',
     'https://syllabusproject.org/syllabus-for-taking-an-internet-walk/',
+    "https://robotspacer.software/transfer-point.html"
   ],
   // Websites and consoles to ignore.  When this console serves as
   // your host console, it will never contact consoles or recommend
