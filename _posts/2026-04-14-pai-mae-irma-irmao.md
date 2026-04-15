@@ -1,17 +1,19 @@
 ---
-layout: post
-title: Pai Mãe Irmã Irmão
 category: Notas
-tags:
-  - impressões
-  - filmes
-  - Jim Jarmusch
 date: 2026-04-14 22:29 -0300
+layout: post
 syndicate_to:
-  - bluesky
-  - mastodon
+- bluesky
+- mastodon
 syndication_urls:
+  bluesky: https://bsky.app/profile/arthr.me/post/3mjiqypvpja2t
   letterboxd: https://boxd.it/dViGiz
+  mastodon: https://organica.social/@arthr/116406155403318652
+tags:
+- impressões
+- filmes
+- Jim Jarmusch
+title: Pai Mãe Irmã Irmão
 ---
 
 Saí da sessão já falando pro Erê que esse é o meu tipo de filme: uma tríade de pequenas histórias em que suas motivações e conclusões são tão ambíguas que elas podem não existir. Nada parece acontecer, mas Jarmusch observa tudo: os silêncios, os pequenos gestos, a forma como os personagens se movimentam pela cena. Tudo o que é dito, tudo o que não é dito e tudo o que fica pelo caminho.

@@ -1,18 +1,20 @@
 ---
-layout: post
-title: A Cronologia da Água
 category: Notas
-tags:
-  - impressões
-  - filmes
-  - Kirsten Stewart
-  - traumas
-syndicate_to:
-  - bluesky
-  - mastodon
-syndication_urls:
-  letterboxd: https://boxd.it/dTJkaJ
 date: 2026-04-14 22:09 -0300
+layout: post
+syndicate_to:
+- bluesky
+- mastodon
+syndication_urls:
+  bluesky: https://bsky.app/profile/arthr.me/post/3mjiqygdauq2t
+  letterboxd: https://boxd.it/dTJkaJ
+  mastodon: https://organica.social/@arthr/116406154721865213
+tags:
+- impressões
+- filmes
+- Kirsten Stewart
+- traumas
+title: A Cronologia da Água
 ---
 
 Assisti na Casa de Cultura semana passada, e o filme ficou cozinhando em fogo baixo em mim pela semana seguinte. Kirsten Stewart dirige bem: ela tem uma montagem de impacto que me pareceu muito com o Steve McQueen no início da carreira, e ela bebe muito da textura da memória que Charlotte Wells empregou em _Aftersun_.
