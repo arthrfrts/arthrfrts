@@ -1,21 +1,22 @@
 ---
 layout: post
-title: ''
+title: ""
 source: https://spoon-tamago.com/japanese-aquarium-penguin-relationship-flowchart/
 category: Links
 tags:
-- natureza
-- biologia
-- penguins
-- relacionamentos
+  - natureza
+  - biologia
+  - penguins
+  - relacionamentos
 syndicate_to:
-- mastodon
+  - mastodon
 syndication_urls:
   bluesky: https://bsky.app/profile/arthr.me/post/3mjklbn2ljc2y
 date: 2026-04-15 16:15 -0300
 ---
+
 Esses fluxogramas (pra mim isso é mais um mapa) dos relacionamentos dos penguins dos aquários de [Quioto](https://www.kyoto-aquarium.com/special/sokanzu/en/2026/) e
-de [Sumida, em Tóquio](https://www.sumida-aquarium.com/special/sokanzu/en/2026/) tá sendo uma leitura impressionante. É tanto drama!
+de [Sumida, em Tóquio](https://www.sumida-aquarium.com/special/sokanzu/en/2026/) tão sendo uma leitura impressionante. É tanto drama!
 
 Via [_Spoon & Tamago_](https://spoon-tamago.com/japanese-aquarium-penguin-relationship-flowchart/):
 
