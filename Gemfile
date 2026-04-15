@@ -13,3 +13,5 @@ gem "linus", "~> 1.2.2"
 gem "jekyll-webmention_io", "~> 4.1", group: :jekyll_plugins
 
 gem "jekyll-compose", "~> 0.12.0", group: :jekyll_plugins
+
+gem "jekyll-redirect-from", "~> 0.16.0", group: :jekyll_plugins
