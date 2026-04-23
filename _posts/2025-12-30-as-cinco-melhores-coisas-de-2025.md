@@ -1,18 +1,20 @@
 ---
 layout: post
 title: As cinco melhores coisas de 2025
-date: '2025-12-30T10:00:19-03:00'
+date: "2025-12-30T10:00:19-03:00"
 category: Esquinas
 tags:
-- listas
-- melhores do ano
-- dieta cultural
-- filmes
-- músicas
-- séries
-- jogos
-- links
+  - listas
+  - melhores do ano
+  - dieta cultural
+  - filmes
+  - músicas
+  - séries
+  - jogos
+  - links
 tumblr_url: https://irrelefante.tumblr.com/post/804362250332913664/as-cinco-melhores-coisas-de-2025
+syndication_urls:
+  tumblr: https://irrelefante.tumblr.com/post/804362250332913664/
 ---
 
 ![Ilustração por Raul (@raulranma): um elefante está sentadinho, olhando o pôr-do-sol. As nuvens formam "2025"](https://64.media.tumblr.com/a9e8c6094378029e80f71ec151b9e313/5adae58d33365aac-8f/s640x960/bd4d41a6770715ac5a3fcfaa0576a4534c360631.jpg)
@@ -30,6 +32,7 @@ Lembrando: embora o melhor de cada categoria seja destacado, as outras quatro re
 Eu espero que você goste das sugestões e que essa lista te ajude a descobrir coisas bacanas em 2026. A gente se vê por lá.
 
 <!-- more -->
+
 ## Filme: _Foi Apenas Um Acidente_
 
 ![Um homem descarrega algo da traseira de um furgão no meio do deserto. Atrás dele tem um buraco, um monte de terra e uma pequena árvore.](https://64.media.tumblr.com/f39a9f69ab4345515ab90f4917bcf64e/5adae58d33365aac-c7/s640x960/feeb744ff0c83c7bdbe1791357bd5ebc4cc5c6ae.png)
@@ -64,14 +67,14 @@ Eu espero que você goste das sugestões e que essa lista te ajude a descobrir c
 
 **E também:**
 
-- **“**** [21 Facts About Throwing Good Parties](https://www.atvbt.com/21-facts-about-throwing-good-parties/) ****”** (Uri, _Atom Bits_). “Festas são um serviço público” é uma constatação que mudou um pouco a forma como eu vejo o porquê de eu gostar de receber meus amigos, de ver eles socializando, de estar feliz em ser uma boa casa para eles. Além de ser um ótimo ensaio sobre como uma festa presta um serviço à sociedade, traz dicas genuinamente boas para tornar as suas melhores (em resumo: faça as pessoas andarem pelo espaço).
-- **“** [**Notas sobre zumbis**](https://le-chouchou.ghost.io/notas-sobre-zumbis/) **”** (Aline, _Le chouchou_). _Le chouchou_ é uma pérola. De vez em quando, Aline escreve sobre o ofício de ensinar uma língua nova. As vezes, ela aponta uma curiosidade sobre como a língua francesa evoluiu com o tempo. Nesse, ela observa a figura dos mortos-vivos, e encontra a comunhão que temos em como enxergamos a mortalidade e a saudade. _Le chouchou_ sempre emociona.
-- **“** [**Ringtones and Customization: Summer Yapfest 2025**](https://www.neverpo.st/ringtones-and-customization-summer-yapfest-2025/) **”** (_Never Post_). Outra cápsula do tempo, esse episodio do _Never Post_, meu podcast favorito, é sobre como a gente podia personalizar tudo: de capinhas removíveis dos celulares a fundos na página do MySpace. Onde foi essa possibilidade de fazer as nossas coisas serem _nossas_? Como sempre, _Never Post_ é revelador, divertido e um pouco triste demais. Bem como o fim do ano.
-- **“**** [You’re overspending because you lack values](https://www.sherryning.com/p/youre-overspending-because-you-lack-values) ****”** (Sherry Ning). Venha para uma análise de como trocamos afeto por consumo. Fique pela resenha belíssima de _A Viagem de Chihiro_.
+- **“[21 Facts About Throwing Good Parties](https://www.atvbt.com/21-facts-about-throwing-good-parties/)”** (Uri, _Atom Bits_). “Festas são um serviço público” é uma constatação que mudou um pouco a forma como eu vejo o porquê de eu gostar de receber meus amigos, de ver eles socializando, de estar feliz em ser uma boa casa para eles. Além de ser um ótimo ensaio sobre como uma festa presta um serviço à sociedade, traz dicas genuinamente boas para tornar as suas melhores (em resumo: faça as pessoas andarem pelo espaço).
+- **“[Notas sobre zumbis](https://le-chouchou.ghost.io/notas-sobre-zumbis/)”** (Aline, _Le chouchou_). _Le chouchou_ é uma pérola. De vez em quando, Aline escreve sobre o ofício de ensinar uma língua nova. As vezes, ela aponta uma curiosidade sobre como a língua francesa evoluiu com o tempo. Nesse, ela observa a figura dos mortos-vivos, e encontra a comunhão que temos em como enxergamos a mortalidade e a saudade. _Le chouchou_ sempre emociona.
+- **“[Ringtones and Customization: Summer Yapfest 2025](https://www.neverpo.st/ringtones-and-customization-summer-yapfest-2025/)”** (_Never Post_). Outra cápsula do tempo, esse episodio do _Never Post_, meu podcast favorito, é sobre como a gente podia personalizar tudo: de capinhas removíveis dos celulares a fundos na página do MySpace. Onde foi essa possibilidade de fazer as nossas coisas serem _nossas_? Como sempre, _Never Post_ é revelador, divertido e um pouco triste demais. Bem como o fim do ano.
+- **“[You’re overspending because you lack values](https://www.sherryning.com/p/youre-overspending-because-you-lack-values)”** (Sherry Ning). Venha para uma análise de como trocamos afeto por consumo. Fique pela resenha belíssima de _A Viagem de Chihiro_.
 
 ## Música: “Facing Atlas”
 
-https://bandcamp.com/EmbeddedPlayer/size=medium/bgcol=ffffff/linkcol=0687f5/notracklist=true/transparent=true/track=1964501622/
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2011515646/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1964501622/transparent=true/" seamless><a href="https://annavonhausswolff.bandcamp.com/album/iconoclasts">ICONOCLASTS de Anna von Hausswolff</a></iframe>
 
 (Anna von Hausswolff, do álbum _ICONOCLASTS_). Eu descobri _ICONOCLASTS_ por acaso: lendo alguns comentários no Stereogum, pessoas estavam suplicando para que o autor de um post desse uma ouvida no novo álbum da sueca Anna von Hausswolff. Ainda bem que sou xereta e fui conferir, porque é um álbum transcendental: a música de von Hausswolff é imensa — uma composição de orquestra sinfônica, para traduzir a grandeza e a pequenez de seus pensamentos. A dobradinha “The Beast” e “Facing Atlas”, que abrem o disco, escancaram a metamorfose da grandeza de sensações que parecem que vão nos consumir em sentimentos que precisamos deixar passar.
 
@@ -79,7 +82,7 @@ https://bandcamp.com/EmbeddedPlayer/size=medium/bgcol=ffffff/linkcol=0687f5/notr
 
 - **“Left For Tomorrow”** (Perfume Genius, _Glory_). É estranho como sentimentos e pensamentos podem ficar muito tempo na minha cabeça, sem nunca deixarmos eles respirarem, assumirem um pouco o nosso ponto de vista para que a gente possa sentir e pensar neles. “Left For Tomorrow” é uma música que parece um desses pensamentos: ela não começa e nem termina, é como se a gente só conseguisse apreciar um momento da música do excelente novo álbum do Perfume Genius antes dela voltar para o fundo da mente. Me lembrou de quando eu era pequeno, e eu viajava com meus pais para visitar os parentes e cochilava olhando para a janela, e ia acordando de vez em quando — as vastidões do pampa aparecendo e desaparecendo enquanto eu abria e fechava os olhos. Que música linda.
 - **“Love Theme from the Robe”** (Yusef Lateef, _Eastern Sounds_). Eu comecei a ouvir essa música muito antes de eu encontrar ela. A gente tava subindo uma das muitas escadarias de Valparaíso quando eu comecei a ouvir ela saindo de algum lugar. Conforme a gente seguia na rua, eu encontrei: um pequeno antiquário com um senhorzinho sentado numa cadeira de praia no fundo da loja, com o disco de Lateef tocando no vinil. O chiado era a maior parte da música, mas de alguma forma tudo isso parecia perfeito. Eu coloquei muitas vezes ela pra tocar depois desse dia, só pra lembrar desse momento perfeito que eu vivi.
-- _ **“Minas Geraes”** _ (Milton Nascimento, _Geraes_). _Geraes_ provavelmente foi minha trilha-sonora do ano. O épico do interior do Brasil que Milton Nascimento fez no fim dos anos 1970 é genial. Sua música final, “Minas Geraes”, é uma música imensa: ela contém uma vida inteira, de um país inteiro. Ela usa toda a voz de Milton, para cantar todas as canções possíveis. Dá pra sentir o tempo passando ao nosso redor.
+- **“Minas Geraes”** (Milton Nascimento, _Geraes_). _Geraes_ provavelmente foi minha trilha-sonora do ano. O épico do interior do Brasil que Milton Nascimento fez no fim dos anos 1970 é genial. Sua música final, “Minas Geraes”, é uma música imensa: ela contém uma vida inteira, de um país inteiro. Ela usa toda a voz de Milton, para cantar todas as canções possíveis. Dá pra sentir o tempo passando ao nosso redor.
 - **“Ruminating”** (Lilly Allen, _West End Girl_). Nenhuma experiência é única mesmo. Eu já ouvi, senti, pensei muitas das coisas que Lilly Allen descreve no seu escandaloso disco novo. “Ruminating”, que transfere todo um fluxo de pensamento para uma música, sem edições, é cru e cruel para a própria protagonista. É quando ela faz graça dos seus próprios sentimentos. Nunca é mais doloroso, nem mais honesto, do que nesse momento.
 
 ## Série: _Ruptura_

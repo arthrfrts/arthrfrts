@@ -2,11 +2,13 @@
 layout: post
 title: Amizade e sentido
 category: Esquinas
-date: '2026-01-06T08:05:20-03:00'
+date: "2026-01-06T08:05:20-03:00"
 tags:
-- comportamento
-- amizades
+  - comportamento
+  - amizades
 tumblr_url: https://irrelefante.tumblr.com/post/804989195027431424/amizade-e-sentido
+syndication_urls:
+  tumblr: https://irrelefante.tumblr.com/post/804989195027431424/
 ---
 
 ![Carol (um monstro peludo e gigante) e Max (um garoto de 10 anos) se abraçam em meio a flores laranjas.](https://64.media.tumblr.com/0bfe7505322ed6c0918028cd77fad63c/07824a574ced5982-80/s640x960/d2120c145f6e3a1b2ab2d630d16a985c959797ab.jpg)ALT
