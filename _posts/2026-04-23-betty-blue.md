@@ -25,6 +25,6 @@ Eu tenho a impressão que a versão do diretor tem mais dessas “etapas” do r
 
 É bem mais engraçado, também. Eu lembro que o corte estendido é ainda mais triste — Zorg é mais pau no cu com mais tempo de tela —, já aqui o filme ainda é bem humorado até o último ato, em que a tragédia assola os personagens.
 
-De resto, esse filme sempre foi muito lindo. É um filme [dessas gerações perdidas](mastermind) que aparecem de tempos em tempos, com horizontes gigantes e vazios de esperança. A melancolia parece ecoar nesse horizonte, e quando acaba realmente parece que uma vida inteira passou voando, como a própria vida de Betty. Lindo demais.
+De resto, esse filme sempre foi muito lindo. É um filme [dessas gerações perdidas][mastermind] que aparecem de tempos em tempos, com horizontes gigantes e vazios de esperança. A melancolia parece ecoar nesse horizonte, e quando acaba realmente parece que uma vida inteira passou voando, como a própria vida de Betty. Lindo demais.
 
 [mastermind]: https://boxd.it/boT8zn
