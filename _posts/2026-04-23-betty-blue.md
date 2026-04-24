@@ -1,19 +1,20 @@
 ---
-layout: post
-title: Betty Blue
 category: Notas
-tags:
-  - impressões
-  - filmes
-  - Jean-Jacques Beineix
-  - drama
-  - romance
+date: 2026-04-23 22:52 -0300
+layout: post
 syndicate_to:
-  - tumblr
-  - mastodon
+- tumblr
+- mastodon
 syndication_urls:
   letterboxd: https://boxd.it/e5PUHT
-date: 2026-04-23 22:52 -0300
+  mastodon: https://organica.social/@arthr/116457203669882865
+tags:
+- impressões
+- filmes
+- Jean-Jacques Beineix
+- drama
+- romance
+title: Betty Blue
 ---
 
 É a primeira vez que eu assisto a versão de cinema de _Betty Blue_. Eu sempre assisti a versão do diretor, e tinha um preconceito com a versão de cinema porque o que eu mais gosto nesse filme é a forma como ele espaça o tempo — parece muito que a gente acompanha Betty e Zorg nos meses (ou anos?) em que eles estão juntos. É muito emocionante, no final, quando Zorg encontra a foto que Betty tirou deles no início do filme. Sempre me pega muito.
