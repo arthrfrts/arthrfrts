@@ -3,17 +3,17 @@ category: Notas
 date: 2026-04-23 22:52 -0300
 layout: post
 syndicate_to:
-- tumblr
-- mastodon
+  - bluesky
+  - mastodon
 syndication_urls:
   letterboxd: https://boxd.it/e5PUHT
   mastodon: https://organica.social/@arthr/116457203669882865
 tags:
-- impressões
-- filmes
-- Jean-Jacques Beineix
-- drama
-- romance
+  - impressões
+  - filmes
+  - Jean-Jacques Beineix
+  - drama
+  - romance
 title: Betty Blue
 ---
 
