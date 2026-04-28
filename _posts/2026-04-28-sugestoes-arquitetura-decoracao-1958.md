@@ -1,16 +1,19 @@
 ---
-layout: post
-title: Sugestões. Arquitetura Decoração, 1958
 category: Links
+date: 2026-04-28 08:11 -0300
+layout: post
+syndicate_to:
+- bluesky
+- mastodon
+syndication_urls:
+  mastodon: https://organica.social/@arthr/116482051193222267
 tags:
 - arquitetura
 - decoração
 - modernismo
-syndicate_to:
-- bluesky
-- mastodon
-date: 2026-04-28 08:11 -0300
+title: Sugestões. Arquitetura Decoração, 1958
 ---
+
 ![Ilustração arquitetônica de um prédio de cinco andares. A fachada combina painéis horizontais amarelos com janelas amplas em moldura branca. No centro, uma coluna helicoidal decorativa em azul-turquesa e preto sobe toda a altura do prédio, apoiada numa base de pedras irregulares. O térreo tem pé-direito generoso com pilotis. Em frente, silhuetas de pedestres, arbustos coloridos e um automóvel antigo azul.]({%- link uploads/2026/04/sugestoes-arquitetura-decoracao-01.jpg -%})
 ![Ilustração arquitetônica de um edifício residencial de três andares. A fachada é dominada por extensos brise-soleils horizontais em cor salmão/terracota, intercalados com faixas azuis e painéis amarelos vibrantes. No topo, uma estrutura cilíndrica achatada em cinza. A entrada é marcada por escadarias triangulares simétricas. Vegetação baixa na calçada.]({%- link uploads/2026/04/sugestoes-arquitetura-decoracao-02.jpg -%})
 ![Ilustração arquitetônica de uma residência em balanço sobre terreno inclinado. O volume superior — branco, com painéis em marrom-avermelhado e terraço com guarda-corpo — avança sobre o pavimento inferior, criando uma área coberta escura ao nível do jardim. Figuras humanas em azul e marrom circulam pela área externa. À esquerda, um automóvel antigo bordô. Em primeiro plano, uma pequena lagoa e vegetação densa ao fundo.]({%- link uploads/2026/04/sugestoes-arquitetura-decoracao-03.jpg -%})
