@@ -1,17 +1,20 @@
 ---
-layout: post
-title: Links pra essa quinta-feira, 30 de abril
 category: Links
+date: 2026-04-30 07:43 -0300
+layout: post
+syndicate_to:
+- bluesky
+- mastodon
+syndication_urls:
+  mastodon: https://organica.social/@arthr/116493266241678696
 tags:
 - web
 - amizades
 - experimentos
 - espaço
-syndicate_to:
-- bluesky
-- mastodon
-date: 2026-04-30 07:43 -0300
+title: Links pra essa quinta-feira, 30 de abril
 ---
+
 Aqui vai alguns links bacanas pra explorar no feriado:
 
 - **[Linha do tempo da Artemis II em fotos][timeline]:** criada por Hank Green graças à informação pública na web. O Flickr preserva os dados EXIF das fotos que a NASA publica em suas contas por lá; e a própria NASA tem uma API pública para a posição da Orion em qualquer momento no intervalo de tempo da missão. Tirei um papel de parede daqui.
