@@ -3,15 +3,16 @@ category: Links
 date: 2026-04-30 07:43 -0300
 layout: post
 syndicate_to:
-- bluesky
-- mastodon
+  - bluesky
+  - mastodon
 syndication_urls:
+  bluesky: https://bsky.app/profile/arthr.me/post/3mkpidajw7s2s
   mastodon: https://organica.social/@arthr/116493266241678696
 tags:
-- web
-- amizades
-- experimentos
-- espaço
+  - web
+  - amizades
+  - experimentos
+  - espaço
 title: Links pra essa quinta-feira, 30 de abril
 ---
 
