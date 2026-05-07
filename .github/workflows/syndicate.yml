@@ -1,52 +1,98 @@
-name: POSSE — Syndicate to social networks
+name: Build, deploy & syndicate
 
 on:
   push:
-    branches: [main]
-    paths: ["_posts/**"]
+    branches: [ main ]
 
 jobs:
-  syndicate:
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
+    outputs:
+      posts_changed: ${{ steps.detect.outputs.posts_changed }}
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0 # full history for jekyll-last-modified-at
 
-      - name: Find new/modified posts
+      - name: Detect changed posts
+        id: detect
         run: |
           if git rev-parse HEAD~1 &>/dev/null; then
             git diff --name-only HEAD~1 HEAD -- '_posts/*.md' > changed_posts.txt
           else
             git show --name-only --format="" HEAD -- '_posts/*.md' > changed_posts.txt
           fi
-          echo "Posts changed in this push:"
-          cat changed_posts.txt
+          if [ -s changed_posts.txt ]; then
+            echo "posts_changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changed posts:"
+            cat changed_posts.txt
+          else
+            echo "posts_changed=false" >> "$GITHUB_OUTPUT"
+            echo "No post changes in this push."
+          fi
 
-      - name: Wait for Cloudflare Pages deployment
-        run: |
-          echo "Waiting for Cloudflare Pages deployment to go live..."
-          sleep 300
+      - name: Upload changed posts list
+        if: steps.detect.outputs.posts_changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: changed-posts
+          path: changed_posts.txt
+          retention-days: 1
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - uses: actions/cache@v4
+        with:
+          path: .jekyll-cache
+          key: jekyll-cache-${{ github.run_id }}
+          restore-keys: jekyll-cache-
+
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy _site --project-name=SEU_PROJETO --branch=main
+
+  syndicate:
+    needs: deploy
+    if: needs.deploy.outputs.posts_changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Download changed posts list
+        uses: actions/download-artifact@v4
+        with:
+          name: changed-posts
+
+      - name: Wait for edge propagation
+        run: sleep 45
+
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install requests python-frontmatter
+      - run: pip install requests python-frontmatter
 
-      - name: Syndicate posts via Bridgy
-        run: python .github/scripts/syndicate.py
+      - name: Syndicate via Bridgy
+        run: python .github/scripts/syndicate.py --from-file changed_posts.txt
         env:
           SITE_URL: https://arthr.me
-          CHANGED_POSTS_FILE: changed_posts.txt
 
-      - name: Commit syndication URLs back to posts
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: add syndication URLs [skip ci]"
+          commit_message: "chore: add syndication URLs"
           file_pattern: "_posts/*.md"
