@@ -1,9 +1,7 @@
 # Site settings
 title: Arthur Freitas
 tagline: Faço sites e vejo filmes.
-description:
-  Eu faço sites adoráveis e artesanais para pessoas bacanas ao redor do
-  mundo.
+description: Nada faz muito sentido.
 
 url: https://arthr.me
 baseurl: ""
@@ -99,18 +97,10 @@ defaults:
       path: ""
       type: "posts"
     values:
+      category: Notas
       syndicate_to:
         - bluesky
         - mastodon
-  - scope:
-      path: ""
-      type: posts
-      category: Fotos
-    values:
-      syndicate_to:
-        - bluesky
-        - mastodon
-        - flickr
 
 # Plugins settings
 plugins:
@@ -134,6 +124,11 @@ webmentions:
   legacy_domains:
     - https://arthrfrts.tumblr.com
     - https://irrelefante.tumblr.com
+  throttle_lookups:
+    last_week: daily
+    last_month: weekly
+    last_year: every 2 weeks
+    older: monthly
 
 # Plugin: jekyll-seo-tag
 seo:
@@ -164,94 +159,3 @@ jekyll_compose:
     posts:
       category:
       tags:
-
-# Prose settings
-prose:
-  rooturl: "_posts"
-  siteurl: "https://arthr.me"
-  media: "uploads"
-  relativeLinks: "https://arthr.me/json/links.jsonp"
-  ignore:
-    - _site
-    - _includes
-    - _layouts
-    - assets
-    - docs
-    - js
-    - tumblr_files
-    - Gemfile
-    - Gemfile.lock
-    - README.md
-    - humans.txt
-    - arquivo.md
-    - sobre.md
-    - 404.html
-    - index.html
-  metadata:
-    _posts:
-      - name: layout
-        field:
-          element: hidden
-          value: post
-      - name: title
-        field:
-          element: text
-          label: Title
-      - name: date
-        field:
-          label: Date
-          element: text
-          value: CURRENT_DATETIME
-      - name: category
-        field:
-          element: select
-          label: Category
-          options: "https://arthr.me/json/categories.jsonp"
-      - name: tags
-        field:
-          element: multiselect
-          label: Tags
-          alterable: true
-          options: "https://arthr.me/json/tags.jsonp"
-      - name: "syndicate_to"
-        field:
-          element: multiselect
-          label: Syndication
-          options:
-            - name: Bluesky
-              value: bluesky
-            - name: Mastodon
-              value: mastodon
-            - name: Flickr
-              value: flickr
-    _drafts:
-      - name: layout
-        field:
-          element: hidden
-          value: post
-      - name: title
-        field:
-          element: text
-          label: Title
-      - name: category
-        field:
-          element: select
-          label: Category
-          options: "https://arthr.me/json/categories.jsonp"
-      - name: tags
-        field:
-          element: multiselect
-          label: Tags
-          alterable: true
-          options: "https://arthr.me/json/tags.jsonp"
-      - name: "syndicate_to"
-        field:
-          element: multiselect
-          label: Syndication
-          options:
-            - name: Bluesky
-              value: bluesky
-            - name: Mastodon
-              value: mastodon
-            - name: Flickr
-              value: flickr
