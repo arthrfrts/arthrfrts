@@ -8,6 +8,8 @@ syndicate_to:
 - bluesky
 syndication_urls:
   mastodon: https://organica.social/@arthr/116567772911409310
+  tumblr: https://arthrfrts.tumblr.com/post/816508373054963712/a-m%C3%BAsica-tema-de-pok%C3%A9mon-ventos-ondas
+  bluesky: https://bsky.app/profile/arthr.me/post/3mlqjto4y7k2a
 tags:
 - músicas
 - jogos
