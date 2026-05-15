@@ -1,16 +1,19 @@
 ---
+category: Links
+date: 2026-05-14 22:53 -0300
 layout: post
-title: Shape of Dreams (ou, eu quero um filme novo do Spike Jonze)
 syndicate_to:
 - bluesky
 - mastodon
-category: Links
+syndication_urls:
+  mastodon: https://organica.social/@arthr/116576111308980995
 tags:
 - vídeos
 - publicidade
 - Spike Jonze
-date: 2026-05-14 22:53 -0300
+title: Shape of Dreams (ou, eu quero um filme novo do Spike Jonze)
 ---
+
 Eu quero poucas coisas na vida. Uma das coisas que eu mais quero na vida, é um novo filme do Spike Jonze, um dos meus diretores favoritos. Ele fez obras-primas como [_Onde Vivem Os Monstros_][monstros], talvez o melhor filme sobre o que é ser criança já feito, e [_Ela_][ela], seu último filme — em 2013.
 
 Desde então, eu espero ansiosamente por um novo trabalho dele. Jonze ia dirigir uma série para a Netflix, mas pelo visto o projeto degringolou. Eu não sei porque a Apple TV ainda não ofereceu pra ele um cheque em branco — tem mais de uma série no serviço que bebe tanto da criatividade de Jonze que quase dá pra processar por cópia (_Sunny_, _Mr. Corman_).
