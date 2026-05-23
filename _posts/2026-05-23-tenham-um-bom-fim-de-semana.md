@@ -3,10 +3,13 @@ layout: post
 title: Tenham um fim de semana aconchegante
 category: Links
 tags:
-- links da semana
-- dieta cultural
-date: 2026-05-23 13:28 -0300
+  - links da semana
+  - dieta cultural
+syndication_urls:
+  bluesky: https://arthr.me/links/2026/05/23/tenham-um-bom-fim-de-semana/
+  mastodon: https://organica.social/@arthr/116624870218368392
 ---
+
 O tempo tá bem incerto nesse fim de semana por aqui. Não tem um raio de sol no céu, e as vezes parece que vai chover. Até cai uns pingos, mas a chuva não desce de vez. Parece bem um dia de inverno, mesmo que ele não tenha chegado ainda.
 
 Meu fim de semana passado foi muito agitado. Eu me atrapalhei com alguns conflitos no calendário e acabei combinando com vários amigos compromissos que se atropelaram. Mas deu tudo certo, todo mundo foi contemplado, mesmo que tenha sido um pouco corrido. No domingo, quando a última visita foi embora, eu simplesmente desmaiei na cama e acordei atrasado no dia seguinte.
