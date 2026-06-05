@@ -1,24 +1,5 @@
-{%- assign silos = "bluesky,mastodon,flickr,letterboxd,tumblr" | split: "," -%}
-
-{%- capture links -%}
-  {%- for target in silos -%}
-    {%- assign key = "syndication_" | append: target -%}
-    {%- assign url = page[key] -%}
-    {%- if url -%}
-      <a class="u-syndication" href="{{ url }}">{{ target | capitalize }}</a>|||
-    {%- endif -%}
-  {%- endfor -%}
-{%- endcapture -%}
-
-{% assign links = links | split: '|||' %}
-
-{% if links.size > 0 %}
-<aside class="syndication-callout">
-  <p>
-    👋 Este post também está nestes lugares: {{ links | join: ", " }} — passe lá pra curtir ou comentar.
-    Você também pode responder no seu blog com um <a href="https://indieweb.org/Webmention">webmention</a>.
-  </p>
-</aside>
-{% endif %}
+{%- for url in page.syndication -%}
+  <a class="u-syndication" href="{{ url }}">{{ url }}</a>
+{%- endfor -%}
 
 {% webmentions page.url %}
