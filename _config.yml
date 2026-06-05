@@ -116,15 +116,15 @@ webmentions:
     bluesky:
       endpoint: https://brid.gy/publish/bluesky
       response_mapping:
-        syndication: $.url
+        syndication_bluesky: $.url
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
       response_mapping:
-        syndication: $.url
+        syndication_mastodon: $.url
     flickr:
       endpoint: https://brid.gy/publish/flickr
       response_mapping:
-        syndication: $.url
+        syndication_flickr: $.url
   templates:
     webmentions: _includes/webmentions.html
   legacy_domains:
