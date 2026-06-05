@@ -1,5 +1,5 @@
 {%- for url in page.syndication -%}
-  <a class="u-syndication" href="{{ url }}">{{ url }}</a>
+  <a class="u-syndication" href="{{ url }}">[{{ forloop.index }}]</a>
 {%- endfor -%}
 
 {% webmentions page.url %}
