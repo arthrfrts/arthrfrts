@@ -5,9 +5,9 @@ category: Links
 tags:
   - links da semana
   - dieta cultural
-syndication_urls:
-  bluesky: https://arthr.me/links/2026/05/23/tenham-um-bom-fim-de-semana/
-  mastodon: https://organica.social/@arthr/116624870218368392
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mnk4g76xj42t
+  - https://organica.social/@arthr/116624870218368392
 ---
 
 O tempo tá bem incerto nesse fim de semana por aqui. Não tem um raio de sol no céu, e as vezes parece que vai chover. Até cai uns pingos, mas a chuva não desce de vez. Parece bem um dia de inverno, mesmo que ele não tenha chegado ainda.
