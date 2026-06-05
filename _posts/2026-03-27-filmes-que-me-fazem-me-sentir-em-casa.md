@@ -2,13 +2,10 @@
 category: Esquinas
 date: 2026-03-27 11:21 -0300
 layout: post
-syndicate_to:
-- bluesky
-- mastodon
-syndication_urls:
-  bluesky: https://bsky.app/profile/arthr.me/post/3mi2dr2t7262t
-  letterboxd: https://letterboxd.com/arthrfrts/list/filmes-que-me-fazem-me-sentir-em-casa/
-  mastodon: https://organica.social/@arthr/116301640951250149
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mi2dr2t7262t
+  - https://letterboxd.com/arthrfrts/list/filmes-que-me-fazem-me-sentir-em-casa/
+  - https://organica.social/@arthr/116301640951250149
 tags:
 - listas
 - filmes

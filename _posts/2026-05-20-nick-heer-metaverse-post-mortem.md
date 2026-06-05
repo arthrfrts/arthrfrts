@@ -2,9 +2,9 @@
 layout: post
 title: Um obituário do metaverso
 source: https://pxlnv.com/blog/metaverse-fever-dream/
-syndicate_to:
-  - bluesky
-  - mastodon
+syndication:
+  - https://organica.social/@arthr/116695414139124882
+  - https://bsky.app/profile/arthr.me/post/3mmd5lomoj22e
 category: Links
 tags:
 - tecnologia

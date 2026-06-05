@@ -3,12 +3,9 @@ category: Links
 date: 2026-03-09 08:56 -0300
 layout: post
 source: https://youraislopbores.me/
-syndicate_to:
-- bluesky
-- mastodon
-syndication_urls:
-  bluesky: https://bsky.app/profile/arthr.me/post/3mgmsrdk2dn2t
-  mastodon: https://organica.social/@arthr/116199114291488685
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mgmsrdk2dn2t
+  - https://organica.social/@arthr/116199114291488685
 tags:
 - inteligência artificial
 - web games

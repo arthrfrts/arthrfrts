@@ -13,8 +13,8 @@ tags:
   - jogos
   - links
 tumblr_url: https://irrelefante.tumblr.com/post/804362250332913664/as-cinco-melhores-coisas-de-2025
-syndication_urls:
-  tumblr: https://irrelefante.tumblr.com/post/804362250332913664/
+syndication:
+  - https://irrelefante.tumblr.com/post/804362250332913664/
 ---
 
 ![Ilustração por Raul (@raulranma): um elefante está sentadinho, olhando o pôr-do-sol. As nuvens formam "2025"](https://64.media.tumblr.com/a9e8c6094378029e80f71ec151b9e313/5adae58d33365aac-8f/s640x960/bd4d41a6770715ac5a3fcfaa0576a4534c360631.jpg)

@@ -2,11 +2,8 @@
 category: Links
 date: 2026-04-28 08:11 -0300
 layout: post
-syndicate_to:
-- bluesky
-- mastodon
-syndication_urls:
-  mastodon: https://organica.social/@arthr/116482051193222267
+syndication:
+  - https://organica.social/@arthr/116482051193222267
 tags:
 - arquitetura
 - decoração

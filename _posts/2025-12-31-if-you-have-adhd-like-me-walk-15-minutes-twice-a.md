@@ -7,8 +7,8 @@ source: https://pukicho.tumblr.com/post/804475999640256512/if-you-have-adhd-like
 category: Notas
 tags:
   - caminhadas
-syndication_urls:
-  tumblr: https://arthrfrts.tumblr.com/post/804478671766323200/
+syndication:
+  - https://arthrfrts.tumblr.com/post/804478671766323200/
 ---
 
 [pukicho](https://pukicho.tumblr.com/post/804475999640256512/if-you-have-adhd-like-me-walk-15-minutes-twice-a):

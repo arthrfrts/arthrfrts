@@ -2,13 +2,10 @@
 category: Notas
 date: 2026-03-27 12:33 -0300
 layout: post
-syndicate_to:
-- mastodon
-- bluesky
-syndication_urls:
-  bluesky: https://bsky.app/profile/arthr.me/post/3mi2hayabdw2t
-  letterboxd: https://letterboxd.com/arthrfrts/film/testament/
-  mastodon: https://organica.social/@arthr/116301886340528394
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mi2hayabdw2t
+  - https://letterboxd.com/arthrfrts/film/testament/
+  - https://organica.social/@arthr/116301886340528394
 tags:
 - impressões
 - filmes

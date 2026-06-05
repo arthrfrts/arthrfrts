@@ -8,12 +8,9 @@ tags:
   - amizades
   - experimentos
   - espaço
-syndicate_to:
-  - bluesky
-  - mastodon
-syndication_urls:
-  bluesky: https://bsky.app/profile/arthr.me/post/3mkpidajw7s2s
-  mastodon: https://organica.social/@arthr/116493266241678696
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mkpidajw7s2s
+  - https://organica.social/@arthr/116493266241678696
 ---
 
 Aqui vão alguns links bacanas pra explorar no feriado:

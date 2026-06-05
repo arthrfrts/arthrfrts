@@ -8,8 +8,8 @@ tags:
 tumblr_url: https://arthrfrts.tumblr.com/post/805815288788566016/a-felicidade-da-lilsimsie-jogando-a-nova
 source: https://www.youtube.com/watch?v=Lgju_TzG2GM
 category: Links
-syndication_urls:
-  tumblr: https://arthrfrts.tumblr.com/post/805815288788566016/
+syndication:
+  - https://arthrfrts.tumblr.com/post/805815288788566016/
 ---
 
 <iframe src="https://www.youtube.com/embed/Lgju_TzG2GM?feature=oembed&enablejsapi=1&origin=https://safe.txmblr.com&wmode=opaque"></iframe>

@@ -2,12 +2,9 @@
 category: Links
 date: 2026-03-21 11:35 -0300
 layout: post
-syndicate_to:
-- mastodon
-- bluesky
-syndication_urls:
-  mastodon: https://organica.social/@arthr/116267685048156802
-  bluesky: https://bsky.app/profile/arthr.me/post/3mhlbox3otd2t
+syndication:
+  - https://organica.social/@arthr/116267685048156802
+  - https://bsky.app/profile/arthr.me/post/3mhlbox3otd2t
 tags:
 - web
 - caminhadas

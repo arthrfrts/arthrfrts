@@ -2,13 +2,10 @@
 category: Notas
 date: 2026-05-14 22:06 -0300
 layout: post
-syndicate_to:
-  - bluesky
-  - mastodon
-syndication_urls:
-  bluesky: https://bsky.app/profile/did:plc:aeaouj6eedwqmk4z3pies55n/post/3mlu5lvvgbs2v
-  mastodon: https://organica.social/@arthr/116575919338069123
-  tumblr: https://arthrfrts.tumblr.com/post/816638412817858560/point-out-the-good
+syndication:
+  - https://bsky.app/profile/did:plc:aeaouj6eedwqmk4z3pies55n/post/3mlu5lvvgbs2v
+  - https://organica.social/@arthr/116575919338069123
+  - https://arthrfrts.tumblr.com/post/816638412817858560/point-out-the-good
 tags:
   - poesia
   - Topher Kearby

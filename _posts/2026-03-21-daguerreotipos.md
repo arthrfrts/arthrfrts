@@ -2,13 +2,10 @@
 category: Notas
 date: 2026-03-21 16:01 -0300
 layout: post
-syndicate_to:
-- bluesky
-- mastodon
-syndication_urls:
-  letterboxd: https://boxd.it/dCfLrz
-  mastodon: https://organica.social/@arthr/116269885242697456
-  bluesky: https://bsky.app/profile/arthr.me/post/3mhmffn7b3a2t
+syndication:
+  - https://boxd.it/dCfLrz
+  - https://organica.social/@arthr/116269885242697456
+  - https://bsky.app/profile/arthr.me/post/3mhmffn7b3a2t
 tags:
 - filmes
 - documentário

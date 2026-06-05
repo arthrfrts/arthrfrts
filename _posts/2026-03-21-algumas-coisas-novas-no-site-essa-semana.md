@@ -2,12 +2,9 @@
 category: Notas
 date: 2026-03-21 12:44 -0300
 layout: post
-syndicate_to:
-- mastodon
-- bluesky
-syndication_urls:
-  bluesky: https://bsky.app/profile/arthr.me/post/3mhlf3eypfn2t
-  mastodon: https://organica.social/@arthr/116267956162887223
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mhlf3eypfn2t
+  - https://organica.social/@arthr/116267956162887223
 tags:
 - meta
 - navegar na internet

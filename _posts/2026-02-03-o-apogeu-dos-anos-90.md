@@ -7,8 +7,8 @@ tags:
   - sociedade
   - tecnologia
 tumblr_url: https://irrelefante.tumblr.com/post/807541785070108672/o-apogeu-dos-anos-90
-syndication_urls:
-  tumblr: https://irrelefante.tumblr.com/post/807541785070108672/
+syndication:
+  - https://irrelefante.tumblr.com/post/807541785070108672/
 ---
 
 Vai ver é a crise que eu tô passando no trabalho, vai ver porque eu realmente tô valorizando esperar mais, mas [esse post do Chris Collins](https://chris.pagecord.com/we-as-a-society-peaked-in-the-90s) bateu forte em mim:

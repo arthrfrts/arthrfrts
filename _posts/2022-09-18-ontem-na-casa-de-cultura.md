@@ -5,13 +5,10 @@ date: 2022-09-18T12:31:00+00:00
 category: Fotos
 tags:
   - caminhadas
-syndicate_to:
-  - bluesky
-  - flickr
-syndication_urls:
-  bluesky: https://bsky.app/profile/arthr.me/post/3mgknt544i22t
-  flickr: https://www.flickr.com/photos/arthrfrts/55135991253/
-  tumblr: https://arthrfrts.tumblr.com/post/695742251593302016/ontem-na-casa-de-cultura
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mgknt544i22t
+  - https://www.flickr.com/photos/arthrfrts/55135991253/
+  - https://arthrfrts.tumblr.com/post/695742251593302016/ontem-na-casa-de-cultura
 published: true
 slug: ontem-na-casa-de-cultura
 tumblr_url: https://arthrfrts.tumblr.com/post/695742251593302016/ontem-na-casa-de-cultura

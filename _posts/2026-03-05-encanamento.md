@@ -2,17 +2,14 @@
 layout: post
 title: Encanamento
 category: Esquinas
-syndicate_to:
-  - bluesky
-  - mastodon
 tags:
   - web
   - desenvolvimento
   - meta
 date: '2026-03-05 22:33:00 -0300'
-syndication_urls:
-  mastodon: https://organica.social/@arthr/116179939132305197
-  bluesky: https://bsky.app/profile/arthr.me/post/3mgecgbyn5g2t
+syndication:
+  - https://organica.social/@arthr/116179939132305197
+  - https://bsky.app/profile/arthr.me/post/3mgecgbyn5g2t
 ---
 
 Tava lendo esse [artigo no _Unsung_ sobre a estrutura de URLs do Flickr](https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/), e [essa continuação com links sobre "design de URLs"](https://unsung.aresluna.org/mailbag-urls-as-ui/).

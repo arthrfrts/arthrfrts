@@ -3,12 +3,9 @@ layout: post
 date: 2026-04-07 07:42 -0300
 title: ''
 source: https://robotspacer.software/transfer-point.html
-syndicate_to:
-  - bluesky
-  - mastodon
-syndication_urls:
-  mastodon: https://organica.social/@arthr/116363028459194474
-  bluesky: https://bsky.app/profile/did:plc:aeaouj6eedwqmk4z3pies55n/post/3mivmac6af225
+syndication:
+  - https://organica.social/@arthr/116363028459194474
+  - https://bsky.app/profile/did:plc:aeaouj6eedwqmk4z3pies55n/post/3mivmac6af225
 category: Links
 tags:
   - jogos

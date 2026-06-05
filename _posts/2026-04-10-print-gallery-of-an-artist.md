@@ -3,11 +3,8 @@ category: Links
 date: 2026-04-10 07:30 -0300
 layout: post
 source: https://managore.itch.io/print-gallery-of-an-artist
-syndicate_to:
-- mastodon
-- bluesky
-syndication_urls:
-  mastodon: https://organica.social/@arthr/116379970949728991
+syndication:
+  - https://organica.social/@arthr/116379970949728991
 tags:
 - jogos
 - experimentos

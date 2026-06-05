@@ -2,13 +2,10 @@
 category: Notas
 date: 2026-04-14 22:29 -0300
 layout: post
-syndicate_to:
-- bluesky
-- mastodon
-syndication_urls:
-  bluesky: https://bsky.app/profile/arthr.me/post/3mjiqypvpja2t
-  letterboxd: https://boxd.it/dViGiz
-  mastodon: https://organica.social/@arthr/116406155403318652
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mjiqypvpja2t
+  - https://boxd.it/dViGiz
+  - https://organica.social/@arthr/116406155403318652
 tags:
 - impressões
 - filmes

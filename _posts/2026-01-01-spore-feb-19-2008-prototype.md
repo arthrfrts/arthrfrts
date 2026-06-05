@@ -8,8 +8,8 @@ tags:
 tumblr_url: https://arthrfrts.tumblr.com/post/804583854695432192/spore-feb-19-2008-prototype
 source: https://hiddenpalace.org/Spore_(Feb_19,_2008_prototype)
 category: Links
-syndication_urls:
-  tumblr: https://arthrfrts.tumblr.com/post/804583854695432192/
+syndication:
+  - https://arthrfrts.tumblr.com/post/804583854695432192/
 ---
 
 Incrível: primeiro dia de 2026 e disponibilizaram um protótipo de Spore:

@@ -4,14 +4,10 @@ date: 2024-12-06 13:24:00+00:00
 layout: post
 published: true
 slug: fotos-da-viagem-ao-chile
-syndicate_to:
-- bluesky
-- mastodon
-- flickr
-syndication_urls:
-  bluesky: https://bsky.app/profile/arthr.me/post/3mgkndzgo5s2t
-  flickr: https://www.flickr.com/photos/arthrfrts/55136174495/
-  mastodon: https://organica.social/@arthr/116194230042771008
+syndication:
+  - https://bsky.app/profile/arthr.me/post/3mgkndzgo5s2t
+  - https://www.flickr.com/photos/arthrfrts/55136174495/
+  - https://organica.social/@arthr/116194230042771008
 tags:
 - viagens
 - Chile

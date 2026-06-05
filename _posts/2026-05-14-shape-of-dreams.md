@@ -2,13 +2,10 @@
 category: Links
 date: 2026-05-14 22:53 -0300
 layout: post
-syndicate_to:
-  - bluesky
-  - mastodon
-syndication_urls:
-  mastodon: https://organica.social/@arthr/116576111308980995
-  bluesky: https://bsky.app/profile/arthr.me/post/3mlua7e322c2v
-  tumblr: https://arthrfrts.tumblr.com/tagged/Spike%20Jonze
+syndication:
+  - https://organica.social/@arthr/116576111308980995
+  - https://bsky.app/profile/arthr.me/post/3mlua7e322c2v
+  - https://arthrfrts.tumblr.com/tagged/Spike%20Jonze
 tags:
   - vídeos
   - publicidade

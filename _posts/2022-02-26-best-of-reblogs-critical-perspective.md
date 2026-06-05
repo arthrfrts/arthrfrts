@@ -7,9 +7,6 @@ tags:
   - reblogs
   - Tumblr
   - web
-syndicate_to:
-  - bluesky
-  - mastodon
 published: true
 slug: a-arte-do-reblog-no-tumblr
 source: https://best-of-reblogs.tumblr.com/post/677171691013685248/critical-perspective-etherialism

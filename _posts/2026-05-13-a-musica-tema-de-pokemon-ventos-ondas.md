@@ -3,13 +3,10 @@ category: Links
 date: 2026-05-13 11:32 -0300
 layout: post
 source: https://nintendocafe.com/post/816503505673125888/pokemon-winds-waves-main-theme-recording
-syndicate_to:
-- mastodon
-- bluesky
-syndication_urls:
-  mastodon: https://organica.social/@arthr/116567772911409310
-  tumblr: https://arthrfrts.tumblr.com/post/816508373054963712/a-m%C3%BAsica-tema-de-pok%C3%A9mon-ventos-ondas
-  bluesky: https://bsky.app/profile/arthr.me/post/3mlqjto4y7k2a
+syndication:
+  - https://organica.social/@arthr/116567772911409310
+  - https://arthrfrts.tumblr.com/post/816508373054963712/a-m%C3%BAsica-tema-de-pok%C3%A9mon-ventos-ondas
+  - https://bsky.app/profile/arthr.me/post/3mlqjto4y7k2a
 tags:
 - músicas
 - jogos

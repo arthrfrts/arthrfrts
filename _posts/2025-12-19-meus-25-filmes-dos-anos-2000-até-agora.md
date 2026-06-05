@@ -8,9 +8,9 @@ tags:
   - filmes
 tumblr_url: https://irrelefante.tumblr.com/post/803386517876801536/meus-25-filmes-dos-anos-2000-at%C3%A9-agora
 source: https://letterboxd.com/arthrfrts/list/meus-25-filmes-favoritos-dos-anos-2000/
-syndication_urls:
-  letterboxd: "https://letterboxd.com/arthrfrts/list/meus-25-filmes-favoritos-dos-anos-2000/"
-  tumblr: https://irrelefante.tumblr.com/post/803386517876801536/
+syndication:
+  - "https://letterboxd.com/arthrfrts/list/meus-25-filmes-favoritos-dos-anos-2000/"
+  - https://irrelefante.tumblr.com/post/803386517876801536/
 ---
 
 Dei um tempo no Letterboxd nesse ano, mas vou voltar ano que vem. Para começar os trabalhos, eu fiz [uma lista com meus vinte cindo filmes favoritos de 2000 pra cá](https://letterboxd.com/arthrfrts/list/meus-25-filmes-favoritos-dos-anos-2000/), com anotações em cada um deles.

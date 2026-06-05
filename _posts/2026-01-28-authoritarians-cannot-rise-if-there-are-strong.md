@@ -9,8 +9,8 @@ tags:
   - sentimentos
 tumblr_url: https://irrelefante.tumblr.com/post/807002914260500480/authoritarians-cannot-rise-if-there-are-strong
 source: "https://www.swiss-miss.com/2026/01/strong-communities-and-people-acting-with-joy.html"
-syndication_urls:
-  tumblr: https://irrelefante.tumblr.com/post/807002914260500480/
+syndication:
+  - https://irrelefante.tumblr.com/post/807002914260500480/
 ---
 
 Heather Cox Richardson, via [swissmiss](https://www.swiss-miss.com/2026/01/strong-communities-and-people-acting-with-joy.html):

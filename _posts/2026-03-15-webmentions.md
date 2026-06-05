@@ -2,12 +2,9 @@
 category: Notas
 date: 2026-03-15 14:12 -0300
 layout: post
-syndicate_to:
-- bluesky
-- mastodon
-syndication_urls:
-  mastodon: https://organica.social/@arthr/116234414041990960
-  bluesky: https://bsky.app/profile/arthr.me/post/3mh4jnyk5hm2t
+syndication:
+  - https://organica.social/@arthr/116234414041990960
+  - https://bsky.app/profile/arthr.me/post/3mh4jnyk5hm2t
 tags:
 - IndieWeb
 - Webmentions
