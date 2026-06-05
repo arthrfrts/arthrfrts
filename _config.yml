@@ -91,16 +91,6 @@ paginate_path: "/p:num/"
 
 include:
   - _redirects
-  -
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      category: Notas
-      syndicate_to:
-        - bluesky
-        - mastodon
 
 # Plugins settings
 plugins:
@@ -110,13 +100,26 @@ plugins:
 # Plugin: jekyll-webmention_io
 webmentions:
   username: arthr.me
+  cache_folder: _data/webmentions
   syndication:
     bluesky:
       endpoint: https://brid.gy/publish/bluesky
+      response_mapping:
+        syndication:
+          - url: $.url
+            service: bluesky
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
+      response_mapping:
+        syndication:
+          - url: $.url
+            service: mastodon
     flickr:
       endpoint: https://brid.gy/publish/flickr
+      response_mapping:
+        syndication:
+          - url: $.url
+            service: flickr
   templates:
     webmentions: _includes/webmentions.html
   legacy_domains:

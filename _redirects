@@ -4,16 +4,6 @@
 {%- for post in site.posts %}
 {%- if post.tumblr_url %}
 {{- post.tumblr_url | remove: "https://arthrfrts.tumblr.com" | remove: "https://irrelefante.tumblr.com" }}    {{ post.url | relative_url }}    301
-{% elsif post.syndication_urls %}
-{%- if post.syndication_urls.mastodon %}
-{{- post.syndication_urls.mastodon | remove: "https://organica.social/@arthr" }} {{ post.url | relative_url }} 302
-{% endif -%}
-{%- if post.syndication_urls.bluesky %}
-{{- post.syndication_urls.bluesky | remove: "https://bsky.app/profile/did:plc:aeaouj6eedwqmk4z3pies55n" | remove: "https://bsky.app/profile/arthr.me" }} {{ post.url | relative_url }} 302
-{% endif -%}
-{%- if post.syndication_urls.tumblr %}
-{{- post.syndication_urls.tumblr | remove: "https://arthrfrts.tumblr.com" | remove: "https://irrelefante.tumblr.com" }} {{ post.url | relative_url }} 301
-{% endif -%}
 {% endif -%}
 {% endfor -%}
 
