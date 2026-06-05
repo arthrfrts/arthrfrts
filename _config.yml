@@ -117,8 +117,6 @@ webmentions:
       endpoint: https://brid.gy/publish/bluesky
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
-      response_mapping:
-        syndication: $.url
     flickr:
       endpoint: https://brid.gy/publish/flickr
   templates:
