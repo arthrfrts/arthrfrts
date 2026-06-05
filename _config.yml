@@ -111,30 +111,21 @@ plugins:
 webmentions:
   username: arthr.me
   cache_folder: .cache
-  cache_bad_uris_for: 1
+  # cache_bad_uris_for: 1
   syndication:
     bluesky:
       endpoint: https://brid.gy/publish/bluesky
-      response_mapping:
-        syndication: $.url
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
       response_mapping:
         syndication: $.url
     flickr:
       endpoint: https://brid.gy/publish/flickr
-      response_mapping:
-        syndication: $.url
   templates:
     webmentions: _includes/webmentions.html
   legacy_domains:
     - https://arthrfrts.tumblr.com
     - https://irrelefante.tumblr.com
-  throttle_lookups:
-    last_week: daily
-    last_month: weekly
-    last_year: every 2 weeks
-    older: monthly
 
 # Plugin: jekyll-seo-tag
 seo:
