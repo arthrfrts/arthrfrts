@@ -2,6 +2,9 @@
 layout: post
 title: Um obituário do metaverso
 source: https://pxlnv.com/blog/metaverse-fever-dream/
+syndicate_to:
+  - bluesky
+  - mastodon
 category: Links
 tags:
 - tecnologia

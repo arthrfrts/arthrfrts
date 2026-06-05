@@ -4,7 +4,6 @@ title: Teste de POSSE
 category: Notas
 syndicate_to:
   - bluesky
-  - tumblr
 tags:
   - meta
   - web
