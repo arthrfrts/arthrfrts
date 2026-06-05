@@ -40,13 +40,13 @@ main_menu:
   title: Navegar
   items:
     - url: "/"
-      label: O Riacho
+      label: Posts
     - url: "/sobre/"
-      label: A Casa
+      label: Sobre
     - url: "/arquivo/"
-      label: A Biblioteca
+      label: Arquivo
     - url: "/wander/"
-      label: A Trilha
+      label: Descobertas
 
 footer_menu:
   title: Onde me encontrar
@@ -113,12 +113,18 @@ webmentions:
   cache_folder: .cache
   cache_bad_uris_for: 1
   syndication:
-    bluesky:
-      endpoint: https://brid.gy/publish/bluesky
-    flickr:
-      endpoint: https://brid.gy/publish/flickr
-    mastodon:
-      endpoint: https://brid.gy/publish/mastodon
+  bluesky:
+    endpoint: https://brid.gy/publish/bluesky
+    response_mapping:
+      syndication: $.url
+  mastodon:
+    endpoint: https://brid.gy/publish/mastodon
+    response_mapping:
+      syndication: $.url
+  flickr:
+    endpoint: https://brid.gy/publish/flickr
+    response_mapping:
+      syndication: $.url
   templates:
     webmentions: _includes/webmentions.html
   legacy_domains:
