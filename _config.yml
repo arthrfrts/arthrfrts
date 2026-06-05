@@ -99,6 +99,7 @@ plugins:
 
 # Plugin: jekyll-webmention_io
 webmentions:
+  debug: true
   username: arthr.me
   cache_folder: _data/webmentions
   syndication:
@@ -119,6 +120,11 @@ webmentions:
   legacy_domains:
     - https://arthrfrts.tumblr.com
     - https://irrelefante.tumblr.com
+  throttle_lookups:
+    last_week: daily
+    last_month: weekly
+    last_year: every 2 weeks
+    older: monthly
 
 # Plugin: jekyll-seo-tag
 seo:
