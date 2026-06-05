@@ -99,7 +99,6 @@ plugins:
 
 # Plugin: jekyll-webmention_io
 webmentions:
-  debug: true
   username: arthr.me
   cache_folder: _data/webmentions
   syndication:
