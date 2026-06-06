@@ -84,6 +84,8 @@ translations:
   blog_pagination_next_page: "Próxima página"
 
 # Build settings
+cache_dir: .cache
+
 permalink: "/:categories/:year/:month/:day/:title/"
 
 paginate: 6
