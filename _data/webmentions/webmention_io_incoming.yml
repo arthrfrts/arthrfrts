@@ -709,4 +709,33 @@
 "/links/2026/05/18/tres-coisas-sobre-dados/": {}
 "/links/2026/05/20/nick-heer-metaverse-post-mortem/": {}
 "/links/2026/05/23/tenham-um-bom-fim-de-semana/": {}
-"/notas/2026/06/05/novo-teste-de-posse/": {}
+"/notas/2026/06/05/novo-teste-de-posse/":
+  '2000776':
+    id: '2000776'
+    uri: https://organica.social/@luciana/116699709209700134
+    source: false
+    pubdate: 2026-06-05 18:50:46.000000000 -03:00
+    raw:
+      source: https://brid.gy/comment/mastodon/@arthr@organica.social/116698118241115083/116699709209700134
+      verified: true
+      verified_date: '2026-06-05T21:58:05+00:00'
+      id: 2000776
+      private: false
+      data:
+        author: &14
+          name: Luciana
+          url: https://organica.social/@luciana
+          photo: https://avatars.webmention.io/organica.social/42f67db4d868e3c4ffbde0f88e8668a40b515cf0d57321416b9999bb050ed240.png
+        url: https://organica.social/@luciana/116699709209700134
+        name:
+        content: <p><span class="h-card"><a href="https://organica.social/@arthr"
+          class="u-url">@<span>arthr</span></a></span> uhuu</p>
+        published: '2026-06-05T21:50:46+00:00'
+        published_ts: 1780696246
+      activity:
+        type: reply
+      target: https://arthr.me/notas/2026/06/05/novo-teste-de-posse/
+    author: *14
+    type: reply
+    content: <p><span class="h-card"><a href="https://organica.social/@arthr" class="u-url">@<span>arthr</span></a></span>
+      uhuu</p>
