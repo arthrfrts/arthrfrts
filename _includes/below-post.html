@@ -1,5 +1,25 @@
-{%- for url in page.syndication -%}
-  <a class="u-syndication" href="{{ url }}">[{{ forloop.index }}]</a>
-{%- endfor -%}
+{%- capture syndication_links -%}
+  {%- for url in page.syndication -%}
+    {%- if url contains "bsky" -%}
+      {%- assign service = "Bluesky" -%}
+    {%- elsif url contains "tumblr" -%}
+      {%- assign service = "Tumblr" -%}
+    {%- elsif url contains "flickr" -%}
+      {%- assign service = "Flickr" -%}
+    {%- elsif url contains "boxd" -%}
+      {%- assign service = "Letterboxd" -%}
+    {%- else -%}
+      {%- assign service = "Mastodon" -%}
+    {%- endif -%}
 
-{% webmentions page.url %}
+    <a class="u-syndication" href="{{ url }}">{{ service }}</a>{%- unless forloop.last -%}, {% endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+<aside class="interactions">
+  <p class="syndication-note">
+    💬 Esse post está disponível em outros lugares: {{ syndication_links -}}. Passe por lá para deixar um comentário, ou me envie uma <a href="https://indieweb.org/Webmention">webmention</a> pelo seu próprio blog.
+  </p>
+
+  {% webmentions page.url %}
+</aside>
