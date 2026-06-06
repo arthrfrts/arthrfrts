@@ -4,7 +4,7 @@
 /tagged/* {{ site.jekyll-archives.permalinks.tag | replace: ":name", ":splat" }} 301
 /rss	/feed.xml
 /archive	/arquivo/
-{%- for post in site.posts %}
+{% for post in site.posts %}
 {%- if post.tumblr_url %}
 {{- post.tumblr_url | remove: "https://arthrfrts.tumblr.com" | remove: "https://irrelefante.tumblr.com" }}    {{ post.url | relative_url }}    301
 {% endif -%}
