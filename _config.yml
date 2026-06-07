@@ -84,8 +84,6 @@ translations:
   blog_pagination_next_page: "Próxima página"
 
 # Build settings
-cache_dir: .cache
-
 permalink: "/:categories/:year/:month/:day/:title/"
 
 paginate: 6
@@ -156,7 +154,7 @@ jekyll-archives:
 jekyll_compose:
   default_front_matter:
     drafts:
-      category:
+      category: Notas
       tags:
     posts:
       category:
