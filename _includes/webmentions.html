@@ -1,8 +1,12 @@
+{%- if html_proofer_ignore == "all" -%}
+  {%- assign html_proofer_attr = "data-proofer-ignore" -%}
+{%- endif -%}
+
 {% if webmentions.size > 0 %}
   {%- assign reactions = webmentions | where_exp: "item", "item.type == 'like' or item.type == 'repost'" -%}
   {%- assign replies = webmentions | where_exp: "item", "item.type == 'reply' or item.type == 'mention'" -%}
 
-  <section class="webmentions">
+  <section class="webmentions" {{ html_proofer_attr }}>
     <h2 class="webmentions-title">
       Webmentions
     </h2>
