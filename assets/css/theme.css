@@ -25,17 +25,10 @@
 }
 
 
-/* ===========================================
-   Webmentions
-   =========================================== */
-
-.webmentions {
+.interactions {
   max-width: var(--content-width);
   margin-left: auto;
   margin-top: calc(var(--spacing) * 2);
-  display: flex;
-  flex-flow: column nowrap;
-  gap: calc(var(--spacing) * 1.5);
 
   &::before {
     content: " ";
@@ -43,206 +36,94 @@
     height: 1px;
     width: 3lh;
     background-color: var(--color-border);
+    margin-bottom: calc(var(--spacing) * 2);
   }
 }
 
-.webmentions__title {
-  font-family: var(--font-headings);
-  font-size: var(--text-size);
-  font-weight: normal;
+.webmentions {
+  margin-top: var(--spacing);
+}
+
+.webmentions-title {
+  font-size: 1.6rem;
   font-style: italic;
-  color: color-mix(in srgb, var(--color-text), transparent 40%);
 }
 
-
-/* -------------------------------------------
-   Facepile (likes + reposts)
-   ------------------------------------------- */
-
-.webmentions__reactions {
-  display: flex;
-  flex-flow: column nowrap;
-  gap: calc(var(--spacing) / 2);
-}
-
-.webmentions__reactions-label {
-  font-size: 1.2rem;
-  color: color-mix(in srgb, var(--color-text), transparent 40%);
-  margin-bottom: 0;
-}
-
-.webmentions-facepile {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  padding-inline-start: 8px; /* offset for the first item's negative margin */
-  list-style: none;
-  margin: 0;
-}
-
-.webmentions-facepile__item {
-  margin-block: 0;
-  margin-inline-start: -8px;
-  transition: transform var(--transition-duration) ease, z-index 0s;
-  z-index: 0;
-
-  &:hover,
-  &:focus-within {
-    transform: translateY(-3px);
-    z-index: 1;
-  }
-}
-
-.webmentions-facepile__link {
-  display: block;
-  border-radius: 100%;
-}
-
-.webmentions-facepile__avatar {
-  display: block;
-  width: 28px;
-  height: 28px;
-  border-radius: 100%;
-  /* The background-color border "punches out" the gap between overlapping avatars */
-  outline: 2px solid var(--color-background);
-  box-shadow: none;
-  object-fit: cover;
-}
-
-.webmentions-facepile__avatar--placeholder {
-  width: 28px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-shadows);
-  color: var(--color-text);
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  user-select: none;
-}
-
-
-/* -------------------------------------------
-   Reply thread
-   ------------------------------------------- */
-
-.webmentions__replies {
-  display: flex;
-  flex-flow: column nowrap;
-  gap: calc(var(--spacing) * 1.25);
+.replies {
   list-style: none;
   padding-inline-start: 0;
-  margin: 0;
-}
 
-.webmentions__replies > li {
-  margin-block: 0;
-}
+  .reply {
+    margin-bottom: var(--spacing);
 
-.webmention-thread {
-  display: grid;
-  grid-template-columns: 28px 1fr;
-  gap: 0 .8ch;
-  align-items: start;
-}
+    .reply-header {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      gap: calc(var(--spacing) / 4);
+    }
 
-.webmention-thread__avatar-col {
-  padding-top: .2em; /* nudge avatar to align with the author name baseline */
-}
+    .reply-author {
+      display: inline-flex;
+      align-items: center;
+      gap: calc(var(--spacing) / 4);
 
-.webmention-thread__avatar {
-  display: block;
-  width: 28px;
-  height: 28px;
-  border-radius: 100%;
-  box-shadow: none;
-  object-fit: cover;
-}
+      img {
+        box-shadow: none;
+        border-radius: 50%;
+      }
 
-.webmention-thread__avatar--placeholder {
-  width: 28px;
-  height: 28px;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-shadows);
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  user-select: none;
-}
+      .p-name {
+        font-weight: 700;
+      }
+    }
 
-.webmention-thread__body {
-  display: flex;
-  flex-flow: column nowrap;
-  gap: .3em;
-}
+    .reply-permalink {
+      color: color-mix(in srgb, var(--color-link), transparent 50%);
+      text-decoration: none;
 
-.webmention-thread__author {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.webmention-thread__author-link {
-  color: var(--color-text);
-  text-decoration: none;
-
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--color-border);
+      &:hover,
+      &:focus {
+        color: color-mix(in srgb, var(--color-link-hover), transparent 50%);
+      }
+    }
   }
 }
 
-.webmention-thread__content {
-  font-size: var(--text-size);
-  line-height: var(--text-line-height);
-}
-
-.webmention-thread__meta {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 1ch;
-  font-size: 1.2rem;
-  color: color-mix(in srgb, var(--color-text), transparent 40%);
-}
-
-.webmention-thread__permalink {
-  color: inherit;
-}
-
-
-/* ===========================================
-   Syndication Callout
-   =========================================== */
-
-.syndication-callout {
-  max-width: var(--content-width);
-  margin-left: auto;
+.reactions {
   margin-top: calc(var(--spacing) * 2);
-  font-size: 1.2rem;
-  color: color-mix(in srgb, var(--color-text), transparent 40%);
 
-  p { margin: 0; line-height: 1.5; }
+  .reactions-list {
+    margin-left: 0;
+    display: inline-flex;
+    flex-flow: row wrap;
 
-  a {
-    color: var(--color-link);
-    text-decoration-color: var(--color-border);
-    text-underline-offset: 2px;
+    &:hover > .reaction-item,
+    &:focus-within > .reaction-item {
+      opacity: 0.5;
+    }
   }
 
-  a:hover { color: var(--color-link-hover); }
+  .reaction-item {
+    display: inline-block;
+    z-index: 1;
+    transition: opacity 0.25s ease;
+    margin-right: -1rem;
+    line-height: 1;
+
+    &:hover,
+    &:focus {
+      z-index: 2;
+      opacity: 1 !important;
+    }
+  }
+  .reaction-avatar {
+    border-radius: 50%;
+    box-shadow: none;
+  }
 }
 
-
-/* ===========================================
-   Webring
-   =========================================== */
-
+/* Webring */
 .webring {
   max-width: var(--content-width);
   margin-inline: auto;
@@ -259,18 +140,6 @@
     content: attr(aria-label);
     width: 100%;
     text-align: center;
-    color: color-mix(in srgb, var(--color-text), transparent 60%);
     font-style: italic;
-  }
-
-  a {
-    color: color-mix(in srgb, var(--color-text), transparent 40%);
-    text-decoration: none;
-    transition: color var(--transition-duration) ease;
-
-    &:hover,
-    &:focus {
-      color: var(--color-link-hover);
-    }
   }
 }
