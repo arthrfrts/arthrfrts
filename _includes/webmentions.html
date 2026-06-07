@@ -38,7 +38,7 @@
             <div class="reply-body e-content">
               {% if reply.title %}
                 <a class="u-url" href="{{ reply.uri }}" rel="bookmark nofollow">
-                  {{ reply.title | append: ' ⇥' }}
+                  {{ reply.title | append: ' &#x21e5;' }}
                 </a>
               {% else %}
                 {{ reply.content }}
