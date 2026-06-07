@@ -17,9 +17,11 @@
 {%- endcapture -%}
 
 <aside class="interactions">
-  <p class="syndication-note">
-    💬 Esse post está disponível em outros lugares: {{ syndication_links -}}. Passe por lá para deixar um comentário, ou me envie uma <a href="https://indieweb.org/Webmention">webmention</a> pelo seu próprio blog.
-  </p>
+  {% if page.syndication.size > 0 %}
+    <p class="syndication-note">
+      💬 Esse post está disponível em outros lugares: {{ syndication_links -}}. Passe por lá para deixar um comentário, ou me envie uma <a href="https://indieweb.org/Webmention">webmention</a> pelo seu próprio blog.
+    </p>
+  {% endif %}
 
   {% webmentions page.url %}
 </aside>
