@@ -1,31 +1,27 @@
 const wander = {
-  consoles: [
-    'https://susam.net/wander/',
-    'https://heckmeck.de'
-  ],
+  consoles: ["https://susam.net/wander/", "https://heckmeck.de"],
   pages: [
-    'https://arbesman.net/computationaldelights/',
-    'https://sarajoy.dev/',
-    'https://boingboing.net/',
-    'https://www.swiss-miss.com/',
-    'https://waxy.org/',
-    'https://le-chouchou.ghost.io/',
-    'https://osolnacabeca.com.br/',
-    'https://ellesho.me/page/website/now/',
-    'https://a-website-is-a-room.net/',
-    'https://doubleloop.net/',
-    'https://marigold.town/',
-    'https://whimsical.club/',
-    'https://www.robinsloan.com/tap/tour/',
-    'https://permacomputing.net/',
-    'https://www.thenewatlantis.com/publications/do-elephants-have-souls',
-    'https://syllabusproject.org/syllabus-for-taking-an-internet-walk/',
-    "https://robotspacer.software/transfer-point.html".
-    'https://www.eod.com/blog/',
-    'https://chrisglass.com/',
-    'https://meadow.cafe/blog/0074-the-world-is-not-made-up-of-words/',
-    'https://buttondown.com/monteiro/archive/how-to-remember-and-forget/',
-
+    "https://arbesman.net/computationaldelights/",
+    "https://sarajoy.dev/",
+    "https://boingboing.net/",
+    "https://www.swiss-miss.com/",
+    "https://waxy.org/",
+    "https://le-chouchou.ghost.io/",
+    "https://osolnacabeca.com.br/",
+    "https://ellesho.me/page/website/now/",
+    "https://a-website-is-a-room.net/",
+    "https://doubleloop.net/",
+    "https://marigold.town/",
+    "https://whimsical.club/",
+    "https://www.robinsloan.com/tap/tour/",
+    "https://permacomputing.net/",
+    "https://www.thenewatlantis.com/publications/do-elephants-have-souls",
+    "https://syllabusproject.org/syllabus-for-taking-an-internet-walk/",
+    "https://robotspacer.software/transfer-point.html",
+    "https://www.eod.com/blog/",
+    "https://chrisglass.com/",
+    "https://meadow.cafe/blog/0074-the-world-is-not-made-up-of-words/",
+    "https://buttondown.com/monteiro/archive/how-to-remember-and-forget/",
   ],
   // Websites and consoles to ignore.  When this console serves as
   // your host console, it will never contact consoles or recommend
@@ -33,11 +29,11 @@ const wander = {
   // expression patterns.
   ignore: [
     // Off-topic since these are commercial services, not personal websites.
-    '.*://medium\\.com/.*',
-    '.*://.*\\.substack\\.com/.*',
+    ".*://medium\\.com/.*",
+    ".*://.*\\.substack\\.com/.*",
 
     // These do not load in the console due to frame-embedding restrictions.
-    '.*://cari\\.institute/.*',
-    '.*://wdl\\.mcdaniel\\.edu/.*',
-  ]
-}
+    ".*://cari\\.institute/.*",
+    ".*://wdl\\.mcdaniel\\.edu/.*",
+  ],
+};
