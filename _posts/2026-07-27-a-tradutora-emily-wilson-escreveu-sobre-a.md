@@ -2,6 +2,7 @@
 layout: post
 title: ""
 date: '2026-07-27T18:24:56-03:00'
+category: Links
 tags:
 - links
 - textos

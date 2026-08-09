@@ -2,6 +2,7 @@
 layout: post
 title: "Uma Mulher Sob Influência"
 date: '2026-07-12T14:09:02-03:00'
+category: Esquinas
 tags:
 - assisti
 - filmes

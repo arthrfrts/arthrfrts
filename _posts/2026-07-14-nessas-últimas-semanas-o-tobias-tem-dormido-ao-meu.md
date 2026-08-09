@@ -2,6 +2,7 @@
 layout: post
 title: ""
 date: '2026-07-14T20:29:48-03:00'
+category: Notas
 tags:
 - agora
 - cachorros

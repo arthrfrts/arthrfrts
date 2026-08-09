@@ -2,6 +2,7 @@
 layout: post
 title: ""
 date: '2026-07-22T16:05:20-03:00'
+category: Links
 tags:
 - web
 - desenvolvimento

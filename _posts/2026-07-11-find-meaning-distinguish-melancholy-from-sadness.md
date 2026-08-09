@@ -2,6 +2,7 @@
 layout: post
 title: ""
 date: '2026-07-11T07:10:13-03:00'
+category: Notas
 tags:
 - referências
 - citações

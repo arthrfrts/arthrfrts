@@ -2,6 +2,7 @@
 layout: post
 title: ""
 date: '2026-07-30T08:53:34-03:00'
+category: Notas
 tags:
 - jogos
 - Thimbleweed Park

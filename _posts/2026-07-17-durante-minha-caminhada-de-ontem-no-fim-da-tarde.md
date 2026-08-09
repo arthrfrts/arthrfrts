@@ -2,6 +2,7 @@
 layout: post
 title: ""
 date: '2026-07-17T00:51:27-03:00'
+category: Fotos
 tags:
 - caminhadas
 - fotos

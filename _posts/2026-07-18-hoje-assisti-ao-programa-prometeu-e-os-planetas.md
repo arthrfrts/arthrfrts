@@ -2,6 +2,7 @@
 layout: post
 title: ""
 date: '2026-07-18T23:03:37-03:00'
+category: Notas
 tags:
 - agora
 - músicas
