@@ -740,3 +740,53 @@
     content: <p><span class="h-card"><a href="https://organica.social/@arthr" class="u-url">@<span>arthr</span></a></span>
       uhuu</p>
 "/notas/2026/06/09/9-de-junho-de-2026/": {}
+"/notas/2026/06/15/819542865659183104/": {}
+"/notas/2026/07/11/find-meaning-distinguish-melancholy-from-sadness/": {}
+"/esquinas/2026/07/12/adoro-quando-acontece-dessas-ver-um-dos-meus/": {}
+"/notas/2026/07/14/nessas-%C3%BAltimas-semanas-o-tobias-tem-dormido-ao-meu/": {}
+"/links/2026/07/15/ferramenta-bacana-pra-desenvolvedores-o-website/": {}
+"/fotos/2026/07/17/durante-minha-caminhada-de-ontem-no-fim-da-tarde/": {}
+"/notas/2026/07/18/hoje-assisti-ao-programa-prometeu-e-os-planetas/": {}
+"/notas/2026/07/20/conqueringthenoodle-sailorspoon-slimetony/": {}
+"/links/2026/07/22/esse-ano-o-html-day-%C3%A9-dia-8-de-agosto-eu-vou/":
+  '2015739':
+    id: '2015739'
+    uri: https://organica.social/@luciana/117029287081769806
+    source: false
+    pubdate: 2026-08-02 23:46:45.000000000 -03:00
+    raw:
+      source: https://brid.gy/comment/mastodon/@arthr@organica.social/116965191856536169/117029287081769806
+      verified: true
+      verified_date: '2026-08-03T14:05:17+00:00'
+      id: 2015739
+      private: false
+      data:
+        author: &15
+          name: Luciana
+          url: https://organica.social/@luciana
+          photo: https://avatars.webmention.io/organica.social/42f67db4d868e3c4ffbde0f88e8668a40b515cf0d57321416b9999bb050ed240.png
+        url: https://organica.social/@luciana/117029287081769806
+        name:
+        content: <p><span class="h-card"><a href="https://organica.social/@arthr"
+          class="u-url">@<span>arthr</span></a></span> Arthur, não entrava no seu
+          site há tempos pois estava sem receber seus posts. O feed RSS tá quebrado
+          pra mim. Fui tentar corrigir e aí vi todas as mudanças que implementou no
+          blog, tá lindo demaisssss, fiquei apaixonada &lt;3 tirou os comentários?</p>
+        published: '2026-08-03T02:46:45+00:00'
+        published_ts: 1785725205
+      activity:
+        type: reply
+      target: https://arthr.me/post/822866996242857984/esse-ano-o-html-day-%C3%A9-dia-8-de-agosto-eu-vou
+    author: *15
+    type: reply
+    content: <p><span class="h-card"><a href="https://organica.social/@arthr" class="u-url">@<span>arthr</span></a></span>
+      Arthur, não entrava no seu site há tempos pois estava sem receber seus posts.
+      O feed RSS tá quebrado pra mim. Fui tentar corrigir e aí vi todas as mudanças
+      que implementou no blog, tá lindo demaisssss, fiquei apaixonada &lt;3 tirou
+      os comentários?</p>
+"/links/2026/07/22/eu-gostei-de-a-odisseia-mesmo-sendo-um-filme/": {}
+"/notas/2026/07/27/terceira-noite-seguida-de-ins%C3%B4nia-t%C3%B4-vendo-que-%C3%A9/": {}
+"/links/2026/07/27/a-tradutora-emily-wilson-escreveu-sobre-a/": {}
+"/notas/2026/07/30/%C3%B3tima-not%C3%ADcia-ron-gilbert-postou-no-seu-blog/": {}
+"/esquinas/2026/07/31/mystery/": {}
+"/links/2026/08/01/bingebuster-%C3%A9-uma-locadora-virtual-para-os-seus/": {}
