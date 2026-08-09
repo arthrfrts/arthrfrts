@@ -118,8 +118,7 @@ webmentions:
   templates:
     webmentions: _includes/webmentions.html
   legacy_domains:
-    -
-    - https://irrelefante.tumblr.com
+    - https://arthrfrts.tumblr.com
   throttle_lookups:
     last_week: daily
     last_month: weekly
