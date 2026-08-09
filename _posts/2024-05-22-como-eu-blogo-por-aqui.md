@@ -4,7 +4,7 @@ title: 'Como eu blogo por aqui'
 date: '2024-05-22T09:42:33-03:00'
 tags:
 - blogs
-tumblr_url: https://arthrfrts.tumblr.com/post/751180713837101056/como-eu-blogo-por-aqui
+tumblr_url: /post/751180713837101056/como-eu-blogo-por-aqui
 category: Notas
 ---
 O [Ghedin trouxe pra esse lado da internet](https://manualdousuario.net/orbita-post/como-e-seu-fluxo-para-postar-no-blog/) uma corrente gringa de como é o fluxo para blogar.

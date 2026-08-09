@@ -4,7 +4,7 @@ title: ''
 date: '2024-03-23T10:47:34-03:00'
 tags:
 - apps
-tumblr_url: https://arthrfrts.tumblr.com/post/745748986500153344/download-the-how-we-feel-app
+tumblr_url: /post/745748986500153344/download-the-how-we-feel-app
 source: https://howwefeel.org/get
 category: Links
 ---

@@ -5,7 +5,7 @@ date: '2025-10-27T10:12:28-03:00'
 tags:
 - blogs
 - projetos
-tumblr_url: https://arthrfrts.tumblr.com/post/798564808813330432/em-2013-eu-criei-um-blog-colaborativo-com-meus
+tumblr_url: /post/798564808813330432/em-2013-eu-criei-um-blog-colaborativo-com-meus
 source: https://irrelefante.com.br/
 category: Links
 ---

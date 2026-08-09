@@ -6,7 +6,7 @@ tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-tumblr_url: https://arthrfrts.tumblr.com/post/798565210960052224/revendo-os-filmes-do-studio-ghibli-assim-um-atr%C3%A1s
+tumblr_url: /post/798565210960052224/revendo-os-filmes-do-studio-ghibli-assim-um-atr%C3%A1s
 category: Notas
 ---
 ![Uma plantação de flores em meio às montanhas, com pessoas coletando elas](https://64.media.tumblr.com/ffb6d2f6f3616d8fc6698bf95fc66a0c/4ab85f634b7e3312-95/s640x960/33a91c16edb0e45a161979bc7be9fb2d33e36bb3.jpg)

@@ -4,7 +4,7 @@ title: ''
 date: '2024-12-22T21:33:00-03:00'
 tags:
 - amigos
-tumblr_url: https://arthrfrts.tumblr.com/post/779452499722682368/vou-passar-a-semana-do-natal-aqui-na-casa-dos-meus
+tumblr_url: /post/779452499722682368/vou-passar-a-semana-do-natal-aqui-na-casa-dos-meus
 category: Notas
 ---
 Vou passar a semana do natal aqui na casa dos meus pais, no interior. Aqui a noite ainda é fria, e eu gosto de andar pelo pátio no meio da noite, para sentir esse frio. É um frio quieto, mas acolhedor.

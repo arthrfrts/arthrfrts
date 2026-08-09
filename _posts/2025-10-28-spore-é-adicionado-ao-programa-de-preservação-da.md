@@ -6,7 +6,7 @@ tags:
 - jogos
 - projetos
 - Spore
-tumblr_url: https://arthrfrts.tumblr.com/post/798672817720852480/spore-%C3%A9-adicionado-ao-programa-de-preserva%C3%A7%C3%A3o-da
+tumblr_url: /post/798672817720852480/spore-%C3%A9-adicionado-ao-programa-de-preserva%C3%A7%C3%A3o-da
 source: https://esporo.net/2025/10/spore-%C3%A9-adicionado-ao-programa-de-preserva%C3%A7%C3%A3o-da-gog/
 category: Notas
 ---

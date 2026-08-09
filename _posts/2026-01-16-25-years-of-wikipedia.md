@@ -2,7 +2,7 @@
 layout: post
 title: ""
 date: "2026-01-16T07:23:51-03:00"
-tumblr_url: https://arthrfrts.tumblr.com/post/805896330328309760/25-years-of-wikipedia
+tumblr_url: /post/805896330328309760/25-years-of-wikipedia
 source: https://wikipedia25.org/pt
 category: Notas
 syndication:

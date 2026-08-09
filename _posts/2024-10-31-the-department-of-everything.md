@@ -4,7 +4,7 @@ title: The Department of Everything
 date: '2024-10-31T14:57:22-03:00'
 tags:
 - Wikipédia
-tumblr_url: https://arthrfrts.tumblr.com/post/765877229066551296/the-department-of-everything
+tumblr_url: /post/765877229066551296/the-department-of-everything
 source: https://hedgehogreview.com/issues/the-varieties-of-travel-experience/articles/the-department-of-everything
 category: Links
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2024-11-19T07:41:17-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/767574909908074496/n%C3%A3o-tem-como-descrever-o-clube-da-esquina
+tumblr_url: /post/767574909908074496/n%C3%A3o-tem-como-descrever-o-clube-da-esquina
 source: https://paomortadela.com.br/2024/11/e-impossivel-descrever-o-clube-da-esquina/
 category: Notas
 ---

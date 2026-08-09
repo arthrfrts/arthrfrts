@@ -4,7 +4,7 @@ title: ''
 date: '2023-10-30T08:44:14-03:00'
 tags:
 - livros
-tumblr_url: https://arthrfrts.tumblr.com/post/732604666409566208/killers-of-the-flower-moon-asks-you-to-sit-with
+tumblr_url: /post/732604666409566208/killers-of-the-flower-moon-asks-you-to-sit-with
 source: https://defector.com/killers-of-the-flower-moon-asks-you-to-sit-with-its-contradictions
 category: Notas
 ---

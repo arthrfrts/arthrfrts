@@ -5,7 +5,7 @@ date: '2025-10-24T07:37:00-03:00'
 tags:
 - dispositivos
 - blogs
-tumblr_url: https://arthrfrts.tumblr.com/post/798421127582089216/esse-%C3%A9-um-post-escrito-no-ipad
+tumblr_url: /post/798421127582089216/esse-%C3%A9-um-post-escrito-no-ipad
 category: Notas
 ---
 

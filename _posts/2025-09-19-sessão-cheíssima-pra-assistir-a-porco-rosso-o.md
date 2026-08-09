@@ -6,7 +6,7 @@ tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-tumblr_url: https://arthrfrts.tumblr.com/post/798565926622642177/sess%C3%A3o-che%C3%ADssima-pra-assistir-a-porco-rosso-o
+tumblr_url: /post/798565926622642177/sess%C3%A3o-che%C3%ADssima-pra-assistir-a-porco-rosso-o
 category: Notas
 ---
 ![Porco apoiado na parede enquanto fala em um telefone público — ele tá com uma posa muito charmosa](https://64.media.tumblr.com/79f80abb93498050a101c2e5d0ad2014/d5abb66cd1c6a808-3c/s640x960/bc31a5dfb93b73e2a09d93f1d90af658a346e417.jpg)

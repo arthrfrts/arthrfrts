@@ -4,7 +4,7 @@ title: Sobre votar
 date: '2024-10-06T14:39:56-03:00'
 tags:
 - eleições
-tumblr_url: https://arthrfrts.tumblr.com/post/763611207980695552/sobre-votar
+tumblr_url: /post/763611207980695552/sobre-votar
 category: Notas
 ---
 Eu gosto muito de votar. Eu gosto de chegar na minha zona eleitoral e ver alguns vizinhos ali. Estamos todos juntos em um ambiente neutro (eu voto no Palácio da Justiça aqui em Porto Alegre). Os mesários da minha zona são sempre muito gentis.

@@ -7,7 +7,7 @@ tags:
 - O Menino e a Garça
 - Hayao Miyazaki
 - Studio Ghibli
-tumblr_url: https://arthrfrts.tumblr.com/post/742617710043742208/algumas-outras-impress%C3%B5es-sobre-o-menino-e-a-gar%C3%A7a
+tumblr_url: /post/742617710043742208/algumas-outras-impress%C3%B5es-sobre-o-menino-e-a-gar%C3%A7a
 category: Esquinas
 ---
 [Eu escrevi sobre _O Menino e a Garça_ ali no Letterboxd](https://boxd.it/5R5ywH), mas eu ainda tenho algumas impressões não muito desenvolvidas que eu quero colocar aqui.

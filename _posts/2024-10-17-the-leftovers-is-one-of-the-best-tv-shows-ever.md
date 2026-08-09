@@ -5,7 +5,7 @@ date: '2024-10-17T11:40:52-03:00'
 tags:
 - séries
 - The Leftovers
-tumblr_url: https://arthrfrts.tumblr.com/post/764596508441149440/the-leftovers-is-one-of-the-best-tv-shows-ever
+tumblr_url: /post/764596508441149440/the-leftovers-is-one-of-the-best-tv-shows-ever
 source: https://www.vox.com/culture/2017/6/5/15730378/the-leftovers-finale-review-best-series-ever
 category: Notas
 ---

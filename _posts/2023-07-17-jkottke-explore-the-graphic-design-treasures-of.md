@@ -2,7 +2,7 @@
 layout: post
 title: jkottke explore the graphic design treasures of
 date: '2023-07-17T13:40:18-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/723110611545948160/jkottke-explore-the-graphic-design-treasures-of
+tumblr_url: /post/723110611545948160/jkottke-explore-the-graphic-design-treasures-of
 category: Notas
 ---
  ![](/tumblr_files/ca84a1064b07a1b29d84e6c16099f23fc20712e6.jpg)  

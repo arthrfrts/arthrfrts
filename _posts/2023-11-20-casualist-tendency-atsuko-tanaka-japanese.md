@@ -4,7 +4,7 @@ title: casualist tendency atsuko tanaka japanese
 date: '2023-11-20T07:04:38-03:00'
 tags:
 - arte
-tumblr_url: https://arthrfrts.tumblr.com/post/734504711570456576/casualist-tendency-atsuko-tanaka-japanese
+tumblr_url: /post/734504711570456576/casualist-tendency-atsuko-tanaka-japanese
 category: Notas
 ---
  ![](/tumblr_files/be37a316fdfbabbafdd56a3015aeac69c86007e4.jpg)  

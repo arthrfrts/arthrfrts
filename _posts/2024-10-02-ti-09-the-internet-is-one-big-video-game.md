@@ -4,7 +4,7 @@ title: ''
 date: '2024-10-02T00:13:38-03:00'
 tags:
 - web
-tumblr_url: https://arthrfrts.tumblr.com/post/763194316580651008/ti-09-the-internet-is-one-big-video-game
+tumblr_url: /post/763194316580651008/ti-09-the-internet-is-one-big-video-game
 source: https://spencerchang.substack.com/p/ti-09-the-internet-is-one-big-video
 category: Links
 ---

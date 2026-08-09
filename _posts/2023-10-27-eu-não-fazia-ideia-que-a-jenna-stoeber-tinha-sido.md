@@ -5,7 +5,7 @@ date: '2023-10-27T13:14:35-03:00'
 tags:
 - jogos
 - Jenna Stoeber
-tumblr_url: https://arthrfrts.tumblr.com/post/732349884083126272/eu-n%C3%A3o-fazia-ideia-que-a-jenna-stoeber-tinha-sido
+tumblr_url: /post/732349884083126272/eu-n%C3%A3o-fazia-ideia-que-a-jenna-stoeber-tinha-sido
 source: https://www.youtube.com/watch?v=q6j3Tj7l820
 category: Links
 ---

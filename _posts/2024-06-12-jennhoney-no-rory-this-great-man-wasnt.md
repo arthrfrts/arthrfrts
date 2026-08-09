@@ -5,7 +5,7 @@ date: '2024-06-12T16:10:18-03:00'
 tags:
 - séries
 - Gilmore Girls
-tumblr_url: https://arthrfrts.tumblr.com/post/753107644773023744/jennhoney-no-rory-this-great-man-wasnt
+tumblr_url: /post/753107644773023744/jennhoney-no-rory-this-great-man-wasnt
 category: Notas
 ---
  ![](/tumblr_files/tumblr_lqn5gbrvIu1qa4ub1o1_250.gif)  

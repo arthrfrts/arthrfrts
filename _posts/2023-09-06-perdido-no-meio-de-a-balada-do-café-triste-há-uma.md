@@ -4,7 +4,7 @@ title: ''
 date: '2023-09-06T23:50:53-03:00'
 tags:
 - livros
-tumblr_url: https://arthrfrts.tumblr.com/post/727769471815745536/perdido-no-meio-de-a-balada-do-caf%C3%A9-triste-h%C3%A1-uma
+tumblr_url: /post/727769471815745536/perdido-no-meio-de-a-balada-do-caf%C3%A9-triste-h%C3%A1-uma
 category: Notas
 ---
 Perdido no meio de _A Balada do Café Triste_ há uma dissertação sobre o amor:

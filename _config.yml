@@ -1,7 +1,8 @@
 # Site settings
 title: Arthur Freitas
-tagline: Faço sites e vejo filmes.
-description: Nada faz muito sentido.
+tagline: Esse sou eu e esse é o meu blog.
+description: >-
+  Arthur faz sites e escreve em sites.
 
 url: https://arthr.me
 baseurl: ""
@@ -117,7 +118,7 @@ webmentions:
   templates:
     webmentions: _includes/webmentions.html
   legacy_domains:
-    - https://arthrfrts.tumblr.com
+    -
     - https://irrelefante.tumblr.com
   throttle_lookups:
     last_week: daily
@@ -140,7 +141,7 @@ seo:
     - https://www.flickr.com/people/arthrfrts/
     - https://letterboxd.com/arthrfrts
     - https://tangled.org/arthr.me
-    - https://arthrfrts.tumblr.com
+    -
     - https://www.linkedin.com/in/arthrfrts
     - https://organica.social/@arthr
 

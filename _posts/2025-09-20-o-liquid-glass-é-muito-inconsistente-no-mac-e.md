@@ -7,7 +7,7 @@ tags:
 - computação
 - sistemas operacionais
 - Mac
-tumblr_url: https://arthrfrts.tumblr.com/post/798565820764651520/o-liquid-glass-%C3%A9-muito-inconsistente-no-mac-e
+tumblr_url: /post/798565820764651520/o-liquid-glass-%C3%A9-muito-inconsistente-no-mac-e
 category: Notas
 ---
 O Liquid Glass é muito inconsistente no Mac, e isso tá me incomodando muito. Parece até quando o Windows muda de visual, mas fica com “heranças” de redesigns anteriores (como o Explorador de arquivos).

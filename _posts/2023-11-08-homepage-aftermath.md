@@ -5,7 +5,7 @@ date: '2023-11-08T08:55:52-03:00'
 tags:
 - blogs
 - jogos
-tumblr_url: https://arthrfrts.tumblr.com/post/733424545798701056/homepage-aftermath
+tumblr_url: /post/733424545798701056/homepage-aftermath
 source: https://aftermath.site/
 category: Links
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2024-04-01T10:11:45-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/746562105781682176/reblog-to-boop-all-of-your-followers-with-it-boop
+tumblr_url: /post/746562105781682176/reblog-to-boop-all-of-your-followers-with-it-boop
 source: https://that-bitchy-star.tumblr.com/post/637785694311514112/reblog-to-boop-all-of-your-followers-with-it-boop
 category: Notas
 ---

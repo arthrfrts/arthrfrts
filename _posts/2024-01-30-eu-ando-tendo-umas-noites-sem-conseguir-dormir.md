@@ -4,7 +4,7 @@ title: ''
 date: '2024-01-30T23:43:36-03:00'
 tags:
 - web
-tumblr_url: https://arthrfrts.tumblr.com/post/740999945454239744/eu-ando-tendo-umas-noites-sem-conseguir-dormir
+tumblr_url: /post/740999945454239744/eu-ando-tendo-umas-noites-sem-conseguir-dormir
 category: Notas
 ---
 Eu ando tendo umas noites sem conseguir dormir nessa última semana, e pela primeira vez nesse quase um ano sem Twitter, eu senti falta daquele lugar.

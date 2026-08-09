@@ -6,7 +6,7 @@ tags:
   - jogos
   - Dragon Quest
   - Pokémon
-tumblr_url: https://arthrfrts.tumblr.com/post/805371257993527296/t%C3%B4-jogando-a-demonstra%C3%A7%C3%A3o-do-dragon-quest-vii
+tumblr_url: /post/805371257993527296/t%C3%B4-jogando-a-demonstra%C3%A7%C3%A3o-do-dragon-quest-vii
 category: Notas
 ---
 

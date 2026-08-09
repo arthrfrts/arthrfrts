@@ -12,7 +12,7 @@ tags:
 - viagens
 - Chile
 title: Chile, novembro de 2024
-tumblr_url: https://arthrfrts.tumblr.com/post/769125353992208384/minhas-fotos-favoritas-da-viagem-ao-chile
+tumblr_url: /post/769125353992208384/minhas-fotos-favoritas-da-viagem-ao-chile
 ---
 
 ![Um cachorrinho dormindo em sua almofada numa das escadarias de Valparaíso.](https://64.media.tumblr.com/6e4fc1b406eac0f85efc885449300a35/b64e4928a6b41f08-0d/s640x960/0a7809e79b01558621696e076f72cb9eb9533e22.jpg){:.u-photo}

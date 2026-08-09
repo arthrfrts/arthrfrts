@@ -6,7 +6,7 @@ tags:
 - desenvolvimento
 - Jekyll
 - web
-tumblr_url: https://arthrfrts.tumblr.com/post/798568951595565056/atualizei-o-tema-do-meu-blog-minduim-pra
+tumblr_url: /post/798568951595565056/atualizei-o-tema-do-meu-blog-minduim-pra
 category: Notas
 ---
 🧑‍💻 Atualizei o tema do meu blog, [Minduim](https://github.com/arthrfrts/minduim), pra versão 1.0.3, adicionando suporte a favicons personalizados. [Na prévia do tema](https://minduim.arthr.dev/) o favicon é o emoji de amendoim do [SerenityOS](https://serenityos.org/).

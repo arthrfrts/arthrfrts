@@ -2,7 +2,7 @@
 layout: post
 title: brooklynmuseum the monumental solitary figure
 date: '2022-09-05T11:19:53-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/694563733062713344/brooklynmuseum-the-monumental-solitary-figure
+tumblr_url: /post/694563733062713344/brooklynmuseum-the-monumental-solitary-figure
 category: Notas
 ---
  ![](/tumblr_files/22dd33de585a40bc789907cd14795f9400853d9f.jpg)  

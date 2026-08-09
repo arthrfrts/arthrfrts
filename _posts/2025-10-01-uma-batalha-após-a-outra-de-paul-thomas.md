@@ -5,7 +5,7 @@ date: '2025-10-01T20:27:00-03:00'
 tags:
 - filmes
 - Paul Thomas Anderson
-tumblr_url: https://arthrfrts.tumblr.com/post/798422294731046912/uma-batalha-ap%C3%B3s-a-outra-de-paul-thomas
+tumblr_url: /post/798422294731046912/uma-batalha-ap%C3%B3s-a-outra-de-paul-thomas
 category: Notas
 ---
 Três dias depois e eu ainda tô vidrado, pensando em&nbsp;_Uma Batalha Após A Outra_. Eu nem sei por onde começar a falar desse filme.

@@ -4,7 +4,7 @@ title: ''
 date: '2024-03-07T15:46:00-03:00'
 tags:
 - família
-tumblr_url: https://arthrfrts.tumblr.com/post/744321984871235584/minha-m%C3%A3e-tirou-essa-foto-da-minha-irm%C3%A3-e-eu
+tumblr_url: /post/744321984871235584/minha-m%C3%A3e-tirou-essa-foto-da-minha-irm%C3%A3-e-eu
 category: Notas
 ---
 ![](https://64.media.tumblr.com/164f72de8b0f7bc8d00d09101e9e7175/44cde2a384311207-b9/s640x960/7cfb446894bd70a41ab1a91367c47e90d0d4da4b.jpg)

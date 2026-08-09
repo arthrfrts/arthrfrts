@@ -6,7 +6,7 @@ tags:
 - arte
 - poesia
 - escrita
-tumblr_url: https://arthrfrts.tumblr.com/post/744169684440629249/poetsandwriters-poetry-is-not-about-an-event
+tumblr_url: /post/744169684440629249/poetsandwriters-poetry-is-not-about-an-event
 category: Notas
 ---
  ![](/tumblr_files/tumblr_pnpj2x1cYn1r8bkboo1_640.jpg)  

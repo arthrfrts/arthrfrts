@@ -8,7 +8,7 @@ tags:
 - jogos
 - StreetPass
 - Nintendo
-tumblr_url: https://arthrfrts.tumblr.com/post/754361484779405312/dropped-connection-the-loss-of-local-handheld
+tumblr_url: /post/754361484779405312/dropped-connection-the-loss-of-local-handheld
 source: https://vgbees.com/dropped-connection-the-loss-of-local-handheld-multiplayer/
 category: Notas
 ---

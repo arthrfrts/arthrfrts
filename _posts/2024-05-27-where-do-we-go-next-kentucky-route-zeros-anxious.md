@@ -5,7 +5,7 @@ date: '2024-05-27T23:41:22-03:00'
 tags:
 - jogos
 - Kentucky Route Zero
-tumblr_url: https://arthrfrts.tumblr.com/post/751686472161280000/where-do-we-go-next-kentucky-route-zeros-anxious
+tumblr_url: /post/751686472161280000/where-do-we-go-next-kentucky-route-zeros-anxious
 source: https://sidequest.zone/2020/04/13/where-do-we-go-next-kentucky-route-zero-s-anxious-approach-to-hope/
 category: Notas
 ---

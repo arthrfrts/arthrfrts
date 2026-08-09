@@ -5,7 +5,7 @@ date: '2024-06-03T08:01:04-03:00'
 tags:
 - séries
 - Halt and Catch Fire
-tumblr_url: https://arthrfrts.tumblr.com/post/752261492657831936/halt-and-catch-fire-understood-video-games-better
+tumblr_url: /post/752261492657831936/halt-and-catch-fire-understood-video-games-better
 source: https://www.polygon.com/24168298/halt-catch-fire-video-games-anniversary-best-show
 category: Links
 ---

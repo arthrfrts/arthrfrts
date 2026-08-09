@@ -4,7 +4,7 @@ title: ''
 date: '2024-01-14T09:49:09-03:00'
 tags:
 - web
-tumblr_url: https://arthrfrts.tumblr.com/post/739497894498959360/shea-fitzpatrick-fez-um-hist%C3%B3rico-de-seu-site
+tumblr_url: /post/739497894498959360/shea-fitzpatrick-fez-um-hist%C3%B3rico-de-seu-site
 source: https://www.sheafitz.com/website
 category: Links
 ---

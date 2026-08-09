@@ -4,7 +4,7 @@ title: ''
 date: '2024-03-06T16:46:41-03:00'
 tags:
 - ContraPoints
-tumblr_url: https://arthrfrts.tumblr.com/post/744235206336249856/eu-descobri-s%C3%B3-quatro-dias-depois-que-temos-um
+tumblr_url: /post/744235206336249856/eu-descobri-s%C3%B3-quatro-dias-depois-que-temos-um
 source: https://www.youtube.com/watch?v=bqloPw5wp48
 category: Links
 ---

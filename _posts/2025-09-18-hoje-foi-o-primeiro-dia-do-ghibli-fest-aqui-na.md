@@ -6,7 +6,7 @@ tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-tumblr_url: https://arthrfrts.tumblr.com/post/798565976129093633/hoje-foi-o-primeiro-dia-do-ghibli-fest-aqui-na
+tumblr_url: /post/798565976129093633/hoje-foi-o-primeiro-dia-do-ghibli-fest-aqui-na
 category: Notas
 ---
 Hoje foi o primeiro dia do Ghibli Fest aqui na Cinemateca Paulo Amorim. Eu vou ir em todas as sessões, e vou tentar escrever sobre todos os filmes (brevemente) aqui.

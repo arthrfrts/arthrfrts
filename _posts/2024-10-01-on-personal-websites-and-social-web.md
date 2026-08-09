@@ -5,7 +5,7 @@ date: '2024-10-01T14:24:44-03:00'
 tags:
 - web
 - blogs
-tumblr_url: https://arthrfrts.tumblr.com/post/763157267043500032/on-personal-websites-and-social-web
+tumblr_url: /post/763157267043500032/on-personal-websites-and-social-web
 source: https://manuelmoreale.com/@/page/acx1bK7UldiQW556
 category: Links
 ---

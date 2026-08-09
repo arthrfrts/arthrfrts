@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2023-11-17T15:48:16-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/734265864251179008/o-washington-post-publicou-uma-reportagem-que-usa
+tumblr_url: /post/734265864251179008/o-washington-post-publicou-uma-reportagem-que-usa
 source: https://www.washingtonpost.com/nation/interactive/2023/ar-15-force-mass-shootings/
 category: Links
 ---

@@ -5,7 +5,7 @@ date: '2025-05-02T11:27:00-03:00'
 tags:
 - músicas
 - descobertas
-tumblr_url: https://arthrfrts.tumblr.com/post/798569525014593536/%C3%A9-de-arrepiar-esse-v%C3%ADdeo-de-erin-morton-cantando
+tumblr_url: /post/798569525014593536/%C3%A9-de-arrepiar-esse-v%C3%ADdeo-de-erin-morton-cantando
 source: https://www.youtube.com/watch?v=ROJZntCBZCc
 category: Links
 ---

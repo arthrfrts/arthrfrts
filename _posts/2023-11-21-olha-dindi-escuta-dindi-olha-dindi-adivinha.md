@@ -6,7 +6,7 @@ tags:
 - músicas
 - Gal Costa
 - Tom Jobim
-tumblr_url: https://arthrfrts.tumblr.com/post/734624289727430656/olha-dindi-escuta-dindi-olha-dindi-adivinha
+tumblr_url: /post/734624289727430656/olha-dindi-escuta-dindi-olha-dindi-adivinha
 source: https://www.youtube.com/watch?v=zY_0a9DUhIQ
 category: Links
 ---

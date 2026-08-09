@@ -5,7 +5,7 @@ date: '2023-11-28T05:27:59-03:00'
 tags:
 - filmes
 - David Fincher
-tumblr_url: https://arthrfrts.tumblr.com/post/735223406261387264/how-zodiac-perfectly-places-you-in-its-characters
+tumblr_url: /post/735223406261387264/how-zodiac-perfectly-places-you-in-its-characters
 source: https://episodes.ghost.io/zodiac-david-fincher-true-crime/
 category: Notas
 ---

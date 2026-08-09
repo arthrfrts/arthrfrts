@@ -7,7 +7,7 @@ tags:
 - luto
 - cachorros
 - Vivi
-tumblr_url: https://arthrfrts.tumblr.com/post/798567294250926080/vivi-cinco-anos-com-seis-anos-sem
+tumblr_url: /post/798567294250926080/vivi-cinco-anos-com-seis-anos-sem
 category: Notas
 ---
 Hoje completam seis anos da morte da Vivi. A partir de hoje, o tempo que eu sinto saudades da Vivi é maior do que o tempo que eu tive perto dela. Foi a primeira coisa que eu pensei quando acordei.
@@ -16,7 +16,7 @@ A chegada da Vivi na nossa casa começou com tristeza. Por semanas, ela viveu na
 
 Vivi ficou em um dos quartos da casa, onde bate sol e é bem iluminado, e minha mãe a ajudou a se apoiar nas patas dianteiras nos dias seguintes. Ela reaprenderia a caminhar em algumas semanas, e um vizinho nosso iria lá em casa com uma cadeirinha de rodas feita de canos de PVC. Foi durante esses dias, com a Vivi ainda no quarto, que ela ganhou o nome. Minha mãe pensou em Vitória. Virou Vivi.
 
-Eu lembro muito da Vivi desde que ela morreu. [Eu já falei sobre esse dia aqui](https://arthrfrts.tumblr.com/post/798567551571509248/%C3%BAltimas-mem%C3%B3rias). Dói demais pensar nele, e no meu envolvimento naquele dia. Nada me tira da cabeça que a roupa que eu coloquei nela naquela noite, alguns dias depois de ela ter feito uma cirurgia, estava apertada demais. Pra mim, desde então, eu matei a Vivi.
+Eu lembro muito da Vivi desde que ela morreu. [Eu já falei sobre esse dia aqui](/post/798567551571509248/%C3%BAltimas-mem%C3%B3rias). Dói demais pensar nele, e no meu envolvimento naquele dia. Nada me tira da cabeça que a roupa que eu coloquei nela naquela noite, alguns dias depois de ela ter feito uma cirurgia, estava apertada demais. Pra mim, desde então, eu matei a Vivi.
 
 <video controls="controls" autoplay="autoplay" playsinline="playsinline" muted="muted" poster="https://64.media.tumblr.com/f003ffa044a7c8e8b21e597834ff2a61/830777972f829c2f-6d/s540x810/a765102b147ad73d270e41b3ee0864e8ce4a5c81.jpg"><source src="https://va.media.tumblr.com/tumblr_t4smc1Lhtd1ya0dgx.mp4" type="video/mp4"></source></video>
 

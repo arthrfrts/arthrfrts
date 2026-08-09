@@ -6,7 +6,7 @@ tags:
 - rotina
 - escrita
 - projetos
-tumblr_url: https://arthrfrts.tumblr.com/post/798569631530041345/esses-%C3%BAltimos-meses-foram-dif%C3%ADceis-meu-trabalho
+tumblr_url: /post/798569631530041345/esses-%C3%BAltimos-meses-foram-dif%C3%ADceis-meu-trabalho
 category: Notas
 ---
 Esses últimos meses foram difíceis. Meu trabalho não deu sossego, e eu mal consegui escrever.

@@ -5,7 +5,7 @@ layout: post
 syndication:
   - https://organica.social/@arthr/116576111308980995
   - https://bsky.app/profile/arthr.me/post/3mlua7e322c2v
-  - https://arthrfrts.tumblr.com/tagged/Spike%20Jonze
+  - /tagged/Spike%20Jonze
 tags:
   - vídeos
   - publicidade

@@ -6,7 +6,7 @@ tags:
 - apps
 - Firefox
 - web
-tumblr_url: https://arthrfrts.tumblr.com/post/798569014936928256/meu-firefox
+tumblr_url: /post/798569014936928256/meu-firefox
 category: Notas
 ---
 Depois de mais de uma década usando o Safari como meu navegador principal, eu voltei pro Firefox.

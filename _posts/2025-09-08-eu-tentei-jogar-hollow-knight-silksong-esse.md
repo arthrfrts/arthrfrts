@@ -7,7 +7,7 @@ tags:
 - Nintendo
 - Metroid
 - Silksong
-tumblr_url: https://arthrfrts.tumblr.com/post/798566190423343105/eu-tentei-jogar-hollow-knight-silksong-esse
+tumblr_url: /post/798566190423343105/eu-tentei-jogar-hollow-knight-silksong-esse
 category: Notas
 ---
 Eu tentei jogar _Hollow Knight: Silksong_ esse último final de semana, mas é um jogo muito difícil pra mim. Porém, o pouco que eu joguei me fez querer dar uma segunda chance a outro metroidvania, _Metroid Dread_, um jogo que eu empaquei e nunca terminei. _Dread_ é difícil, mas _Silksong_ me fez perceber que não é _tão difícil assim_, e com essa nova perspectiva eu comecei um novo jogo e, realmente, _Dread_ parece ser na medida de dificuldade pra mim.

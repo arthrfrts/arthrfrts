@@ -5,7 +5,7 @@ date: '2024-10-06T22:50:03-03:00'
 tags:
 - jogos
 - Spore
-tumblr_url: https://arthrfrts.tumblr.com/post/763642042824998912/spore-ganha-um-novo-time-na-ea-e-uma-comunidade
+tumblr_url: /post/763642042824998912/spore-ganha-um-novo-time-na-ea-e-uma-comunidade
 source: https://esporo.net/2024/10/spore-ganha-um-novo-time-na-ea-e-uma-comunidade-oficial-do-discord/
 category: Notas
 ---

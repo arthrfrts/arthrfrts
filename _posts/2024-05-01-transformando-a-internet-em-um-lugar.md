@@ -5,7 +5,7 @@ date: '2024-05-01T13:18:55-03:00'
 tags:
 - web
 - rotina
-tumblr_url: https://arthrfrts.tumblr.com/post/749291789604831232/transformando-a-internet-em-um-lugar
+tumblr_url: /post/749291789604831232/transformando-a-internet-em-um-lugar
 category: Notas
 ---
 Tenho feito um experimento de “isolar” meu contato direto com a web para a minha escrivaninha, e os resultados têm sido bons. É impossível isolar a internet da minha vida hoje em dia, mas estou me referindo como “contato direto” à minha navegação na web, tanto para trabalho quanto para lazer. Com isso, meu relacionamento com ela tem sido cada vez melhor.

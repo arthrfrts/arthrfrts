@@ -7,7 +7,7 @@ tags:
 - séries
 - livros
 - músicas
-tumblr_url: https://arthrfrts.tumblr.com/post/798420863016927232/minha-dieta-cultural-nas-%C3%BAltimas-semanas
+tumblr_url: /post/798420863016927232/minha-dieta-cultural-nas-%C3%BAltimas-semanas
 category: Esquinas
 ---
 

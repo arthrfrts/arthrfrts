@@ -6,7 +6,7 @@ tags:
 - músicas
 - shows
 - Gilberto Gil
-tumblr_url: https://arthrfrts.tumblr.com/post/798566242884747264/ontem-fui-no-show-do-gilberto-gil-que-pelo
+tumblr_url: /post/798566242884747264/ontem-fui-no-show-do-gilberto-gil-que-pelo
 category: Notas
 ---
 Ontem fui no show do Gilberto Gil, que pelo anúncio faz parte de sua “última turnê”. Eu acredito. Não porque o show foi ruim. Longe disso, talvez tenha sido o show mais alegre e enérgico que eu já fui. Uma exultação da cultura brasileira que Gil tem tanto orgulho de fazer parte. Eu acredito que essa seja sua última turnê porque, além da idade de Gil, ele parecia não querer parar de cantar. Foram quase três horas de show, com um bis imenso.

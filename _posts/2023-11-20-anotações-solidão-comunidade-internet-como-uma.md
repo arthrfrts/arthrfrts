@@ -7,7 +7,7 @@ tags:
 - web
 - solidão
 - sentimentos
-tumblr_url: https://arthrfrts.tumblr.com/post/734515115929583616/anota%C3%A7%C3%B5es-solid%C3%A3o-comunidade-internet-como-uma
+tumblr_url: /post/734515115929583616/anota%C3%A7%C3%B5es-solid%C3%A3o-comunidade-internet-como-uma
 category: Notas
 ---
 [Out There: On Not Finishing - Longreads](https://href.li/?https://longreads.com/2020/09/08/out-there-on-not-finishing/)

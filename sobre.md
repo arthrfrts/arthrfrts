@@ -18,7 +18,7 @@ Eu sou um desenvolvedor web há mais de dez anos. Eu comecei criando blogs no Wo
 
 Você pode me dizer oi mandando uma mensagem para <arthur@arthr.me>.
 
-Eu posso ser encontrado no [Letterboxd](https://letterboxd.com/arthrfrts), [Last.FM](https://www.lastfm.com/user/arthrfrts) e no [Flickr](https://www.flickr.com/photos/arthrfrts). Eu também tenho conta no [Tumblr](https://arthrfrts.tumblr.com) e no [Bluesky](https://bsky.app/profile/arthr.me).
+Eu posso ser encontrado no [Letterboxd](https://letterboxd.com/arthrfrts), [Last.FM](https://www.lastfm.com/user/arthrfrts) e no [Flickr](https://www.flickr.com/photos/arthrfrts). Eu também tenho conta no [Tumblr]() e no [Bluesky](https://bsky.app/profile/arthr.me).
 
 Espero que você goste das coisas por aqui.
 

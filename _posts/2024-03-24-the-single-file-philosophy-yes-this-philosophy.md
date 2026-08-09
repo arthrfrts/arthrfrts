@@ -5,7 +5,7 @@ date: '2024-03-24T09:03:06-03:00'
 tags:
 - web
 - desenvolvimento
-tumblr_url: https://arthrfrts.tumblr.com/post/745833011017302016/the-single-file-philosophy-yes-this-philosophy
+tumblr_url: /post/745833011017302016/the-single-file-philosophy-yes-this-philosophy
 source: https://single-file.netlify.app/
 category: Links
 ---

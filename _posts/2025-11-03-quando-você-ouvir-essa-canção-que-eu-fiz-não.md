@@ -6,7 +6,7 @@ tags:
 - músicas
 - Lô Borges
 - MPB
-tumblr_url: https://arthrfrts.tumblr.com/post/799216368878845952/quando-voc%C3%AA-ouvir-essa-can%C3%A7%C3%A3o-que-eu-fiz-n%C3%A3o
+tumblr_url: /post/799216368878845952/quando-voc%C3%AA-ouvir-essa-can%C3%A7%C3%A3o-que-eu-fiz-n%C3%A3o
 source: https://www.youtube.com/watch?v=X58DGmZMMB4
 category: Links
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: '29 de dezembro de 2016 — 30 de outubro de 2022'
 date: '2022-10-31T07:45:08-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/699623652203839488/29-de-dezembro-de-2016-30-de-outubro-de-2022
+tumblr_url: /post/699623652203839488/29-de-dezembro-de-2016-30-de-outubro-de-2022
 category: Notas
 ---
 Meus amigos se despediram de mim na madrugada do dia 29 de dezembro. Eles iam para a casa de uma conhecida nossa. Eu ia ficar mais um tempo na festa em que a gente tinha se encontrado e então eu iria a pé até a rodoviária, para pegar um ônibus até a casa dos meus pais, onde eu ia passar a virada de ano novo. Eu era uma pessoa completamente diferente da que eu sou agora quando eu vi eles entrarem no carro.

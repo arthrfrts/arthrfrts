@@ -4,7 +4,7 @@ title: The Quiet Web
 date: '2024-10-01T16:12:44-03:00'
 tags:
 - web
-tumblr_url: https://arthrfrts.tumblr.com/post/763164061162700800/the-quiet-web
+tumblr_url: /post/763164061162700800/the-quiet-web
 source: https://briankoberlein.com/tech/quiet-web/
 category: Links
 ---

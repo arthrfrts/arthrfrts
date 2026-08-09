@@ -4,7 +4,7 @@ title: ''
 date: '2025-12-08T10:06:45-03:00'
 tags:
 - filmes
-tumblr_url: https://arthrfrts.tumblr.com/post/802373296883744768/john-gruber-no-daring-fireball-comentando-sobre
+tumblr_url: /post/802373296883744768/john-gruber-no-daring-fireball-comentando-sobre
 source: https://daringfireball.net/linked/2025/12/05/netflix-buying-warner-bros
 category: Links
 ---

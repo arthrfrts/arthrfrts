@@ -6,7 +6,7 @@ tags:
 - web
 - séries
 - Halt and Catch Fire
-tumblr_url: https://arthrfrts.tumblr.com/post/763164880159277056/www-the-way-we-were
+tumblr_url: /post/763164880159277056/www-the-way-we-were
 source: https://kottke.org/24/07/www-the-way-we-were-1
 category: Links
 ---

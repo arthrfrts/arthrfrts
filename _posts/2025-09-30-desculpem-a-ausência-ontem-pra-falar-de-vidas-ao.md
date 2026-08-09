@@ -6,7 +6,7 @@ tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-tumblr_url: https://arthrfrts.tumblr.com/post/798422364237053952/desculpem-a-aus%C3%AAncia-ontem-pra-falar-de-vidas-ao
+tumblr_url: /post/798422364237053952/desculpem-a-aus%C3%AAncia-ontem-pra-falar-de-vidas-ao
 category: Notas
 ---
 Desculpem a ausência ontem pra falar de&nbsp;_Vidas ao Vento_&nbsp;e&nbsp;_Nausicaä do Vale do Vento_. Eu acabei aproveitando pra assistir&nbsp;_Uma Batalha Após A Outra_, o novo filme do Paul Thomas Anderson (logo mais escrevo um pouquinho sobre o que é, provavelmente, o melhor filme que eu assisti esse ano).

@@ -6,7 +6,7 @@ tags:
 - filmes
 - Kleber Mendonça Filho
 - cinema brasileiro
-tumblr_url: https://arthrfrts.tumblr.com/post/799115365313560576/ontem-de-noite-eu-assisti-o-agente-secreto-na
+tumblr_url: /post/799115365313560576/ontem-de-noite-eu-assisti-o-agente-secreto-na
 category: Esquinas
 ---
 Ontem de noite eu assisti _O Agente Secreto_ na cinemateca. É um grande filme, que me fez apreciar ainda mais o cinema do Kleber Mendonça Filho, um dos melhores diretores brasileiros hoje.

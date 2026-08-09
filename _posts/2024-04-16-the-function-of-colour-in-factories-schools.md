@@ -5,7 +5,7 @@ date: '2024-04-16T08:29:36-03:00'
 tags:
 - design
 - cores
-tumblr_url: https://arthrfrts.tumblr.com/post/747914633199976448/the-function-of-colour-in-factories-schools
+tumblr_url: /post/747914633199976448/the-function-of-colour-in-factories-schools
 source: https://www.presentandcorrect.com/blogs/blog/the-function-of-colour-in-schools-hospitals-1930
 category: Notas
 ---

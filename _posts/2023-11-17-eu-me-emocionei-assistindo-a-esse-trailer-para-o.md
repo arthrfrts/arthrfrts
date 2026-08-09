@@ -6,7 +6,7 @@ tags:
 - filmes
 - trailers
 - Studio Ghibli
-tumblr_url: https://arthrfrts.tumblr.com/post/734254054708019200/eu-me-emocionei-assistindo-a-esse-trailer-para-o
+tumblr_url: /post/734254054708019200/eu-me-emocionei-assistindo-a-esse-trailer-para-o
 source: https://www.youtube.com/watch?v=t5khm-VjEu4
 category: Links
 ---

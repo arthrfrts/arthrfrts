@@ -6,7 +6,7 @@ tags:
 - jogos
 - link's awakening
 - the legend of zelda
-tumblr_url: https://arthrfrts.tumblr.com/post/778627523737272320/a-sequ%C3%AAncia-de-trocas-de-links-awakening
+tumblr_url: /post/778627523737272320/a-sequ%C3%AAncia-de-trocas-de-links-awakening
 category: Esquinas
 ---
 _Link’s Awakening_ é [o meu jogo de _Zelda_ favorito](https://paomortadela.com.br/2020/06/the-legend-of-zelda-ranking/). Eu tô jogando ele de novo (no remake lançado pro Nintendo Switch em 2019), e eu lembrei da genialidade que é a sequência de trocas que existe nele.

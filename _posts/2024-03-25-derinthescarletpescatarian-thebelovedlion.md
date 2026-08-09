@@ -4,7 +4,7 @@ title: ''
 date: '2024-03-25T08:32:28-03:00'
 tags:
 - cachorros
-tumblr_url: https://arthrfrts.tumblr.com/post/745921680739844096/derinthescarletpescatarian-thebelovedlion
+tumblr_url: /post/745921680739844096/derinthescarletpescatarian-thebelovedlion
 source: https://derinthescarletpescatarian.tumblr.com/post/709124784895787008/thebelovedlion-derinthescarletpescatarian
 category: Links
 ---

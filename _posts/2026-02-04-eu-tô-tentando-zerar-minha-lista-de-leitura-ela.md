@@ -7,7 +7,7 @@ tags:
 - comportamento
 - tecnologia
 - desktop
-tumblr_url: https://arthrfrts.tumblr.com/post/807672155713224704/eu-t%C3%B4-tentando-zerar-minha-lista-de-leitura-ela
+tumblr_url: /post/807672155713224704/eu-t%C3%B4-tentando-zerar-minha-lista-de-leitura-ela
 category: Notas
 ---
 Eu tô tentando zerar minha lista de leitura. Ela tem 209 links para ler, catalogar e arquivar. Pra me forçar a ler um pouco todo o dia, vou começar a postar aqui o que eu estou lendo, e talvez um comentário ou destaques.

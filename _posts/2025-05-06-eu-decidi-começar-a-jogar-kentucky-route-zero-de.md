@@ -5,7 +5,7 @@ date: '2025-05-06T11:26:00-03:00'
 tags:
 - jogos
 - Kentucky Route Zero
-tumblr_url: https://arthrfrts.tumblr.com/post/798569484056215552/eu-decidi-come%C3%A7ar-a-jogar-kentucky-route-zero-de
+tumblr_url: /post/798569484056215552/eu-decidi-come%C3%A7ar-a-jogar-kentucky-route-zero-de
 category: Notas
 ---
 Eu decidi começar a jogar _Kentucky Route Zero_ de novo.

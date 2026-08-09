@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2023-07-27T09:42:51-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/724001642224271360/eu-tava-procurando-um-livro-aqui-na-minha-estante
+tumblr_url: /post/724001642224271360/eu-tava-procurando-um-livro-aqui-na-minha-estante
 category: Notas
 ---
 Eu tava procurando um livro aqui na minha estante. Acabei encontrando um desenho que uma amiga minha, que eu não vejo há mais de uma década, fez pra mim.

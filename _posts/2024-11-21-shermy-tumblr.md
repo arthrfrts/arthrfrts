@@ -7,7 +7,7 @@ tags:
 - desenvolvimento
 - tumblr
 - tumblr themes
-tumblr_url: https://arthrfrts.tumblr.com/post/767763583172050944/shermy-tumblr
+tumblr_url: /post/767763583172050944/shermy-tumblr
 source: https://www.tumblr.com/theme/41318
 category: Notas
 ---

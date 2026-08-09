@@ -7,7 +7,7 @@ tags:
 - Nintendo
 - Gilmore Girls
 - Fire Emblem
-tumblr_url: https://arthrfrts.tumblr.com/post/748118896432889856/meu-amigo-amobrejas-me-enviou-uma-rom-com-o-nome
+tumblr_url: /post/748118896432889856/meu-amigo-amobrejas-me-enviou-uma-rom-com-o-nome
 category: Notas
 ---
 ![](https://64.media.tumblr.com/f0942d175f0f69cec70a44b912fdd300/87820177c072a8dd-8b/s640x960/a4f6dd1aa289402b43397a6daa07765424b5bac7.jpg)

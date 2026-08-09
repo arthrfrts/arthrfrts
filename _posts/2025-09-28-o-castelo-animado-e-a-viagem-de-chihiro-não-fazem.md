@@ -6,7 +6,7 @@ tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-tumblr_url: https://arthrfrts.tumblr.com/post/798565161264955392/o-castelo-animado-e-a-viagem-de-chihiro-n%C3%A3o-fazem
+tumblr_url: /post/798565161264955392/o-castelo-animado-e-a-viagem-de-chihiro-n%C3%A3o-fazem
 category: Notas
 ---
 _O Castelo Animado_ e _A Viagem de Chihiro_ não fazem sentido. Suas lógicas internas são incertas. As regras de seus mundos são inconstantes. O que uma pessoa vê na outra é um mistério. Nada faz muito sentido. Ainda bem.

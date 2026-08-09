@@ -7,7 +7,7 @@ tags:
 - Sarah Neufeld
 - Richard Reed Parry
 - Rebecca Foon
-tumblr_url: https://arthrfrts.tumblr.com/post/763323684995956736/first-sounds
+tumblr_url: /post/763323684995956736/first-sounds
 category: Notas
 ---
 https://embed.music.apple.com/br/album/1753695947

@@ -5,7 +5,7 @@ date: '2022-03-13T15:28:05-03:00'
 tags:
 - jogos
 - Kentucky Route Zero
-tumblr_url: https://arthrfrts.tumblr.com/post/678634282841948160/executables-must-have-been-four-hours-dragging
+tumblr_url: /post/678634282841948160/executables-must-have-been-four-hours-dragging
 category: Notas
 ---
  ![](/tumblr_files/8f2899dfcc40139d656c5b367916d1c27b1e2646.png)  

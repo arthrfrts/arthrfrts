@@ -6,7 +6,7 @@ tags:
 - web
 - desenvolvimento
 - CSS
-tumblr_url: https://arthrfrts.tumblr.com/post/798566601823780864/defaultscss
+tumblr_url: /post/798566601823780864/defaultscss
 category: Notas
 ---
 [GitHub - csswizardry/defaults.css: A thoroughly modern, light-touch CSS reset for people who like writing CSS](https://github.com/csswizardry/defaults.css)

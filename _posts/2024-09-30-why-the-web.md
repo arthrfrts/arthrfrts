@@ -5,7 +5,7 @@ date: '2024-09-30T22:34:01-03:00'
 tags:
 - jogos
 - web
-tumblr_url: https://arthrfrts.tumblr.com/post/763097452130746368/why-the-web
+tumblr_url: /post/763097452130746368/why-the-web
 source: https://www.2weeks.games/fun-club/why-the-web/
 category: Links
 ---

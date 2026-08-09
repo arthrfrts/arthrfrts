@@ -4,7 +4,7 @@ title: '_Ainda Estou Aqui_, de Walter Salles'
 date: '2024-11-07T23:41:10-03:00'
 tags:
 - filmes
-tumblr_url: https://arthrfrts.tumblr.com/post/766548136891219968/ainda-estou-aqui-de-walter-salles
+tumblr_url: /post/766548136891219968/ainda-estou-aqui-de-walter-salles
 category: Esquinas
 ---
 Eu cresci em uma casa assim.

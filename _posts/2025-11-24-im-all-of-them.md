@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2025-11-24T16:18:07-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/801128303998222336/im-all-of-them
+tumblr_url: /post/801128303998222336/im-all-of-them
 source: https://997.tumblr.com/post/649754566658850816
 category: Notas
 ---

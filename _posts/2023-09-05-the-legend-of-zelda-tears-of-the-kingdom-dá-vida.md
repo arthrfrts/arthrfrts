@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2023-09-05T00:02:17-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/727588994720923648/the-legend-of-zelda-tears-of-the-kingdom-d%C3%A1-vida
+tumblr_url: /post/727588994720923648/the-legend-of-zelda-tears-of-the-kingdom-d%C3%A1-vida
 category: Notas
 ---
 Eu escrevi sobre _Tears of the Kingdom_ pro [@paomortadela](https://tmblr.co/MEgi0PB-yWf9xRg6TZif07A):

@@ -6,7 +6,7 @@ tags:
 - tecnologia
 - web
 - MSN Messenger
-tumblr_url: https://arthrfrts.tumblr.com/post/801465052780724224/escargot-msn-messenger-and-windows-live
+tumblr_url: /post/801465052780724224/escargot-msn-messenger-and-windows-live
 source: https://escargot.chat/
 category: Notas
 ---

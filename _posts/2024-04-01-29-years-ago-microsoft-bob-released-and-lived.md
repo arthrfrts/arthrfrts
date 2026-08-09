@@ -4,7 +4,7 @@ title: ''
 date: '2024-04-01T09:02:57-03:00'
 tags:
 - tecnologia
-tumblr_url: https://arthrfrts.tumblr.com/post/746557777307205632/29-years-ago-microsoft-bob-released-and-lived
+tumblr_url: /post/746557777307205632/29-years-ago-microsoft-bob-released-and-lived
 source: https://www.xda-developers.com/on-this-day-29-years-ago-microsoft-bob-released/
 category: Links
 ---

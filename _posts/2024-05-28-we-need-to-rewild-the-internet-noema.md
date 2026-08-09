@@ -4,7 +4,7 @@ title: ''
 date: '2024-05-28T00:10:09-03:00'
 tags:
 - web
-tumblr_url: https://arthrfrts.tumblr.com/post/751688282908295168/we-need-to-rewild-the-internet-noema
+tumblr_url: /post/751688282908295168/we-need-to-rewild-the-internet-noema
 source: https://www.noemamag.com/we-need-to-rewild-the-internet/
 category: Links
 ---

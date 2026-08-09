@@ -6,7 +6,7 @@ tags:
 - web
 - desenvolvimento
 - tumblr themes
-tumblr_url: https://arthrfrts.tumblr.com/post/747368536859607040/charlie-tumblr
+tumblr_url: /post/747368536859607040/charlie-tumblr
 source: https://www.tumblr.com/theme/41291
 category: Links
 ---

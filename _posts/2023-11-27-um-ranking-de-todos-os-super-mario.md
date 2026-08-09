@@ -6,7 +6,7 @@ tags:
 - jogos
 - Super Mario
 - Nintendo
-tumblr_url: https://arthrfrts.tumblr.com/post/735198802332516352/um-ranking-de-todos-os-super-mario
+tumblr_url: /post/735198802332516352/um-ranking-de-todos-os-super-mario
 source: https://paomortadela.com.br/post/658056474321354752/um-ranking-de-todos-os-super-mario
 category: Notas
 ---

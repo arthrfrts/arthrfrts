@@ -6,7 +6,7 @@ tags:
 - filmes
 - séries
 - jogos
-tumblr_url: https://arthrfrts.tumblr.com/post/798566127187918848/hoje-o-dia-amanheceu-cedo-ontem-eu-levei-o-tobias
+tumblr_url: /post/798566127187918848/hoje-o-dia-amanheceu-cedo-ontem-eu-levei-o-tobias
 category: Esquinas
 ---
 Hoje o dia amanheceu cedo. Ontem eu levei o Tobias pra uma das minhas caminhadas longas, pensando que ele ia dormir até mais tarde hoje, mas me enganei. Eram seis e meia quando ele começou a pedir pra sair. Eu até consegui ficar na cama mais um pouquinho — mas não tanto quanto eu queria. Pelo menos o dia está bonito — o céu tá bem azul, e tá fresquinho (15°C). Eu quero aproveitar o máximo possível esse tempo ameno antes do calorão infernal de Porto Alegre começar.

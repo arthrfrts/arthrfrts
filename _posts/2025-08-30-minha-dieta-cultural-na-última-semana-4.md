@@ -7,7 +7,7 @@ tags:
 - jogos
 - séries
 - filmes
-tumblr_url: https://arthrfrts.tumblr.com/post/798566906824097792/minha-dieta-cultural-na-%C3%BAltima-semana-4
+tumblr_url: /post/798566906824097792/minha-dieta-cultural-na-%C3%BAltima-semana-4
 category: Esquinas
 ---
 Hoje tá um dia lindo e a temperatura está gostosa. 21°C e ensolarado, com uma brisa leve e gostosa. Vou passar a tarde na praça lendo com o Tobias… mas agora pela manhã, eu tô fazendo feijão. Ontem saí de um dia bem bomba porrada e tiro do trabalho e desci aqui no bar do lado de casa pra tomar uma cerveja com o Erê e me senti bem feliz por ser brasileiro. Sensação boa, essa.

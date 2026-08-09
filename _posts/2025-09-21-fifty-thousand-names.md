@@ -6,7 +6,7 @@ tags:
 - web
 - Tiny Awards
 - Palestina
-tumblr_url: https://arthrfrts.tumblr.com/post/798565700557012992/fifty-thousand-names
+tumblr_url: /post/798565700557012992/fifty-thousand-names
 source: https://fiftythousandnames.org/
 category: Links
 ---

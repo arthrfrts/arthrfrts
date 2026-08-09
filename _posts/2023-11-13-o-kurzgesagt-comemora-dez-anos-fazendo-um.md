@@ -5,7 +5,7 @@ date: '2023-11-13T23:31:35-03:00'
 tags:
 - Kurzgesagt
 - ciência
-tumblr_url: https://arthrfrts.tumblr.com/post/733932625984684032/o-kurzgesagt-comemora-dez-anos-fazendo-um
+tumblr_url: /post/733932625984684032/o-kurzgesagt-comemora-dez-anos-fazendo-um
 source: https://www.youtube.com/watch?v=S7TUe5w6RHo
 category: Links
 ---

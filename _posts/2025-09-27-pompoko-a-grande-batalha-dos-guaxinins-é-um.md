@@ -6,7 +6,7 @@ tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-tumblr_url: https://arthrfrts.tumblr.com/post/798565192446394368/pompoko-a-grande-batalha-dos-guaxinins-%C3%A9-um
+tumblr_url: /post/798565192446394368/pompoko-a-grande-batalha-dos-guaxinins-%C3%A9-um
 category: Notas
 ---
 ![Guaxinins observam casas durante a noite](https://64.media.tumblr.com/e8a9cff1f5b1bc8f5451adff3e698486/520e936dc793d76e-40/s640x960/56be17bed8147f1de0557b17793eb00915a2d1c4.jpg)

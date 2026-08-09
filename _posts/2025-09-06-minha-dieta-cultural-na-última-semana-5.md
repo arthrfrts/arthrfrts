@@ -7,7 +7,7 @@ tags:
 - jogos
 - séries
 - filmes
-tumblr_url: https://arthrfrts.tumblr.com/post/798566471295025152/minha-dieta-cultural-na-%C3%BAltima-semana-5
+tumblr_url: /post/798566471295025152/minha-dieta-cultural-na-%C3%BAltima-semana-5
 category: Esquinas
 ---
 O dia hoje tá lindo, e tá geladinho. Bem como eu gosto. Acho que eu vou pegar o Tobias e ir no Açorianos ler um livro de tarde. Tô pensando em voltar pro _Feiticeiro de Terramar_ agora que terminei _Uma Visão Pálida das Colinas_, mas esse frescor no ar me pede uma história de mistério. Vou ver o que eu tenho aqui pra ler.

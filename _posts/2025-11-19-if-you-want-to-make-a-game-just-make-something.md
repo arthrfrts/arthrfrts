@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2025-11-19T12:59:49-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/800662843143929856/if-you-want-to-make-a-game-just-make-something
+tumblr_url: /post/800662843143929856/if-you-want-to-make-a-game-just-make-something
 category: Notas
 ---
 [nintendocafe](https://nintendocafe.com/post/800662581554692096/if-you-want-to-make-a-game-just-make-something):

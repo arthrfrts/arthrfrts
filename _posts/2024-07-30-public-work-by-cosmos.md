@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2024-07-30T08:08:18-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/757425974644195328/public-work-by-cosmos
+tumblr_url: /post/757425974644195328/public-work-by-cosmos
 source: https://public.work/
 category: Notas
 ---

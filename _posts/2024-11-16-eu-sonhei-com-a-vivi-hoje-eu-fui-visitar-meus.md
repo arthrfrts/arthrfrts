@@ -6,7 +6,7 @@ tags:
 - sonhos
 - Vivi
 - cachorros
-tumblr_url: https://arthrfrts.tumblr.com/post/767297587660357632/eu-sonhei-com-a-vivi-hoje-eu-fui-visitar-meus
+tumblr_url: /post/767297587660357632/eu-sonhei-com-a-vivi-hoje-eu-fui-visitar-meus
 category: Notas
 ---
 Eu sonhei com a Vivi hoje. Eu fui visitar meus pais e os cachorros vieram me receber. Eu dei oi pro Balu, pro Ió, e pras meninas: a Flor, a Mel e a Cici. Daí a mãe comentou “a Vivi tá lá embaixo”.

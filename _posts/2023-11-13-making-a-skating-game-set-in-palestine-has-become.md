@@ -6,7 +6,7 @@ tags:
 - jogos
 - Palestina
 - política
-tumblr_url: https://arthrfrts.tumblr.com/post/733908312594235392/making-a-skating-game-set-in-palestine-has-become
+tumblr_url: /post/733908312594235392/making-a-skating-game-set-in-palestine-has-become
 source: https://aftermath.site/making-a-skating-game-set-in-palestine-has-become-an-act-of-resistance
 category: Links
 ---

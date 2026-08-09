@@ -8,7 +8,7 @@ tags:
 - livros
 - filmes
 - músicas
-tumblr_url: https://arthrfrts.tumblr.com/post/798568755606290432/minha-dieta-cultural-na-%C3%BAltima-semana-3
+tumblr_url: /post/798568755606290432/minha-dieta-cultural-na-%C3%BAltima-semana-3
 category: Esquinas
 ---
 Tá chovendo bastante por aqui hoje. Dá pra ouvir o vento subir correndo a escadaria aqui do lado de casa. Não vou mentir, eu tava torcendo por essa chuva. Minha semana foi tão movimentada que eu tava torcendo por uma chuvinha pra me forçar a ficar quietinho em casa, tomando café e vendo _Gilmore Girls_.

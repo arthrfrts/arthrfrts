@@ -4,7 +4,7 @@ title: ''
 date: '2023-11-12T10:48:36-03:00'
 tags:
 - livros
-tumblr_url: https://arthrfrts.tumblr.com/post/733794026225025024/in-a-posse-world-everybody-owns-a-domain-name
+tumblr_url: /post/733794026225025024/in-a-posse-world-everybody-owns-a-domain-name
 category: Notas
 ---
 In a POSSE world, everybody owns a domain name, and everybody has a blog.

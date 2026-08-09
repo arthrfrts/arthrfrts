@@ -2,7 +2,7 @@
 layout: post
 title: ''
 date: '2022-07-31T14:28:30-03:00'
-tumblr_url: https://arthrfrts.tumblr.com/post/691314109509189632/deixe-acontecer-e-ent%C3%A3o-deixe-ir-embora
+tumblr_url: /post/691314109509189632/deixe-acontecer-e-ent%C3%A3o-deixe-ir-embora
 source: https://leonardospoetry.tumblr.com/post/691299028520075264/so-much-of-our-suffering-is-about-resistance
 category: Notas
 ---

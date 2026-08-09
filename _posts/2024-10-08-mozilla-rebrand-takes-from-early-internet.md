@@ -6,7 +6,7 @@ date: '2024-10-08T22:33:41-03:00'
 tags:
 - Mozilla
 - design
-tumblr_url: https://arthrfrts.tumblr.com/post/763822207640240128/mozilla-rebrand-takes-from-early-internet
+tumblr_url: /post/763822207640240128/mozilla-rebrand-takes-from-early-internet
 source: https://www.itsnicethat.com/articles/jkr-mozilla-rebrand-graphic-design-project-240924
 category: Links
 ---

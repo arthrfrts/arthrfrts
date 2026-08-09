@@ -5,7 +5,7 @@ layout: post
 syndication:
   - https://bsky.app/profile/did:plc:aeaouj6eedwqmk4z3pies55n/post/3mlu5lvvgbs2v
   - https://organica.social/@arthr/116575919338069123
-  - https://arthrfrts.tumblr.com/post/816638412817858560/point-out-the-good
+  - /post/816638412817858560/point-out-the-good
 tags:
   - poesia
   - Topher Kearby

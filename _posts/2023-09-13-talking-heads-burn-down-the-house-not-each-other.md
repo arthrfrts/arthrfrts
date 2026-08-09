@@ -4,7 +4,7 @@ title: ''
 date: '2023-09-13T10:41:16-03:00'
 tags:
 - filmes
-tumblr_url: https://arthrfrts.tumblr.com/post/728353971725549568/talking-heads-burn-down-the-house-not-each-other
+tumblr_url: /post/728353971725549568/talking-heads-burn-down-the-house-not-each-other
 source: https://www.vulture.com/2023/09/talking-heads-stop-making-sense-tiff-reunion.html
 category: Notas
 ---

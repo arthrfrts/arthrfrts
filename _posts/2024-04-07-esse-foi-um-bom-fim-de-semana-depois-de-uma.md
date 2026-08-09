@@ -4,7 +4,7 @@ title: ''
 date: '2024-04-07T19:59:48-03:00'
 tags:
 - memórias
-tumblr_url: https://arthrfrts.tumblr.com/post/747142684408496128/esse-foi-um-bom-fim-de-semana-depois-de-uma
+tumblr_url: /post/747142684408496128/esse-foi-um-bom-fim-de-semana-depois-de-uma
 category: Notas
 ---
 Esse foi um bom fim de semana, depois de uma semana caótica.

@@ -7,7 +7,7 @@ tags:
 - comportamento
 - tempo de tela
 - apps
-tumblr_url: https://arthrfrts.tumblr.com/post/798567701926871040/vou-fazer-um-experimento-essa-semana-desativei
+tumblr_url: /post/798567701926871040/vou-fazer-um-experimento-essa-semana-desativei
 category: Notas
 ---
 Vou fazer um experimento essa semana: desativei todas as notificações no celular. Nem mesmo o calendário e os lembretes se salvaram.

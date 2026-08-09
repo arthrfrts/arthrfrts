@@ -5,7 +5,7 @@ date: '2025-09-29T09:13:00-03:00'
 tags:
 - web
 - cartografia
-tumblr_url: https://arthrfrts.tumblr.com/post/798422574614937600/eu-tropecei-nessa-p%C3%A1gina-do-site-de-kevin-kelly-em
+tumblr_url: /post/798422574614937600/eu-tropecei-nessa-p%C3%A1gina-do-site-de-kevin-kelly-em
 source: https://kk.org/ct2/the-internet-mapping-project/
 category: Links
 ---

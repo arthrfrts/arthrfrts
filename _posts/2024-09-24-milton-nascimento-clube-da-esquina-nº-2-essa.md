@@ -7,7 +7,7 @@ tags:
 - Clube da Esquina
 - Milton Nascimento
 - Lô Borges
-tumblr_url: https://arthrfrts.tumblr.com/post/762552545905344512/milton-nascimento-clube-da-esquina-n%C2%BA-2-essa
+tumblr_url: /post/762552545905344512/milton-nascimento-clube-da-esquina-n%C2%BA-2-essa
 category: Esquinas
 ---
 https://open.spotify.com/embed?uri=https%3A%2F%2Fopen.spotify.com%2Ftrack%2F2ruz8AHd13ycouEso1QDPA&view=coverart

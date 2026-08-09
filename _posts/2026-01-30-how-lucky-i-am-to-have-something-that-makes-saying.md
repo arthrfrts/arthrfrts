@@ -6,9 +6,9 @@ category: Notas
 tags:
   - saudade
   - luto
-tumblr_url: https://arthrfrts.tumblr.com/post/807194566971277312/how-lucky-i-am-to-have-something-that-makes-saying
+tumblr_url: /post/807194566971277312/how-lucky-i-am-to-have-something-that-makes-saying
 syndication:
-  - https://arthrfrts.tumblr.com/post/807194566971277312/
+  - /post/807194566971277312/
 ---
 
 > How lucky I am to have something that makes saying goodbye so hard.

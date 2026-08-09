@@ -5,7 +5,7 @@ date: '2025-09-29T09:39:00-03:00'
 tags:
 - descobertas
 - cachorros
-tumblr_url: https://arthrfrts.tumblr.com/post/798422450264276992/on-the-internet-everybody-knows-you-had-a-dog
+tumblr_url: /post/798422450264276992/on-the-internet-everybody-knows-you-had-a-dog
 source: https://ontheinterneteverybodyknows.geocities.institute/
 category: Links
 ---

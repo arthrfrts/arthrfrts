@@ -6,7 +6,7 @@ tags:
 - memórias
 - cachorros
 - Vivi
-tumblr_url: https://arthrfrts.tumblr.com/post/798567551571509248/%C3%BAltimas-mem%C3%B3rias
+tumblr_url: /post/798567551571509248/%C3%BAltimas-mem%C3%B3rias
 category: Notas
 ---
 Um pensamento estranho passou pela minha cabeça agora.

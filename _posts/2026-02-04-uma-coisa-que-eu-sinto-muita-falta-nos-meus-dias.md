@@ -7,7 +7,7 @@ tags:
 - cachorros
 - Vivi
 - Tobias
-tumblr_url: https://arthrfrts.tumblr.com/post/807648696537923584/uma-coisa-que-eu-sinto-muita-falta-nos-meus-dias
+tumblr_url: /post/807648696537923584/uma-coisa-que-eu-sinto-muita-falta-nos-meus-dias
 category: Notas
 ---
 Uma coisa que eu sinto muita falta nos meus dias com a Vivi é a sensação de que ela adorava estar pertinho de mim.

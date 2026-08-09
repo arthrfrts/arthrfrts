@@ -6,7 +6,7 @@ tags:
 - filmes
 - Studio Ghibli
 - Ghibli Fest
-tumblr_url: https://arthrfrts.tumblr.com/post/798422233929465856/eu-atrasei-total-esse-post-e-pe%C3%A7o-desculpas-os
+tumblr_url: /post/798422233929465856/eu-atrasei-total-esse-post-e-pe%C3%A7o-desculpas-os
 category: Notas
 ---
 Eu atrasei total esse post, e peço desculpas. Os últimos dias no trabalho — meus últimos dias na empresa que eu trabalhei pelos últimos anos — foram intensos.
