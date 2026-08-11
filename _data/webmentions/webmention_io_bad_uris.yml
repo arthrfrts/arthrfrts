@@ -901,61 +901,61 @@ www.historians.org:
   last_checked: '2026-06-09 14:50:18 -0300'
 rearte2.tumblr.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:50 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:03 -0300'
 perfectquote.tumblr.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:50 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:04 -0300'
 www.websitecarbon.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:51 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:04 -0300'
 44.media.tumblr.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:51 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:04 -0300'
 conqueringthenoodle.tumblr.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:51 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:04 -0300'
 sailor--spoon.tumblr.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:51 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:06 -0300'
 slimetony.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:52 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:06 -0300'
 2026.html.energy:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:52 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:07 -0300'
 htmldaycwb.neocities.org:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:52 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:07 -0300'
 htmlday2026rio.neocities.org:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:53 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:07 -0300'
 www.lrb.co.uk:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:58 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:12 -0300'
 grumpygamer.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:58 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:12 -0300'
 kotaku.com:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:58 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:13 -0300'
 bigwalk.game:
-  state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:58 -0300'
+  state: failure
+  attempts: 3
+  last_checked: '2026-08-11 13:03:18 -0300'
 bingebuster.net:
   state: unsupported
-  attempts: 2
-  last_checked: '2026-08-10 11:58:58 -0300'
+  attempts: 3
+  last_checked: '2026-08-11 13:03:18 -0300'
