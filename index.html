@@ -5,12 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Arthur Freitas</title>
 		<meta name="description" content="Faço sites e outras coisas na internet.">
-    <link rel="icon" type="image/png" src="/avatar.png">
+    <link rel="icon" type="image/png" href="/assets/avatar.png">
+    <link rel="stylesheet" href="/assets/style.css" />
 	</head>
 	<body class="h-card">
 		<h1>
 			<a class="u-url u-uid" href="https://arthr.me">
-				<img class="u-photo" src="/avatar.png" alt="" role="decoration">
+				<img class="u-photo" src="/assets/avatar.png" alt="" role="decoration">
 				<span class="p-name">
 					Arthur Freitas
 				</span>
@@ -30,81 +31,4 @@
         <a href="/wander/" title="Navegar pelos links bacanas que eu coleciono">🌐</a>
       </p>
 	</body>
-
-	<style>
-		:root {
-			--bg-color: #ffc833;
-			--fg-color: #312f28;
-
-		  @supports (color: color(display-p3 1 1 1 / 1)) {
-				--bg-color: color(display-p3 0.424 0 1 / 1);
-				--fg-color: color(display-p3 1 1 1);
-			}
-		}
-
-		body {
-			background-color: var(--bg-color);
-			color: var(--fg-color);
-			font-family: "Atkinson Hyperlegible Next";
-			font-weight: 350;
-			font-size: 18px;
-			max-width: 700px;
-			margin: 70px auto;
-			padding-inline: 7vw;
-		}
-
-		h1 {
-			font-size: 24px;
-			font-weight: 500;
-
-
-			a {
-        display: inline-flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        gap: 1rem;
-				text-decoration: none;
-			}
-
-      img {
-        width: 2em;
-        height: 2em;
-        object-fit: cover;
-        border-radius: 100%;
-      }
-		}
-
-		h1, p {
-			margin-block: 1.5rem;
-			line-height: 1.4em;
-		}
-
-		p:first-of-type {
-			font-size: 48px;
-			line-height: 1.125;
-      font-weight: 300;
-		}
-
-		a {
-			color: currentcolor;
-			text-decoration: underline;
-			text-decoration-style: solid;
-			text-decoration-thickness: 1px;
-
-			&:hover,
-			&:focus {
-				text-decoration-style: dashed;
-			}
-		}
-
-    .links {
-      font-size: 14px;
-      line-height: 1.75;
-
-      a {
-        font-size: 24px;
-        text-decoration: none;
-      }
-    }
-	</style>
 </html>

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/atkinson.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/atkinson.woff2") format('woff2');
+}
+
+:root {
+  --bg-color: #6c00ff;
+  --fg-color: #312f28;
+
+  @supports (color: color(display-p3 1 1 1 / 1)) {
+    --bg-color: color(display-p3 0.424 0 1 / 1);
+    --fg-color: color(display-p3 1 1 1);
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  font-family: "Atkinson Hyperlegible Next";
+  font-weight: 350;
+  font-size: 18px;
+  max-width: 700px;
+  margin: 70px auto;
+  padding-inline: 7vw;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+
+
+  a {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+  }
+
+  img {
+    width: 2em;
+    height: 2em;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+}
+
+h1, p {
+  margin-block: 1.5rem;
+  line-height: 1.4em;
+}
+
+p:first-of-type {
+  font-size: 48px;
+  line-height: 1.125;
+  font-weight: 300;
+}
+
+a {
+  color: currentcolor;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+
+  &:hover,
+  &:focus {
+    text-decoration-style: dashed;
+  }
+}
+
+.links {
+  font-size: 14px;
+  line-height: 1.75;
+
+  a {
+    font-size: 24px;
+    text-decoration: none;
+  }
+}
