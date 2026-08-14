@@ -1,3 +1,110 @@
----
-layout: blog
----
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Arthur Freitas</title>
+		<meta name="description" content="Faço sites e outras coisas na internet.">
+    <link rel="icon" type="image/png" src="/avatar.png">
+	</head>
+	<body class="h-card">
+		<h1>
+			<a class="u-url u-uid" href="https://arthr.me">
+				<img class="u-photo" src="/avatar.png" alt="" role="decoration">
+				<span class="p-name">
+					Arthur Freitas
+				</span>
+			</a>
+		</h1>
+
+		<p>Olá! Eu sou um <span class="p-role p-job-title">programador</span> e <span class="p-role p-job-title">escritor</span> em <span class="p-locality">Porto Alegre</span>, <span class="p-country-name">Brasil</span>.</p>
+		<p>Eu <a rel="me" href="https://irrelefante.com.br/">escrevo sobre cultura e tecnologia</a> e faço <a rel="me" href="https://arthr.dev">sites e outras pequenas brincadeiras na web</a>. Se increva no meu feed para não perder nenhuma novidade.</p>
+		<p>No passado eu editei o <a href="https://paomortadela.com.br/">Pão com Mortadela</a>, criei temas para o Tumblr e fiz sites para clientes como Pfizer, Yamaha e Furukawa. Você pode conferir meu currículo no <a rel="me" href="https://www.linkedin.com/in/arthrfrts">LinkedIn</a>, e meu código no <a rel="me" href="https://github.com/arthrfrts">GitHub</a>.</p>
+		<p>Se quiser entrar em contato comigo, me mande uma mensagem pelo <a rel="me" href="https://bsky.app/profile/arthr.me">Bluesky</a> ou por <a class="u-email" href="mailto:arthur@arthr.me">email</a>.</p>
+		<p>Obrigado pela visita! 👋</p>
+
+      <p class="links">Esse site faz parte do webring css.joy! Visite a vizinhança:<br>
+        <a href="https://webri.ng/webring/cssjoy/previous?via=https://arthr.me" title="Ir para o site anterior nesse webring">⬅️</a>
+        <a href="https://webri.ng/webring/cssjoy/random?via=https://arthr.me" title="Ir para um site aleatório nesse webring">🔀</a>
+        <a href="https://webri.ng/webring/cssjoy/next?via=https://arthr.me" title="Ir para o próximo site nesse webring">➡️</a>
+        <a href="/wander/" title="Navegar pelos links bacanas que eu coleciono">🌐</a>
+      </p>
+	</body>
+
+	<style>
+		:root {
+			--bg-color: #ffc833;
+			--fg-color: #312f28;
+
+		  @supports (color: color(display-p3 1 1 1 / 1)) {
+				--bg-color: color(display-p3 0.424 0 1 / 1);
+				--fg-color: color(display-p3 1 1 1);
+			}
+		}
+
+		body {
+			background-color: var(--bg-color);
+			color: var(--fg-color);
+			font-family: "Atkinson Hyperlegible Next";
+			font-weight: 350;
+			font-size: 18px;
+			max-width: 700px;
+			margin: 70px auto;
+			padding-inline: 7vw;
+		}
+
+		h1 {
+			font-size: 24px;
+			font-weight: 500;
+
+
+			a {
+        display: inline-flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 1rem;
+				text-decoration: none;
+			}
+
+      img {
+        width: 2em;
+        height: 2em;
+        object-fit: cover;
+        border-radius: 100%;
+      }
+		}
+
+		h1, p {
+			margin-block: 1.5rem;
+			line-height: 1.4em;
+		}
+
+		p:first-of-type {
+			font-size: 48px;
+			line-height: 1.125;
+      font-weight: 300;
+		}
+
+		a {
+			color: currentcolor;
+			text-decoration: underline;
+			text-decoration-style: solid;
+			text-decoration-thickness: 1px;
+
+			&:hover,
+			&:focus {
+				text-decoration-style: dashed;
+			}
+		}
+
+    .links {
+      font-size: 14px;
+      line-height: 1.75;
+
+      a {
+        font-size: 24px;
+        text-decoration: none;
+      }
+    }
+	</style>
+</html>
