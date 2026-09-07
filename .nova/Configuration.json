@@ -1,7 +1,7 @@
 {
   "editor.default_syntax" : "html",
   "workspace.color" : 3,
-  "workspace.name" : "🏠 Site pessoal",
+  "workspace.name" : "arthr.me",
   "workspace.preview_append_paths" : false,
   "workspace.preview_server_allow_external" : false,
   "workspace.preview_url" : "http:\/\/localhost:4000\/"
