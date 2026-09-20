@@ -1,15 +1,16 @@
 # Hello! I'm Arthur 👋
 
-I'm a web developer, and for over ten years I've been making better websites for nice people around the world.
+I'm a web developer, and for over ten years I've been [making better websites][dev] for nice people around the world.
 
 During this time, I've worked with a bunch of web technologies. PHP, SQL, React, Svelte, Vue, TypeScript, Ruby... Systems like WordPress, WooCommerce, Drupal, Shopify, and NextJS too.
 
 My true mother tongue is **HTML, CSS, and JavaScript**. With these, it seems like I can do anything. From mere documents to real web experiences that anyone with access to a browser can enjoy. That's my favorite magic.
 
-I also make small web games and [write on my blog][1].
+I also make small web games and [write on my blog][blog].
 
 You can reach me at <email@arthr.dev>.
 
 Thank you!
 
-[1]: https://arthr.me/
+[dev]: https://arthr.dev/
+[blog]: https://irrelefante.com.br/
