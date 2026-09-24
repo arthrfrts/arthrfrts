@@ -1,12 +1,11 @@
 /**
  * portal.js: melhorias progressivas. Sem JS, a página funciona inteira:
- * todos os widgets abertos, na ordem do HTML, e o céu da tarde.
+ * todos os widgets abertos, na ordem do HTML.
  *
- * 1. Céu e relógio no horário de Porto Alegre
- * 2. Widgets: recolher e reordenar (↑/↓), em qualquer tela
- * 3. Modo mesa: em telas largas com mouse, as janelas se arrastam pela aba.
- *    A ordem do DOM acompanha a posição (de cima para baixo, da esquerda
- *    para a direita), então o foco e a leitura seguem o que se vê.
+ * 1. Saudação e relógio no horário de Porto Alegre
+ * 2. Widgets: fechar, recolher e reordenar (↑/↓), em qualquer tela
+ * 3. Modo mesa: em telas largas com mouse, as janelas cobrem o viewport
+ *    inteiro e se arrastam livremente por ele, sem nunca criar rolagem.
  * 4. Last.fm ao vivo, via Pages Function
  */
 
@@ -14,7 +13,7 @@ const FUSO = "America/Sao_Paulo";
 const CHAVE = "arthr.me:portal";
 
 /* ------------------------------------------------------------------------
-   1. Céu e relógio
+   1. Saudação e relógio
    ------------------------------------------------------------------------ */
 
 const SAUDACOES = {
@@ -37,11 +36,9 @@ function periodoAtual() {
   return "noite";
 }
 
-function atualizarCeu() {
-  const periodo = periodoAtual();
-  document.documentElement.dataset.periodo = periodo;
+function atualizarSaudacao() {
   const saudacao = document.querySelector("[data-saudacao]");
-  if (saudacao) saudacao.textContent = SAUDACOES[periodo];
+  if (saudacao) saudacao.textContent = SAUDACOES[periodoAtual()];
 }
 
 const relogio = document.querySelector("[data-relogio]");
@@ -52,10 +49,10 @@ function atualizarRelogio() {
   relogio.dateTime = agora.toISOString();
 }
 
-atualizarCeu();
+atualizarSaudacao();
 atualizarRelogio();
 document.querySelector("[data-bandeja]")?.removeAttribute("hidden");
-setInterval(atualizarCeu, 10 * 60 * 1000);
+setInterval(atualizarSaudacao, 10 * 60 * 1000);
 setInterval(atualizarRelogio, 15 * 1000);
 
 /* ------------------------------------------------------------------------
@@ -85,6 +82,7 @@ function salvarEstado() {
    ------------------------------------------------------------------------ */
 
 const painel = document.querySelector("[data-painel]");
+const topo = document.querySelector(".topo");
 const anuncio = document.querySelector("[data-anuncio]");
 const botaoRestaurar = document.querySelector("[data-restaurar]");
 
@@ -112,10 +110,7 @@ function definirEscondido(widget, escondido) {
   salvarEstado();
   atualizarLimites();
   atualizarMenu();
-  if (mesaAtiva) {
-    aplicarPilha();
-    ajustarAltura();
-  }
+  if (mesaAtiva) aplicarPilha();
 }
 
 function fechar(widget) {
@@ -128,11 +123,10 @@ function abrir(widget) {
   definirEscondido(widget, false);
 
   // Widget nunca posicionado na mesa (ex.: já chegou fechado nesta visita):
-  // mede o lugar que ele ocuparia na grade antes de soltá-lo por cima.
+  // cai na próxima posição da cascata, com uma largura padrão.
   if (mesaAtiva && !widget.style.left) {
-    const medida = medirParaMesa(widget);
-    const { x, y } = estado.mesa?.[widget.id] ?? medida;
-    widget.style.inlineSize = `${medida.largura}px`;
+    if (!widget.style.inlineSize) widget.style.inlineSize = "21rem";
+    const { x, y } = estado.mesa?.[widget.id] ?? proximaCascata();
     posicionar(widget, x, y);
     observador.observe(widget);
   }
@@ -278,47 +272,57 @@ function atualizarMenu() {
 const telaDeMesa = matchMedia("(min-width: 64rem) and (pointer: fine)");
 const PASSO = 10; // px por seta; com Shift, 5×
 const MESMA_LINHA = 48; // janelas com topo a menos disso contam como mesma linha
+const PASSO_CASCATA = 32;
+const MARGEM_CASCATA = 24;
 let mesaAtiva = false;
+let cascata = { x: MARGEM_CASCATA, y: MARGEM_CASCATA };
 
-const observador = new ResizeObserver(() => mesaAtiva && ajustarAltura());
+// Re-clampa cada janela quando o próprio conteúdo dela muda de tamanho
+// (ex.: o Last.fm atualiza ao vivo), pra nada ficar cortado fora da tela.
+const observador = new ResizeObserver((entradas) => {
+  if (!mesaAtiva) return;
+  for (const { target } of entradas) posicionar(target, target.offsetLeft, target.offsetTop);
+});
 
 function recuoDoPainel() {
   const estilo = getComputedStyle(painel);
-  return { inicio: parseFloat(estilo.paddingInlineStart), fim: parseFloat(estilo.paddingInlineEnd) };
+  return {
+    inicioX: parseFloat(estilo.paddingInlineStart),
+    fimX: parseFloat(estilo.paddingInlineEnd),
+    inicioY: parseFloat(estilo.paddingBlockStart),
+    fimY: parseFloat(estilo.paddingBlockEnd),
+  };
 }
 
-/** Posições das janelas no layout em grade, relativas ao painel. */
-function posicoesDaGrade() {
-  const base = painel.getBoundingClientRect();
-  return Object.fromEntries(
-    widgets().map((w) => {
-      const r = w.getBoundingClientRect();
-      return [w.id, { x: r.left - base.left, y: r.top - base.top, largura: r.width }];
-    }),
-  );
+/** Larguras "naturais" das janelas na grade, medidas antes de entrar na mesa. */
+function largurasDaGrade() {
+  return Object.fromEntries(widgets().map((w) => [w.id, w.getBoundingClientRect().width]));
 }
 
-/** Mede onde uma janela cairia na grade normal, saindo da mesa por um instante. */
-function medirParaMesa(w) {
-  painel.classList.remove("painel--mesa");
-  const r = w.getBoundingClientRect();
-  const base = painel.getBoundingClientRect();
-  painel.classList.add("painel--mesa");
-  return { x: r.left - base.left, y: r.top - base.top, largura: r.width };
+/** Reinicia a cascata de posições, começando logo abaixo do cabeçalho. */
+function reiniciarCascata() {
+  const inicioY = Math.max(MARGEM_CASCATA, (topo?.getBoundingClientRect().bottom ?? 0) + 16);
+  cascata = { x: MARGEM_CASCATA, y: inicioY };
 }
 
+/** Próxima posição em cascata, pra novas janelas não caírem todas no mesmo lugar. */
+function proximaCascata() {
+  const pos = { ...cascata };
+  cascata = { x: cascata.x + PASSO_CASCATA, y: cascata.y + PASSO_CASCATA };
+  if (cascata.y > painel.clientHeight - 160) cascata = { x: cascata.x + 48, y: MARGEM_CASCATA };
+  if (cascata.x > painel.clientWidth - 160) cascata = { x: MARGEM_CASCATA, y: MARGEM_CASCATA };
+  return pos;
+}
+
+/** Posiciona a janela dentro dos limites do painel, em qualquer lugar do viewport. */
 function posicionar(w, x, y) {
   const recuo = recuoDoPainel();
-  const maxX = painel.clientWidth - recuo.fim - w.offsetWidth;
-  const nx = Math.round(Math.min(Math.max(x, recuo.inicio), Math.max(maxX, recuo.inicio)));
-  const ny = Math.round(Math.max(y, 0));
+  const maxX = painel.clientWidth - recuo.fimX - w.offsetWidth;
+  const maxY = painel.clientHeight - recuo.fimY - w.offsetHeight;
+  const nx = Math.round(Math.min(Math.max(x, recuo.inicioX), Math.max(maxX, recuo.inicioX)));
+  const ny = Math.round(Math.min(Math.max(y, recuo.inicioY), Math.max(maxY, recuo.inicioY)));
   w.style.left = `${nx}px`;
   w.style.top = `${ny}px`;
-}
-
-function ajustarAltura() {
-  const fundo = Math.max(0, ...widgets().map((w) => w.offsetTop + w.offsetHeight));
-  painel.style.minBlockSize = `${fundo + 24}px`;
 }
 
 function salvarMesa() {
@@ -365,7 +369,6 @@ function reordenarPelaPosicao() {
 function depoisDeMover(w, { anunciarPosicao }) {
   salvarMesa();
   const mudou = reordenarPelaPosicao();
-  ajustarAltura();
   if (anunciarPosicao) {
     const posicao = widgets().indexOf(w) + 1;
     anunciar(
@@ -436,7 +439,6 @@ function prepararArraste(w) {
     e.preventDefault();
     const passo = e.shiftKey ? PASSO * 5 : PASSO;
     posicionar(w, w.offsetLeft + direcao[0] * passo, w.offsetTop + direcao[1] * passo);
-    ajustarAltura();
 
     clearTimeout(pausa);
     pausa = setTimeout(() => depoisDeMover(w, { anunciarPosicao: true }), 500);
@@ -464,19 +466,19 @@ function removerDicas() {
 
 function ativarMesa() {
   if (mesaAtiva) return;
-  const grade = posicoesDaGrade(); // medido ANTES de tirar as janelas da grade
+  const largura = largurasDaGrade(); // medida ANTES de tirar as janelas da grade
 
   painel.classList.add("painel--mesa");
+  reiniciarCascata();
   for (const w of widgets()) {
-    w.style.inlineSize = `${grade[w.id].largura}px`;
-    const { x, y } = estado.mesa?.[w.id] ?? grade[w.id];
+    w.style.inlineSize = `${largura[w.id]}px`;
+    const { x, y } = estado.mesa?.[w.id] ?? proximaCascata();
     posicionar(w, x, y);
     observador.observe(w);
   }
 
   mesaAtiva = true;
   aplicarPilha();
-  ajustarAltura();
   criarDicas();
 }
 
@@ -486,7 +488,6 @@ function desativarMesa() {
   observador.disconnect();
   removerDicas();
   painel.classList.remove("painel--mesa");
-  painel.style.removeProperty("min-block-size");
   for (const w of widgets()) {
     for (const p of ["left", "top", "inline-size", "z-index"]) w.style.removeProperty(p);
     w.classList.remove("widget--ativa", "widget--arrastando");
@@ -497,7 +498,6 @@ function desativarMesa() {
 addEventListener("resize", () => {
   if (!mesaAtiva) return;
   for (const w of widgets()) posicionar(w, w.offsetLeft, w.offsetTop);
-  ajustarAltura();
 });
 
 /* ------------------------------------------------------------------------

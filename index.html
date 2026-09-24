@@ -20,6 +20,11 @@ layout: base
         <li><a href="#vizinhanca"><img class="deskbar__icone" src="/assets/emoji/vizinhanca.png" alt="" width="16" height="16">Vizinhança</a></li>
       </ul>
     </nav>
+
+    <div class="deskbar__status">
+      <p>Atualizada em <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | data_completa }}</time>.</p>
+      <button type="button" class="botao" data-restaurar hidden>Restaurar layout original</button>
+    </div>
   </div>
 
   <p class="saudacao" data-saudacao>Olá, de {{ site.cidade }}.</p>
@@ -48,8 +53,4 @@ layout: base
   {% include widgets/vizinhanca.html %}
 </main>
 
-<footer class="rodape">
-  <p>Atualizada em <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | data_completa }}</time>.</p>
-  <button type="button" class="botao" data-restaurar hidden>Restaurar layout original</button>
-  <p class="visualmente-oculto" data-anuncio aria-live="polite"></p>
-</footer>
+<p class="visualmente-oculto" data-anuncio aria-live="polite"></p>
