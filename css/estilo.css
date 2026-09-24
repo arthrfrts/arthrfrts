@@ -1,0 +1,785 @@
+/* ==========================================================================
+   arthr.me: portal pessoal, vestido de BeOS/Haiku
+   A área de trabalho é, por enquanto, uma cor só: o azul clássico do
+   desktop do Be (deve virar um papel de parede escolhível no futuro). Por
+   cima dela: janelas com a aba amarela, Deskbar no canto e botões em
+   relevo, tudo nas cores do sistema.
+   ========================================================================== */
+
+:root {
+  --fonte: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", "Noto Sans", system-ui, sans-serif;
+
+  /* Sistema */
+  --painel: #d8d8d8;          /* ui_color(B_PANEL_BACKGROUND_COLOR) */
+  --relevo-claro: #ffffff;
+  --relevo-escuro: #989898;
+  --contorno: #5a5a5a;
+  --papel: #ffffff;
+  --tinta: #000000;
+  --tinta-suave: #555555;
+  --link: #1646b0;
+  --link-visitado: #6a2c9e;
+  --foco: #0000e5;            /* azul da navegação por teclado no Haiku */
+  --divisoria: #d0d0d0;
+
+  /* A aba amarela */
+  --aba-topo: #ffe46b;
+  --aba: #ffcb00;
+  --aba-base: #f0b400;
+  --aba-sombra: #b98a00;
+
+  --largura: 74rem;
+
+  /* Papel de parede: por enquanto, o azul clássico da área de trabalho do BeOS */
+  --papel-de-parede: #336698;
+
+  color-scheme: light;
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--tinta);
+  background: var(--papel-de-parede);
+  font-family: var(--fonte);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+a:visited { color: var(--link-visitado); }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 2px solid var(--foco);
+  outline-offset: 1px;
+}
+
+.visualmente-oculto {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.pular {
+  position: absolute;
+  inset-block-start: 0.5rem;
+  inset-inline-start: 0.5rem;
+  z-index: 10;
+  padding: 0.375rem 0.75rem;
+  background: var(--painel);
+  border: 1px solid var(--contorno);
+  transform: translateY(-200%);
+}
+.pular:focus { transform: none; }
+
+/* Relevo: o "bevel" de tudo que é do sistema */
+.deskbar,
+.botao {
+  background: var(--painel);
+  border: 1px solid var(--contorno);
+  box-shadow:
+    inset 1px 1px 0 var(--relevo-claro),
+    inset -1px -1px 0 var(--relevo-escuro);
+}
+
+/* Botão do sistema */
+.botao {
+  padding: 0.25rem 0.875rem;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #f4f4f4, #d0d0d0);
+  color: var(--tinta);
+  font: inherit;
+  font-size: 0.9375rem;
+  cursor: pointer;
+}
+.botao:active {
+  background: linear-gradient(to bottom, #c4c4c4, #dcdcdc);
+  box-shadow: inset 1px 1px 0 var(--relevo-escuro);
+}
+
+/* --------------------------------------------------------------------------
+   A área de trabalho: papel de parede, fixo atrás de tudo
+   -------------------------------------------------------------------------- */
+
+.ceu {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: var(--papel-de-parede);
+}
+
+/* --------------------------------------------------------------------------
+   Topo: saudação, Deskbar e a janela do h-card
+   -------------------------------------------------------------------------- */
+
+.topo {
+  display: flex;
+  justify-content: flex-end;
+  max-inline-size: var(--largura);
+  margin-inline: auto;
+  padding: 1.5rem 1rem 0;
+}
+
+.perfil { display: flow-root; }
+.perfil p { margin: 0; max-inline-size: 64ch; }
+.perfil p + p { margin-block-start: 0.625rem; }
+
+/* A foto num quadro rebaixado, como um ícone grande no Tracker */
+.perfil__foto {
+  float: inline-start;
+  inline-size: 6rem;
+  block-size: auto;
+  margin: 0.125rem 1rem 0.5rem 0;
+  padding: 3px;
+  background: var(--painel);
+  border: 1px solid;
+  border-color: var(--relevo-escuro) var(--relevo-claro) var(--relevo-claro) var(--relevo-escuro);
+}
+
+/* Deskbar */
+
+.deskbar {
+  position: relative;
+  z-index: 2; /* fica por cima das janelas, que na mesa cobrem o viewport inteiro */
+  inline-size: 12rem;
+  font-size: 0.9375rem;
+}
+
+.deskbar__menu {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  border-block-end: 1px solid var(--relevo-escuro);
+  font-weight: 800;
+}
+.deskbar__menu a,
+.deskbar__menu a:visited {
+  color: var(--tinta);
+  text-decoration: none;
+}
+
+.deskbar__bandeja {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.125rem 0.5rem;
+  margin: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid;
+  border-color: var(--relevo-escuro) var(--relevo-claro) var(--relevo-claro) var(--relevo-escuro);
+}
+.deskbar__bandeja[hidden] { display: none; }
+.deskbar__bandeja time {
+  margin-inline-start: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.deskbar__janelas ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-block-start: 1px solid var(--relevo-escuro);
+}
+
+.deskbar__janelas li + li { border-block-start: 1px solid var(--relevo-escuro); }
+
+.deskbar__janelas a,
+.deskbar__janelas button {
+  display: flex;
+  align-items: center;
+  gap: 0.4375rem;
+  inline-size: 100%;
+  padding: 0.375rem 0.75rem;
+  border: 0;
+  box-shadow: inset 0 1px 0 var(--relevo-claro);
+  background: none;
+  color: var(--tinta);
+  font: inherit;
+  text-align: start;
+  text-decoration: none;
+  cursor: pointer;
+}
+.deskbar__janelas a:hover,
+.deskbar__janelas button:hover {
+  background: #c8c8c8;
+  text-decoration: underline;
+}
+
+/* Widget fechado: item do menu fica esmaecido, como um app minimizado */
+.deskbar__janelas button[aria-pressed="false"] { color: var(--tinta-suave); }
+
+.deskbar__icone {
+  flex-shrink: 0;
+  image-rendering: pixelated;
+}
+
+.deskbar__status {
+  padding: 0.5rem 0.75rem;
+  border-block-start: 1px solid var(--relevo-escuro);
+  color: var(--tinta-suave);
+  font-size: 0.8125rem;
+}
+.deskbar__status p { margin: 0 0 0.5rem; }
+.deskbar__status .botao {
+  display: block;
+  inline-size: 100%;
+  padding-block: 0.375rem;
+  font-size: 0.8125rem;
+}
+.deskbar__status .botao[hidden] { display: none; }
+
+/* --------------------------------------------------------------------------
+   Janelas: a aba amarela + a moldura em relevo
+   -------------------------------------------------------------------------- */
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 0;
+}
+.widget[hidden] { display: none; }
+
+/* A aba só ocupa a largura do título, como no Be */
+.widget__barra {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  align-self: flex-start;
+  max-inline-size: 100%;
+  min-block-size: 2.125rem;
+  padding: 0.1875rem 0.3125rem 0.1875rem 0.625rem;
+  background: linear-gradient(to bottom, var(--aba-topo), var(--aba) 45%, var(--aba-base));
+  border: 1px solid var(--contorno);
+  border-block-end: 0;
+  box-shadow:
+    inset 1px 1px 0 #fff6c4,
+    inset -1px 0 0 var(--aba-sombra);
+}
+
+/* Janela recolhida, ou fora de foco na mesa = aba cinza, como no Be */
+.widget--fechado .widget__barra,
+.painel--mesa > .widget:not(.widget--ativa) .widget__barra {
+  background: linear-gradient(to bottom, #f0f0f0, #d8d8d8 45%, #c8c8c8);
+  box-shadow:
+    inset 1px 1px 0 var(--relevo-claro),
+    inset -1px 0 0 var(--relevo-escuro);
+}
+.widget--fechado .widget__barra { border-block-end: 1px solid var(--contorno); }
+
+.widget__icone {
+  flex-shrink: 0;
+  image-rendering: pixelated;
+}
+
+.widget__titulo {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--tinta);
+}
+
+/* Moldura: borda cinza em relevo, e o conteúdo num "papel" rebaixado */
+.widget__corpo {
+  padding: calc(0.625rem + 5px) calc(0.75rem + 5px);
+  background: var(--papel);
+  border: 1px solid var(--contorno);
+  box-shadow:
+    inset 1px 1px 0 var(--relevo-claro),
+    inset -1px -1px 0 var(--relevo-escuro),
+    inset 0 0 0 4px var(--painel),
+    inset 0 0 0 5px var(--relevo-escuro);
+}
+
+/* Botão de recolher (injetado pelo JS no título): o triângulo do Tracker */
+.widget__alternar {
+  display: flex;
+  align-items: center;
+  gap: 0.4375rem;
+  min-block-size: 1.5rem;
+  padding: 0 0.125rem 0 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+}
+.widget__alternar::before {
+  content: "";
+  flex-shrink: 0;
+  border-inline-start: 0.4375rem solid currentColor;
+  border-block: 0.3125rem solid transparent;
+  rotate: 90deg;
+  transition: rotate 0.15s ease;
+}
+.widget__alternar[aria-expanded="false"]::before { rotate: 0deg; }
+
+/* Botões de mover: caixinhas em relevo dentro da aba, como o zoom do Be */
+.widget__controles {
+  display: flex;
+  gap: 0.1875rem;
+  margin-inline-start: 0.375rem;
+}
+.painel[data-unico] .widget__controles { display: none; }
+
+.widget__mover {
+  display: grid;
+  place-items: center;
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  padding: 0;
+  border: 1px solid var(--contorno);
+  background: linear-gradient(to bottom right, #fff8d6, var(--aba) 60%);
+  box-shadow: inset 1px 1px 0 #fffbe6, inset -1px -1px 0 var(--aba-sombra);
+  color: var(--tinta);
+  font: inherit;
+  font-size: 0.8125rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.widget--fechado .widget__mover {
+  background: linear-gradient(to bottom right, #f8f8f8, #d0d0d0 60%);
+  box-shadow: inset 1px 1px 0 var(--relevo-claro), inset -1px -1px 0 var(--relevo-escuro);
+}
+.widget__mover:active { box-shadow: inset 1px 1px 0 var(--aba-sombra); }
+.widget__mover[aria-disabled="true"] { color: #8a7a3a; cursor: default; }
+.widget--fechado .widget__mover[aria-disabled="true"] { color: #8a8a8a; }
+
+/* Botão de fechar: a caixinha vermelha da aba, sempre visível (mesmo com 1 só widget) */
+.widget__fechar {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  margin-inline-start: 0.1875rem;
+  padding: 0;
+  border: 1px solid var(--contorno);
+  background: linear-gradient(to bottom right, #fff8d6, var(--aba) 60%);
+  box-shadow: inset 1px 1px 0 #fffbe6, inset -1px -1px 0 var(--aba-sombra);
+  color: var(--tinta);
+  font-size: 0.8125rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.widget--fechado .widget__fechar {
+  background: linear-gradient(to bottom right, #f8f8f8, #d0d0d0 60%);
+  box-shadow: inset 1px 1px 0 var(--relevo-claro), inset -1px -1px 0 var(--relevo-escuro);
+}
+.widget__fechar:active { box-shadow: inset 1px 1px 0 var(--aba-sombra); }
+
+.widget__vazio {
+  margin: 0;
+  color: var(--tinta-suave);
+}
+
+.widget__rodape {
+  margin: 0.75rem 0 0;
+  padding-block-start: 0.5rem;
+  border-block-start: 1px solid var(--divisoria);
+  font-size: 0.9375rem;
+}
+
+/* --------------------------------------------------------------------------
+   Painel de widgets
+   -------------------------------------------------------------------------- */
+
+.painel {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 21rem), 1fr));
+  gap: 1.5rem 1rem;
+  align-items: start;
+  max-inline-size: var(--largura);
+  margin: 1.75rem auto 0;
+  padding-inline: 1rem;
+}
+.painel:focus { outline: none; }
+
+/* Modo mesa (ativado pelo JS em telas largas com mouse): cobre o viewport
+   inteiro, para as janelas poderem ser arrastadas por toda a tela sem
+   nunca criar rolagem. */
+
+.painel--mesa {
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  max-inline-size: none;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.painel--mesa > .widget { position: absolute; }
+
+.painel--mesa .widget__barra {
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+.painel--mesa .widget__alternar { cursor: inherit; }
+.widget--arrastando .widget__barra { cursor: grabbing; }
+
+/* Na mesa a ordem vem da posição, então as setinhas da aba saem */
+.painel--mesa .widget__controles { display: none; }
+
+/* Widget: Irrelefante */
+
+.posts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post + .post {
+  margin-block-start: 0.625rem;
+  padding-block-start: 0.625rem;
+  border-block-start: 1px solid var(--divisoria);
+}
+
+.post__titulo { font-weight: 700; }
+.post__sobre { margin-inline-start: 0.625rem; }
+
+.post__meta {
+  margin: 0.125rem 0 0;
+  color: var(--tinta-suave);
+  font-size: 0.875rem;
+}
+
+/* Widget: Bluesky */
+
+.skeets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skeet + .skeet {
+  margin-block-start: 0.75rem;
+  padding-block-start: 0.75rem;
+  border-block-start: 1px solid var(--divisoria);
+}
+
+.skeet__texto {
+  margin: 0;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.skeet__imagens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.25rem;
+  margin-block-start: 0.5rem;
+}
+.skeet__imagens[data-quantidade="1"] { grid-template-columns: 1fr; }
+.skeet__imagens img,
+.skeet__video img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  border: 1px solid var(--relevo-escuro);
+  background: var(--painel);
+}
+.skeet__imagens img {
+  max-block-size: 18rem;
+  object-fit: cover;
+}
+.skeet__imagens:not([data-quantidade="1"]) img { aspect-ratio: 1; }
+
+.skeet__video { display: block; margin-block-start: 0.5rem; }
+
+.skeet__cartao {
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #f4f4f4;
+  border: 1px solid;
+  border-color: var(--relevo-escuro) var(--divisoria) var(--divisoria) var(--relevo-escuro);
+  text-decoration: none;
+}
+.skeet__cartao-titulo { font-weight: 700; text-decoration: underline; text-underline-offset: 0.18em; }
+.skeet__cartao-host { color: var(--tinta-suave); font-size: 0.875rem; }
+
+.skeet__citacao {
+  margin: 0.5rem 0 0;
+  padding: 0.5rem 0.75rem;
+  background: #f4f4f4;
+  border-inline-start: 3px solid var(--aba);
+  font-size: 0.9375rem;
+}
+.skeet__citacao p { margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
+.skeet__citacao footer { margin-block-start: 0.25rem; font-size: 0.875rem; }
+
+.skeet__aviso {
+  margin: 0.5rem 0 0;
+  color: var(--tinta-suave);
+  font-size: 0.9375rem;
+}
+
+/* Widget: Letterboxd */
+
+.filmes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.filme {
+  display: flex;
+  gap: 0.75rem;
+  align-items: start;
+}
+.filme + .filme {
+  margin-block-start: 0.75rem;
+  padding-block-start: 0.75rem;
+  border-block-start: 1px solid var(--divisoria);
+}
+
+.filme__poster {
+  flex-shrink: 0;
+  inline-size: 4.375rem;
+  block-size: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border: 1px solid var(--relevo-escuro);
+  background: var(--painel);
+}
+
+.filme__info { min-inline-size: 0; }
+.filme__info > * { margin: 0; }
+.filme__info > * + * { margin-block-start: 0.25rem; }
+
+.filme__titulo a { font-weight: 700; }
+.filme__ano { color: var(--tinta-suave); }
+
+.filme__avaliacao {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+}
+.filme__estrelas { color: #16794a; letter-spacing: 0.05em; }
+.filme__curtiu { color: #c2410c; }
+.filme__revisto { color: var(--tinta-suave); font-size: 0.875rem; }
+
+.filme__resenha,
+.filme__spoiler {
+  font-size: 0.9375rem;
+  overflow-wrap: anywhere;
+}
+.filme__spoiler summary {
+  color: var(--tinta-suave);
+  cursor: pointer;
+}
+.filme__spoiler p { margin: 0.25rem 0 0; }
+
+/* Widget: Last.fm */
+
+.tocando {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-block-end: 0.875rem;
+  padding: 0.5rem;
+  background: #fff8d6;
+  border: 1px solid;
+  border-color: var(--relevo-escuro) var(--divisoria) var(--divisoria) var(--relevo-escuro);
+}
+.tocando[hidden] { display: none; }
+
+.tocando__capa {
+  flex-shrink: 0;
+  inline-size: 4rem;
+  block-size: 4rem;
+  object-fit: cover;
+  border: 1px solid var(--relevo-escuro);
+}
+.tocando__capa[hidden] { display: none; }
+
+.tocando__info { min-inline-size: 0; }
+.tocando__info p { margin: 0; overflow-wrap: anywhere; }
+.tocando__rotulo {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: var(--tinta-suave);
+  font-size: 0.875rem;
+}
+.tocando__faixa a { font-weight: 700; }
+.tocando__artista { font-size: 0.9375rem; }
+
+/* O equalizador: três barrinhas, paradas se o sistema pedir menos movimento */
+.equalizador {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  block-size: 0.75rem;
+}
+.equalizador span {
+  inline-size: 3px;
+  block-size: 100%;
+  background: #c2410c;
+  transform-origin: bottom;
+  animation: equalizar 0.9s ease-in-out infinite alternate;
+}
+.equalizador span:nth-child(2) { animation-delay: -0.3s; }
+.equalizador span:nth-child(3) { animation-delay: -0.6s; }
+
+@keyframes equalizar {
+  from { transform: scaleY(0.25); }
+  to { transform: scaleY(1); }
+}
+
+.faixas__titulo {
+  margin: 0 0 0.5rem;
+  font-size: 0.9375rem;
+}
+
+.faixas {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.faixa {
+  display: grid;
+  grid-template-columns: 2.75rem minmax(0, 1fr) auto;
+  gap: 0.625rem;
+  align-items: center;
+}
+.faixa + .faixa {
+  margin-block-start: 0.5rem;
+  padding-block-start: 0.5rem;
+  border-block-start: 1px solid var(--divisoria);
+}
+
+.faixa__capa {
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  object-fit: cover;
+  border: 1px solid var(--relevo-escuro);
+  background: var(--painel);
+}
+.faixa__capa--vazia {
+  display: grid;
+  place-items: center;
+  color: var(--tinta-suave);
+}
+
+.faixa__info {
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 0;
+  line-height: 1.3;
+}
+.faixa__musica,
+.faixa__artista { overflow-wrap: anywhere; }
+.faixa__artista { color: var(--tinta-suave); font-size: 0.875rem; }
+
+.faixa__quando {
+  color: var(--tinta-suave);
+  font-size: 0.8125rem;
+  text-align: end;
+}
+
+/* Widget: Grain */
+
+.fotos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.375rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.fotos img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid var(--relevo-escuro);
+  background: var(--painel);
+}
+
+/* Widget: Vizinhança */
+
+.webring + .webring,
+.webring + .webring__nome { margin-block-start: 1rem; }
+
+.webring__nome {
+  margin: 0 0 0.5rem;
+  font-size: 0.9375rem;
+}
+
+.webring__botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.webring__botoes .botao,
+.webring__botoes .botao:visited {
+  display: inline-block;
+  color: var(--tinta);
+  text-decoration: none;
+}
+
+.blogroll { margin: 0; padding-inline-start: 1.25rem; }
+.blogroll li + li { margin-block-start: 0.25rem; }
+.blogroll__nota { color: var(--tinta-suave); font-size: 0.875rem; }
+.blogroll__opml { margin: 0.5rem 0 0; font-size: 0.875rem; }
+.webring__nome a { color: inherit; }
+
+/* --------------------------------------------------------------------------
+   Telas estreitas: a Deskbar vira horizontal, como no modo do Haiku
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 48rem) {
+  .perfil__foto { inline-size: 4.5rem; }
+
+  .topo { padding-block-start: 0.75rem; }
+
+  .deskbar {
+    inline-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .deskbar__menu { border-block-end: 0; border-inline-end: 1px solid var(--relevo-escuro); }
+  .deskbar__bandeja { flex: 1 1 100%; order: 3; }
+  .deskbar__janelas { flex: 1 1 100%; order: 4; }
+  .deskbar__janelas ul { display: flex; flex-wrap: wrap; }
+  .deskbar__janelas li + li { border-block-start: 0; border-inline-start: 1px solid var(--relevo-escuro); }
+  .deskbar__status { flex: 1 1 100%; order: 5; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

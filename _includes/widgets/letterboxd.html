@@ -1,0 +1,71 @@
+{%- assign feed = site.data.feeds.letterboxd -%}
+<section class="widget h-feed" id="letterboxd" aria-labelledby="letterboxd-titulo" data-widget>
+  <div class="widget__barra">
+    <img class="widget__icone" src="/assets/emoji/letterboxd.png" alt="" width="20" height="20">
+    <h2 class="widget__titulo p-name" id="letterboxd-titulo">Letterboxd</h2>
+  </div>
+
+  <div class="widget__corpo" id="letterboxd-corpo">
+    {%- if feed.items.size > 0 %}
+    <ul class="filmes">
+      {%- for f in feed.items %}
+      <li class="filme h-review">
+        {%- if f.poster %}
+        <img class="filme__poster" src="{{ f.poster }}" alt="" width="70" height="105" loading="lazy" decoding="async">
+        {%- endif %}
+
+        <div class="filme__info">
+          <p class="filme__titulo p-item h-cite">
+            <a class="u-url p-name" href="{{ f.url }}">{{ f.titulo | escape }}</a>
+            {%- if f.ano %} <span class="filme__ano">({{ f.ano }})</span>{% endif %}
+          </p>
+
+          {%- if f.nota or f.curtiu or f.revisto %}
+          <p class="filme__avaliacao">
+            {%- if f.nota %}
+            <data class="p-rating filme__estrelas" value="{{ f.nota }}">
+              <span aria-hidden="true">{{ f.nota | estrelas }}</span>
+              <span class="visualmente-oculto">Nota {{ f.nota | nota_por_extenso }} de 5</span>
+            </data>
+            <data class="p-best" value="5" hidden></data>
+            {%- endif %}
+            {%- if f.curtiu %}
+            <span class="filme__curtiu"><span aria-hidden="true">♥</span><span class="visualmente-oculto">Curtiu</span></span>
+            {%- endif %}
+            {%- if f.revisto %}
+            <span class="filme__revisto">revisto</span>
+            {%- endif %}
+          </p>
+          {%- endif %}
+
+          {%- if f.resenha %}
+            {%- if f.resenha.spoiler %}
+          <details class="filme__spoiler">
+            <summary>Resenha com spoilers</summary>
+            <p class="e-content">{{ f.resenha.texto | escape }}</p>
+          </details>
+            {%- else %}
+          <p class="filme__resenha e-content">{{ f.resenha.texto | escape }}</p>
+            {%- endif %}
+          {%- endif %}
+
+          <p class="post__meta">
+            {%- if f.assistido %}
+            Assistido em <time class="dt-published" datetime="{{ f.assistido }}">{{ f.assistido | data_curta }}</time>
+            {%- else %}
+            Registrado em <time class="dt-published" datetime="{{ f.publicado }}">{{ f.publicado | data_curta }}</time>
+            {%- endif %}
+          </p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- else %}
+    <p class="widget__vazio">Os filmes aparecem aqui na próxima atualização. Enquanto isso, o diário completo está no <a href="https://letterboxd.com/arthrfrts/">Letterboxd</a>.</p>
+    {%- endif %}
+
+    <p class="widget__rodape">
+      <a href="https://letterboxd.com/arthrfrts/films/diary/">Ver o diário completo</a>
+    </p>
+  </div>
+</section>

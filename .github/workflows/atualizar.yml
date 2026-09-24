@@ -1,0 +1,42 @@
+name: Atualizar feeds
+
+on:
+  schedule:
+    - cron: "0 9,21 * * *" # 6h e 18h em Porto Alegre (UTC-3)
+  workflow_dispatch:
+
+concurrency:
+  group: atualizar-feeds
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run buscar
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+
+      - name: Commitar se algo mudou
+        run: |
+          git config user.name "arthr-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/feeds
+          if git diff --staged --quiet; then
+            echo "Nada novo."
+          else
+            git commit -m "feeds: $(date -u +%FT%H:%MZ)"
+            git push
+          fi

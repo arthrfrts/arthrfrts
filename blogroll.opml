@@ -1,0 +1,17 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Blogroll de {{ site.title | xml_escape }}</title>
+    <dateCreated>{{ site.time | date_to_rfc822 }}</dateCreated>
+    <ownerName>{{ site.title | xml_escape }}</ownerName>
+    <ownerId>{{ site.url }}/</ownerId>
+  </head>
+  <body>
+    {%- for blog in site.data.vizinhanca.blogroll %}{% if blog.feed %}
+    <outline type="rss" text="{{ blog.nome | xml_escape }}" title="{{ blog.nome | xml_escape }}" xmlUrl="{{ blog.feed | xml_escape }}" htmlUrl="{{ blog.url | xml_escape }}"{% if blog.nota %} description="{{ blog.nota | xml_escape }}"{% endif %} />
+    {%- endif %}{% endfor %}
+  </body>
+</opml>

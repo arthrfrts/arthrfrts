@@ -1,0 +1,31 @@
+{%- assign feed = site.data.feeds.irrelefante -%}
+<section class="widget h-feed" id="irrelefante" aria-labelledby="irrelefante-titulo" data-widget>
+  <div class="widget__barra">
+    <img class="widget__icone" src="/assets/emoji/irrelefante.png" alt="" width="20" height="20">
+    <h2 class="widget__titulo p-name" id="irrelefante-titulo">Irrelefante</h2>
+  </div>
+
+  <div class="widget__corpo" id="irrelefante-corpo">
+    {%- if feed.items.size > 0 %}
+    <ul class="posts">
+      {%- for item in feed.items %}
+      <li class="post h-entry">
+        <a class="post__titulo u-url p-name" href="{{ item.permalink }}">{{ item.titulo }}</a>
+        <p class="post__meta">
+          <time class="dt-published" datetime="{{ item.data }}">{{ item.data | data_curta }}</time>
+          {%- if item.externo %}
+          <span class="post__sobre">sobre <a class="u-bookmark-of" href="{{ item.link }}">{{ item.link | host }}</a></span>
+          {%- endif %}
+        </p>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- else %}
+    <p class="widget__vazio">Os posts aparecem aqui na próxima atualização. Enquanto isso, eles estão todos no <a href="https://irrelefante.com.br/">Irrelefante</a>.</p>
+    {%- endif %}
+
+    <p class="widget__rodape">
+      <a href="https://irrelefante.com.br/">Ver todos os posts</a>
+    </p>
+  </div>
+</section>
