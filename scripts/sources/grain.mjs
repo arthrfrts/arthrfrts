@@ -10,6 +10,8 @@ export default async function grain({ limite = 9 } = {}) {
 }
 
 export function transformar(registros, pds, limite = 9) {
+  const vistas = new Set();
+
   return registros
     .map(({ value }) => {
       const blob = value.photo ?? value.image;
@@ -24,5 +26,9 @@ export function transformar(registros, pds, limite = 9) {
     })
     .filter((f) => f.imagem)
     .sort((a, b) => new Date(b.data ?? 0) - new Date(a.data ?? 0))
+    // A mesma foto pode estar em mais de uma galeria (um registro por
+    // aparição), gerando várias entradas com a mesma imagem: fica só a
+    // mais recente de cada uma.
+    .filter((f) => !vistas.has(f.imagem) && vistas.add(f.imagem))
     .slice(0, limite);
 }
