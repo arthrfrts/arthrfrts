@@ -6,7 +6,6 @@ require "uri"
 
 module ArthrMe
   module Filtros
-    MESES = %w[janeiro fevereiro março abril maio junho julho agosto setembro outubro novembro dezembro].freeze
     MESES_CURTOS = %w[jan. fev. mar. abr. mai. jun. jul. ago. set. out. nov. dez.].freeze
 
     # "2026-09-22T10:00:00-03:00" → "22 de set."
@@ -15,12 +14,6 @@ module ArthrMe
     def data_curta(valor)
       t = para_tempo(valor)
       t ? "#{t.day} de #{MESES_CURTOS[t.month - 1]}" : ""
-    end
-
-    # → "24 de setembro de 2026 às 15:29"
-    def data_completa(valor)
-      t = para_tempo(valor)
-      t ? format("%d de %s de %d às %02d:%02d", t.day, MESES[t.month - 1], t.year, t.hour, t.min) : ""
     end
 
     # → "24 de set., 14:02"

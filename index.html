@@ -7,6 +7,7 @@ layout: base
   <div class="deskbar">
     <p class="deskbar__menu"><a class="u-url u-uid" rel="me" href="{{ site.url }}/">arthr.me</a></p>
     <p class="deskbar__bandeja" data-bandeja hidden>
+      <span data-saudacao>Olá</span>
       <span class="visualmente-oculto">Agora em {{ site.cidade }}:</span>
       <time data-relogio></time>
     </p>
@@ -17,17 +18,16 @@ layout: base
         <li><a href="#bluesky"><img class="deskbar__icone" src="/assets/emoji/bluesky.png" alt="" width="16" height="16">Bluesky</a></li>
         <li><a href="#letterboxd"><img class="deskbar__icone" src="/assets/emoji/letterboxd.png" alt="" width="16" height="16">Letterboxd</a></li>
         <li><a href="#lastfm"><img class="deskbar__icone" src="/assets/emoji/lastfm.png" alt="" width="16" height="16">Last.fm</a></li>
+        <li><a href="#grain"><img class="deskbar__icone" src="/assets/emoji/grain.png" alt="" width="16" height="16">Grain</a></li>
         <li><a href="#vizinhanca"><img class="deskbar__icone" src="/assets/emoji/vizinhanca.png" alt="" width="16" height="16">Vizinhança</a></li>
       </ul>
     </nav>
 
     <div class="deskbar__status">
-      <p>Atualizada em <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | data_completa }}</time>.</p>
+      <p>Atualizada em <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: "%d/%m/%Y às %Hh%M" }}</time>.</p>
       <button type="button" class="botao" data-restaurar hidden>Restaurar layout original</button>
     </div>
   </div>
-
-  <p class="saudacao" data-saudacao>Olá, de {{ site.cidade }}.</p>
 </header>
 
 <main class="painel" id="painel" data-painel tabindex="-1">
@@ -42,7 +42,7 @@ layout: base
       <p class="p-note">Eu <a rel="me" href="https://irrelefante.com.br/">escrevo sobre cultura e tecnologia</a> e faço <a rel="me" href="https://arthr.dev">sites e outras pequenas brincadeiras na web</a>. Se inscreva no <a href="https://irrelefante.com.br/feed.xml">meu feed</a> para não perder nenhuma novidade.</p>
       <p>No passado eu editei o <a href="https://paomortadela.com.br/">Pão com Mortadela</a>, criei temas para o Tumblr e fiz sites para clientes como Pfizer, Yamaha e Furukawa. Você pode conferir meu currículo no <a rel="me" href="https://www.linkedin.com/in/arthrfrts">LinkedIn</a>, e meu código no <a rel="me" href="https://github.com/arthrfrts">GitHub</a>.</p>
       <p>Se quiser entrar em contato comigo, me mande uma mensagem pelo <a rel="me" href="https://bsky.app/profile/arthr.me">Bluesky</a> ou por <a class="u-email" href="mailto:arthur@arthr.me">email</a>.</p>
-      <p>Também dá pra me achar no <a rel="me" href="https://arthrfrts.tumblr.com/">Tumblr</a>, no <a rel="me" href="https://organica.social/@arthr">Mastodon</a>, no <a rel="me atproto" href="https://grain.social/profile/arthr.me">Grain</a>, no <a rel="me" href="https://www.flickr.com/profile/arthrfrts">Flickr</a> e no <a rel="me atproto" href="https://tangled.org/arthr.me">Tangled</a>.</p>
+      <p>Também dá pra me achar no <a rel="me" href="https://arthrfrts.tumblr.com/">Tumblr</a>, no <a rel="me" href="https://organica.social/@arthr">Mastodon</a>, no <a rel="me" href="https://www.flickr.com/profile/arthrfrts">Flickr</a> e no <a rel="me atproto" href="https://tangled.org/arthr.me">Tangled</a>.</p>
       <p>Obrigado pela visita! 👋</p>
     </div>
   </section>
@@ -50,6 +50,7 @@ layout: base
   {% include widgets/bluesky.html %}
   {% include widgets/letterboxd.html %}
   {% include widgets/lastfm.html %}
+  {% include widgets/grain.html %}
   {% include widgets/vizinhanca.html %}
 </main>
 

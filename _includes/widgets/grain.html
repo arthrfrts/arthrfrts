@@ -1,0 +1,25 @@
+{%- assign feed = site.data.feeds.grain -%}
+<section class="widget" id="grain" aria-labelledby="grain-titulo" data-widget>
+  <div class="widget__barra">
+    <img class="widget__icone" src="/assets/emoji/grain.png" alt="" width="20" height="20">
+    <h2 class="widget__titulo" id="grain-titulo">Grain</h2>
+  </div>
+
+  <div class="widget__corpo" id="grain-corpo">
+    {%- if feed.items.size > 0 %}
+    <ul class="fotos">
+      {%- for f in feed.items %}
+      <li class="foto">
+        <img src="{{ f.imagem }}" alt="{{ f.alt | escape }}"{% if f.largura %} width="{{ f.largura }}" height="{{ f.altura }}"{% endif %} loading="lazy" decoding="async">
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- else %}
+    <p class="widget__vazio">As fotos aparecem aqui na próxima atualização. Enquanto isso, elas estão todas no <a href="https://grain.social/profile/arthr.me">Grain</a>.</p>
+    {%- endif %}
+
+    <p class="widget__rodape">
+      <a href="https://grain.social/profile/arthr.me">Ver mais fotos no Grain</a>
+    </p>
+  </div>
+</section>

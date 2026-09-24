@@ -17,11 +17,10 @@ const CHAVE = "arthr.me:portal";
    ------------------------------------------------------------------------ */
 
 const SAUDACOES = {
-  madrugada: "Boa madrugada de Porto Alegre.",
-  manha: "Bom dia de Porto Alegre.",
-  tarde: "Boa tarde de Porto Alegre.",
-  entardecer: "Pôr do sol no Guaíba.",
-  noite: "Boa noite de Porto Alegre.",
+  madrugada: "Tenha uma boa madrugada.",
+  manha: "Tenha um bom dia.",
+  tarde: "Tenha uma boa tarde.",
+  noite: "Tenha uma boa noite.",
 };
 
 const formatoHora = new Intl.DateTimeFormat("pt-BR", { hour: "numeric", hourCycle: "h23", timeZone: FUSO });
@@ -31,8 +30,7 @@ function periodoAtual() {
   const h = Number(formatoHora.format(new Date()));
   if (h < 6) return "madrugada";
   if (h < 12) return "manha";
-  if (h < 17) return "tarde";
-  if (h < 20) return "entardecer";
+  if (h < 18) return "tarde";
   return "noite";
 }
 

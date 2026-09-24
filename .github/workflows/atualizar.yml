@@ -28,7 +28,6 @@ jobs:
       - run: npm run buscar
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
-          # FLICKR_API_KEY: ${{ secrets.FLICKR_API_KEY }}
 
       - name: Commitar se algo mudou
         run: |

@@ -9,8 +9,9 @@ import irrelefante from "./sources/irrelefante.mjs";
 import bluesky from "./sources/bluesky.mjs";
 import letterboxd from "./sources/letterboxd.mjs";
 import lastfm from "./sources/lastfm.mjs";
+import grain from "./sources/grain.mjs";
 
-const FONTES = { irrelefante, bluesky, letterboxd, lastfm };
+const FONTES = { irrelefante, bluesky, letterboxd, lastfm, grain };
 const PASTA = new URL("../_data/feeds/", import.meta.url);
 const noActions = Boolean(process.env.GITHUB_ACTIONS);
 
