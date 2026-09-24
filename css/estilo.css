@@ -427,7 +427,18 @@ a:hover { text-decoration-thickness: 2px; }
   overflow: hidden;
 }
 
-.painel--mesa > .widget { position: absolute; }
+.painel--mesa > .widget {
+  position: absolute;
+  /* Sem isso, uma janela alta (ex.: Letterboxd) passa do fundo da mesa e,
+     como ela não rola, o resto do conteúdo fica inacessível pra sempre. */
+  max-block-size: calc(100vh - 2rem);
+}
+
+/* O corpo rola por dentro quando o conteúdo não cabe na altura máxima */
+.painel--mesa .widget__corpo {
+  min-block-size: 0;
+  overflow-y: auto;
+}
 
 .painel--mesa .widget__barra {
   cursor: grab;
