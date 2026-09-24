@@ -80,7 +80,6 @@ function salvarEstado() {
    ------------------------------------------------------------------------ */
 
 const painel = document.querySelector("[data-painel]");
-const topo = document.querySelector(".topo");
 const anuncio = document.querySelector("[data-anuncio]");
 const botaoRestaurar = document.querySelector("[data-restaurar]");
 
@@ -121,10 +120,10 @@ function abrir(widget) {
   definirEscondido(widget, false);
 
   // Widget nunca posicionado na mesa (ex.: já chegou fechado nesta visita):
-  // cai na próxima posição da cascata, com uma largura padrão.
+  // cai no lugar padrão dele, com uma largura padrão.
   if (mesaAtiva && !widget.style.left) {
     if (!widget.style.inlineSize) widget.style.inlineSize = "21rem";
-    const { x, y } = estado.mesa?.[widget.id] ?? proximaCascata();
+    const { x, y } = estado.mesa?.[widget.id] ?? posicaoInicial(widget);
     posicionar(widget, x, y);
     observador.observe(widget);
   }
@@ -270,10 +269,8 @@ function atualizarMenu() {
 const telaDeMesa = matchMedia("(min-width: 64rem) and (pointer: fine)");
 const PASSO = 10; // px por seta; com Shift, 5×
 const MESMA_LINHA = 48; // janelas com topo a menos disso contam como mesma linha
-const PASSO_CASCATA = 32;
-const MARGEM_CASCATA = 24;
+const MARGEM_MESA = 24;
 let mesaAtiva = false;
-let cascata = { x: MARGEM_CASCATA, y: MARGEM_CASCATA };
 
 // Re-clampa cada janela quando o próprio conteúdo dela muda de tamanho
 // (ex.: o Last.fm atualiza ao vivo), pra nada ficar cortado fora da tela.
@@ -297,19 +294,21 @@ function largurasDaGrade() {
   return Object.fromEntries(widgets().map((w) => [w.id, w.getBoundingClientRect().width]));
 }
 
-/** Reinicia a cascata de posições, começando logo abaixo do cabeçalho. */
-function reiniciarCascata() {
-  const inicioY = Math.max(MARGEM_CASCATA, (topo?.getBoundingClientRect().bottom ?? 0) + 16);
-  cascata = { x: MARGEM_CASCATA, y: inicioY };
+/** As outras janelas caem espalhadas por qualquer lugar da mesa. */
+function posicaoEspalhada(w) {
+  const recuo = recuoDoPainel();
+  const maxX = Math.max(recuo.inicioX, painel.clientWidth - recuo.fimX - w.offsetWidth);
+  const maxY = Math.max(recuo.inicioY, painel.clientHeight - recuo.fimY - w.offsetHeight);
+  return {
+    x: recuo.inicioX + Math.random() * (maxX - recuo.inicioX),
+    y: recuo.inicioY + Math.random() * (maxY - recuo.inicioY),
+  };
 }
 
-/** Próxima posição em cascata, pra novas janelas não caírem todas no mesmo lugar. */
-function proximaCascata() {
-  const pos = { ...cascata };
-  cascata = { x: cascata.x + PASSO_CASCATA, y: cascata.y + PASSO_CASCATA };
-  if (cascata.y > painel.clientHeight - 160) cascata = { x: cascata.x + 48, y: MARGEM_CASCATA };
-  if (cascata.x > painel.clientWidth - 160) cascata = { x: MARGEM_CASCATA, y: MARGEM_CASCATA };
-  return pos;
+/** Onde uma janela cai por padrão, na primeira vez que aparece na mesa. A
+ *  bio sempre abre encostada no canto superior esquerdo; o resto se espalha. */
+function posicaoInicial(w) {
+  return w.id === "perfil" ? { x: MARGEM_MESA, y: MARGEM_MESA } : posicaoEspalhada(w);
 }
 
 /** Posiciona a janela dentro dos limites do painel, em qualquer lugar do viewport. */
@@ -467,10 +466,9 @@ function ativarMesa() {
   const largura = largurasDaGrade(); // medida ANTES de tirar as janelas da grade
 
   painel.classList.add("painel--mesa");
-  reiniciarCascata();
   for (const w of widgets()) {
     w.style.inlineSize = `${largura[w.id]}px`;
-    const { x, y } = estado.mesa?.[w.id] ?? proximaCascata();
+    const { x, y } = estado.mesa?.[w.id] ?? posicaoInicial(w);
     posicionar(w, x, y);
     observador.observe(w);
   }

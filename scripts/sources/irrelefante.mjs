@@ -1,24 +1,28 @@
-import { buscar } from "../lib.mjs";
+import { buscar, resolverPds } from "../lib.mjs";
 
-const FEED = "https://irrelefante.com.br/feed.json";
-const HOST = new URL(FEED).host;
+// O feed.json direto (irrelefante.com.br/feed.json) passou a devolver 403
+// pro runner do Actions. Os posts também ficam gravados no PDS do Irrelefante
+// como registros AT Protocol, então buscamos direto de lá.
+const DID = "did:plc:5anqf5uonyp67nsex6h55l6p";
+const COLECAO = "site.standard.document";
+const SITE = "https://irrelefante.com.br";
 
 export default async function irrelefante({ limite = 5 } = {}) {
-  const feed = await buscar(FEED);
+  const pds = await resolverPds(DID);
+  const url = `${pds}/xrpc/com.atproto.repo.listRecords?repo=${DID}&collection=${COLECAO}&limit=${limite}&reverse=true`;
+  return transformar(await buscar(url));
+}
 
-  return feed.items.slice(0, limite).map((item) => {
-    // No padrão linkblog, `url` pode apontar para o link comentado.
-    // O `id` costuma ser o permalink do post; confira no seu feed.
-    const link = item.external_url ?? item.url;
-    const permalink = item.id?.startsWith("http") ? item.id : item.url;
-
+export function transformar(resposta) {
+  return (resposta.records ?? []).map(({ uri, value }) => {
+    const rkey = uri.split("/").pop();
     return {
-      titulo: item.title ?? "(sem título)",
-      permalink,
-      link,
-      externo: new URL(link).host !== HOST,
-      data: item.date_published ?? null,
-      resumo: item.summary ?? null,
+      titulo: value.title ?? "(sem título)",
+      permalink: `${SITE}/${rkey}`,
+      link: null,
+      externo: false,
+      data: value.publishedAt ?? value.createdAt ?? null,
+      resumo: value.description ?? null,
     };
   });
 }

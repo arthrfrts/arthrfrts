@@ -12,6 +12,14 @@ export async function buscar(url, { tipo = "json", headers = {} } = {}) {
   return tipo === "json" ? res.json() : res.text();
 }
 
+/** Onde o repositório de um DID mora: é de lá que vêm seus registros e blobs. */
+export async function resolverPds(did) {
+  const doc = await buscar(`https://plc.directory/${did}`);
+  const pds = doc.service?.find((s) => s.id === "#atproto_pds")?.serviceEndpoint;
+  if (!pds) throw new Error(`PDS não encontrado para ${did}`);
+  return pds;
+}
+
 /** Decodifica entidades HTML comuns e numéricas. */
 export function decodificarEntidades(texto) {
   const nomeadas = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
