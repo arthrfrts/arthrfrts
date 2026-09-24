@@ -1,0 +1,37 @@
+# arthr.me
+title: Arthur Freitas
+description: Faço sites e outras coisas na internet.
+url: "https://arthr.me"
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+cidade: Porto Alegre
+pais: Brasil
+foto: /assets/avatar-192.jpg
+
+# Perfis: viram <link rel="me"> no <head> e os itens da Deskbar.
+perfis:
+  - { nome: Irrelefante, url: "https://irrelefante.com.br/" }
+  - { nome: arthr.dev, url: "https://arthr.dev" }
+  - { nome: Tumblr, url: "https://arthrfrts.tumblr.com/" }
+  - { nome: Bluesky, url: "https://bsky.app/profile/arthr.me", rel: "me atproto" }
+  - { nome: Mastodon, url: "https://organica.social/@arthr" }
+  - { nome: Grain, url: "https://grain.social/profile/arthr.me", rel: "me atproto" }
+  - { nome: Flickr, url: "https://www.flickr.com/profile/arthrfrts" }
+  - { nome: Letterboxd, url: "https://letterboxd.com/arthrfrts" }
+  - { nome: Last.fm, url: "https://www.last.fm/user/arthrfrts" }
+  - { nome: Tangled, url: "https://tangled.org/arthr.me", rel: "me atproto" }
+  - { nome: GitHub, url: "https://github.com/arthrfrts" }
+  - { nome: LinkedIn, url: "https://www.linkedin.com/in/arthrfrts" }
+
+exclude:
+  - scripts/
+  - lib/
+  - functions/
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/

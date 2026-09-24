@@ -1,0 +1,27 @@
+# Vizinhança: webrings e blogroll.
+# Tudo aqui aparece na janela "Vizinhança" e o blogroll também vira
+# /blogroll.opml, para quem quiser importar num leitor de feeds.
+
+webrings:
+  - nome: css.joy
+    url: "https://webri.ng/webring/cssjoy"
+    anterior: "https://webri.ng/webring/cssjoy/previous?via=https://arthr.me"
+    aleatorio: "https://webri.ng/webring/cssjoy/random?via=https://arthr.me"
+    proximo: "https://webri.ng/webring/cssjoy/next?via=https://arthr.me"
+
+# Cada blog: nome e url (obrigatórios); feed e nota (opcionais).
+# O feed é o que entra no OPML. Sem feed, o blog aparece na janela mas
+# fica de fora do OPML (um leitor de feeds não teria o que assinar).
+#
+# ⚠️ Os três abaixo são EXEMPLOS: troque pelos blogs que você lê antes de publicar.
+blogroll:
+  - nome: Blog de exemplo
+    url: "https://example.com/"
+    feed: "https://example.com/feed.xml"
+    nota: escreve sobre tipografia
+  - nome: Outro exemplo
+    url: "https://example.org/"
+    feed: "https://example.org/rss"
+  - nome: Um sem feed
+    url: "https://example.net/"
+    nota: aparece aqui, mas não no OPML

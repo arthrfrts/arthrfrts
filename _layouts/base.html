@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ site.lang }}" data-periodo="tarde">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  {%- for perfil in site.perfis %}
+  <link rel="{{ perfil.rel | default: 'me' }}" href="{{ perfil.url }}">
+  {%- endfor %}
+  <link rel="alternate" type="application/feed+json" title="Irrelefante" href="https://irrelefante.com.br/feed.json">
+  <link rel="blogroll" type="text/xml" title="Blogroll" href="/blogroll.opml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;0,800;1,400&display=swap">
+  <link rel="stylesheet" href="/css/estilo.css">
+  <script src="/js/portal.js" defer></script>
+</head>
+<body>
+  <a class="pular" href="#painel">Pular para os widgets</a>
+  {{ content }}
+</body>
+</html>

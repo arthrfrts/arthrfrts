@@ -1,0 +1,33 @@
+{%- assign viz = site.data.vizinhanca -%}
+<section class="widget" id="vizinhanca" aria-labelledby="vizinhanca-titulo" data-widget>
+  <div class="widget__barra">
+    <h2 class="widget__titulo" id="vizinhanca-titulo">Vizinhança</h2>
+  </div>
+
+  <div class="widget__corpo" id="vizinhanca-corpo">
+    {%- for anel in viz.webrings %}
+    <div class="webring">
+      <h3 class="webring__nome">Webring <a href="{{ anel.url }}">{{ anel.nome }}</a></h3>
+      <ul class="webring__botoes">
+        <li><a class="botao" href="{{ anel.anterior }}"><span aria-hidden="true">←</span> Anterior</a></li>
+        <li><a class="botao" href="{{ anel.aleatorio }}">Aleatório</a></li>
+        <li><a class="botao" href="{{ anel.proximo }}">Próximo <span aria-hidden="true">→</span></a></li>
+      </ul>
+    </div>
+    {%- endfor %}
+
+    {%- if viz.blogroll.size > 0 %}
+    <h3 class="webring__nome">Blogroll</h3>
+    <ul class="blogroll">
+      {%- for blog in viz.blogroll %}
+      <li class="h-card"><a class="u-url p-name" href="{{ blog.url }}">{{ blog.nome }}</a>{% if blog.nota %} <span class="blogroll__nota">{{ blog.nota }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+    <p class="blogroll__opml"><a href="/blogroll.opml" type="text/xml">Baixar o blogroll em OPML</a></p>
+    {%- endif %}
+
+    <p class="widget__rodape">
+      <a href="https://irrelefante.com.br/wander/">Passear pelos links que eu coleciono</a>
+    </p>
+  </div>
+</section>

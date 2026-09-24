@@ -1,0 +1,48 @@
+{%- assign feed = site.data.feeds.lastfm -%}
+<section class="widget h-feed" id="lastfm" aria-labelledby="lastfm-titulo" data-widget data-ao-vivo="/api/lastfm">
+  <div class="widget__barra">
+    <h2 class="widget__titulo p-name" id="lastfm-titulo">Last.fm</h2>
+  </div>
+
+  <div class="widget__corpo" id="lastfm-corpo">
+    {%- comment -%} Preenchido pelo portal.js com /api/lastfm; sem JS, fica escondido. {%- endcomment %}
+    <div class="tocando" data-tocando hidden>
+      <img class="tocando__capa" alt="" width="64" height="64" data-capa hidden>
+      <div class="tocando__info">
+        <p class="tocando__rotulo">
+          <span class="equalizador" aria-hidden="true"><span></span><span></span><span></span></span>
+          Tocando agora
+        </p>
+        <p class="tocando__faixa"><a data-link></a></p>
+        <p class="tocando__artista" data-artista></p>
+      </div>
+    </div>
+
+    <h3 class="faixas__titulo">Ouvidas recentemente</h3>
+    {%- if feed.items.size > 0 %}
+    <ol class="faixas" data-faixas>
+      {%- for f in feed.items %}
+      <li class="faixa h-entry">
+        {%- if f.capa %}
+        <img class="faixa__capa" src="{{ f.capa }}" alt="" width="44" height="44" loading="lazy" decoding="async">
+        {%- else %}
+        <span class="faixa__capa faixa__capa--vazia" aria-hidden="true">♪</span>
+        {%- endif %}
+        <div class="faixa__info u-listen-of h-cite">
+          <a class="faixa__musica u-url p-name" href="{{ f.url }}">{{ f.musica | escape }}</a>
+          <span class="faixa__artista p-author">{{ f.artista | escape }}</span>
+        </div>
+        <time class="faixa__quando dt-published" datetime="{{ f.data }}" data-relativo>{{ f.data | data_hora }}</time>
+      </li>
+      {%- endfor %}
+    </ol>
+    {%- else %}
+    <p class="widget__vazio" data-faixas-vazio>As músicas aparecem aqui na próxima atualização. Enquanto isso, o histórico completo está no <a href="https://www.last.fm/user/arthrfrts">Last.fm</a>.</p>
+    <ol class="faixas" data-faixas hidden></ol>
+    {%- endif %}
+
+    <p class="widget__rodape">
+      <a href="https://www.last.fm/user/arthrfrts">Ver o perfil no Last.fm</a>
+    </p>
+  </div>
+</section>
