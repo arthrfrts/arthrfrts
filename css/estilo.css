@@ -202,9 +202,7 @@ a:hover { text-decoration-thickness: 2px; }
 .topo {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 12rem;
-  grid-template-areas:
-    "saudacao deskbar"
-    "perfil   deskbar";
+  grid-template-areas: "saudacao deskbar";
   gap: 1.25rem 1.5rem;
   align-items: start;
   max-inline-size: var(--largura);
@@ -221,8 +219,6 @@ a:hover { text-decoration-thickness: 2px; }
   line-height: 1.15;
   max-inline-size: 24ch;
 }
-
-.widget--perfil { grid-area: perfil; }
 
 .perfil { display: flow-root; }
 .perfil p { margin: 0; max-inline-size: 64ch; }
@@ -270,25 +266,43 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .deskbar__bandeja[hidden] { display: none; }
 
-.deskbar__perfis ul {
+.deskbar__janelas ul {
   margin: 0;
   padding: 0;
   list-style: none;
   border-block-start: 1px solid var(--relevo-escuro);
 }
 
-.deskbar__perfis li + li { border-block-start: 1px solid var(--relevo-escuro); }
+.deskbar__janelas li + li { border-block-start: 1px solid var(--relevo-escuro); }
 
-.deskbar__perfis a {
-  display: block;
+.deskbar__janelas a,
+.deskbar__janelas button {
+  display: flex;
+  align-items: center;
+  gap: 0.4375rem;
+  inline-size: 100%;
   padding: 0.375rem 0.75rem;
+  border: 0;
   box-shadow: inset 0 1px 0 var(--relevo-claro);
+  background: none;
   color: var(--tinta);
+  font: inherit;
+  text-align: start;
   text-decoration: none;
+  cursor: pointer;
 }
-.deskbar__perfis a:hover {
+.deskbar__janelas a:hover,
+.deskbar__janelas button:hover {
   background: #c8c8c8;
   text-decoration: underline;
+}
+
+/* Widget fechado: item do menu fica esmaecido, como um app minimizado */
+.deskbar__janelas button[aria-pressed="false"] { color: var(--tinta-suave); }
+
+.deskbar__icone {
+  flex-shrink: 0;
+  image-rendering: pixelated;
 }
 
 /* --------------------------------------------------------------------------
@@ -300,6 +314,7 @@ a:hover { text-decoration-thickness: 2px; }
   flex-direction: column;
   min-inline-size: 0;
 }
+.widget[hidden] { display: none; }
 
 /* A aba só ocupa a largura do título, como no Be */
 .widget__barra {
@@ -327,6 +342,11 @@ a:hover { text-decoration-thickness: 2px; }
     inset -1px 0 0 var(--relevo-escuro);
 }
 .widget--fechado .widget__barra { border-block-end: 1px solid var(--contorno); }
+
+.widget__icone {
+  flex-shrink: 0;
+  image-rendering: pixelated;
+}
 
 .widget__titulo {
   margin: 0;
@@ -402,6 +422,29 @@ a:hover { text-decoration-thickness: 2px; }
 .widget__mover:active { box-shadow: inset 1px 1px 0 var(--aba-sombra); }
 .widget__mover[aria-disabled="true"] { color: #8a7a3a; cursor: default; }
 .widget--fechado .widget__mover[aria-disabled="true"] { color: #8a8a8a; }
+
+/* Botão de fechar: a caixinha vermelha da aba, sempre visível (mesmo com 1 só widget) */
+.widget__fechar {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  margin-inline-start: 0.1875rem;
+  padding: 0;
+  border: 1px solid var(--contorno);
+  background: linear-gradient(to bottom right, #fff8d6, var(--aba) 60%);
+  box-shadow: inset 1px 1px 0 #fffbe6, inset -1px -1px 0 var(--aba-sombra);
+  color: var(--tinta);
+  font-size: 0.8125rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.widget--fechado .widget__fechar {
+  background: linear-gradient(to bottom right, #f8f8f8, #d0d0d0 60%);
+  box-shadow: inset 1px 1px 0 var(--relevo-claro), inset -1px -1px 0 var(--relevo-escuro);
+}
+.widget__fechar:active { box-shadow: inset 1px 1px 0 var(--aba-sombra); }
 
 .widget__vazio {
   margin: 0;
@@ -770,7 +813,7 @@ a:hover { text-decoration-thickness: 2px; }
 
   .topo {
     grid-template-columns: minmax(0, 1fr);
-    grid-template-areas: "deskbar" "saudacao" "perfil";
+    grid-template-areas: "deskbar" "saudacao";
     padding-block-start: 0.75rem;
   }
 
@@ -781,9 +824,9 @@ a:hover { text-decoration-thickness: 2px; }
   }
   .deskbar__menu { border-block-end: 0; border-inline-end: 1px solid var(--relevo-escuro); }
   .deskbar__bandeja { order: 3; margin-inline-start: auto; }
-  .deskbar__perfis { flex: 1 1 100%; order: 4; }
-  .deskbar__perfis ul { display: flex; flex-wrap: wrap; }
-  .deskbar__perfis li + li { border-block-start: 0; border-inline-start: 1px solid var(--relevo-escuro); }
+  .deskbar__janelas { flex: 1 1 100%; order: 4; }
+  .deskbar__janelas ul { display: flex; flex-wrap: wrap; }
+  .deskbar__janelas li + li { border-block-start: 0; border-inline-start: 1px solid var(--relevo-escuro); }
 
   /* A saudação ocupa a largura toda: o astro desce para não ficar atrás dela */
   .ceu::before { inset-block-start: max(var(--astro-y), 56%); }

@@ -88,7 +88,8 @@ const painel = document.querySelector("[data-painel]");
 const anuncio = document.querySelector("[data-anuncio]");
 const botaoRestaurar = document.querySelector("[data-restaurar]");
 
-const widgets = () => [...painel.querySelectorAll(":scope > [data-widget]")];
+const todos = () => [...painel.querySelectorAll(":scope > [data-widget]")];
+const widgets = () => todos().filter((w) => !w.hidden);
 const nomeDe = (w) => w.querySelector(".widget__titulo").textContent.trim();
 
 function anunciar(texto) {
@@ -100,6 +101,46 @@ function definirAberto(widget, aberto) {
   widget.querySelector(".widget__alternar").setAttribute("aria-expanded", String(aberto));
   widget.querySelector(".widget__corpo").hidden = !aberto;
   widget.classList.toggle("widget--fechado", !aberto);
+}
+
+/* Fechar de verdade: some da tela inteira, e só volta pelo menu da Deskbar. */
+function definirEscondido(widget, escondido) {
+  widget.hidden = escondido;
+  estado.escondidos = todos()
+    .filter((w) => w.hidden)
+    .map((w) => w.id);
+  salvarEstado();
+  atualizarLimites();
+  atualizarMenu();
+  if (mesaAtiva) {
+    aplicarPilha();
+    ajustarAltura();
+  }
+}
+
+function fechar(widget) {
+  definirEscondido(widget, true);
+  anunciar(`${nomeDe(widget)} fechado. Abra de novo pelo menu da Deskbar.`);
+  document.querySelector(`[data-abrir="${widget.id}"]`)?.focus();
+}
+
+function abrir(widget) {
+  definirEscondido(widget, false);
+
+  // Widget nunca posicionado na mesa (ex.: já chegou fechado nesta visita):
+  // mede o lugar que ele ocuparia na grade antes de soltá-lo por cima.
+  if (mesaAtiva && !widget.style.left) {
+    const medida = medirParaMesa(widget);
+    const { x, y } = estado.mesa?.[widget.id] ?? medida;
+    widget.style.inlineSize = `${medida.largura}px`;
+    posicionar(widget, x, y);
+    observador.observe(widget);
+  }
+
+  if (mesaAtiva) trazerParaFrente(widget);
+  widget.querySelector(".widget__alternar")?.focus();
+  widget.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  anunciar(`${nomeDe(widget)} aberto.`);
 }
 
 function atualizarLimites() {
@@ -149,6 +190,21 @@ function criarBotaoMover(widget, direcao) {
   return botao;
 }
 
+function criarBotaoFechar(widget) {
+  const botao = document.createElement("button");
+  botao.type = "button";
+  botao.className = "widget__fechar";
+  botao.setAttribute("aria-label", `Fechar ${nomeDe(widget)}`);
+
+  const x = document.createElement("span");
+  x.setAttribute("aria-hidden", "true");
+  x.textContent = "×";
+  botao.append(x);
+
+  botao.addEventListener("click", () => fechar(widget));
+  return botao;
+}
+
 function prepararWidget(widget) {
   const titulo = widget.querySelector(".widget__titulo");
   const corpo = widget.querySelector(".widget__corpo");
@@ -174,10 +230,45 @@ function prepararWidget(widget) {
   const controles = document.createElement("div");
   controles.className = "widget__controles";
   controles.append(criarBotaoMover(widget, -1), criarBotaoMover(widget, 1));
-  widget.querySelector(".widget__barra").append(controles);
+  widget.querySelector(".widget__barra").append(controles, criarBotaoFechar(widget));
 
   definirAberto(widget, !estado.fechados?.includes(widget.id));
+  widget.hidden = estado.escondidos?.includes(widget.id) ?? false;
   prepararArraste(widget);
+}
+
+/* ------------------------------------------------------------------------
+   Menu da Deskbar: abre e fecha os widgets, no lugar dos links externos
+   ------------------------------------------------------------------------ */
+
+function prepararMenu() {
+  const nav = document.querySelector("[data-menu-janelas]");
+  if (!nav) return;
+
+  for (const link of [...nav.querySelectorAll("a")]) {
+    const widget = document.getElementById(link.getAttribute("href").slice(1));
+    if (!widget) continue;
+
+    const botao = document.createElement("button");
+    botao.type = "button";
+    botao.dataset.abrir = widget.id;
+    botao.replaceChildren(...link.childNodes);
+    link.replaceWith(botao);
+
+    botao.addEventListener("click", () => (widget.hidden ? abrir(widget) : fechar(widget)));
+  }
+
+  atualizarMenu();
+}
+
+function atualizarMenu() {
+  const nav = document.querySelector("[data-menu-janelas]");
+  if (!nav) return;
+
+  for (const botao of nav.querySelectorAll("[data-abrir]")) {
+    const widget = document.getElementById(botao.dataset.abrir);
+    botao.setAttribute("aria-pressed", String(!widget.hidden));
+  }
 }
 
 /* ------------------------------------------------------------------------
@@ -205,6 +296,15 @@ function posicoesDaGrade() {
       return [w.id, { x: r.left - base.left, y: r.top - base.top, largura: r.width }];
     }),
   );
+}
+
+/** Mede onde uma janela cairia na grade normal, saindo da mesa por um instante. */
+function medirParaMesa(w) {
+  painel.classList.remove("painel--mesa");
+  const r = w.getBoundingClientRect();
+  const base = painel.getBoundingClientRect();
+  painel.classList.add("painel--mesa");
+  return { x: r.left - base.left, y: r.top - base.top, largura: r.width };
 }
 
 function posicionar(w, x, y) {
@@ -504,7 +604,7 @@ if (widgetLastfm) {
    ------------------------------------------------------------------------ */
 
 if (painel) {
-  const ordemOriginal = widgets().map((w) => w.id);
+  const ordemOriginal = todos().map((w) => w.id);
 
   // Aplica a ordem salva. Widgets novos (fora da lista) ficam no topo.
   for (const id of estado.ordem ?? []) {
@@ -512,8 +612,9 @@ if (painel) {
     if (w?.parentElement === painel) painel.append(w);
   }
 
-  widgets().forEach(prepararWidget);
+  todos().forEach(prepararWidget);
   atualizarLimites();
+  prepararMenu();
 
   // Espera as fontes para medir a grade com as alturas certas
   document.fonts.ready.then(() => {
@@ -528,8 +629,12 @@ if (painel) {
     for (const id of ordemOriginal) painel.append(document.getElementById(id));
     estado = {};
     salvarEstado();
-    widgets().forEach((w) => definirAberto(w, true));
+    todos().forEach((w) => {
+      w.hidden = false;
+      definirAberto(w, true);
+    });
     atualizarLimites();
+    atualizarMenu();
     if (naMesa) ativarMesa();
     anunciar("Layout original restaurado.");
   });

@@ -3,40 +3,44 @@ layout: base
 ---
 <div class="ceu" aria-hidden="true"></div>
 
-<header class="topo h-card">
+<header class="topo">
   <div class="deskbar">
     <p class="deskbar__menu"><a class="u-url u-uid" rel="me" href="{{ site.url }}/">arthr.me</a></p>
     <p class="deskbar__bandeja" data-bandeja hidden>
       <span class="visualmente-oculto">Agora em {{ site.cidade }}:</span>
       <time data-relogio></time>
     </p>
-    <nav class="deskbar__perfis" aria-label="Por aí">
+    <nav class="deskbar__janelas" aria-label="Janelas" data-menu-janelas>
       <ul>
-        {%- for perfil in site.perfis %}
-        <li><a class="u-url" rel="{{ perfil.rel | default: 'me' }}" href="{{ perfil.url }}">{{ perfil.nome }}</a></li>
-        {%- endfor %}
+        <li><a href="#perfil"><img class="deskbar__icone" src="/assets/emoji/sobre-mim.png" alt="" width="16" height="16">Sobre mim</a></li>
+        <li><a href="#irrelefante"><img class="deskbar__icone" src="/assets/emoji/irrelefante.png" alt="" width="16" height="16">Irrelefante</a></li>
+        <li><a href="#bluesky"><img class="deskbar__icone" src="/assets/emoji/bluesky.png" alt="" width="16" height="16">Bluesky</a></li>
+        <li><a href="#letterboxd"><img class="deskbar__icone" src="/assets/emoji/letterboxd.png" alt="" width="16" height="16">Letterboxd</a></li>
+        <li><a href="#lastfm"><img class="deskbar__icone" src="/assets/emoji/lastfm.png" alt="" width="16" height="16">Last.fm</a></li>
+        <li><a href="#vizinhanca"><img class="deskbar__icone" src="/assets/emoji/vizinhanca.png" alt="" width="16" height="16">Vizinhança</a></li>
       </ul>
     </nav>
   </div>
 
   <p class="saudacao" data-saudacao>Olá, de {{ site.cidade }}.</p>
+</header>
 
-  <section class="widget widget--perfil" aria-labelledby="nome">
+<main class="painel" id="painel" data-painel tabindex="-1">
+  <section class="widget widget--perfil" id="perfil" aria-labelledby="nome" data-widget>
     <div class="widget__barra">
+      <img class="widget__icone" src="/assets/emoji/sobre-mim.png" alt="" width="20" height="20">
       <h1 class="widget__titulo p-name" id="nome">{{ site.title }}</h1>
     </div>
-    <div class="widget__corpo perfil">
+    <div class="widget__corpo perfil" id="perfil-corpo">
       <img class="perfil__foto u-photo" src="{{ site.foto }}" alt="" width="96" height="96">
       <p>Olá! Eu sou um <span class="p-job-title">programador</span> e <span class="p-role">escritor</span> em <span class="p-locality">{{ site.cidade }}</span>, <span class="p-country-name">{{ site.pais }}</span>.</p>
       <p class="p-note">Eu <a rel="me" href="https://irrelefante.com.br/">escrevo sobre cultura e tecnologia</a> e faço <a rel="me" href="https://arthr.dev">sites e outras pequenas brincadeiras na web</a>. Se inscreva no <a href="https://irrelefante.com.br/feed.xml">meu feed</a> para não perder nenhuma novidade.</p>
       <p>No passado eu editei o <a href="https://paomortadela.com.br/">Pão com Mortadela</a>, criei temas para o Tumblr e fiz sites para clientes como Pfizer, Yamaha e Furukawa. Você pode conferir meu currículo no <a rel="me" href="https://www.linkedin.com/in/arthrfrts">LinkedIn</a>, e meu código no <a rel="me" href="https://github.com/arthrfrts">GitHub</a>.</p>
       <p>Se quiser entrar em contato comigo, me mande uma mensagem pelo <a rel="me" href="https://bsky.app/profile/arthr.me">Bluesky</a> ou por <a class="u-email" href="mailto:arthur@arthr.me">email</a>.</p>
+      <p>Também dá pra me achar no <a rel="me" href="https://arthrfrts.tumblr.com/">Tumblr</a>, no <a rel="me" href="https://organica.social/@arthr">Mastodon</a>, no <a rel="me atproto" href="https://grain.social/profile/arthr.me">Grain</a>, no <a rel="me" href="https://www.flickr.com/profile/arthrfrts">Flickr</a> e no <a rel="me atproto" href="https://tangled.org/arthr.me">Tangled</a>.</p>
       <p>Obrigado pela visita! 👋</p>
     </div>
   </section>
-</header>
-
-<main class="painel" id="painel" data-painel tabindex="-1">
   {% include widgets/irrelefante.html %}
   {% include widgets/bluesky.html %}
   {% include widgets/letterboxd.html %}
