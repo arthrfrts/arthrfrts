@@ -1,16 +1,16 @@
-import { buscar, resolverPds } from "../lib.mjs";
+import { listarRegistros, resolverPds } from "../lib.mjs";
 
 const DID = "did:plc:aeaouj6eedwqmk4z3pies55n";
 const COLECAO = "social.grain.photo";
 
 export default async function grain({ limite = 9 } = {}) {
   const pds = await resolverPds(DID);
-  const url = `${pds}/xrpc/com.atproto.repo.listRecords?repo=${DID}&collection=${COLECAO}&limit=${limite}&reverse=true`;
-  return transformar(await buscar(url), pds);
+  const registros = await listarRegistros(pds, DID, COLECAO);
+  return transformar(registros, pds, limite);
 }
 
-export function transformar(resposta, pds) {
-  return (resposta.records ?? [])
+export function transformar(registros, pds, limite = 9) {
+  return registros
     .map(({ value }) => {
       const blob = value.photo ?? value.image;
       const cid = blob?.ref?.$link ?? blob?.ref ?? null;
@@ -22,5 +22,7 @@ export function transformar(resposta, pds) {
         altura: value.aspectRatio?.height ?? null,
       };
     })
-    .filter((f) => f.imagem);
+    .filter((f) => f.imagem)
+    .sort((a, b) => new Date(b.data ?? 0) - new Date(a.data ?? 0))
+    .slice(0, limite);
 }

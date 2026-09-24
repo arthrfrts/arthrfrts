@@ -1,4 +1,4 @@
-import { buscar, resolverPds } from "../lib.mjs";
+import { listarRegistros, resolverPds } from "../lib.mjs";
 
 // O feed.json direto (irrelefante.com.br/feed.json) passou a devolver 403
 // pro runner do Actions. Os posts também ficam gravados no PDS do Irrelefante
@@ -9,20 +9,23 @@ const SITE = "https://irrelefante.com.br";
 
 export default async function irrelefante({ limite = 5 } = {}) {
   const pds = await resolverPds(DID);
-  const url = `${pds}/xrpc/com.atproto.repo.listRecords?repo=${DID}&collection=${COLECAO}&limit=${limite}&reverse=true`;
-  return transformar(await buscar(url));
+  const registros = await listarRegistros(pds, DID, COLECAO);
+  return transformar(registros, limite);
 }
 
-export function transformar(resposta) {
-  return (resposta.records ?? []).map(({ uri, value }) => {
-    const rkey = uri.split("/").pop();
-    return {
-      titulo: value.title ?? "(sem título)",
-      permalink: `${SITE}/${rkey}`,
-      link: null,
-      externo: false,
-      data: value.publishedAt ?? value.createdAt ?? null,
-      resumo: value.description ?? null,
-    };
-  });
+export function transformar(registros, limite = 5) {
+  return registros
+    .map(({ uri, value }) => {
+      const rkey = uri.split("/").pop();
+      return {
+        titulo: value.title ?? "(sem título)",
+        permalink: `${SITE}/${rkey}`,
+        link: null,
+        externo: false,
+        data: value.publishedAt ?? value.createdAt ?? null,
+        resumo: value.description ?? null,
+      };
+    })
+    .sort((a, b) => new Date(b.data ?? 0) - new Date(a.data ?? 0))
+    .slice(0, limite);
 }

@@ -20,6 +20,25 @@ export async function resolverPds(did) {
   return pds;
 }
 
+/**
+ * Todos os registros de uma coleção AT Protocol, seguindo a paginação.
+ * A chave dos registros nem sempre acompanha a data do conteúdo (ex.: um
+ * blog migrado de outro sistema), então quem usa isso deve ordenar pelo
+ * campo de data de verdade depois, em vez de confiar na ordem de retorno.
+ */
+export async function listarRegistros(pds, did, colecao, { teto = 2000 } = {}) {
+  const registros = [];
+  let cursor;
+  do {
+    const params = new URLSearchParams({ repo: did, collection: colecao, limit: "100" });
+    if (cursor) params.set("cursor", cursor);
+    const pagina = await buscar(`${pds}/xrpc/com.atproto.repo.listRecords?${params}`);
+    registros.push(...(pagina.records ?? []));
+    cursor = pagina.records?.length ? pagina.cursor : undefined;
+  } while (cursor && registros.length < teto);
+  return registros.slice(0, teto);
+}
+
 /** Decodifica entidades HTML comuns e numéricas. */
 export function decodificarEntidades(texto) {
   const nomeadas = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
