@@ -15,17 +15,15 @@ export default async function irrelefante({ limite = 5 } = {}) {
 
 export function transformar(registros, limite = 5) {
   return registros
-    .map(({ uri, value }) => {
-      const rkey = uri.split("/").pop();
-      return {
-        titulo: value.title ?? "(sem título)",
-        permalink: `${SITE}/${rkey}`,
-        link: null,
-        externo: false,
-        data: value.publishedAt ?? value.createdAt ?? null,
-        resumo: value.description ?? null,
-      };
-    })
+    .filter(({ value }) => value.path)
+    .map(({ value }) => ({
+      titulo: value.title ?? "(sem título)",
+      permalink: `${SITE}${value.path}`,
+      link: null,
+      externo: false,
+      data: value.publishedAt ?? value.createdAt ?? null,
+      resumo: value.description ?? null,
+    }))
     .sort((a, b) => new Date(b.data ?? 0) - new Date(a.data ?? 0))
     .slice(0, limite);
 }
