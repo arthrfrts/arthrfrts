@@ -1,4 +1,68 @@
 {
-  "atualizadoEm": null,
-  "items": []
+  "atualizadoEm": "2026-09-24T21:19:19.594Z",
+  "items": [
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mwbmfmxhlk2x",
+      "data": "2026-09-24T15:52:44.479Z",
+      "texto": [
+        {
+          "texto": "comprar um iphone duo somente pra emular jogos do nintendo ds"
+        }
+      ]
+    },
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mw7azvogdc2w",
+      "data": "2026-09-23T17:24:00.330Z",
+      "texto": [
+        {
+          "texto": "belle and sebastian"
+        }
+      ]
+    },
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mw76sukdpk2d",
+      "data": "2026-09-23T16:44:16.782Z",
+      "texto": [
+        {
+          "texto": "gostei bastantão do novo filme do zach cregger"
+        }
+      ],
+      "citacao": {
+        "autor": "Irrelefante",
+        "handle": "irrelefante.com.br",
+        "url": "https://bsky.app/profile/irrelefante.com.br/post/3mw76k5xyzt2p",
+        "texto": "Resident Evil (https://irrelefante.com.br/reviews/2026/09/23/resident-evil/)"
+      }
+    },
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mvxdt7v2xk25",
+      "data": "2026-09-20T13:52:39.469Z",
+      "texto": [
+        {
+          "texto": "novo filme favorito just dropped"
+        }
+      ],
+      "citacao": {
+        "autor": "Irrelefante",
+        "handle": "irrelefante.com.br",
+        "url": "https://bsky.app/profile/irrelefante.com.br/post/3mvxdpzjqzl25",
+        "texto": "El Sur (https://irrelefante.com.br/reviews/2026/09/20/el-sur/)"
+      }
+    },
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mvsktvjk7k2i",
+      "data": "2026-09-18T16:14:59.662Z",
+      "texto": [
+        {
+          "texto": "o novo filme do christian petzold é BOM"
+        }
+      ],
+      "citacao": {
+        "autor": "Irrelefante",
+        "handle": "irrelefante.com.br",
+        "url": "https://bsky.app/profile/irrelefante.com.br/post/3mvsksm6uzc2i",
+        "texto": "Miroirs No. 3 (irrelefante.com.br/reviews/2026...)"
+      }
+    }
+  ]
 }
