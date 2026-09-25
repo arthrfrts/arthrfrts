@@ -1,6 +1,32 @@
 {
-  "atualizadoEm": "2026-09-24T21:19:19.594Z",
+  "atualizadoEm": "2026-09-25T23:51:37.389Z",
   "items": [
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mwehwb3bas25",
+      "data": "2026-09-25T19:10:32.951Z",
+      "texto": [
+        {
+          "texto": "BIG WALK"
+        }
+      ]
+    },
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mweecxk6ak25",
+      "data": "2026-09-25T18:06:04.190Z",
+      "texto": [
+        {
+          "texto": "sem ordem específica. não coloquei RUPTURA pq ainda não acabou, mas se continuar tão boa quanto tá vai tirar o lugar de COMMUNITY, provavelmente"
+        }
+      ],
+      "imagens": [
+        {
+          "src": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:aeaouj6eedwqmk4z3pies55n/bafkreidqs6y4q7mc7xmscfd5wolmwxqg6ympcwhczje2pcikqvopumfq2a",
+          "alt": "\"minhas séries favoritas\" e daí uma lista de cartazes com as seguintes séries:\n\n- the leftovers\n- halt and catch fire\n- fleabag\n- community\n- somebody somewhere\n- succession\n- the wire\n- the americans\n- hannibal\n- i may destroy you",
+          "largura": 1220,
+          "altura": 1524
+        }
+      ]
+    },
     {
       "url": "https://bsky.app/profile/arthr.me/post/3mwbmfmxhlk2x",
       "data": "2026-09-24T15:52:44.479Z",
@@ -32,36 +58,6 @@
         "handle": "irrelefante.com.br",
         "url": "https://bsky.app/profile/irrelefante.com.br/post/3mw76k5xyzt2p",
         "texto": "Resident Evil (https://irrelefante.com.br/reviews/2026/09/23/resident-evil/)"
-      }
-    },
-    {
-      "url": "https://bsky.app/profile/arthr.me/post/3mvxdt7v2xk25",
-      "data": "2026-09-20T13:52:39.469Z",
-      "texto": [
-        {
-          "texto": "novo filme favorito just dropped"
-        }
-      ],
-      "citacao": {
-        "autor": "Irrelefante",
-        "handle": "irrelefante.com.br",
-        "url": "https://bsky.app/profile/irrelefante.com.br/post/3mvxdpzjqzl25",
-        "texto": "El Sur (https://irrelefante.com.br/reviews/2026/09/20/el-sur/)"
-      }
-    },
-    {
-      "url": "https://bsky.app/profile/arthr.me/post/3mvsktvjk7k2i",
-      "data": "2026-09-18T16:14:59.662Z",
-      "texto": [
-        {
-          "texto": "o novo filme do christian petzold é BOM"
-        }
-      ],
-      "citacao": {
-        "autor": "Irrelefante",
-        "handle": "irrelefante.com.br",
-        "url": "https://bsky.app/profile/irrelefante.com.br/post/3mvsksm6uzc2i",
-        "texto": "Miroirs No. 3 (irrelefante.com.br/reviews/2026...)"
       }
     }
   ]
