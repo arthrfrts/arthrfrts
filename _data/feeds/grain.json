@@ -1,6 +1,13 @@
 {
-  "atualizadoEm": "2026-09-24T21:53:21.284Z",
+  "atualizadoEm": "2026-09-28T17:23:47.773Z",
   "items": [
+    {
+      "data": "2026-09-28T02:14:55.673Z",
+      "alt": "Torre do sino da Catedral de Porto Alegre",
+      "imagem": "https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreia4rofrp7bp3hiz72qybqmworzvgd4zhrfansfby3oiu3bcgvnaqe",
+      "largura": 1333,
+      "altura": 2000
+    },
     {
       "data": "2026-08-13T01:19:25.334Z",
       "alt": "",
@@ -54,13 +61,6 @@
       "data": "2026-08-11T16:14:02.790Z",
       "alt": "Bruna olhando pra câmera enquanto passeamos na rua. Ela usa óculos escuros.",
       "imagem": "https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreicbnfdg7docmeh54nokziomikhcyn7kjyhdmxam5fdxdu4ywcxcqy",
-      "largura": 2000,
-      "altura": 1333
-    },
-    {
-      "data": "2026-08-11T16:14:02.790Z",
-      "alt": "Bruna sentada na sala da minha casa, segurando seu laptop.",
-      "imagem": "https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreiar6yfft2wdgxci5jjk66dlqwi7h6mgnhydfec4wzpnhswpcrddru",
       "largura": 2000,
       "altura": 1333
     }
