@@ -7,6 +7,10 @@ description: >-
 baseurl: ""
 url: "https://arthr.me/"
 
+lang: pt-BR
+timezone: America/Sao_Paulo
+logo: /assets/avatar.png
+
 # Build settings
 plugins:
   - jekyll-feed
