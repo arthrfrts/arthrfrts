@@ -1,6 +1,14 @@
 {
-  "atualizadoEm": "2026-09-24T21:48:23.841Z",
+  "atualizadoEm": "2026-09-29T00:50:08.736Z",
   "items": [
+    {
+      "titulo": "Quieto",
+      "permalink": "https://irrelefante.com.br/notas/2026/09/28/quieto/",
+      "link": null,
+      "externo": false,
+      "data": "2026-09-28T23:13:00.000Z",
+      "resumo": null
+    },
     {
       "titulo": "Resident Evil",
       "permalink": "https://irrelefante.com.br/reviews/2026/09/23/resident-evil/",
@@ -31,14 +39,6 @@
       "link": null,
       "externo": false,
       "data": "2026-09-18T14:29:00.000Z",
-      "resumo": null
-    },
-    {
-      "titulo": "Mundano",
-      "permalink": "https://irrelefante.com.br/links/2026/09/15/mundano/",
-      "link": null,
-      "externo": false,
-      "data": "2026-09-15T01:51:00.000Z",
       "resumo": null
     }
   ]
