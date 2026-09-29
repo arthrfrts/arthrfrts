@@ -1,0 +1,26 @@
+# Site Settings
+
+title: Arthur Freitas
+email: arthur@arthr.me
+description: >-
+  Este sou eu e esse é o meu site.
+baseurl: ""
+url: "https://arthr.me/"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
+seo:
+  name: Arthur Freitas
+  links:
+    - https://irrelefante.com.br/
+    - https://bsky.app/profile/arthr.me
+    - https://tangled.org/arthr.me/
+    - https://grain.social/profile/arthr.me
+    - https://www.last.fm/user/arthrfrts
+    - https://letterboxd.com/arthrfrts
+    - https://organica.social/@arthr
