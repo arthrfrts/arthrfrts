@@ -5,7 +5,7 @@ email: arthur@arthr.me
 description: >-
   Faço sites e outras coisas na internet.
 baseurl: ""
-url: "https://arthr.me/"
+url: "https://arthr.me"
 
 lang: pt-BR
 timezone: America/Sao_Paulo
@@ -13,9 +13,17 @@ logo: /assets/avatar.png
 
 # Build settings
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+exclude:
+  - lib
+  - script
+  - test
+  - docs
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 
 seo:
