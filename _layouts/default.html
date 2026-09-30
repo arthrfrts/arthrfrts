@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    {% seo title=false %}
+
+    {% for link in site.seo.links %}
+      {% if link contains "bsky" %}
+        <link rel="me atproto" href="{{ link }}">
+      {% else %}
+        <link rel="me" href="{{ link }}">
+      {% endif %}
+    {% endfor %}
+  </head>
+</html>
