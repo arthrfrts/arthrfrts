@@ -13,4 +13,31 @@
       {% endif %}
     {% endfor %}
   </head>
+  <body>
+      <header class="site-header">
+        <hgroup class="h-card">
+          <h1 class="site-title">
+            <a class="site-home-link u-url" href="{{ '/' | absolute_url }}">
+              <img class="site-logo u-photo" src="{{ site.logo | relative_url }}" alt="" />
+
+              <span class="site-name p-name">
+                {{ site.title }}
+              </span>
+            </a>
+          </h1>
+
+          <p class="site-description p-note">
+              {{ site.description }}
+          </p>
+        </hgroup>
+
+        <nav class="site-menu" aria-label="Menu">
+          {% for item in site.menu %}
+            <a class="menu-item" href="{{ item.url }}" {% if item.rel -%}rel="{{- item.rel -}}"{%- endif -%}>
+              {{- item.label -}}
+            </a>
+          {% endfor %}
+        </nav>
+      </header>
+  </body>
 </html>
