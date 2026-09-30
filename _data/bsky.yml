@@ -1,4 +1,12 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwqvgzaies22
+  cid: bafyreifa3afejgideagquicj33mt3l3fpolwfofexkyycykoa4npnfrtem
+  value:
+    text: saudade dos meus homepods :(
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-09-30T17:44:30.664Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwp7ezojx22z
   cid: bafyreihltihhgj6ojcvmfgbj3qpsqap57fhq2okyjpkyug55fk4bmjek2u
   value:
