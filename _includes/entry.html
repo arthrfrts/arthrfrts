@@ -1,0 +1,13 @@
+{% comment %} _includes/entry.html — expects include.entry (unified feed entry hash) {% endcomment %}
+{% assign entry_title = include.entry.title | strip %}
+{% assign entry_summary = include.entry.summary | strip %}
+<article class="h-entry">
+  <a class="u-url" href="{{ include.entry.url }}">
+    {% if entry_title != "" %}<h3 class="p-name">{{ entry_title | escape }}</h3>{% endif %}
+    {% if entry_summary != "" %}<div class="e-content p-summary">{{ entry_summary | escape }}</div>{% endif %}
+    {% for photo in include.entry.photos %}
+      <img class="u-photo" src="{{ photo.blob_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}">
+    {% endfor %}
+    <time class="dt-published" datetime="{{ include.entry.published }}">{{ include.entry.published | date: "%-d %b %Y" }}</time>
+  </a>
+</article>
