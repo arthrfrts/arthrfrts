@@ -1,0 +1,156 @@
+---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/social.grain.gallery/3mwkakx5fcoje
+  cid: bafyreiayymxscsxjzdjyy4gkuopldvvt2vfyvk3bzk52ay3wy2k5oyxxde
+  value:
+    "$type": social.grain.gallery
+    title: Catedral
+    address:
+      region: Rio Grande do Sul
+      street: Rua Dom Sebastião
+      country: BR
+      locality: Porto Alegre
+      postalCode: 90010-370
+    location:
+      name: Leonel de Moura Brizola
+      value: 8aa901288c07fff
+    createdAt: '2026-09-28T02:14:55.673Z'
+  photos:
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreia4rofrp7bp3hiz72qybqmworzvgd4zhrfansfby3oiu3bcgvnaqe
+    alt: Torre do sino da Catedral de Porto Alegre
+    width: 1333
+    height: 2000
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/social.grain.gallery/3mswhzkoqzf2t
+  cid: bafyreigj242hqasrqi6c2ybdyuzqunenm57a47pjnva4jqpzggah2askuy
+  value:
+    "$type": social.grain.gallery
+    title: Mesa
+    createdAt: '2026-08-13T01:19:25.334Z'
+    description: hoje eu fui experimentar a pizza do meu amigo pessoal @amobrejas.risol.es
+      e não consegui parar de sorrir o tempo todo. como é bom comer bem e sentir o
+      carinho e o talento do seu amigo
+  photos:
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreia4nb7p2lahgtca6eo6zwikbotboit5ttfgesuowpsuvsgirgp47m
+    alt:
+    width: 2000
+    height: 1333
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreia2jub55kpxksypgclwo62ahiygc6w3pjyt6mpl5hbvqzr5swsti4
+    alt:
+    width: 2000
+    height: 1333
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreidynmmjzvs7e5k3diqxzqfcvvgwhbyk4qpejrk37n2q3rtlsyubfa
+    alt:
+    width: 2000
+    height: 1333
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreihy2hv3qav3gzqizo2kmhqhxee2f5vppulapeq2f7haeq66kllavm
+    alt:
+    width: 2000
+    height: 1333
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreieme3milod4cndyuopct37ug54rrz2l57avahiwowtkyf5je5n7mq
+    alt:
+    width: 2000
+    height: 1333
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/social.grain.gallery/3mssz3ciyn22t
+  cid: bafyreigg7cyv72co2zmwzdotltrf4ljnltzxpx5reryxtzlaibhxfmkttm
+  value:
+    "$type": social.grain.gallery
+    title: Visita da Bruna, agosto de 2026
+    address:
+      region: Rio Grande do Sul
+      street: Escadaria Vinte e Quatro de Maio;Rua 24 de Maio;Rua Vinte e Quatro de
+        Maio
+      country: BR
+      locality: Porto Alegre
+      postalCode: 90010-283
+    location:
+      name: Porto Alegre, Rio Grande do Sul, Brasil
+      value: 8aa90128e34ffff
+    createdAt: '2026-08-11T16:14:02.790Z'
+  photos:
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreiar6yfft2wdgxci5jjk66dlqwi7h6mgnhydfec4wzpnhswpcrddru
+    alt: Bruna sentada na sala da minha casa, segurando seu laptop.
+    width: 2000
+    height: 1333
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreicbnfdg7docmeh54nokziomikhcyn7kjyhdmxam5fdxdu4ywcxcqy
+    alt: Bruna olhando pra câmera enquanto passeamos na rua. Ela usa óculos escuros.
+    width: 2000
+    height: 1333
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/social.grain.gallery/3mssunnmosk2t
+  cid: bafyreia4d3aqmkg3er2zsz57yq4no52wqoylrhiatksy5z3zetd5ey72zm
+  value:
+    "$type": social.grain.gallery
+    title: Céu de uma manhã de inverno.
+    address:
+      name: Rua Laurentino Abreu e Silva
+      region: Rio Grande do Sul
+      street: Rua Laurentino Abreu e Silva
+      country: BR
+      locality: São Jerônimo
+      postalCode: 96745-000
+    location:
+      name: Rua Laurentino Abreu e Silva
+      value: 8aa90c52ac37fff
+    createdAt: '2026-08-11T14:54:47.500Z'
+  photos:
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreicvk4gmqdk5c5yfdj2h4evwuwi32u23y4olwe3owcm55lj6li5jg4
+    alt: Árvores com poucas folhas com o céu bem azul ao fundo.
+    width: 2000
+    height: 1333
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/social.grain.gallery/3msgbl3ougb2t
+  cid: bafyreiecissnfvcmq4pxotgxpzty6eard2qkeepagfdcjtp4epzibfeuxi
+  value:
+    "$type": social.grain.gallery
+    title: Pessoas esperando o sol se pôr
+    address:
+      region: Rio Grande do Sul
+      country: BR
+      locality: Porto Alegre
+      postalCode: 90020-020
+    location:
+      name: Porto Alegre, Rio Grande do Sul, Brasil
+      value: 8aa9012aa6dffff
+    createdAt: '2026-08-06T14:41:27.179Z'
+  photos:
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreif2vxmyrx2x2zlvqpahewd2hmv7gqfwb6hnv4uap7nayboy2dtzrm
+    alt:
+    width: 2000
+    height: 1333
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/social.grain.gallery/3msbvki4npa2t
+  cid: bafyreie2fpxlrqm4ru5lf4q6ck3kvtsdkxauozhsvs6ex53ipbxhyngo2y
+  value:
+    "$type": social.grain.gallery
+    title: Dia fechado na Orla
+    address:
+      region: Rio Grande do Sul
+      street: Orla Moacyr Scliar
+      country: BR
+      locality: Porto Alegre
+      postalCode: 90010-395
+    location:
+      name: Orla Moacyr Scliar
+      value: 8aa90128c2dffff
+    createdAt: '2026-08-04T20:55:42.672Z'
+  photos:
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreib7houtyw5sj7v4352oyqm5iezb6dnchjpyn2zen6vbanxiry5ezi
+    alt:
+    width: 2000
+    height: 1333
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/social.grain.gallery/3mrdm6v3of52t
+  cid: bafyreiezwzfkbaqd67scc57dywypx2gzeu57ykgnoearu4gpm4yufrfxfe
+  value:
+    "$type": social.grain.gallery
+    title: Pôr-do-sol na Orla
+    address:
+      region: Rio Grande do Sul
+      country: BR
+      locality: Porto Alegre
+      postalCode: 90020-020
+    location:
+      name: Porto Alegre, Rio Grande do Sul, Brasil
+      value: 8aa9012aa6f7fff
+    createdAt: '2026-07-23T19:48:17.715Z'
+  photos:
+  - blob_url: https://teal.town/xrpc/com.atproto.sync.getBlob?did=did:plc:aeaouj6eedwqmk4z3pies55n&cid=bafkreif4qlowmxisu3vyfycpa42j3se3fsk5w5kmjtm53vgotidkqg32eq
+    alt: O Lago Guaíba ao pôr do sol, com o brilho amarelo do sol ai horizonte e o
+      catamarã atravessando o lago com suas luzes ligadas.
+    width: 2000
+    height: 1125

@@ -1,0 +1,13 @@
+---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/sh.tangled.feed.star/3merxjmyzve22
+  cid: bafyreihkvp2opbxmf2naiysbxr7uvu4prwlaegrd2emif2ghfk4odrlyhy
+  value:
+    "$type": sh.tangled.feed.star
+    subject: at://did:plc:dtpmtcjiwfnhp4riekf7olif/sh.tangled.repo/3melenhwhc422
+    createdAt: '2026-02-14T04:20:56+02:00'
+    subjectDid: did:plc:7hnvskwmd5gvvjgkhhwla2zs
+  resolved:
+    link: https://tangled.org/did:plc:dtpmtcjiwfnhp4riekf7olif/3melenhwhc422
+    owner_handle: esporo.net
+    repo_name: www
+    repo_description: O site da comunidade brasileira de Spore.

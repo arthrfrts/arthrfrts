@@ -1,0 +1,50 @@
+---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/sh.tangled.repo/tumblr.novaextension
+  cid: bafyreihw4tjtqnfkm4tzm3lproego7rjm4tlzdjpz3kuum534rrjtoqnna
+  value:
+    knot: knot1.tangled.sh
+    name: Tumblr.novaextension
+    "$type": sh.tangled.repo
+    labels:
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/wontfix
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/good-first-issue
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/duplicate
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/documentation
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/assignee
+    repoDid: did:plc:idwnw7iaaa4p5u2jc2yxuj44
+    createdAt: '2026-08-02T07:44:26+03:00'
+    description: A Nova extension to develop Tumblr themes.
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/sh.tangled.repo/goodlinks-to-kindle
+  cid: bafyreied64v654qzck7n4cbcxyg3mcua2v5hve2v32ndwqpnq26345jai4
+  value:
+    knot: knot1.tangled.sh
+    "$type": sh.tangled.repo
+    labels:
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/wontfix
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/good-first-issue
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/duplicate
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/documentation
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/assignee
+    repoDid: did:plc:5cwywmafs7e4aooc7xlacrbt
+    createdAt: '2026-09-08T03:43:30+03:00'
+    description: An ugly script that sends some GoodLinks saved articles to my Kindle
+      through email.
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/sh.tangled.repo/3met26k7c6k22
+  cid: bafyreiax7wpkacfkocpphc5fu6wbjqiohlqqg3z4jrxv3miettcsfxxjbu
+  value:
+    knot: knot1.tangled.sh
+    name: linus
+    "$type": sh.tangled.repo
+    labels:
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/assignee
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/documentation
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/duplicate
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/good-first-issue
+    - at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.label.definition/wontfix
+    topics:
+    - jekyll-theme
+    repoDid: did:plc:ug2blqpgz6gux2paiozua7mh
+    spindle: spindle.tangled.sh
+    website: https://linus.arthr.dev/
+    createdAt: '2026-02-14T12:41:05Z'
+    description: A charming Jekyll theme.
