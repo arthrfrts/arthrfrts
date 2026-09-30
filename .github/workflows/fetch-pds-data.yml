@@ -1,0 +1,34 @@
+name: Fetch PDS data
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Fetch PDS data
+        run: ruby script/fetch_pds_data.rb
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet _data/; then
+            echo "No changes to _data/"
+          else
+            git add _data/
+            git commit -m "chore: refresh PDS data"
+            git push
+          fi
