@@ -1,4 +1,21 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwrljg5twc2w
+  cid: bafyreidatovh7k4qqdagoyrch4yhcezzjx6s3k7q6t2qcvobviqppfp5r4
+  value:
+    text: vocês não tem ideia do esforço mental que eu preciso fazer pra “esquecer”
+      minha ilha no animal crossing :(
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-01T00:19:33.637Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwrlak3zvk2w
+  cid: bafyreibmxrh3o5twhy3pfbsysdod6j2b4k5zfa5oheujlg2bvequ62rdjm
+  value:
+    text: quem tá tocando a trilha-sonora de breath of the wild na escadaria?
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-01T00:14:35.783Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwqvgzaies22
   cid: bafyreifa3afejgideagquicj33mt3l3fpolwfofexkyycykoa4npnfrtem
   value:
