@@ -1,4 +1,37 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwu6ghhnps2b
+  cid: bafyreicceepnsr7oxrw7eryygv5qvtfah3sm62wxu67zi3gavo4gipveae
+  value:
+    text: esse homem e a sucessora dele me deram um futuro, tudo o que eu tenho hoje.
+      que sorte que eu tive
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-02T01:03:14.916Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwu4dmxfos2b
+  cid: bafyreihvtko3vywg5g2dzsivyld7qt3c4dpxrilhmdavjjaf34e56tu5tm
+  value:
+    text: 'ontem tava falando pra um amigo que o lula saía ganhando não indo no debate:
+      ou iam tudo se atacar, ou iam tudo ficar atacando o lula sem discutir proposta
+      de governo e mostrando que são farinha do mesmo saco. eu não esperava que a
+      estratégia do lula ia ser ainda melhor.'
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.record
+      record:
+        cid: bafyreighxylbr5bx7n56dfchb4ef6xz5wpzpjuuyjvh72e5qtcvkfctive
+        uri: at://did:plc:fnqvorkrwgj2e7k3e4docas6/app.bsky.feed.post/3mwu3p6saec2m
+    langs:
+    - pt
+    createdAt: '2026-10-02T00:25:52.527Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwu2s3ih522p
+  cid: bafyreideuppaf5z6fpq7aqwjdjhcrk6olzsol2ibiwrcqgpubeqop6nxty
+  value:
+    text: o lula ta com um corte de cabelo que faz coisas terriveis na minha cabeça
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-01T23:58:10.045Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwrljg5twc2w
   cid: bafyreidatovh7k4qqdagoyrch4yhcezzjx6s3k7q6t2qcvobviqppfp5r4
   value:
