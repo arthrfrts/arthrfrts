@@ -1,6 +1,41 @@
 {
-  "atualizadoEm": "2026-10-02T00:33:21.669Z",
+  "atualizadoEm": "2026-10-02T15:25:29.578Z",
   "items": [
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mwvkzweh3c22",
+      "data": "2026-10-02T14:21:32.710Z",
+      "texto": [
+        {
+          "texto": "vontade muito especifica de assistir algum filme dos anos 80 com uma trilha de sax + sintetizador com planos abertos no início da noite e uma história de amor"
+        }
+      ]
+    },
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mwvhmpmc6c2c",
+      "data": "2026-10-02T13:20:28.193Z",
+      "texto": [
+        {
+          "texto": "cacetada, eu chorei ouvindo essa agora "
+        },
+        {
+          "texto": "music.apple.com/br/album/tow...",
+          "href": "https://music.apple.com/br/album/towards-a-spectral-memory/1769300213?i=1769300410"
+        }
+      ],
+      "cartao": {
+        "url": "https://music.apple.com/br/album/towards-a-spectral-memory/1769300213?i=1769300410",
+        "titulo": "Towards a Spectral Memory de Lynn Avery & Cole Pulice no Apple Music"
+      }
+    },
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mwu6ghhnps2b",
+      "data": "2026-10-02T01:03:14.916Z",
+      "texto": [
+        {
+          "texto": "esse homem e a sucessora dele me deram um futuro, tudo o que eu tenho hoje. que sorte que eu tive"
+        }
+      ]
+    },
     {
       "url": "https://bsky.app/profile/arthr.me/post/3mwu4dmxfos2b",
       "data": "2026-10-02T00:25:52.527Z",
@@ -22,33 +57,6 @@
       "texto": [
         {
           "texto": "o lula ta com um corte de cabelo que faz coisas terriveis na minha cabeça"
-        }
-      ]
-    },
-    {
-      "url": "https://bsky.app/profile/arthr.me/post/3mwrljg5twc2w",
-      "data": "2026-10-01T00:19:33.637Z",
-      "texto": [
-        {
-          "texto": "vocês não tem ideia do esforço mental que eu preciso fazer pra “esquecer” minha ilha no animal crossing :("
-        }
-      ]
-    },
-    {
-      "url": "https://bsky.app/profile/arthr.me/post/3mwrlak3zvk2w",
-      "data": "2026-10-01T00:14:35.783Z",
-      "texto": [
-        {
-          "texto": "quem tá tocando a trilha-sonora de breath of the wild na escadaria?"
-        }
-      ]
-    },
-    {
-      "url": "https://bsky.app/profile/arthr.me/post/3mwqvgzaies22",
-      "data": "2026-09-30T17:44:30.664Z",
-      "texto": [
-        {
-          "texto": "saudade dos meus homepods :("
         }
       ]
     }
