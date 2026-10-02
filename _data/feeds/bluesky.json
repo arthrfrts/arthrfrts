@@ -1,6 +1,30 @@
 {
-  "atualizadoEm": "2026-10-01T00:23:15.345Z",
+  "atualizadoEm": "2026-10-02T00:33:21.669Z",
   "items": [
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mwu4dmxfos2b",
+      "data": "2026-10-02T00:25:52.527Z",
+      "texto": [
+        {
+          "texto": "ontem tava falando pra um amigo que o lula saía ganhando não indo no debate: ou iam tudo se atacar, ou iam tudo ficar atacando o lula sem discutir proposta de governo e mostrando que são farinha do mesmo saco. eu não esperava que a estratégia do lula ia ser ainda melhor."
+        }
+      ],
+      "citacao": {
+        "autor": "vacalo chirudo™ 🦄",
+        "handle": "eumesma.bsky.social",
+        "url": "https://bsky.app/profile/eumesma.bsky.social/post/3mwu3p6saec2m",
+        "texto": "No fim, Lula pautou A GRADE DA GLOBO e é o único q tem programação já divulgada pro horário do debate\n\nÉ safo demais o velho"
+      }
+    },
+    {
+      "url": "https://bsky.app/profile/arthr.me/post/3mwu2s3ih522p",
+      "data": "2026-10-01T23:58:10.045Z",
+      "texto": [
+        {
+          "texto": "o lula ta com um corte de cabelo que faz coisas terriveis na minha cabeça"
+        }
+      ]
+    },
     {
       "url": "https://bsky.app/profile/arthr.me/post/3mwrljg5twc2w",
       "data": "2026-10-01T00:19:33.637Z",
@@ -27,32 +51,6 @@
           "texto": "saudade dos meus homepods :("
         }
       ]
-    },
-    {
-      "url": "https://bsky.app/profile/arthr.me/post/3mwp7ezojx22z",
-      "data": "2026-09-30T01:37:01.956Z",
-      "texto": [
-        {
-          "texto": "fazendo uma coisinha bacana"
-        }
-      ]
-    },
-    {
-      "url": "https://bsky.app/profile/arthr.me/post/3mwoc62rqt22j",
-      "data": "2026-09-29T16:54:09.715Z",
-      "texto": [
-        {
-          "texto": "boa lida (desesperadora) "
-        },
-        {
-          "texto": "herecomesthemoon.net/2026/09/comm...",
-          "href": "https://herecomesthemoon.net/2026/09/commodified-intelligence/"
-        }
-      ],
-      "cartao": {
-        "url": "https://herecomesthemoon.net/2026/09/commodified-intelligence/",
-        "titulo": "Commodified Intelligence"
-      }
     }
   ]
 }
