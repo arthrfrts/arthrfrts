@@ -1,4 +1,47 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwypfoipt222
+  cid: bafyreiaelojhxlnf4ayukmyfdajedgmpwhlxl2evhs7imvxq2pyo5nw6xe
+  value:
+    text: pra amanhã
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.images
+      images:
+      - alt: |-
+          colinha de votos:
+
+          laura sito 1303
+          natasha 13100
+          manuela 500
+          pimenta 131
+          juliana brizola 12
+          lula 13
+        image:
+          ref:
+            "$link": bafkreiarhdrmtesqwkz4m34tgx4ama6nreeqvurokmh4jzi5z3lx44pnmu
+          size: 682987
+          "$type": blob
+          mimeType: image/jpeg
+        aspectRatio:
+          width: 1080
+          height: 1350
+    langs:
+    - pt
+    createdAt: '2026-10-03T20:17:41.297Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwyki3gbhs2p
+  cid: bafyreigfn3kbh2rsb4mpgs4zzh5to2qjcm37yzyk7opdwkdxvdjqpgwk5m
+  value:
+    text: cedinho. minha seção é sempre bem tranquila, mas cedinho da tempo de conversar
+      com os mesários ainda, tomar um cafezinho
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.record
+      record:
+        cid: bafyreicqeoqasyhdpcxoy6ngkvsegua4r5wjp4x2fdi6uovccztpaqezhu
+        uri: at://did:plc:elnp4ezs43l4cwcf3psp2xkv/app.bsky.feed.post/3mwyghjaz6c2j
+    langs:
+    - pt
+    createdAt: '2026-10-03T18:49:33.248Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwvvbrzvrs2n
   cid: bafyreigkfpglpe32ti4i74zdqvamqmurdp2hvuzm7s7s4q3befntaq5pve
   value:
