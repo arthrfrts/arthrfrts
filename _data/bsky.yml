@@ -1,4 +1,33 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwzcvx2qsc25
+  cid: bafyreif367uq2jhwip72crvbf2sfqmmw7rrdmeinipukeny7hzwmsx4qti
+  value:
+    text: 'ontem a orquestra de porto alegre, a ospa, tocou a suíte transbrasil. eu
+      não conhecia, nunca tinha ouvido falar antes. é a coisa mais linda que eu já
+      ouvi: youtu.be/P3n-64IU8OE'
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.external
+      external:
+        uri: https://youtu.be/P3n-64IU8OE
+        thumb:
+          ref:
+            "$link": bafkreiabppvk6a76cdfyejxktxq3cm57ifyxh5f64cae2rojby5ucc4glm
+          size: 59980
+          "$type": blob
+          mimeType: image/jpeg
+        title: Suite TransBrasil - Tumucumaque
+        description: YouTube video by Dom Discos
+    langs:
+    - pt
+    facets:
+    - index:
+        byteEnd: 180
+        byteStart: 160
+      features:
+      - uri: https://youtu.be/P3n-64IU8OE
+        "$type": app.bsky.richtext.facet#link
+    createdAt: '2026-10-04T02:06:48.245Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwypfoipt222
   cid: bafyreiaelojhxlnf4ayukmyfdajedgmpwhlxl2evhs7imvxq2pyo5nw6xe
   value:
