@@ -1,4 +1,25 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx2q7zcwxc22
+  cid: bafyreic6blvvfcobkng6vp723dnhdrpzfy3kiub3x6xrl3gf6bnhpd7uf4
+  value:
+    text: a cada 2 anos eu me reúno com meu grande amor… um dia vai rolar
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.record
+      record:
+        cid: bafyreiexmyr4ux3nd5qrujzh2mkst4meqkkmcce4vrch6ip2ktglhorlxq
+        uri: at://did:plc:4ot22rh53vjl7rekmzb2ylor/app.bsky.feed.post/3mx24wi3ups2m
+    langs:
+    - pt
+    createdAt: '2026-10-04T15:37:44.538Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx2drhcqg22u
+  cid: bafyreifdwhh7esrdublodah7mzuen65ghokxq7m4bjpqvgr7r2vrku67je
+  value:
+    text: votado ⭐️
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-04T11:54:50.989Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mwzcvx2qsc25
   cid: bafyreif367uq2jhwip72crvbf2sfqmmw7rrdmeinipukeny7hzwmsx4qti
   value:
