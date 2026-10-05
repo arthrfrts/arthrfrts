@@ -110,6 +110,17 @@ body {
   overflow: hidden;
 }
 
+.page {
+  background-color: var(--color-background-active);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radii);
+  padding: 1rem;
+
+  .page-title {
+    margin-bottom: 1rem;
+  }
+}
+
 .post {
   .post-permalink {
     display: block;
