@@ -12,24 +12,26 @@
         <link rel="me" href="{{ link }}">
       {% endif %}
     {% endfor %}
+
+    <link rel="stylesheet" href="{% link assets/css/main.css %}">
   </head>
   <body>
       <header class="site-header">
-        <hgroup class="h-card">
-          <h1 class="site-title">
-            <a class="site-home-link u-url" href="{{ '/' | absolute_url }}">
-              <img class="site-logo u-photo" src="{{ site.logo | relative_url }}" alt="" />
+        <div class="profile h-card">
+          <a class="profile-picture u-url" href="{{ '/' | absolute_url }}" role="presentation">
+            <img class="site-logo u-photo" src="{{ site.logo | relative_url }}" alt="" />
+          </a>
 
-              <span class="site-name p-name">
-                {{ site.title }}
-              </span>
-            </a>
-          </h1>
+          <hgroup class="profile-info">
+            <h1 class="site-title p-name">
+              {{ site.title }}
+            </h1>
 
-          <p class="site-description p-note">
-              {{ site.description }}
-          </p>
-        </hgroup>
+            <p class="site-description p-note">
+                {{ site.description }}
+            </p>
+          </hgroup>
+        </div>
 
         <nav class="site-menu" aria-label="Menu">
           {% for item in site.menu %}
@@ -39,5 +41,9 @@
           {% endfor %}
         </nav>
       </header>
+
+      <main class="site-content">
+        {{ content }}
+      </main>
   </body>
 </html>

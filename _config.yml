@@ -12,23 +12,23 @@ timezone: America/Sao_Paulo
 logo: /assets/avatar.png
 
 menu:
-  - label: Sobre mim
+  - label: 🙋‍♂️ Sobre mim
     url: /sobre/
-  - label: Dê um oi
+  - label: 📫 Dê um oi
     url: mailto:arthur@arthr.me
-  - label: Portfólio
+  - label: 📚 Portfólio
     url: https://arthr.dev/
     rel: me
-  - label: Blog
+  - label: 📓 Blog
     url: https://irrelefante.com.br/
     rel: me
-  - label: Microblog
+  - label: 💭 Microblog
     url: https://bsky.app/profile/arthr.me
     rel: me atproto
-  - label: Fotolog
+  - label: 📷 Fotolog
     url: https://grain.social/profile/arthr.me
     rel: me
-  - label: Códigos
+  - label: 👨‍💻 Códigos
     url: https://tangled.org/arthr.me
     rel: me
 
@@ -53,6 +53,6 @@ seo:
     - https://bsky.app/profile/arthr.me
     - https://tangled.org/arthr.me/
     - https://grain.social/profile/arthr.me
-    - https://www.last.fm/user/arthrfrts
+    - https://github.com/arthrfrts
     - https://letterboxd.com/arthrfrts
     - https://organica.social/@arthr

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  font-weight: 100 900;
+  font-style: normal;
+  src: url("/assets/fonts/atkinson.woff2") format("woff2-variable");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  font-weight: 100 900;
+  font-style: italic;
+  src: url("/assets/fonts/atkinson.woff2") format("woff2-variable");
+}

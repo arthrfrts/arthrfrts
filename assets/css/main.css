@@ -1,0 +1,22 @@
+@layer "reset", "base", "layout";
+
+@import url("reset.css") layer(reset);
+@import url("elements.css") layer(base);
+@import url("layout.css") layer(layout);
+@import url("fonts.css") layer(base);
+
+:root {
+  --font-family: "Atkinson Hyperlegible Next", sans-serif;
+  --font-size: 15px;
+  --color-foreground: rgb(0, 0, 0);
+  --color-text-subtle: rgb(119, 119, 119);
+  --color-accent: rgb(50, 92, 192);
+  --color-accent-active: rgb(0, 122, 204);
+  --color-accent-subtle: rgb(191, 219, 254);
+  --color-background: rgb(247, 247, 247);
+  --color-background-active: rgb(240, 240, 240);
+  --color-border: rgb(224, 224, 224);
+
+  --radii: 0.25rem;
+  --easing-duration: 0.25s;
+}
