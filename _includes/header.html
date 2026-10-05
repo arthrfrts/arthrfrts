@@ -1,0 +1,39 @@
+<header class="site-header">
+  <div class="profile h-card">
+    <a
+      class="profile-picture u-url"
+      href="{{ '/' | absolute_url }}"
+      role="presentation"
+    >
+      <img
+        class="site-logo u-photo"
+        src="{{ site.logo | relative_url }}"
+        alt=""
+      />
+    </a>
+
+    <hgroup class="profile-info">
+      <h1 class="site-title p-name">{{ site.title }}</h1>
+
+      <p class="site-description p-note">{{ site.description }}</p>
+    </hgroup>
+  </div>
+
+  <nav class="site-menu" aria-label="Menu">
+    {% for item in site.menu %}
+    <a
+      class="menu-item"
+      href="{{ item.url }}"
+      {%
+      if
+      item.rel
+      -%}rel="{{- item.rel -}}"
+      {%-
+      endif
+      -%}
+    >
+      {{- item.label -}}
+    </a>
+    {% endfor %}
+  </nav>
+</header>

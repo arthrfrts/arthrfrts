@@ -2,8 +2,10 @@
 <html lang="{{ site.lang }}">
   <head>
     <meta charset="utf-8">
-    <title>{{ site.title }}</title>
-    {% seo title=false %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+
+    <link rel="stylesheet" href="{% link assets/css/main.css %}" />
 
     {% for link in site.seo.links %}
       {% if link contains "bsky" %}
@@ -12,38 +14,13 @@
         <link rel="me" href="{{ link }}">
       {% endif %}
     {% endfor %}
-
-    <link rel="stylesheet" href="{% link assets/css/main.css %}">
   </head>
+
   <body>
-      <header class="site-header">
-        <div class="profile h-card">
-          <a class="profile-picture u-url" href="{{ '/' | absolute_url }}" role="presentation">
-            <img class="site-logo u-photo" src="{{ site.logo | relative_url }}" alt="" />
-          </a>
+    {% include header.html %}
 
-          <hgroup class="profile-info">
-            <h1 class="site-title p-name">
-              {{ site.title }}
-            </h1>
+    <main class="site-content">{{ content }}</main>
 
-            <p class="site-description p-note">
-                {{ site.description }}
-            </p>
-          </hgroup>
-        </div>
-
-        <nav class="site-menu" aria-label="Menu">
-          {% for item in site.menu %}
-            <a class="menu-item" href="{{ item.url }}" {% if item.rel -%}rel="{{- item.rel -}}"{%- endif -%}>
-              {{- item.label -}}
-            </a>
-          {% endfor %}
-        </nav>
-      </header>
-
-      <main class="site-content">
-        {{ content }}
-      </main>
+    {% include footer.html %}
   </body>
 </html>

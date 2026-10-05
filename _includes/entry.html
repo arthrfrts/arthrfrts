@@ -1,13 +1,27 @@
-{% comment %} _includes/entry.html — expects include.entry (unified feed entry hash) {% endcomment %}
 {% assign entry_title = include.entry.title | strip %}
 {% assign entry_summary = include.entry.summary | strip %}
-<article class="h-entry">
-  <a class="u-url" href="{{ include.entry.url }}">
-    {% if entry_title != "" %}<h3 class="p-name">{{ entry_title | escape }}</h3>{% endif %}
-    {% if entry_summary != "" %}<div class="e-content p-summary">{{ entry_summary | escape }}</div>{% endif %}
+
+<article class="post h-entry">
+  <a class="post-permalink u-url" href="{{ include.entry.url }}" rel="bookmark">
+    {% if entry_title != "" %}
+      <h3 class="post-title p-name">
+        {{ entry_title | escape }}
+      </h3>
+    {% endif %}
+
+    {% if entry_summary != "" %}
+      <div class="post-content e-content p-summary">
+        {{ entry_summary }}
+      </div>
+    {% endif %}
+
     {% for photo in include.entry.photos %}
-      <img class="u-photo" src="{{ photo.blob_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}">
+      <img
+        class="post-photo u-photo"
+        src="{{ photo.blob_url }}"
+        alt="{{ photo.alt | strip_html | strip_newlines }}"
+      >
     {% endfor %}
-    <time class="dt-published" datetime="{{ include.entry.published }}">{{ include.entry.published | date: "%-d %b %Y" }}</time>
+    <time class="post-date dt-published" datetime="{{ include.entry.published }}">{{ include.entry.published | date: "%Y-%m-%d %H:%M" }}</time>
   </a>
 </article>
