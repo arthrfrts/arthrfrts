@@ -31,6 +31,8 @@ menu:
   - label: 👨‍💻 Códigos
     url: https://tangled.org/arthr.me
     rel: me
+  - label: 🗺️ Links
+    url: https://arthr.me/wander/
 
 # Build settings
 plugins:
