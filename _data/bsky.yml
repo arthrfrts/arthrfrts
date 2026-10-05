@@ -1,4 +1,20 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx3hwvgcrs2w
+  cid: bafyreidevfmn2h6pr7b24oowge7ry2ukc75pe7em36kho3cubjrsmrcfni
+  value:
+    text: vontade de chorar
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-04T22:42:08.268Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx3g2cma422w
+  cid: bafyreiht53hsijp7spiefcbi5g7t6fbognszmbc3fhuzbipzjkdz2ixsqm
+  value:
+    text: que tristeza imensa
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-04T22:08:15.272Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx2xm3ewdc22
   cid: bafyreiehhkysmqfmpmauwcmhimbfv7375nzb3m5jyh3hqlzd25cl4p6jcm
   value:
