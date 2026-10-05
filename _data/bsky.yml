@@ -1,4 +1,43 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx5imgn2yk26
+  cid: bafyreic4vmdphwaswp4qvsmja2rypao4h54nhhmeteietgcfk2rjnlb74u
+  value:
+    text: gente, eu tenho 2 vagas sobrando no meu grupo familiar (+ pacote de expansão)
+      do switch online, se souberem/quiserem. a ideia é ocupar as 8 pra ficar os R$
+      54 pra cada
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.record
+      record:
+        cid: bafyreibsjn6ogkv2jwxoky75sny342qp3twvgjfbrie55dqdm4r4jmmbfy
+        uri: at://did:plc:xj5xqkjjvzm5xxtz45kedno7/app.bsky.feed.post/3mwvyfakzsc2q
+    langs:
+    - pt
+    createdAt: '2026-10-05T17:59:30.433Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx5cre7vzs2c
+  cid: bafyreicfgpffwkxy3sqncnx53wfmyzk5xllgzyqtbt776xzriymgerifkm
+  value:
+    text: |-
+      atualizei meu site pessoal pra ser um agregador do meu blog, bluesky, tangled e grain, com um feed rss unificado: arthr.me
+
+      o feed do blog continua em irrelefante.com.br
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    facets:
+    - index:
+        byteEnd: 122
+        byteStart: 114
+      features:
+      - uri: https://arthr.me/
+        "$type": app.bsky.richtext.facet#link
+    - index:
+        byteEnd: 169
+        byteStart: 151
+      features:
+      - uri: https://irrelefante.com.br/
+        "$type": app.bsky.richtext.facet#link
+    createdAt: '2026-10-05T16:14:53.228Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx3wjmwonk2r
   cid: bafyreie2h3tg4nzve24vin4pvektr76eckfryrjdvioosmihbkojbqvkfu
   value:
