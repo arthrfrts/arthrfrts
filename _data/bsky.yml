@@ -1,4 +1,12 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxaaznvnas24
+  cid: bafyreig5mchjpap6umby4mnokd5zfgop56foovuynhfd6pklmsi2klt3yq
+  value:
+    text: descobri que o faz-tudo de confiança aqui de casa é petista ⭐️
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-06T20:21:43.544Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mx5imgn2yk26
   cid: bafyreic4vmdphwaswp4qvsmja2rypao4h54nhhmeteietgcfk2rjnlb74u
   value:
