@@ -1,4 +1,18 @@
 ---
+- uri: at://did:plc:5anqf5uonyp67nsex6h55l6p/site.standard.document/3mxelcm67ya27
+  cid: bafyreif2w2d5tslfmic4ixy65hs5stkih6sup4p5k3goa44jrs25ik7egu
+  value:
+    path: "/links/2026/10/08/a-queda-do-ceu/"
+    site: at://did:plc:5anqf5uonyp67nsex6h55l6p/site.standard.publication/3muwvtfv4m32m
+    tags:
+    - blogs
+    - política
+    - eleições
+    - relatos
+    "$type": site.standard.document
+    title: A queda do céu
+    publishedAt: '2026-10-08T13:35:00.000Z'
+  full_url: https://irrelefante.com.br/links/2026/10/08/a-queda-do-ceu/
 - uri: at://did:plc:5anqf5uonyp67nsex6h55l6p/site.standard.document/3mwmgwyvaai2n
   cid: bafyreid3q5aln6pywpbve74s2bya6b32tqsrj76kgzcoxm7y5wkiuk6cga
   value:

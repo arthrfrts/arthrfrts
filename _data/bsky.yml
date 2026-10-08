@@ -1,4 +1,26 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxeu2ntgfc2j
+  cid: bafyreicaism6iekrk37paqhqwngeytiyjjkbebez2dsjgmshtbmq56sdry
+  value:
+    text: minha licença pro nova.app vence esse mês e eu tô na dúvida se eu renovo
+      ou se eu abraço o zed.dev de vez :/
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    facets:
+    - index:
+        byteEnd: 27
+        byteStart: 19
+      features:
+      - uri: https://nova.app
+        "$type": app.bsky.richtext.facet#link
+    - index:
+        byteEnd: 103
+        byteStart: 96
+      features:
+      - uri: https://zed.dev
+        "$type": app.bsky.richtext.facet#link
+    createdAt: '2026-10-08T16:12:57.073Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxaaznvnas24
   cid: bafyreig5mchjpap6umby4mnokd5zfgop56foovuynhfd6pklmsi2klt3yq
   value:
