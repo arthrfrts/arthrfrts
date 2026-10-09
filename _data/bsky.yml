@@ -1,4 +1,17 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxhsl46pcc2o
+  cid: bafyreihysswh6rm72oth3tfbkxreeioxjkulbmyq6fseyr36hoxernssb4
+  value:
+    text: NÃAAAAAAAAAAAAAAAAAAAAAAO
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.record
+      record:
+        cid: bafyreibyyjtc66alt3wjdrw5dsives7hvg65oi6mpjqohpbeurfua7ylxi
+        uri: at://did:plc:bsvppiiazfpvqs2a4mjucpuq/app.bsky.feed.post/3mxgwghbe5s23
+    langs:
+    - pt
+    createdAt: '2026-10-09T20:24:20.726Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxeu2ntgfc2j
   cid: bafyreicaism6iekrk37paqhqwngeytiyjjkbebez2dsjgmshtbmq56sdry
   value:
