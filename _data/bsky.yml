@@ -1,4 +1,17 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxmom3anfs2s
+  cid: bafyreib6x562lyrj2krbu7g2amh5h7zwb2alqe4j3652qbva2c6huqgka4
+  value:
+    text: 'na moral: foto histórica'
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.record
+      record:
+        cid: bafyreia4xjkknmksvozamijveciionnbqh4vumtgvrfgjkbdrw4schxavu
+        uri: at://did:plc:svtwifhijxs3h5j3nc75s2w5/app.bsky.feed.post/3mxieiazzi224
+    langs:
+    - pt
+    createdAt: '2026-10-11T18:56:37.016Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxkc7aaoqc2o
   cid: bafyreie2oqbcwqqh5t3fvdgdx3ntqq6juelv2x3lhfg77v3qnprbpsfmbq
   value:
