@@ -1,4 +1,47 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxwq3agmx22b
+  cid: bafyreih4x4wz5edxpn5vo5ovbco2ciwkyra5f5tddat7ajfagb3gr3yf2q
+  value:
+    text: o janones mandando áudio-bola, nunca me senti tão feliz
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-15T18:49:36.901Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxwkor4vek2a
+  cid: bafyreibsivekq4jfnoesw35clyj4ovje7nhcp2rsut5mxvtomgvavrsje4
+  value:
+    text: eu consigo ouvir a gargalhada do editor dessa reportagem ao digitar essa
+      manchete
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.external
+      external:
+        uri: https://piaui.uol.com.br/web/daniel-vorcaro-celular-chatgpt/
+        thumb:
+          ref:
+            "$link": bafkreic2xpq4riulbidoi7nvtg4pkchkb5qmgddg3ucnh7oywsoa2olzbi
+          size: 717687
+          "$type": blob
+          mimeType: image/jpeg
+        title: "“Charuto engorda?”"
+        description: As preocupações de Daniel Vorcaro segundo suas buscas no ChatGPT
+    langs:
+    - pt
+    createdAt: '2026-10-15T17:13:09.490Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxwjhg5sts2a
+  cid: bafyreigymvkqfuh5cragt4ub4hencv6bcxnyu5typ3lemiw7cg4ng4xwyi
+  value:
+    text: muito a fim de jogar o PAPEIS POR FAVOR em que vc vai ter que gerenciar
+      a entrega do kit gay nas escolas
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.record
+      record:
+        cid: bafyreihcykmcvsnky4f4tikcjq7xgk73cgyaddhmqf3h223xnekaju6hwu
+        uri: at://did:plc:wx5h2wgfjxfuzufex5e2c3x7/app.bsky.feed.post/3mxw2voyurc2m
+    langs:
+    - pt
+    createdAt: '2026-10-15T16:51:09.363Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxweu4olac2a
   cid: bafyreiepi5mfhojz6njdisfpbbj76y3u66qaabvj6lyc6ueu7s45ukgqja
   value:
