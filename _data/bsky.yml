@@ -1,4 +1,78 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxulb6ufiy2y
+  cid: bafyreidnndjr55sgot4ieqesefhetqhlfnzyby3xfjqs4wlbxxlgdcmuxq
+  value:
+    tags:
+    - grainsocial
+    text: "Fotos do Ato de 13/10 em POA\n\n\U0001F4CD Avenida Borges de Medeiros,
+      Porto Alegre, Rio Grande do Sul, BR\n\n#GrainSocial https://grain.social/profile/arthr.me/gallery/3mxulb326nrhw"
+    "$type": app.bsky.feed.post
+    embed:
+      "$type": app.bsky.embed.images
+      images:
+      - alt: ''
+        image:
+          ref:
+            "$link": bafkreide6f7ylcvi6xrccvygivwuaspqqrqvquaeu3wiftcpnbegofkcie
+          size: 889756
+          "$type": blob
+          mimeType: image/jpeg
+        aspectRatio:
+          width: 2000
+          height: 1125
+      - alt: ''
+        image:
+          ref:
+            "$link": bafkreibtbsoldvnswgyxduyvij5fdfqccknrbcdzbg23es4qduh4fs5lme
+          size: 738959
+          "$type": blob
+          mimeType: image/jpeg
+        aspectRatio:
+          width: 2000
+          height: 1333
+      - alt: ''
+        image:
+          ref:
+            "$link": bafkreidcdc76ujfj2enhwyplc5ehmxwvld737gyfvrxdraqa5ansdk2uc4
+          size: 749276
+          "$type": blob
+          mimeType: image/jpeg
+        aspectRatio:
+          width: 2000
+          height: 1333
+      - alt: ''
+        image:
+          ref:
+            "$link": bafkreieammceejsgnv563gjdxokxicmerppfqqmzhvyiysc2lteetnbmhe
+          size: 763516
+          "$type": blob
+          mimeType: image/jpeg
+        aspectRatio:
+          width: 2000
+          height: 1333
+    facets:
+    - index:
+        byteEnd: 112
+        byteStart: 100
+      features:
+      - tag: GrainSocial
+        "$type": app.bsky.richtext.facet#tag
+    - index:
+        byteEnd: 172
+        byteStart: 113
+      features:
+      - uri: https://grain.social/profile/arthr.me/gallery/3mxulb326nrhw
+        "$type": app.bsky.richtext.facet#link
+    createdAt: '2026-10-14T22:18:08.241Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxuiqt723k2e
+  cid: bafyreihvk2qqogj7ja4w244jg72mocwntketoxlayb2rid4khfon2tiapi
+  value:
+    text: a gente ja aceitou que a globo nao tá reportando nada sobre o master/vorcaro/bolsonaro
+      porque a água bateu no cu do luciano huck?
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-14T21:33:11.805Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxu2axm65k2g
   cid: bafyreifawt7bnxhzl5xq2fda2cgysy3xx3bnojna7v2vki33pr2g6jcvke
   value:
