@@ -1,4 +1,22 @@
 ---
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxzusizmgc2r
+  cid: bafyreig6yqydkkciy736udvdclntgn345yrvvc7rocvrkwhe5lx7ix3f24
+  value:
+    text: intervalo na bateção depois volto
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-17T00:52:11.846Z'
+- uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxznruqqjk2k
+  cid: bafyreie2z63rb2l5mhdrtvzugtzsb33zndtqtrazb3tdx4lbap7nhbf57a
+  value:
+    text: eu acho que esse lance todo da meta era a desculpa que me faltava pra eu
+      poder avisar familia e amigos que eu vou parar de usar o whatsapp, o único serviço
+      da meta que eu ainda uso (e não por vontade própria)
+    "$type": app.bsky.feed.post
+    langs:
+    - pt
+    createdAt: '2026-10-16T22:46:34.387Z'
 - uri: at://did:plc:aeaouj6eedwqmk4z3pies55n/app.bsky.feed.post/3mxwq3agmx22b
   cid: bafyreih4x4wz5edxpn5vo5ovbco2ciwkyra5f5tddat7ajfagb3gr3yf2q
   value:
