@@ -14,6 +14,11 @@ dependencies:
   nixpkgs:
     - ruby_3_3
     - nodejs # for npx wrangler
+    # Build toolchain: some gems in the Gemfile (bigdecimal,
+    # google-protobuf) ship C extensions and need a compiler.
+    - gcc
+    - gnumake
+    - pkg-config
 
 cache:
   # Optional: only effective if the spindle operator configured a cache backend.
