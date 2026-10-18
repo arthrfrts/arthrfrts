@@ -9,6 +9,7 @@ when:
       # "0 */6 * * *" runs at minutes :00 of every 6th hour.
       # Use "H */6 * * *" instead if you want Tangled's load spreading.
       - cron: "H */6 * * *"
+  - event: manual
 
 engine: "nixery"
 
