@@ -1,15 +1,8 @@
-# .tangled/workflows/refresh.yml
-# Scheduled scan of the ATProto PDS data, then rebuild and redeploy.
-# Mirrors the old GitHub Actions "Fetch PDS data" workflow, minus the
-# commit step: the build happens here, so nothing needs to be pushed.
 when:
-  - event: ["manual"]
+  - event: ["push", "manual"]
     branch: ["main"]
-  - event: ["schedule"]
+  - event: schedule
     schedule:
-      # Five-field cron, UTC by default (same as GitHub Actions).
-      # "0 */6 * * *" runs at minutes :00 of every 6th hour.
-      # Use "H */6 * * *" instead if you want Tangled's load spreading.
       - cron: "H */6 * * *"
 
 engine: "nixery"
@@ -21,9 +14,7 @@ dependencies:
   nixpkgs:
     - ruby_3_3
     - nodejs
-    - git # only needed for the change check in the deploy step
-    # Build toolchain: some gems in the Gemfile (bigdecimal,
-    # google-protobuf) ship C extensions and need a compiler.
+    - git
     - gcc
     - gnumake
     - pkg-config
@@ -48,9 +39,6 @@ steps:
   - name: "Build site"
     command: bundle exec jekyll build
   - name: "Deploy"
-    # Same "only if something changed" guard the old workflow had:
-    # skip the deploy when the fetched data is identical to what is
-    # committed. Remove the guard if you prefer an unconditional deploy.
     command: |
       if [ -z "$(git status --porcelain -- _data/)" ]; then
         echo "No changes in _data/, skipping deploy"
