@@ -3,13 +3,12 @@
 # Mirrors the old GitHub Actions "Fetch PDS data" workflow, minus the
 # commit step: the build happens here, so nothing needs to be pushed.
 when:
-  - event: schedule
+  - event: ["schedule", "manual"]
     schedule:
       # Five-field cron, UTC by default (same as GitHub Actions).
       # "0 */6 * * *" runs at minutes :00 of every 6th hour.
       # Use "H */6 * * *" instead if you want Tangled's load spreading.
       - cron: "H */6 * * *"
-  - event: manual
 
 engine: "nixery"
 
