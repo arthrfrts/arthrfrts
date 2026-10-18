@@ -3,7 +3,9 @@
 # Mirrors the old GitHub Actions "Fetch PDS data" workflow, minus the
 # commit step: the build happens here, so nothing needs to be pushed.
 when:
-  - event: ["schedule", "manual"]
+  - event: ["manual"]
+    branch: ["main"]
+  - event: ["schedule"]
     schedule:
       # Five-field cron, UTC by default (same as GitHub Actions).
       # "0 */6 * * *" runs at minutes :00 of every 6th hour.
