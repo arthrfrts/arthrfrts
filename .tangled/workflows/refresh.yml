@@ -1,0 +1,46 @@
+# .tangled/workflows/refresh.yml
+# Scheduled scan of the ATProto PDS data, then rebuild and redeploy.
+# Mirrors the old GitHub Actions "Fetch PDS data" workflow, minus the
+# commit step: the build happens here, so nothing needs to be pushed.
+when:
+  - event: schedule
+    schedule:
+      - cron: "H */6 * * *"
+
+engine: "nixery"
+
+environment:
+  JEKYLL_ENV: "production"
+
+dependencies:
+  nixpkgs:
+    - ruby_3_3
+    - nodejs
+    - git # only needed for the change check in the deploy step
+
+cache:
+  - key: bundle
+    hash:
+      - Gemfile.lock
+    paths:
+      - vendor/bundle
+
+steps:
+  - name: "Fetch PDS data"
+    # Writes _data/*.yml in the workspace; keeps existing files on failure,
+    # same behavior as before.
+    command: ruby script/fetch_pds_data.rb
+  - name: "Install gems"
+    command: |
+      gem install bundler --no-document
+      bundle config set path vendor/bundle
+      bundle install
+  - name: "Build site"
+    command: bundle exec jekyll build
+  - name: "Deploy"
+    command: |
+      if [ -z "$(git status --porcelain -- _data/)" ]; then
+        echo "No changes in _data/, skipping deploy"
+      else
+        npx wrangler deploy
+      fi
