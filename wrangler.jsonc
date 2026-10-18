@@ -1,0 +1,17 @@
+// Docs: https://developers.cloudflare.com/workers/static-assets/
+{
+  // Worker name; becomes <name>.<account-subdomain>.workers.dev.
+  "name": "personal-website",
+  // Set to the date of your first deploy.
+  "compatibility_date": "2026-10-18",
+  "assets": {
+    // Jekyll's default build output directory.
+    "directory": "./_site",
+    // "/about" serves about.html, matching Cloudflare Pages behavior.
+    "html_handling": "auto-trailing-slash",
+    // Serves the site's 404.html for missing paths.
+    // Requires a 404.html at the root of _site.
+    // If your site has none, change this to "none".
+    "not_found_handling": "404-page"
+  }
+}
